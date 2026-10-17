@@ -6,7 +6,7 @@ all of them for any rune stream with word ids, so a hypothesis can be simulated 
 
 | id | constraint | LP2 value | English / random reference | consequence |
 |---|---|---|---|---|
-| C1 | flat at every order | IoC 1.000; no period 1..1500 (corpus, section, page, word-aligned); linear complexity n/2 | English runes IoC ~1.7-1.8 | no periodic or shared-section key; key is aperiodic |
+| C1 | flat at every order | IoC 1.000; no period 1..1500 (corpus, section, page, word-aligned); linear complexity n/2 | English runes IoC ~1.7-1.8 | no periodic or shared-section key; key is aperiodic. The one local periodic peak (pages 53-54, harmonics of 13 in the increments) is at book-wide p about 0.05 and does not decrypt as a period-13 Vigenere/Beaufort (lane U, `lp/t8`, `lp/t9`) |
 | C2 | doublet deficit | 86 adjacent repeats of 12,955 (0.66%); 63 within words, 23 across | random 447 (3.45%) | any c = p + k with k independent of c gives ~3.4% on English: excluded. Something suppresses repeats, ~84% of the time |
 | C2b | flat conditional | IoC of next rune given previous = 1.026 | flat-increment prediction 1.026 | any FIXED feedback table excluded (~245 sigma); the key varies by position |
 | C2c | doublet positions uniform | LP2's 86 doublets fall on positions mod 5 as 18, 21, 16, 11, 20; every modulus 2..8 is uniform (largest chi-square 11.3 vs 24.3 at p = 0.001), by global and by within-page index | a rule tied to absolute position concentrates them (chi-square 300+) | no repeat-suppression rule keyed to the absolute position; any exempt phase must drift (e.g. a clock that advances on each skip) |

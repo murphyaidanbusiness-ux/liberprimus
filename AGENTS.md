@@ -15,7 +15,8 @@ One orchestrator, one folder per job. Find the job below, open its folder, follo
 - Never claim a solve without the community oracle passing (`dl/dukotah/liber-primus/verify_solution.py --plaintext`).
 - Archive scraping only through `hashhunt` with `--allowlist hashhunt/cicada_onions_allowlist.txt`. No Tor, no onion or
   gateway contact, no wider allowlist without the owner's yes in chat.
-- The PC is shared with the owner's own work: long jobs at below-normal priority, check free RAM, ask before anything over 2 hours.
+- The PC is shared with the owner's own work: long jobs at below-normal priority, check free RAM, ask before anything over 2 hours,
+  and remember it idle-sleeps: an unattended run needs the owner's sleep setting off, so check progress after the first task.
 - If a job is not listed here, stop and ask.
 
 ## Jobs

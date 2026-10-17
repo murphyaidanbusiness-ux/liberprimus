@@ -74,3 +74,14 @@ lane S reported that the simulator puts all doublets on one residue mod 5.
 Fail: the tier A estimate (~1.5 h) assumed 10 workers give ~10x one worker; the run took 177 min, ~5x, on this 8-core /
 16-thread i7-11700F. Fix: estimates in lane O RESULTS section 9 and REPORT_ROUND2.md now use the measured 16,197 keys/s
 at -NProc 10 (tier B ~7 h, tier C ~57 h). Measure aggregate throughput, not per-core, before quoting a wall time.
+
+## 2026-10-17 · attack-lane (lane V, lag-5 burst scan and decibans) · claude-haiku-5-5
+Fail: two fixes while running. (1) `python -I` hides the user site-packages, so the quagmire simulator (community port, needs scipy) failed to import; `mech_sim.py` and `mech_rank.py` append `site.getusersitepackages()` after isolation. (2) A no-echo plant base drawn as iid Bernoulli labels gave 9% false flags against a 5% nominal, because the scan standardises with fixed stratum totals. Fix: the base keeps stratum totals, and each plant is tested against its own stratum permutations (false flags 4.0%). Also: a 505-window count was misstated as 495 in a script string; corrected.
+
+## 2026-10-17 · attack-lane (lane O tier B) · claude-opus-5-5
+Fail: tier B launched at ~00:55 had 0 of 132 tasks done at 08:57; each worker had ~21 CPU-minutes in 8 hours. Nothing was
+competing when checked (each worker at 102% of a core), so the PC most likely idle-slept, which also stalled the Common
+Crawl hash hunt (15 queries in 8 h). The app's keep-awake only holds while the session is active (it lets go after ~5
+idle minutes). Fix: before an unattended multi-hour run, tell the owner it needs Windows sleep off (Settings > System >
+Power, "when plugged in, put my device to sleep after: Never") or the session kept active; check task completions after
+the first expected task time instead of assuming progress.
