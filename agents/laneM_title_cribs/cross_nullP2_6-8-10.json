@@ -1,0 +1,19 @@
+{
+ "nullP2": {
+  "6": {
+   "total": 221876,
+   "max_model": 399,
+   "examples": []
+  },
+  "8": {
+   "total": 747,
+   "max_model": 7,
+   "examples": []
+  },
+  "10": {
+   "total": 8,
+   "max_model": 1,
+   "examples": []
+  }
+ }
+}

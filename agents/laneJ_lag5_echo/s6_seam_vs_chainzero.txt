@@ -1,0 +1,18 @@
+Chain model with a single zero-increment plaintext rune Z: doublet within = P(Z|non-initial), seam = P(Z|word-initial).
+Real: within 63/10060 = 0.0063, seam 23/2895 = 0.0079.  Log-likelihood of both counts per candidate Z:
+ solved LP (735 words):
+   Z=EA  P(non-init)=0.0076 P(init)=0.0041  deltaLL vs saturated=-5.4  P(seam>=23|init rate)=0.0025
+   Z=P   P(non-init)=0.0098 P(init)=0.0259  deltaLL vs saturated=-32.6  P(seam>=23|init rate)=1
+   Z=G   P(non-init)=0.0152 P(init)=0.0082  deltaLL vs saturated=-34.2  P(seam>=23|init rate)=0.58
+   Z=F   P(non-init)=0.0138 P(init)=0.0231  deltaLL vs saturated=-46.1  P(seam>=23|init rate)=1
+   Z=B   P(non-init)=0.0049 P(init)=0.0395  deltaLL vs saturated=-57.6  P(seam>=23|init rate)=1
+   Z=M   P(non-init)=0.0205 P(init)=0.0408  deltaLL vs saturated=-128.7  P(seam>=23|init rate)=1
+   EA: P(non-init)=0.0076 P(init)=0.0041 -> expected seam doublets 11.8 (obs 23), within 76.2 (obs 63)
+ War&Peace (300000 words):
+   Z=G   P(non-init)=0.0094 P(init)=0.0175  deltaLL vs saturated=-15.7  P(seam>=23|init rate)=1
+   Z=EA  P(non-init)=0.0069 P(init)=0.0013  deltaLL vs saturated=-23.1  P(seam>=23|init rate)=1.1e-11
+   Z=P   P(non-init)=0.0142 P(init)=0.0321  deltaLL vs saturated=-67.1  P(seam>=23|init rate)=1
+   Z=B   P(non-init)=0.0050 P(init)=0.0442  deltaLL vs saturated=-68.9  P(seam>=23|init rate)=1
+   Z=X   P(non-init)=0.0021 P(init)=0.0003  deltaLL vs saturated=-78.5  P(seam>=23|init rate)=7.6e-14
+   Z=Y   P(non-init)=0.0214 P(init)=0.0139  deltaLL vs saturated=-80.8  P(seam>=23|init rate)=1
+   EA: P(non-init)=0.0069 P(init)=0.0013 -> expected seam doublets 3.7 (obs 23), within 69.6 (obs 63)

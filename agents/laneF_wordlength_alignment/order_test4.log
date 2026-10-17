@@ -1,0 +1,9 @@
+LP1 solved (695)           chi2=70.1  perm-null 36.1±8.5  z=+4.00  p=0.0015
+unsolved block 0 (695)     chi2=25.8  perm-null 36.1±8.7  z=-1.18  p=0.8970
+unsolved block 1 (695)     chi2=40.7  perm-null 36.2±8.3  z=+0.54  p=0.2905
+unsolved block 2 (695)     chi2=53.9  perm-null 36.1±8.5  z=+2.09  p=0.0275
+unsolved block 3 (695)     chi2=34.4  perm-null 35.9±8.6  z=-0.18  p=0.5415
+unsolved all (2896)        chi2=35.5  perm-null 35.9±8.6  z=-0.06  p=0.4905
+held-out English drop3, insertion rate 0.000 per rune: M1 z mean 6.67 sd 1.22 min 3.84
+held-out English drop3, insertion rate 0.035 per rune: M1 z mean 6.22 sd 1.46 min 3.26
+held-out English drop3, insertion rate 0.070 per rune: M1 z mean 5.37 sd 1.16 min 3.75

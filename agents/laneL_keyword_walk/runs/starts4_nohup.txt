@@ -1,0 +1,1 @@
+./run_starts4.sh: line 13: 23937 Segmentation fault      ./kwwalk texts/real_sec07.txt 150 runs/start4_real_sec07 -m 7 -b lists/aCicR1.txt -s lists/aCicR1.txt -g lists/goost.txt > runs/start4_real_sec07.log 2>&1

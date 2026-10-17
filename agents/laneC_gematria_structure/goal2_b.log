@@ -1,0 +1,19 @@
+words 2896 runes 12956 mean 4.473756906077348
+unsolved dist 1..10,11+: [ 2.9 15.5 24.9 17.7 10.9  8.8  7.5  5.4  2.7  1.8  2. ]
+hypothesis                               corpus                            JS   p(MC)     f2     f3  mean
+Cicada rules (digraph merged, ING/IO)    best: Moby Dick              JS=0.0076 p=0.000 (noise floor JS 0.0004) f2=0.236 f3=0.207 mean=4.11 | median JS over 11 corpora=0.0123 ; #corpora p>0.05: 0
+  ... minus THE                          best: Agrippa OP1            JS=0.0023 p=0.000 (noise floor JS 0.0004) f2=0.195 f3=0.223 mean=4.37 | median JS over 11 corpora=0.0049 ; #corpora p>0.05: 0
+  ... minus THE/OF/TO                    best: Emerson                JS=0.0009 p=0.029 (noise floor JS 0.0004) f2=0.156 f3=0.253 mean=4.43 | median JS over 11 corpora=0.0029 ; #corpora p>0.05: 0
+  ... minus THE/OF/TO/A                  best: Moby Dick              JS=0.0019 p=0.000 (noise floor JS 0.0004) f2=0.136 f3=0.242 mean=4.49 | median JS over 11 corpora=0.0028 ; #corpora p>0.05: 0
+  ... minus THE/OF/TO/AND                best: Cicero Tusc (Engl. transl.) JS=0.0012 p=0.001 (noise floor JS 0.0004) f2=0.159 f3=0.229 mean=4.50 | median JS over 11 corpora=0.0040 ; #corpora p>0.05: 0
+letter-by-letter (no digraph runes)      best: Moby Dick              JS=0.0019 p=0.000 (noise floor JS 0.0004) f2=0.166 f3=0.222 mean=4.38 | median JS over 11 corpora=0.0037 ; #corpora p>0.05: 0
+letters, minus THE                       best: Emerson                JS=0.0056 p=0.000 (noise floor JS 0.0004) f2=0.214 f3=0.185 mean=4.44 | median JS over 11 corpora=0.0090 ; #corpora p>0.05: 0
+TH-only merged                           best: Moby Dick              JS=0.0067 p=0.000 (noise floor JS 0.0004) f2=0.232 f3=0.197 mean=4.24 | median JS over 11 corpora=0.0134 ; #corpora p>0.05: 0
+TH-only merged minus THE/OF/TO           best: Emerson                JS=0.0012 p=0.002 (noise floor JS 0.0004) f2=0.154 f3=0.240 mean=4.55 | median JS over 11 corpora=0.0027 ; #corpora p>0.05: 0
+
+Cicada solved pages: 695 words; THE=46 (6.6%) OF=9 TO=23 A=19 AND=14
+  solved pages minus none n= 695 f2=0.240 f3=0.243 JS vs unsolved=0.0085
+  solved pages minus THE/OF/TO n= 617 f2=0.144 f3=0.274 JS vs unsolved=0.0030
+  Moby Dick: THE 6.6% OF 3.2% TO 2.2% (sum 11.9%)
+  Plato Republic: THE 7.3% OF 4.9% TO 2.8% (sum 15.0%)
+  Emerson: THE 6.8% OF 4.2% TO 2.5% (sum 13.6%)

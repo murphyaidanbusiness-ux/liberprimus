@@ -1,0 +1,4 @@
+lag-1: best single-page best-period z real 4.82 ; null max over 55 pages: mean 4.56 sd 0.54 max 6.16 -> z=0.49
+lag-2: best single-page best-period z real 4.56 ; null max over 55 pages: mean 4.11 sd 0.48 max 5.84 -> z=0.93
+lag-3: best single-page best-period z real 4.91 ; null max over 55 pages: mean 4.08 sd 0.42 max 5.08 -> z=1.95
+lag-4: best single-page best-period z real 3.74 ; null max over 55 pages: mean 4.13 sd 0.42 max 5.17 -> z=-0.92

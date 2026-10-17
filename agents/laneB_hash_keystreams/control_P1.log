@@ -1,0 +1,9 @@
+P1 synthetic ciphertext IoC 0.999
+P1 sets 4900 trials 1019200 time 105s
+P1 top: IoC=1.7742 prefix=1.7621 seed="pnum|cicada3301|'-'|dec|''|o1" gen=ctr_asc1/blake2b map=hexascii_mod28 app=gflinmul|convX mode=perpage
+P1 top: IoC=1.1419 prefix=1.1526 seed="pnum|cicada3301|'-'|dec|''|o1" gen=ctr_asc1/blake2b map=nib28 app=gflindiv|convX mode=perpage
+P1 top: IoC=1.1020 prefix=1.1249 seed="pnum|cicada3301|'-'|dec|''|o1" gen=ctr_asc1/blake2b map=hexascii_mod28 app=gflinmul|convY mode=perpage
+P1 top: IoC=1.0886 prefix=1.0873 seed="pnum|cicada3301|'-'|dec|''|o1" gen=ctr_asc1/blake2b map=hexascii_mod28 app=chainadd+1|convX mode=perpage
+P1 top: IoC=1.0857 prefix=1.0925 seed="pnum|cicada3301|'-'|dec|''|o1" gen=ctr_asc1/blake2b map=nib28 app=chainadd-1|convX mode=perpage
+PLANT pnum|cicada3301|'-'|dec|''|o1 ctr_asc1/blake2b hexascii_mod28 gflinmul|convX perpage
+best decode

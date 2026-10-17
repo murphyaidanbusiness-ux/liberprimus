@@ -1,0 +1,24 @@
+REAL : sum_pages max-lag z (lags 2..60) = 136.9 ; doublet dispersion chi2(54) = 58.9 ; D-IoC28 = 1.0012 ; dbl 0.0067
+NULL(150 shuffles): sum-max-z 137.1 +- 4.7 ; dispersion chi2 (shuffled: doublets ~3.45%, not comparable) ; D-IoC28 1.0000 +- 0.0006
+   real sum-max-z z-score vs null: -0.05 ; real D-IoC28 z vs null: 2.07
+Dispersion reference (homogeneous binomial at rate 0.0067): mean 53.9 sd 10.5 ; real 58.9 -> z 0.48 ; per-page real counts: max 5, #pages with 0 doublets 13
+   Poisson expectation of empty pages at mean 1.56/page: 11.5
+time 1.3201136589050293
+
+== Key-skip Vigenere constructions (Markov plaintext, per-page keyword, real page lengths; 8 syntheses) ==
+S1 skip-once, random keyword L=5 (a=1/29)            dbl 0.0011 | sum-maxz 194.7 (z vs null  12.3) | disp chi2  139.1 | D-IoC28 1.0006 (z   1.0)
+S1 skip-once, random keyword L=8 (a=1/29)            dbl 0.0012 | sum-maxz 179.3 (z vs null   9.0) | disp chi2  105.7 | D-IoC28 1.0004 (z   0.6)
+S1 skip-once, random keyword L=13 (a=1/29)           dbl 0.0010 | sum-maxz 166.4 (z vs null   6.3) | disp chi2   91.8 | D-IoC28 1.0006 (z   1.0)
+S1 skip-once, random keyword L=20 (a=1/29)           dbl 0.0014 | sum-maxz 157.5 (z vs null   4.4) | disp chi2   76.0 | D-IoC28 0.9997 (z  -0.5)
+S1 skip-once, sticky keyword L=8 a=0.19              dbl 0.0065 | sum-maxz 188.7 (z vs null  11.1) | disp chi2   89.1 | D-IoC28 1.0048 (z   8.5)
+      -> dispersion z vs homogeneous-binomial ref: 3.4 (real: 0.48)
+S1 skip-once, sticky keyword L=8 a=0.30              dbl 0.0090 | sum-maxz 190.4 (z vs null  11.4) | disp chi2   84.9 | D-IoC28 1.0095 (z  16.8)
+      -> dispersion z vs homogeneous-binomial ref: 2.9 (real: 0.48)
+S1 skip-once, sticky keyword L=13 a=0.19             dbl 0.0070 | sum-maxz 172.0 (z vs null   7.5) | disp chi2   82.0 | D-IoC28 1.0057 (z  10.1)
+      -> dispersion z vs homogeneous-binomial ref: 2.7 (real: 0.48)
+S1 skip-once, sticky keyword L=13 a=0.30             dbl 0.0097 | sum-maxz 175.1 (z vs null   8.1) | disp chi2   81.5 | D-IoC28 1.0108 (z  19.1)
+      -> dispersion z vs homogeneous-binomial ref: 2.6 (real: 0.48)
+S2 skip-until-clear, random keyword L=13             dbl 0.0000 | sum-maxz 163.7 (z vs null   5.7) | disp chi2    nan | D-IoC28 1.0005 (z   0.8)
+
+Doublet-position test (single long text, keyword with adjacent equals at positions 0-1, 4-5-6, 9-10): doublets=365 (0.0091); share of doublets at key-phase classes (i mod 13) is non-uniform: [21, 30, 28, 23, 36, 31, 37, 23, 17, 39, 21, 33, 26]
+   chi2 of doublet-phase histogram (df 12): 20.5  (p~0.06) -> skips randomise the key phase; doublet positions are NOT a usable period leak

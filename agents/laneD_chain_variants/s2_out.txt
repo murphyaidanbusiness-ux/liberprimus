@@ -1,0 +1,64 @@
+real rune counts chi2 vs flat (df28): 26.4  (null mean 28 sd 7.5)
+real normalised IoC 0.9999
+
+== B. v(c_i)=v(c_{i-1})+v(p_i)+k_i mod M, snapped back to a prime-valued rune (k flat) ==
+M              snap  | pred IoC | pred dbl-rate | LLR(real counts | snap-pmf vs flat) | chi2(real vs snap-pmf)
+109            next   | 1.238   | sim 0.0411 (iid 0.0427)|   -1784.8 | 4588
+109            prev   | 1.233   | sim 0.0432 (iid 0.0425)|   -1609.4 | 3885
+109            nearest| 1.140   | sim 0.0392 (iid 0.0393)|  -11304.4 | inf (pmf=0)
+110            next   | 1.222   | sim 0.0423 (iid 0.0421)|   -1584.3 | 3850
+110            prev   | 1.222   | sim 0.0403 (iid 0.0421)|   -1541.2 | 3740
+110            nearest| 1.122   | sim 0.0390 (iid 0.0387)|    -870.4 | 2217
+111            next   | 1.217   | sim 0.0400 (iid 0.0420)|   -1569.8 | 3853
+111            prev   | 1.217   | sim 0.0432 (iid 0.0420)|   -1526.2 | 3741
+111            nearest| 1.109   | sim 0.0365 (iid 0.0382)|    -668.8 | 1448
+113            next   | 1.220   | sim 0.0442 (iid 0.0421)|   -1615.4 | 4004
+113            prev   | 1.220   | sim 0.0411 (iid 0.0421)|   -1571.0 | 3888
+113            nearest| 1.097   | sim 0.0344 (iid 0.0378)|    -581.3 | 1246
+116            next   | 1.254   | sim 0.0467 (iid 0.0433)|   -1769.2 | 4350
+116            prev   | 1.254   | sim 0.0422 (iid 0.0433)|   -1724.0 | 4230
+116            nearest| 1.112   | sim 0.0344 (iid 0.0383)|    -663.4 | 1420
+(real IoC 1.000, real dbl-rate 0.0066 ; LLR strongly negative = real counts reject the snap model in favour of flat)
+
+== A. index chain s_i = f(v(p_i), k_i) mod 29: zero set and implied doublet rate ==
+prime residues mod 29 by rune: [2, 3, 5, 7, 11, 13, 17, 19, 23, 0, 2, 8, 12, 14, 18, 24, 1, 3, 9, 13, 15, 21, 25, 2, 10, 14, 16, 20, 22]
+A1. additive s=v(p)+k, k flat on Z29 -> P(s=0)=1/29 -> dbl-rate 3.45%: sim:
+   sim dbl-rate 0.0339 vs real 0.0066 -> z=-17.1
+A2. multiplicative s=k*(v(p)+a) mod 29, k flat on GF(29)*: s=0 iff v(p)=-a mod 29 -> doublet rate = freq(letters with that residue)
+   a | zero-letters (residue -a) | freq in solved plaintext | note
+   0 | N              | 0.0560
+   1 | -              | 0.0000
+   2 | -              | 0.0000
+   3 | -              | 0.0000
+   4 | OE             | 0.0006
+   5 | S              | 0.0695
+   6 | H              | 0.0334
+   7 | EA             | 0.0102
+   8 | NG             | 0.0073
+   9 | IA             | 0.0045
+  10 | W              | 0.0294
+  11 | X              | 0.0023
+  12 | G              | 0.0124
+  13 | Y              | 0.0311
+  14 | L              | 0.0350
+  15 | P,AE           | 0.0130
+  16 | C,M            | 0.0565
+  17 | EO             | 0.0017
+  18 | R              | 0.0644
+  19 | A              | 0.0752
+  20 | E              | 0.1227
+  21 | J              | 0.0017
+  22 | O              | 0.0842
+  23 | -              | 0.0000
+  24 | TH             | 0.0413
+  25 | -              | 0.0000
+  26 | U,B            | 0.0588
+  27 | F,I,D          | 0.1204
+  28 | T              | 0.0684
+   offsets a whose zero set has frequency in the real band [0.57%,0.76%] (86+-9 doublets): [(8, ['NG'], np.float64(0.0073))]
+   (note: with a=0 and plain v(p) the zero letter is N (v=29), freq 0.056 -> excluded; a=-1 (the solved-page p=c-(prime-1) convention) zero letter: prime 1? none; residue 1 -> ['T'])
+   a=0 sim dbl-rate 0.0559
+   a=28 sim dbl-rate 0.0688
+   a=8 sim dbl-rate 0.0074
+   distinct residues of the 29 prime values mod 29: 24 of 29 -> x(p)=v(p)+a mod 29 is NOT injective; several plaintext letter pairs would encrypt identically (lossy, undecryptable): {np.int64(2): ['F', 'I', 'D'], np.int64(3): ['U', 'B'], np.int64(13): ['C', 'M'], np.int64(14): ['P', 'AE']}
+A3. Atbash / reversed prime-order alphabet: c -> -c is a unit map on Z29; chain with s -> -s; statistically identical to the plain chain. SKIPPED (no observable difference).

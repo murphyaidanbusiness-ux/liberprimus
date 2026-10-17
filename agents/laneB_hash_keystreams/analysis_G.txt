@@ -1,0 +1,129 @@
+G null: shuffles 40 trials 89222016 streams 214476
+### res_G_real_k0.pkl
+streams=107016  trials=44518656  elapsed=1096s
+  real chain group: n=41094144 mean IoC=1.02302 sd=0.00058 max(bin)=1.0279
+  null chain group (40 shuffles, 82358784 trials): mean=1.02302 sd=0.00059 max(bin)=1.0287
+  real otp group: n=3424512 mean IoC=1.00002 sd=0.00058 max(bin)=1.0044
+  null otp group (40 shuffles, 6863232 trials): mean=0.99999 sd=0.00058 max(bin)=1.0044
+  top real configs by whole-corpus IoC (null per-shuffle max: 1.0287):
+    IoC=1.0278 prefix3000=1.0320 z=8.2  seed=b'\xb8\x00\x00\x00'[len] gen=ctr_be4/sha3_512 koff=0 map=b29dig_mod28_msd app=chainadd+1|convX mode=restart
+    IoC=1.0276 prefix3000=1.0270 z=7.8  seed=b'30.jpg\n'[pagenum] gen=ctr_be4/sha512 koff=0 map=b29dig_rej28_msd app=gflog_g2+1|convY mode=restart
+    IoC=1.0275 prefix3000=1.0258 z=7.6  seed=b'PAGE19\n'[pagenum] gen=pre_asc0/sha512 koff=0 map=hexascii_mod28 app=chainadd-1|convX mode=restart
+    IoC=1.0275 prefix3000=1.0274 z=7.6  seed=b'SQ6WMGV2ZCSRIX6T'[onion] gen=ctr_asc1/md5 koff=0 map=bits5_mod28 app=chainadd+1|convX mode=cont
+    IoC=1.0274 prefix3000=1.0273 z=7.5  seed=b'\x00\x00\x00\x02'[num] gen=ctr_asc1/sha256 koff=0 map=b28dig_msd app=gflog_g2+1|convX mode=restart
+    IoC=1.0274 prefix3000=1.0283 z=7.5  seed=b'PRIMUS'[word] gen=ctr_asc0/blake2b koff=0 map=byte_rej28 app=chainadd-1|convX mode=restart
+    IoC=1.0273 prefix3000=1.0291 z=7.4  seed=b'\x00\x00\x00\x00\x00\x00\x00\x0b'[pagenum] gen=hmac_ctr/sha1 koff=0 map=nib28 app=gflindiv|convY mode=cont
+    IoC=1.0273 prefix3000=1.0319 z=7.3  seed=b'Page 25'[pagenum] gen=hmac_ctr/md5 koff=0 map=b29dig_mod28_lsd app=gflog_g3-1|convX mode=restart
+  null pooled max of first-3000-rune IoC: 1.0435 ; null per-shuffle maxima: [1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+  top by first-3000-rune IoC:
+    prefix=1.0463 whole=1.0245 seed=b'35.JPG'[pagenum] gen=hmac_ctr/sha1 koff=0 map=bits5_mod28 app=chainadd+1|convX mode=restart
+    prefix=1.0448 whole=1.0240 seed=b'34.jpg'[pagenum] gen=ctr_asc1/sha512 koff=0 map=byte_rej28 app=gflog_g2-1|convX mode=cont
+    prefix=1.0435 whole=1.0262 seed=b'\x00\x00\x00\x00\x00\x00\x00+'[pagenum] gen=ctr_asc1/sha3_256 koff=0 map=b29dig_mod28_msd app=gflinmul|convX mode=restart
+  per-page max IoC over all trials: real mean-over-pages 1.370 max 2.379; null (per-shuffle) mean-over-pages 1.310 max-over-shuffles 2.407
+  pages where real per-page max exceeds the pooled null max (null trials 89222016 vs real 44518656; chance expectation 18.3 of 55): 23
+  per-page z of real max vs null max (n=40 shuffles): max z=6.64 (page 12), mean z=2.82; pages with real max > every null max: 23 / 55
+
+### res_G_real_k1.pkl
+streams=107016  trials=44518656  elapsed=1131s
+  real chain group: n=41094144 mean IoC=1.02302 sd=0.00058 max(bin)=1.0279
+  null chain group (40 shuffles, 82358784 trials): mean=1.02302 sd=0.00059 max(bin)=1.0287
+  real otp group: n=3424512 mean IoC=1.00002 sd=0.00058 max(bin)=1.0044
+  null otp group (40 shuffles, 6863232 trials): mean=0.99999 sd=0.00058 max(bin)=1.0044
+  top real configs by whole-corpus IoC (null per-shuffle max: 1.0287):
+    IoC=1.0279 prefix3000=1.0247 z=8.3  seed=b'Page 8\n'[pagenum] gen=ctr_asc1/md5 koff=1 map=byte_rej28 app=gflog_g3-1|convY mode=cont
+    IoC=1.0278 prefix3000=1.0294 z=8.2  seed=b'07\n'[pagenum] gen=ctr_asc0/sha512 koff=1 map=bits5_rej28 app=gflog_g2-1|convX mode=cont
+    IoC=1.0276 prefix3000=1.0283 z=7.9  seed=b'PAGE 50\n'[pagenum] gen=chainhex/sha256 koff=1 map=bits5_rej28 app=chainadd-1|convX mode=cont
+    IoC=1.0276 prefix3000=1.0252 z=7.8  seed=b'Page 55'[pagenum] gen=ctr_be4/sha1 koff=1 map=nib28 app=gflog_g3-1|convX mode=cont
+    IoC=1.0275 prefix3000=1.0310 z=7.6  seed=b'\x07\x00\x00\x00'[pagenum] gen=ctr_be4/sha3_256 koff=1 map=b29dig_rej28_lsd app=chainadd+1|convX mode=cont
+    IoC=1.0275 prefix3000=1.0312 z=7.6  seed=b'Page 43\n'[pagenum] gen=chainhex/sha3_512 koff=1 map=bits5_mod28 app=gflog_g3+1|convY mode=cont
+    IoC=1.0274 prefix3000=1.0268 z=7.6  seed=b'page 2\n'[pagenum] gen=ctr_asc1/sha256 koff=1 map=hexascii_mod28 app=gflindiv|convX mode=cont
+    IoC=1.0274 prefix3000=1.0279 z=7.5  seed=b'SQ6WMGV2ZCSRIX6T\n'[onion] gen=hmac_ctr/md5 koff=1 map=bits5_mod28 app=gflog_g3+1|convY mode=cont
+  null pooled max of first-3000-rune IoC: 1.0435 ; null per-shuffle maxima: [1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+  top by first-3000-rune IoC:
+    prefix=1.0456 whole=1.0244 seed=b'06.JPG'[pagenum] gen=chainhex/sha3_512 koff=1 map=b28dig_msd app=gflog_g2-1|convX mode=restart
+    prefix=1.0438 whole=1.0249 seed=b'page53\n'[pagenum] gen=hmac_ctr/sha256 koff=1 map=b28dig_msd app=gflog_g3-1|convX mode=cont
+    prefix=1.0436 whole=1.0240 seed=b'warning'[word] gen=chainhex/sha512 koff=1 map=bits5_mod28 app=chainadd-1|convX mode=restart
+  per-page max IoC over all trials: real mean-over-pages 1.362 max 2.190; null (per-shuffle) mean-over-pages 1.310 max-over-shuffles 2.407
+  pages where real per-page max exceeds the pooled null max (null trials 89222016 vs real 44518656; chance expectation 18.3 of 55): 15
+  per-page z of real max vs null max (n=40 shuffles): max z=5.92 (page 2), mean z=2.51; pages with real max > every null max: 15 / 55
+
+quadgram of top-5 real (G k0) by IoC:
+    quadgram -7.694 IoC(check)=1.0278 | EOGRPEOTHPIXOEFNTHXOEHOEOIAIJTNEODCYEULPSDRAJIAALJCBNGLXXRIAGNGMXFRIAHSUXX
+    quadgram -7.560 IoC(check)=1.0276 | AESOEXSGGDMCBIBFIASTXFFTHJOEOPCIATEODSITUPJHIATHPWEFBGCNGUNDAETHNAEREOWOERO
+    quadgram -7.591 IoC(check)=1.0275 | EOEAEGIATHODTHWXUINGYHGTTHTHIAFTIAUXRMBNGTJNAFEOHNGHNGWEOIFTEOYNGXBEOFJTHIAEOEDAU
+    quadgram -7.616 IoC(check)=1.0275 | RCNOBHOCEOAYIAFGCEOLSNGIRRXTHFTFGMIYOETLRSAEORUBEOIATHYWTTHXHUAPBRNIGPE
+    quadgram -7.651 IoC(check)=1.0274 | YBWHIJPNPOEXLLTEWGIAOERFASJEOTMEOCOEGDENRXIAELRTWCIBNLTGWEOUGWJDCUCL
+null per-shuffle max whole IoC: [1.0268, 1.0269, 1.0269, 1.0269, 1.0269, 1.0269, 1.027, 1.027, 1.027, 1.027, 1.0271, 1.0271, 1.0271, 1.0271, 1.0271, 1.0271, 1.0271, 1.0272, 1.0272, 1.0272, 1.0272, 1.0272, 1.0272, 1.0272, 1.0272, 1.0272, 1.0273, 1.0273, 1.0274, 1.0274, 1.0274, 1.0275, 1.0275, 1.0275, 1.0275, 1.0276, 1.0276, 1.0277, 1.0278, 1.0287]
+null per-shuffle max prefix IoC: [1.0405, 1.0406, 1.0406, 1.0407, 1.0408, 1.0408, 1.0408, 1.0409, 1.041, 1.0411, 1.0411, 1.0411, 1.0411, 1.0413, 1.0414, 1.0415, 1.0415, 1.0415, 1.0415, 1.0416, 1.0416, 1.0417, 1.0417, 1.0418, 1.0418, 1.0418, 1.0419, 1.042, 1.0421, 1.0421, 1.0422, 1.0423, 1.0426, 1.0428, 1.0428, 1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+### res_G_extra_k0.pkl
+streams=14210  trials=5911360  elapsed=142s
+  real chain group: n=5456640 mean IoC=1.02302 sd=0.00058 max(bin)=1.0275
+  null chain group (40 shuffles, 82358784 trials): mean=1.02302 sd=0.00059 max(bin)=1.0287
+  real otp group: n=454720 mean IoC=1.00002 sd=0.00058 max(bin)=1.0040
+  null otp group (40 shuffles, 6863232 trials): mean=0.99999 sd=0.00058 max(bin)=1.0044
+  top real configs by whole-corpus IoC (null per-shuffle max: 1.0287):
+    IoC=1.0275 prefix3000=1.0308 z=7.7  seed=b'67f363c61ba8fb6fdba9c47d0670b0e57a350...'[pgp_extra] gen=ctr_asc1/sha3_512 koff=0 map=byte_rej28 app=gflinmul|convX mode=cont
+    IoC=1.0273 prefix3000=1.0276 z=7.4  seed=b'2b5dj4wasoaww3k6'[onion_extra] gen=ctr_asc1/sha256 koff=0 map=bits5_mod28 app=gflinmul|convX mode=restart
+    IoC=1.0272 prefix3000=1.0272 z=7.1  seed=b'n5gvslqnb4yomt6q'[onion_extra] gen=ctr_asc0/sha512 koff=0 map=b29dig_rej28_msd app=gflinmul|convX mode=restart
+    IoC=1.0272 prefix3000=1.0277 z=7.1  seed=b'33ol2ol4zmiphtjz'[onion_extra] gen=ctr_asc0/blake2b koff=0 map=b28dig_lsd app=chainadd-1|convX mode=cont
+    IoC=1.0272 prefix3000=1.0299 z=7.1  seed=b'mvqpb27yoqcpxbdz\n'[onion_extra] gen=pre_asc0/blake2b koff=0 map=byte_rej28 app=chainadd+1|convX mode=cont
+    IoC=1.0271 prefix3000=1.0279 z=7.1  seed=b'5PLUNE7QFNKLOR46\n'[onion_extra] gen=chainhex/md5 koff=0 map=byte_rej28 app=chainadd+1|convY mode=restart
+    IoC=1.0271 prefix3000=1.0264 z=6.9  seed=b'nlskglcrw6k3pevc\n'[onion_extra] gen=chain/sha256 koff=0 map=b28dig_lsd app=gflog_g3+1|convX mode=cont
+    IoC=1.0270 prefix3000=1.0304 z=6.8  seed=b'YNIIR5C6CMUWSLFL.ONION'[onion_extra] gen=hmac_ctr/sha3_512 koff=0 map=b29dig_mod28_msd app=gflinmul|convX mode=restart
+  null pooled max of first-3000-rune IoC: 1.0435 ; null per-shuffle maxima: [1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+  top by first-3000-rune IoC:
+    prefix=1.0431 whole=1.0240 seed=b'67F363C61BA8FB6FDBA9C47D0670B0E57A35090F'[pgp_extra] gen=ctr_asc0/sha3_512 koff=0 map=nib28 app=gflog_g3-1|convX mode=restart
+    prefix=1.0414 whole=1.0244 seed=b'LL5AFYSKB6V6G7GA\n'[onion_extra] gen=ctr_asc1/blake2b koff=0 map=b29dig_rej28_msd app=gflog_g2-1|convY mode=cont
+    prefix=1.0413 whole=1.0254 seed=b'VJ7SUK6T5BFJUGDV.ONION'[onion_extra] gen=hmac_ctr/sha256 koff=0 map=bits5_mod28 app=chainadd-1|convX mode=cont
+  per-page max IoC over all trials: real mean-over-pages 1.321 max 2.163; null (per-shuffle) mean-over-pages 1.310 max-over-shuffles 2.407
+  pages where real per-page max exceeds the pooled null max (null trials 89222016 vs real 5911360; chance expectation 3.4 of 55): 3
+  per-page z of real max vs null max (n=40 shuffles): max z=3.10 (page 39), mean z=0.48; pages with real max > every null max: 3 / 55
+
+### res_G_extra_k1.pkl
+streams=14210  trials=5911360  elapsed=142s
+  real chain group: n=5456640 mean IoC=1.02302 sd=0.00058 max(bin)=1.0277
+  null chain group (40 shuffles, 82358784 trials): mean=1.02302 sd=0.00059 max(bin)=1.0287
+  real otp group: n=454720 mean IoC=1.00002 sd=0.00058 max(bin)=1.0040
+  null otp group (40 shuffles, 6863232 trials): mean=0.99999 sd=0.00058 max(bin)=1.0044
+  top real configs by whole-corpus IoC (null per-shuffle max: 1.0287):
+    IoC=1.0276 prefix3000=1.0307 z=7.8  seed=b'2RYNIBHFBADVFOH4\n'[onion_extra] gen=chainhex/sha3_256 koff=1 map=nib28 app=gflinmul|convY mode=cont
+    IoC=1.0274 prefix3000=1.0312 z=7.5  seed=b'2B5DJ4WASOAWW3K6'[onion_extra] gen=chainhex/blake2b koff=1 map=byte_mod28 app=chainadd-1|convX mode=cont
+    IoC=1.0273 prefix3000=1.0281 z=7.3  seed=b'nlskglcrw6k3pevc'[onion_extra] gen=ctr_asc1/sha1 koff=1 map=b28dig_lsd app=gflindiv|convX mode=restart
+    IoC=1.0273 prefix3000=1.0276 z=7.2  seed=b'POPFILESXURU7LSR\n'[onion_extra] gen=ctr_be4/sha512 koff=1 map=b28dig_msd app=gflog_g2+1|convX mode=cont
+    IoC=1.0272 prefix3000=1.0326 z=7.2  seed=b'LW4IPK5CHOAKK5ZE.ONION'[onion_extra] gen=ctr_asc0/md5 koff=1 map=byte_mod28 app=gflog_g3-1|convX mode=restart
+    IoC=1.0271 prefix3000=1.0249 z=7.0  seed=b'mvqpb27yoqcpxbdz.onion'[onion_extra] gen=hmac_ctr/md5 koff=1 map=hexascii_mod28 app=gflog_g3+1|convY mode=restart
+    IoC=1.0271 prefix3000=1.0275 z=6.9  seed=b'LWPLXQZVMGU43UFF.ONION\n'[onion_extra] gen=ctr_asc0/blake2b koff=1 map=byte_rej28 app=gflog_g2+1|convY mode=cont
+    IoC=1.0270 prefix3000=1.0288 z=6.8  seed=b'N5GVSLQNB4YOMT6Q.ONION\n'[onion_extra] gen=ctr_be4/md5 koff=1 map=b28dig_lsd app=gflog_g2-1|convY mode=cont
+  null pooled max of first-3000-rune IoC: 1.0435 ; null per-shuffle maxima: [1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+  top by first-3000-rune IoC:
+    prefix=1.0441 whole=1.0237 seed=b'sms4tor3vcr2geip.onion\n'[onion_extra] gen=ctr_be4/sha512 koff=1 map=b29dig_mod28_lsd app=gflog_g3+1|convY mode=restart
+    prefix=1.0435 whole=1.0250 seed=b'33OL2OL4ZMIPHTJZ'[onion_extra] gen=pre_asc0/sha1 koff=1 map=nib28 app=gflog_g2-1|convX mode=restart
+    prefix=1.0432 whole=1.0239 seed=b'TKMVT4FMJWFL3MZT.ONION\n'[onion_extra] gen=ctr_be4/blake2b koff=1 map=b29dig_rej28_msd app=gflindiv|convX mode=restart
+  per-page max IoC over all trials: real mean-over-pages 1.322 max 2.096; null (per-shuffle) mean-over-pages 1.310 max-over-shuffles 2.407
+  pages where real per-page max exceeds the pooled null max (null trials 89222016 vs real 5911360; chance expectation 3.4 of 55): 1
+  per-page z of real max vs null max (n=40 shuffles): max z=4.57 (page 1), mean z=0.61; pages with real max > every null max: 1 / 55
+
+### res_PB_real.pkl
+streams=20304  trials=8446464  elapsed=651s
+  real chain group: n=7796736 mean IoC=1.02302 sd=0.00058 max(bin)=1.0273
+  null chain group (40 shuffles, 82358784 trials): mean=1.02302 sd=0.00059 max(bin)=1.0287
+  real otp group: n=649728 mean IoC=1.00002 sd=0.00058 max(bin)=1.0039
+  null otp group (40 shuffles, 6863232 trials): mean=0.99999 sd=0.00058 max(bin)=1.0044
+  top real configs by whole-corpus IoC (null per-shuffle max: 1.0287):
+    IoC=1.0273 prefix3000=1.0285 z=7.3  seed=b'15'[pagenum] gen=pbkdf2:3301:1000/sha256 koff=0 map=b29dig_mod28_msd app=gflog_g2-1|convX mode=restart
+    IoC=1.0273 prefix3000=1.0272 z=7.3  seed=b'\x00\x00\x00\x00\x00\x01=\xed'[gsum] gen=pbkdf2::10/sha256 koff=0 map=b28dig_msd app=gflog_g3-1|convX mode=restart
+    IoC=1.0272 prefix3000=1.0269 z=7.1  seed=b'DIVINITY'[word] gen=pbkdf2::10/sha1 koff=0 map=b29dig_rej28_msd app=gflog_g2+1|convY mode=cont
+    IoC=1.0271 prefix3000=1.0283 z=7.1  seed=b'3301 LIBER PRIMUS\n'[word] gen=pbkdf2:3301:2/sha512 koff=0 map=byte_rej28 app=chainadd+1|convY mode=restart
+    IoC=1.0271 prefix3000=1.0337 z=7.0  seed=b'32'[pagenum] gen=pbkdf2:3301:1000/sha512 koff=0 map=b29dig_mod28_msd app=gflog_g2+1|convY mode=restart
+    IoC=1.0271 prefix3000=1.0282 z=6.9  seed=b'\x00\x00;.'[gsum] gen=pbkdf2:3301:1000/sha256 koff=0 map=byte_mod28 app=chainadd-1|convY mode=cont
+    IoC=1.0271 prefix3000=1.0326 z=6.9  seed=b'2017\n'[num] gen=pbkdf2::1000/sha1 koff=0 map=bits5_rej28 app=chainadd+1|convX mode=cont
+    IoC=1.0271 prefix3000=1.0255 z=6.9  seed=b'\x00\x00\x01\xf7'[num] gen=pbkdf2:3301:1000/sha256 koff=0 map=bits5_rej28 app=gflog_g2-1|convX mode=restart
+  null pooled max of first-3000-rune IoC: 1.0435 ; null per-shuffle maxima: [1.0431, 1.0433, 1.0434, 1.0435, 1.0435]
+  top by first-3000-rune IoC:
+    prefix=1.0427 whole=1.0250 seed=b'runes\n'[word] gen=pbkdf2::10/sha512 koff=0 map=nib28 app=gflog_g2+1|convX mode=restart
+    prefix=1.0425 whole=1.0237 seed=b'\xde\x07\x00\x00\x00\x00\x00\x00'[num] gen=pbkdf2:3301:1000/sha256 koff=0 map=nib28 app=gflog_g2-1|convX mode=restart
+    prefix=1.0425 whole=1.0237 seed=b'\xde\x07\x00\x00'[num] gen=pbkdf2:3301:1000/sha256 koff=0 map=nib28 app=gflog_g2-1|convX mode=restart
+  per-page max IoC over all trials: real mean-over-pages 1.335 max 2.163; null (per-shuffle) mean-over-pages 1.310 max-over-shuffles 2.407
+  pages where real per-page max exceeds the pooled null max (null trials 89222016 vs real 8446464; chance expectation 4.8 of 55): 4
+  per-page z of real max vs null max (n=40 shuffles): max z=4.58 (page 36), mean z=1.09; pages with real max > every null max: 4 / 55
+

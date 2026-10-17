@@ -1,0 +1,5 @@
+text texts/null_p0_s03.txt: 59 words 262 runes; prefix 34 words 151 runes; word0 len 8 word1 len 5; |base|=220280 |g|=1127284 |sigma|=220280 lexicon 386198 threads 4
+stage A: 248318119520 (base,g) pairs in 87.4s = 2.84e+09 /s; exact DFS calls 4425817207 (1.78e-02); survivors 25234 (1.02e-07)
+mode 0 stage B: 5558545520 (survivor,sigma) trials in 46.8s = 1.19e+08 /s; word1 lexicon pass 6166281; reached prefix end 55173179; kept 1000
+mode 1 stage B: 5558545520 (survivor,sigma) trials in 42.2s = 1.32e+08 /s; word1 lexicon pass 5811981; reached prefix end 51685249; kept 1000
+mode 2 stage B: 25234 (survivor,sigma) trials in 0.2s = 1.53e+05 /s; word1 lexicon pass 0; reached prefix end 435658; kept 1000

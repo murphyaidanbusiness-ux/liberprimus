@@ -1,0 +1,22 @@
+## LP1 solved text (lp1_english_forward.txt): 729 words, 103 line-sentences
+LP1 as is        words=729 meanlen=4.08 meansent=7.1  JS vs unsolved: A=0.0091 B=0.0496 C=0.0171 D=0.0731 E=0.1495
+LP1 -THE/OF/TO   words=650 meanlen=4.34 meansent=6.3  JS vs unsolved: A=0.0030 B=0.0309 C=0.0046 D=0.0901 E=0.1563
+LP1 letters      words=729 meanlen=4.37 meansent=7.1  JS vs unsolved: A=0.0063 B=0.0243 C=0.0059 D=0.0999 E=0.1495
+noise floor of a ~1094-word sample of the unsolved itself vs unsolved: A=0.0011 B=0.0084
+
+## Sentence-segmentation sensitivity (JS C/D/E vs unsolved; strong = . ! ? only; medium = also ; :)
+strong: mean over 10 corpora (-THE/OF/TO): A=0.0019 B=0.0079 C=0.0125 D=0.0315 E=0.0316 meansent=18.5
+medium: mean over 10 corpora (-THE/OF/TO): A=0.0019 B=0.0079 C=0.0168 D=0.0342 E=0.0339 meansent=13.5
+
+## Line structure
+unsolved: 594 lines, mean 21.81 runes, sd 2.60, CV 0.119, min 3 max 26; internal line breaks 539, of which at a word boundary 28.0% (mid-word 72.0%)
+interior lines only: n=484 mean 21.96 sd 2.30 CV 0.105
+expected word-boundary share for a break at uniformly random rune position = words/runes = 22.4%
+natural-line corpus Beowulf (OE)         lines=  7109 mean 35.0 runes sd 11.3 CV 0.324 ; word-boundary line ends 100% by construction
+natural-line corpus Faust (de)           lines=  5301 mean 28.5 runes sd 9.7 CV 0.341 ; word-boundary line ends 100% by construction
+natural-line corpus Virgil Aeneid (la)   lines= 10112 mean 36.5 runes sd 4.2 CV 0.115 ; word-boundary line ends 100% by construction
+natural-line corpus Whitman              lines= 13656 mean 36.6 runes sd 13.3 CV 0.364 ; word-boundary line ends 100% by construction
+natural-line corpus Milton PL            lines= 10500 mean 32.0 runes sd 3.5 CV 0.108 ; word-boundary line ends 100% by construction
+natural-line corpus Shakespeare Hamlet   lines=  3803 mean 29.7 runes sd 8.8 CV 0.297 ; word-boundary line ends 100% by construction
+natural-line corpus Blake                lines=   986 mean 24.2 runes sd 9.9 CV 0.408 ; word-boundary line ends 100% by construction
+natural-line corpus Dante (Longfellow)   lines= 14829 mean 31.3 runes sd 4.5 CV 0.145 ; word-boundary line ends 100% by construction

@@ -1,0 +1,9 @@
+G3 synthetic: plaintext IoC 1.774 ciphertext IoC 1.000 doublet rate 0.0103
+G3 streams 7399 trials 3077984 time 77s
+G3 top: IoC=1.7742 prefix=1.7621 seed='plant' gen=chainhex/blake2b map=hexascii_mod28 app=gflinmul|convX mode=cont
+G3 top: IoC=1.1444 prefix=1.1452 seed='plant' gen=chainhex/blake2b map=nib28 app=gflindiv|convX mode=cont
+G3 top: IoC=1.0898 prefix=1.0982 seed='plant' gen=chainhex/blake2b map=nib28 app=chainadd-1|convX mode=cont
+G3 top: IoC=1.0893 prefix=1.0914 seed='plant' gen=chainhex/blake2b map=hexascii_mod28 app=chainadd+1|convX mode=cont
+G3 top: IoC=1.0787 prefix=1.0811 seed='plant' gen=chainhex/blake2b map=nib28 app=chainadd+1|convX mode=cont
+PLANT (b'7A35090F', 'chainhex', 'blake2b', 'hexascii_mod28', 'gflinmul|convX', 0)
+best decode quadgram -4.314  text: AWARNNGBELIEUENOTHNGFROMTHISBOOCEXCEPTWHATYOUCNOWTOBETRUETESTTHECNOWLEDGEFINDYOURTRUTHEXPERIENCEYOURDEATHDONOTEDITORCHANGETHISBOOC

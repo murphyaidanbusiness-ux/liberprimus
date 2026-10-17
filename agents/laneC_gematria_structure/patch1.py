@@ -1,0 +1,8 @@
+s=open('fam_solved.py').read()
+s=s.replace("SEQ=seqs.seq_sets()","SEQ=seqs.seq_sets()\nOMAX=500",1)
+s=s.replace("omax_=len(arr)-1","omax_=min(OMAX,len(arr)-1)")
+s=s.replace("omax=len(K)-1,rm=0)","omax=min(OMAX,len(K)-1),rm=0)")
+open('fam_solved.py','w').write(s)
+c=open('run_solved_controls.py').read()
+c=c.replace(",731)",",431)").replace(",1500)",",450)").replace(",1200)",",350)").replace(",900)",",440)").replace(",2000)",",500)")
+open('run_solved_controls.py','w').write(c)

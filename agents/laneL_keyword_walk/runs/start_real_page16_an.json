@@ -1,0 +1,9 @@
+{
+ "run": "start_real_page16",
+ "hdr": "# text texts/real_page16.txt words 60 runes 267 prefix_words 35 prefix_runes 150 |base| 220280 |g| 1127284 |sigma| 220280 stageA_pairs 248318119520 survivors 0 stageA_s 45.6",
+ "modes": {
+  "0": null,
+  "1": null,
+  "2": null
+ }
+}

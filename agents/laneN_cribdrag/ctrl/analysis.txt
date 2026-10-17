@@ -1,0 +1,68 @@
+===== chain_A dump rows 895165
+true crib-occurrences tested (aligned+unaligned views): 524  in dump with Z>=3: 310
+  L<8    n=158  detected(Z>=3)= 11  Z>5=  0  median Z(detected)=3.443  max=3.865
+  8-11   n=128  detected(Z>=3)= 84  Z>5= 20  median Z(detected)=4.292  max=6.497
+  12-19  n=163  detected(Z>=3)=140  Z>5=122  median Z(detected)=7.12  max=11.819
+  20-39  n= 71  detected(Z>=3)= 71  Z>5= 71  median Z(detected)=10.764  max=17.296
+  40+    n=  4  detected(Z>=3)=  4  Z>5=  4  median Z(detected)=18.083  max=18.083
+  Z>=5 chain rows: in planted region 279  elsewhere (background English incl. true C2/C3 cribs in Walden) 581
+  of in-region Z>=5 rows, not a true crib occurrence: 62
+   top: Z=18.1 L=42 al=0 crib=THAT IS NOT WHO YOU ARE THAT IS ONLY WHAT YOU ARE 
+   top: Z=18.1 L=42 al=1 crib=THAT IS NOT WHO YOU ARE THAT IS ONLY WHAT YOU ARE 
+   top: Z=17.3 L=33 al=0 crib=A MAN DECIDED TO GO AND STUDY WITH A MASTER
+   top: Z=17.3 L=33 al=1 crib=A MAN DECIDED TO GO AND STUDY WITH A MASTER
+   top: Z=16.5 L=29 al=0 crib=WHO ARE YOU WHO WISHES TO STUDY HERE
+   top: Z=16.5 L=29 al=1 crib=WHO ARE YOU WHO WISHES TO STUDY HERE
+   top: Z=15.0 L=41 al=0 crib=THAT IS WHAT YOU DO NOT WHO YOU ARE REPLIED THE MA
+   top: Z=15.0 L=41 al=1 crib=THAT IS WHAT YOU DO NOT WHO YOU ARE REPLIED THE MA
+  long (L>=12) true occurrences with Z<5 or missing: 41 of 238
+===== chain_B dump rows 894677
+true crib-occurrences tested (aligned+unaligned views): 64  in dump with Z>=3: 14
+  L<8    n= 51  detected(Z>=3)=  2  Z>5=  0  median Z(detected)=3.308  max=3.308
+  8-11   n=  1  detected(Z>=3)=  0  Z>5=  0  median Z(detected)=None  max=None
+  20-39  n= 10  detected(Z>=3)= 10  Z>5= 10  median Z(detected)=13.504  max=17.296
+  40+    n=  2  detected(Z>=3)=  2  Z>5=  2  median Z(detected)=18.083  max=18.083
+  Z>=5 chain rows: in planted region 56  elsewhere (background English incl. true C2/C3 cribs in Walden) 581
+  of in-region Z>=5 rows, not a true crib occurrence: 44
+   top: Z=18.1 L=42 al=0 crib=THAT IS NOT WHO YOU ARE THAT IS ONLY WHAT YOU ARE 
+   top: Z=17.3 L=33 al=0 crib=A MAN DECIDED TO GO AND STUDY WITH A MASTER
+   top: Z=16.5 L=29 al=0 crib=WHO ARE YOU WHO WISHES TO STUDY HERE
+   top: Z=15.0 L=41 al=0 crib=THAT IS WHAT YOU DO NOT WHO YOU ARE REPLIED THE MA
+   top: Z=15.0 L=38 al=0 crib=AFTER A MOMENT OF THOUGHT THE PROFESSOR REPLIED
+   top: Z=13.7 L=28 al=0 crib=THE STUDENT TOLD THE MASTER HIS NAME
+   top: Z=13.5 L=24 al=0 crib=HE WENT TO THE DOOR OF THE MASTER
+   top: Z=13.5 L=29 al=0 crib=WHO ARE YOU WHO WISHES TO STUDY HERE
+  long (L>=12) true occurrences with Z<5 or missing: 0 of 12
+===== vig_A dump rows 947091
+keyword control: true occurrences 524
+  raw(mt2) fragments 18456034.0
+  L in [0,8): n=158  PER median 0 max 0 | DICT>=9: 0 | rawskip Z>=5: 0
+  L in [8,16): n=218  PER median 1 max 8 | DICT>=9: 141 | rawskip Z>=5: 52
+  L in [16,24): n=114  PER median 10 max 15 | DICT>=9: 107 | rawskip Z>=5: 111
+  L in [24,32): n=23  PER median 14 max 21 | DICT>=9: 23 | rawskip Z>=5: 23
+  L in [32,40): n=7  PER median 21 max 24 | DICT>=9: 7 | rawskip Z>=5: 7
+  L in [40,48): n=4  PER median 34 max 34 | DICT>=9: 4 | rawskip Z>=5: 4
+  cell counts raw (cls,al): nfrag, maxPER, nP5, nP6, nP8
+    (2, 0, 0) nfrag 5460054 maxPER 33 nP5 92 nP6 29 nP8 23 maxDICT 41 nD9 811
+    (2, 0, 1) nfrag 211808 maxPER 33 nP5 187 nP6 157 nP8 78 maxDICT 41 nD9 198
+    (2, 1, 0) nfrag 7568832 maxPER 5 nP5 3 nP6 0 nP8 0 maxDICT 10 nD9 17
+    (2, 1, 1) nfrag 144900 maxPER 4 nP5 0 nP6 0 nP8 0 maxDICT 8 nD9 0
+    (2, 2, 0) nfrag 5045240 maxPER 4 nP5 0 nP6 0 nP8 0 maxDICT 10 nD9 35
+    (2, 2, 1) nfrag 25200 maxPER 3 nP5 0 nP6 0 nP8 0 maxDICT 0 nD9 0
+  raw rows with PER>=8 not at a true crib occurrence: 22  PER>=10: 9
+===== vig_B dump rows 946305
+keyword control: true occurrences 64
+  raw(mt2) fragments 18449272.0
+  L in [0,8): n=51  PER median 0 max 0 | DICT>=9: 0 | rawskip Z>=5: 0
+  L in [8,16): n=1  PER median 0 max 0 | DICT>=9: 0 | rawskip Z>=5: 0
+  L in [24,32): n=7  PER median 13 max 21 | DICT>=9: 7 | rawskip Z>=5: 7
+  L in [32,40): n=3  PER median 21 max 24 | DICT>=9: 3 | rawskip Z>=5: 3
+  L in [40,48): n=2  PER median 34 max 34 | DICT>=9: 2 | rawskip Z>=5: 2
+  cell counts raw (cls,al): nfrag, maxPER, nP5, nP6, nP8
+    (2, 0, 0) nfrag 5460054 maxPER 33 nP5 92 nP6 29 nP8 23 maxDICT 41 nD9 811
+    (2, 0, 1) nfrag 206992 maxPER 3 nP5 0 nP6 0 nP8 0 maxDICT 9 nD9 2
+    (2, 1, 0) nfrag 7568832 maxPER 5 nP5 3 nP6 0 nP8 0 maxDICT 10 nD9 17
+    (2, 1, 1) nfrag 143496 maxPER 4 nP5 0 nP6 0 nP8 0 maxDICT 8 nD9 0
+    (2, 2, 0) nfrag 5045240 maxPER 4 nP5 0 nP6 0 nP8 0 maxDICT 10 nD9 35
+    (2, 2, 1) nfrag 24658 maxPER 3 nP5 0 nP6 0 nP8 0 maxDICT 0 nD9 0
+  raw rows with PER>=8 not at a true crib occurrence: 14  PER>=10: 6

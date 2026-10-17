@@ -1,0 +1,15 @@
+LP: ioc 0.9999  census(len>=2) (110, 123)  census(len>=3) (16, 17)
+roundtrip skip=none   preferN 1.0000 preferD 1.0000  doublets 0.0366
+roundtrip skip=adv    preferN 0.8880 preferD 0.8953  doublets 0.0000
+roundtrip skip=redraw preferN 0.9641 preferD 0.9690  doublets 0.0000
+M_K K=4 lenmatched ioc 1.1644+-0.0437  repeats(len>=2) 1194+-20  repeats(len>=3) 829+-18
+M_K K=4 contig     ioc 1.2014+-0.0416  repeats(len>=2) 1566+-56  repeats(len>=3) 971+-79
+M_K K=5 lenmatched ioc 1.1554+-0.0455  repeats(len>=2) 1117+-15  repeats(len>=3) 763+-13
+M_K K=5 contig     ioc 1.1461+-0.0399  repeats(len>=2) 1484+-54  repeats(len>=3) 903+-78
+M_K K=6 lenmatched ioc 1.1188+-0.0399  repeats(len>=2) 1046+-18  repeats(len>=3) 704+-16
+M_K K=6 contig     ioc 1.1175+-0.0285  repeats(len>=2) 1406+-49  repeats(len>=3) 839+-77
+M_K K=7 lenmatched ioc 1.1153+-0.0261  repeats(len>=2) 993+-17  repeats(len>=3) 660+-14
+M_K K=7 contig     ioc 1.1004+-0.0244  repeats(len>=2) 1346+-49  repeats(len>=3) 789+-74
+plaintext lenmatched repeats(len>=2) 1700  (len>=3) 1283 ;  Oosterhof walk: 122 / 12
+plaintext contig     repeats(len>=2) 2085  (len>=3) 1430 ;  Oosterhof walk: 239 / 13
+flattest K=5 mixture expected IoC (designed alphabets): 1.00004

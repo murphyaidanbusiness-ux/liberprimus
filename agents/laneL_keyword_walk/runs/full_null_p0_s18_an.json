@@ -1,0 +1,285 @@
+{
+ "run": "full_null_p0_s18",
+ "hdr": "# text texts/null_p0_s18.txt words 59 runes 262 prefix_words 34 prefix_runes 151 |base| 220280 |g| 1127284 |sigma| 220280 stageA_pairs 248318119520 survivors 44400 stageA_s 89.5",
+ "modes": {
+  "0": {
+   "n": 467,
+   "ndead": 111,
+   "best": {
+    "pref_lm": -3.9552,
+    "full_lm": -4.0687507788162,
+    "quad": -6.640443726378355,
+    "ioc": 1.1518235793044953
+   },
+   "hdr": "# mode 0 stageB_trials 9780432000 stageB_s 88.9 word1_pass 11682199 reached_end 99965306 total_keys 5.4700e+16",
+   "top": [
+    {
+     "key": [
+      0,
+      56143,
+      367307,
+      39450
+     ],
+     "base": "CLOSNG:R2rev",
+     "g": "grid:eng:bou:2,5,9,27:k4",
+     "sigma": "ALERT:R2",
+     "pref_lm": -3.9732,
+     "full_lm": -4.0687507788162,
+     "quad": -7.098684077077228,
+     "ioc": 1.1034775233248515,
+     "text": "R-U-N-R-O-U-N-D-C-H-A-NG-E-I-N-L-L-L-F-N-TH-I-T-I-T-Y-N-M-U-C-X-EO-EA-J-R-A-M-T-W-T-L-NG-P-H-H-O-I-E-D-E-A-R-EA-NG-B-Y-P-B-X-J-U-T-G-I-W-M-U-M-U-AE-R-E-T-TH-TH-M-C-Y-F-D-G-O-D-I-L-I-U-E-F-E-L-S-H-O-C-Y-N-OE-C-R-W-AE-F-IA-AE-O-P-S-P-J-U-G-H-NG-B-W-N-Y-OE-I"
+    },
+    {
+     "key": [
+      0,
+      181163,
+      885984,
+      207304
+     ],
+     "base": "STRIUNG:R2",
+     "g": "kwgrid:SHINEDOWN:R1:col:k1",
+     "sigma": "DOWNNG:R4",
+     "pref_lm": -4.1171,
+     "full_lm": -4.210040498442368,
+     "quad": -7.388044128351174,
+     "ioc": 1.067005937234945,
+     "text": "A-N-A-G-R-A-M-S-A-R-O-O-N-M-W-T-M-W-D-EA-S-A-T-B-P-H-OE-EA-S-U-P-EA-E-F-E-NG-A-A-Y-W-EA-IA-N-A-I-R-U-L-E-B-U-O-R-NG-W-M-B-B-N-M-EA-J-D-S-Y-C-G-X-C-W-G-N-N-EA-EA-R-AE-C-D-N-C-H-R-W-IA-H-N-B-IA-E-B-O-W-E-P-EA-E-T-EO-OE-Y-L-Y-G-T-B-H-TH-F-IA-G-J-B-F-EA-C-M-S-H-AE"
+    },
+    {
+     "key": [
+      0,
+      120224,
+      967103,
+      70452
+     ],
+     "base": "PRESCHOOL:R1:inv",
+     "g": "kwgrid:DUG:R2:bou:k4",
+     "sigma": "PERU:R1rev:inv",
+     "pref_lm": -4.0007,
+     "full_lm": -4.255884735202492,
+     "quad": -7.075949559603077,
+     "ioc": 1.0703986429177268,
+     "text": "O-U-E-R-S-O-A-P-R-O-S-E-L-N-Y-O-C-P-NG-E-TH-P-H-N-S-S-Y-N-D-AE-P-EO-IA-NG-B-B-E-E-N-S-W-M-O-NG-O-TH-G-TH-W-L-D-B-M-X-I-EA-X-Y-Y-E-L-E-R-O-B-M-H-A-EA-G-S-F-M-O-O-TH-E-C-H-NG-Y-E-F-E-EA-E-Y-E-W-I-P-L-W-IA-TH-N-X-X-B-E-F-H-F-A-I-R-Y-S-Y-N-I-EO-L-S-P-E-W-P-R-H"
+    },
+    {
+     "key": [
+      0,
+      186131,
+      890543,
+      66548
+     ],
+     "base": "GIARGIA:R2rev:inv",
+     "g": "kwgrid:SUPERMARCET:R2:col:k4",
+     "sigma": "HYBRID:R2:inv",
+     "pref_lm": -4.1087,
+     "full_lm": -4.262090342679128,
+     "quad": -7.05452112065447,
+     "ioc": 1.095843935538592,
+     "text": "H-U-R-R-A-H-E-D-F-EA-S-E-S-R-I-C-L-Y-IA-TH-EO-U-T-AE-E-R-G-T-U-IA-EO-C-U-R-B-C-S-P-A-IA-E-N-C-N-NG-U-U-M-NG-B-A-S-EO-A-H-T-A-R-Y-M-W-D-E-W-T-P-S-U-H-G-O-T-A-G-G-J-A-U-U-O-Y-B-F-A-S-A-L-R-R-OE-IA-M-A-E-C-A-G-S-R-EO-C-L-EA-E-T-TH-D-I-EA-O-N-M-I-L-O-EO-T-D-EA-N"
+    },
+    {
+     "key": [
+      0,
+      27596,
+      455955,
+      126495
+     ],
+     "base": "UNDERSTAND:R3:inv",
+     "g": "grid:eng:row:5,12,15,16:k4",
+     "sigma": "TORRENT:R1",
+     "pref_lm": -4.0694,
+     "full_lm": -4.263922118380062,
+     "quad": -7.136861142674668,
+     "ioc": 1.0627650551314674,
+     "text": "T-A-NG-E-N-T-IA-L-F-A-D-E-S-N-A-R-M-T-A-D-S-B-X-S-TH-H-C-Y-U-L-TH-R-P-T-U-S-Y-R-NG-OE-Y-AE-B-J-H-X-I-M-B-J-Y-G-NG-H-C-P-P-O-O-F-R-D-W-EA-T-E-D-H-EA-D-P-L-S-T-T-OE-W-C-F-L-TH-TH-TH-O-IA-O-NG-O-EA-N-Y-P-O-S-A-L-O-EO-D-A-T-IA-T-G-G-C-L-A-O-H-N-W-T-B-E-T-O-IA-F-T"
+    }
+   ]
+  },
+  "1": {
+   "n": 393,
+   "ndead": 89,
+   "best": {
+    "pref_lm": -3.9509,
+    "full_lm": -4.155439252336448,
+    "quad": -6.756227564966255,
+    "ioc": 1.2120441051738762
+   },
+   "hdr": "# mode 1 stageB_trials 9780432000 stageB_s 79.9 word1_pass 11028417 reached_end 93456196 total_keys 5.4700e+16",
+   "top": [
+    {
+     "key": [
+      1,
+      147902,
+      512795,
+      165434
+     ],
+     "base": "TESCO:R2rev",
+     "g": "grid:eng:bou:9,10,16,17:k4",
+     "sigma": "FRACTURE:R2",
+     "pref_lm": -4.0227,
+     "full_lm": -4.155439252336448,
+     "quad": -7.018939057243989,
+     "ioc": 1.1162001696352841,
+     "text": "R-U-N-R-O-U-N-D-W-I-T-E-S-O-IA-U-P-D-NG-IA-L-R-X-X-P-F-NG-W-O-IA-IA-P-P-E-L-TH-G-D-A-M-P-P-N-M-H-Y-W-I-TH-L-H-EA-EA-IA-H-TH-R-N-R-B-W-T-L-O-N-H-U-D-W-AE-S-P-U-T-T-TH-E-A-F-NG-O-U-G-B-I-TH-A-TH-I-AE-G-M-U-F-R-S-L-M-L-T-E-T-NG-G-X-U-M-L-Y-X-R-E-S-OE-D-TH-TH-R-S-C"
+    },
+    {
+     "key": [
+      1,
+      64314,
+      564901,
+      109019
+     ],
+     "base": "GLASSES:R1:inv",
+     "g": "grid:eng:row:17,19,23,26:k2",
+     "sigma": "SERUM:R2rev",
+     "pref_lm": -4.0548,
+     "full_lm": -4.156735202492212,
+     "quad": -7.330606803232206,
+     "ioc": 1.0508905852417303,
+     "text": "U-E-R-U-E-L-E-D-C-U-N-N-NG-D-TH-AE-M-C-P-NG-D-O-Y-L-G-O-NG-S-U-E-N-EA-T-NG-I-Y-AE-G-U-TH-I-N-X-X-D-OE-I-E-R-F-W-W-O-T-H-A-F-OE-OE-NG-W-TH-U-O-A-Y-TH-C-W-P-A-A-TH-Y-Y-X-T-OE-D-S-A-J-F-O-C-F-T-W-L-IA-C-E-E-C-O-M-F-H-Y-OE-I-TH-NG-W-T-L-I-O-TH-F-S-J-U-IA-I-T-S-IA-T-D"
+    },
+    {
+     "key": [
+      1,
+      96890,
+      520787,
+      97076
+     ],
+     "base": "BOOCNGS:R2rev",
+     "g": "grid:eng:bou:9,16,24,27:k4",
+     "sigma": "FABULOUS:R4",
+     "pref_lm": -4.0427,
+     "full_lm": -4.199252336448598,
+     "quad": -7.073197158153346,
+     "ioc": 1.0822731128074639,
+     "text": "R-U-N-R-O-U-N-D-A-S-U-R-Y-EA-B-C-S-EA-G-W-TH-I-U-O-L-T-B-R-C-E-M-J-T-S-D-R-EA-EA-IA-TH-EO-E-U-W-T-G-E-U-T-EA-A-X-E-H-O-S-B-W-D-NG-I-L-R-L-D-S-B-IA-N-W-EA-I-S-N-N-L-OE-O-T-Y-B-U-I-T-S-N-EA-B-I-R-O-X-W-H-EA-J-Y-X-TH-E-L-NG-W-J-EA-R-E-H-M-A-NG-R-H-NG-O-F-P-M-NG-I"
+    },
+    {
+     "key": [
+      1,
+      93163,
+      526297,
+      124128
+     ],
+     "base": "DP:R3:inv",
+     "g": "grid:eng:row:10,12,21,26:k2",
+     "sigma": "TUTOR:R2rev:inv",
+     "pref_lm": -4.0761,
+     "full_lm": -4.238803738317757,
+     "quad": -7.19741451158176,
+     "ioc": 1.09245122985581,
+     "text": "E-Y-E-L-E-T-E-D-G-E-N-T-Y-A-U-O-C-D-NG-IA-U-A-L-A-W-X-H-G-M-L-D-R-D-O-G-D-J-TH-A-I-N-C-O-E-L-T-T-W-D-L-IA-X-P-I-Y-I-N-W-E-AE-L-D-W-H-G-F-A-N-F-O-C-L-EO-Y-Y-C-NG-H-EA-R-NG-I-A-S-F-P-EO-L-P-M-E-G-EO-J-Y-B-IA-R-H-T-P-A-U-P-S-J-R-I-X-D-O-B-L-L-C-P-D-D-OE-D"
+    },
+    {
+     "key": [
+      1,
+      54213,
+      1094743,
+      21949
+     ],
+     "base": "CALCULATE:R1",
+     "g": "pow:ROSEMARY:R1:k4",
+     "sigma": "NATURAL:R4",
+     "pref_lm": -4.0378,
+     "full_lm": -4.240778816199377,
+     "quad": -7.143320603532376,
+     "ioc": 1.0754877014419,
+     "text": "I-B-S-E-N-I-S-H-F-O-R-S-T-N-R-C-D-B-L-Y-P-H-TH-B-EO-S-I-J-H-M-U-J-S-G-S-G-X-N-R-U-F-U-H-G-H-M-EA-E-R-I-N-P-S-A-U-A-H-D-Y-R-I-U-H-C-A-AE-N-R-I-S-OE-T-TH-D-D-H-S-C-L-E-M-OE-S-I-EA-IA-B-D-EA-O-S-EA-NG-H-TH-C-N-P-X-O-R-U-R-EA-S-H-E-S-EA-T-O-H-P-OE-C-T-G-S-P-EO"
+    }
+   ]
+  },
+  "2": {
+   "n": 13,
+   "ndead": 172,
+   "best": {
+    "pref_lm": -4.25,
+    "full_lm": -4.507775700934579,
+    "quad": -7.168538233358294,
+    "ioc": 1.0441051738761662
+   },
+   "hdr": "# mode 2 stageB_trials 44400 stageB_s 0.1 word1_pass 0 reached_end 329973 total_keys 2.4832e+11",
+   "top": [
+    {
+     "key": [
+      2,
+      70018,
+      1108521,
+      -1
+     ],
+     "base": "INCJET:R1:inv",
+     "g": "pow:ASM:R2:k2",
+     "sigma": "-",
+     "pref_lm": -4.4332,
+     "full_lm": -4.507775700934579,
+     "quad": -7.366013726044381,
+     "ioc": 1.028837998303647,
+     "text": "F-O-U-N-T-F-U-L-T-H-EA-N-A-A-M-IA-F-F-M-W-N-Y-B-T-R-TH-NG-Y-H-F-J-Y-TH-L-X-B-D-U-I-M-G-X-IA-TH-B-D-W-S-A-EO-O-C-H-Y-F-Y-AE-U-U-E-EA-R-D-R-EA-TH-P-U-W-H-U-Y-A-X-X-NG-P-G-X-R-IA-C-J-F-C-Y-NG-A-C-T-P-H-TH-I-EA-C-A-U-M-NG-I-NG-F-L-R-E-A-NG-EO-O-F-Y-EA-NG-W-G-M-H-IA-U"
+    },
+    {
+     "key": [
+      2,
+      36816,
+      244,
+      -1
+     ],
+     "base": "HIRE:R4",
+     "g": "oost:0,1,13,27",
+     "sigma": "-",
+     "pref_lm": -4.3862,
+     "full_lm": -4.52690031152648,
+     "quad": -7.168538233358294,
+     "ioc": 0.9830364715860899,
+     "text": "T-W-E-N-T-I-E-S-T-EO-E-S-AE-H-H-M-N-EA-X-W-L-O-L-T-C-F-W-A-C-T-B-O-F-S-IA-A-B-R-W-H-S-IA-NG-F-S-OE-D-P-H-B-W-U-T-M-T-H-R-R-OE-I-E-TH-J-EA-A-F-T-R-EO-W-C-A-L-IA-IA-TH-E-T-IA-T-W-U-EO-I-U-A-D-O-U-H-I-I-F-S-EO-U-L-B-O-W-C-D-NG-P-T-O-L-E-J-TH-R-M-M-EO-D-EA-X-Y-X-C"
+    },
+    {
+     "key": [
+      2,
+      88608,
+      571783,
+      -1
+     ],
+     "base": "PHOTOGRAPHERS:R3",
+     "g": "kwgrid:FHWBYYGH:R2:bou:k4",
+     "sigma": "-",
+     "pref_lm": -4.3414,
+     "full_lm": -4.549127725856698,
+     "quad": -7.397488898910851,
+     "ioc": 0.9855810008481765,
+     "text": "R-A-M-B-E-R-G-E-M-EO-P-T-NG-L-S-E-E-T-NG-W-L-N-W-M-H-U-F-B-EO-R-H-N-U-IA-O-N-J-C-E-S-M-O-G-U-I-X-NG-AE-L-B-F-S-X-EA-R-T-IA-C-N-E-P-A-H-X-M-U-D-C-I-EO-R-N-NG-O-O-F-D-R-O-A-EO-I-P-R-NG-N-A-L-IA-B-D-X-U-G-P-S-NG-N-S-EO-P-A-F-X-A-EA-NG-D-B-F-E-B-T-P-IA-L-IA-EO-N-R"
+    },
+    {
+     "key": [
+      2,
+      194900,
+      1044196,
+      -1
+     ],
+     "base": "CLASSY:R1",
+     "g": "pow:ARRIUAL:R3:k1",
+     "sigma": "-",
+     "pref_lm": -4.4215,
+     "full_lm": -4.559797507788161,
+     "quad": -7.505283502004011,
+     "ioc": 1.0271416454622562,
+     "text": "I-B-S-E-N-I-S-H-N-B-A-P-NG-L-T-EA-C-G-H-T-P-R-Y-N-X-EO-D-R-G-I-O-R-EO-Y-M-L-P-C-S-OE-C-M-N-EO-NG-G-TH-U-L-E-B-W-X-R-I-R-NG-C-I-N-A-B-I-O-EA-EO-E-C-H-B-E-R-NG-M-M-D-B-P-M-I-A-W-B-I-W-R-D-L-W-H-E-X-EO-C-A-W-NG-I-OE-D-J-D-J-U-I-T-NG-D-E-B-C-R-TH-D-OE-G-H-G-IA-E"
+    },
+    {
+     "key": [
+      2,
+      86606,
+      244,
+      -1
+     ],
+     "base": "HIRNG:R4",
+     "g": "oost:0,1,13,27",
+     "sigma": "-",
+     "pref_lm": -4.3971,
+     "full_lm": -4.55990031152648,
+     "quad": -7.29192394893821,
+     "ioc": 0.9881255301102629,
+     "text": "T-W-E-N-T-I-E-S-T-EO-E-S-M-H-P-M-N-EA-P-W-L-O-L-T-C-F-R-A-C-T-B-O-F-S-IA-A-B-R-W-P-S-IA-NG-F-H-OE-D-TH-H-B-W-U-T-M-T-H-A-R-OE-I-E-TH-J-EA-A-F-T-R-EO-EO-I-O-M-IA-IA-R-D-NG-IA-NG-EO-U-E-T-U-O-AE-H-U-X-T-T-F-L-E-U-M-OE-P-N-I-AE-Y-E-NG-H-M-L-B-W-N-A-M-N-D-EA-P-Y-X-C"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1827 @@
+[
+ {
+  "oid": 37,
+  "cid": 4782,
+  "model": 198144,
+  "test": "a",
+  "stat": 8.62,
+  "n": 11,
+  "model_name": "chain[dlog3,sh6,u-s]",
+  "traj": [
+   [
+    15.075,
+    17,
+    5
+   ],
+   [
+    16.779,
+    20,
+    25
+   ],
+   [
+    18.896,
+    22,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 24,
+  "cid": 48952,
+  "model": 1536,
+  "test": "a",
+  "stat": 8.62,
+  "n": 11,
+  "model_name": "chain[s-1,sh6,u-s]",
+  "traj": [
+   [
+    16.215,
+    18,
+    5
+   ],
+   [
+    16.47,
+    20,
+    25
+   ],
+   [
+    19.986,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 29645,
+  "model": 201728,
+  "test": "a",
+  "stat": 8.6,
+  "n": 9,
+  "model_name": "chain[dlog3,sh20,u-s]",
+  "traj": [
+   [
+    14.01,
+    14,
+    5
+   ],
+   [
+    19.233,
+    18,
+    25
+   ],
+   [
+    18.123,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 4,
+  "cid": 25891,
+  "model": 134400,
+  "test": "a",
+  "stat": 8.6,
+  "n": 9,
+  "model_name": "chain[dlog2,sh13,u-s]",
+  "traj": [
+   [
+    12.495,
+    11,
+    5
+   ],
+   [
+    16.489,
+    14,
+    25
+   ],
+   [
+    19.853,
+    18,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 50,
+  "cid": 7466,
+  "model": 594689,
+  "test": "a",
+  "stat": 8.32,
+  "n": 10,
+  "model_name": "chain[dlog18,sh19,u+s]",
+  "traj": [
+   [
+    15.07,
+    14,
+    5
+   ],
+   [
+    19.157,
+    17,
+    25
+   ],
+   [
+    21.006,
+    21,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 48,
+  "cid": 14877,
+  "model": 463617,
+  "test": "a",
+  "stat": 8.14,
+  "n": 12,
+  "model_name": "chain[dlog14,sh19,u+s]",
+  "traj": [
+   [
+    14.053,
+    14,
+    5
+   ],
+   [
+    18.478,
+    18,
+    25
+   ],
+   [
+    16.626,
+    28,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 38,
+  "cid": 38206,
+  "model": 660993,
+  "test": "a",
+  "stat": 7.85,
+  "n": 15,
+  "model_name": "chain[dlog19,sh22,u+s]",
+  "traj": [
+   [
+    12.745,
+    20,
+    5
+   ],
+   [
+    15.271,
+    24,
+    25
+   ],
+   [
+    16.398,
+    26,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 59,
+  "cid": 14186,
+  "model": 769,
+  "test": "a",
+  "stat": 7.79,
+  "n": 16,
+  "model_name": "chain[s-1,sh3,u+s]",
+  "traj": [
+   [
+    15.515,
+    19,
+    5
+   ],
+   [
+    17.72,
+    24,
+    25
+   ],
+   [
+    18.399,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 59,
+  "cid": 11742,
+  "model": 6400,
+  "test": "a",
+  "stat": 7.79,
+  "n": 16,
+  "model_name": "chain[s-1,sh25,u-s]",
+  "traj": [
+   [
+    14.866,
+    19,
+    5
+   ],
+   [
+    17.361,
+    24,
+    25
+   ],
+   [
+    17.495,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 75844,
+  "model": 197889,
+  "test": "a",
+  "stat": 7.66,
+  "n": 13,
+  "model_name": "chain[dlog3,sh5,u+s]",
+  "traj": [
+   [
+    13.83,
+    15,
+    5
+   ],
+   [
+    17.167,
+    19,
+    25
+   ],
+   [
+    19.715,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 75850,
+  "model": 196609,
+  "test": "a",
+  "stat": 7.66,
+  "n": 13,
+  "model_name": "chain[dlog3,sh0,u+s]",
+  "traj": [
+   [
+    13.655,
+    15,
+    5
+   ],
+   [
+    16.991,
+    19,
+    25
+   ],
+   [
+    19.414,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 27,
+  "cid": 3007,
+  "model": 6400,
+  "test": "a",
+  "stat": 7.66,
+  "n": 13,
+  "model_name": "chain[s-1,sh25,u-s]",
+  "traj": [
+   [
+    16.576,
+    17,
+    5
+   ],
+   [
+    18.777,
+    23,
+    25
+   ],
+   [
+    20.834,
+    28,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 24,
+  "cid": 70721,
+  "model": 151191808,
+  "test": "a",
+  "stat": 7.58,
+  "n": 11,
+  "model_name": "gf[off3,rev,D/x].dlog",
+  "traj": [
+   [
+    15.156,
+    18,
+    5
+   ],
+   [
+    16.148,
+    20,
+    25
+   ],
+   [
+    18.813,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 38,
+  "cid": 19178,
+  "model": 267265,
+  "test": "a",
+  "stat": 7.54,
+  "n": 11,
+  "model_name": "chain[dlog8,sh20,u+s]",
+  "traj": [
+   [
+    14.972,
+    15,
+    5
+   ],
+   [
+    18.102,
+    20,
+    25
+   ],
+   [
+    20.48,
+    24,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 5,
+  "cid": 22080,
+  "model": 656640,
+  "test": "a",
+  "stat": 7.54,
+  "n": 12,
+  "model_name": "chain[dlog19,sh5,u-s]",
+  "traj": [
+   [
+    13.775,
+    15,
+    5
+   ],
+   [
+    15.908,
+    17,
+    25
+   ],
+   [
+    18.466,
+    20,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 48,
+  "cid": 14877,
+  "model": 463873,
+  "test": "a",
+  "stat": 7.54,
+  "n": 12,
+  "model_name": "chain[dlog14,sh20,u+s]",
+  "traj": [
+   [
+    13.114,
+    14,
+    5
+   ],
+   [
+    17.095,
+    18,
+    25
+   ],
+   [
+    14.839,
+    28,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 5,
+  "cid": 6488,
+  "model": 262145,
+  "test": "a",
+  "stat": 7.54,
+  "n": 12,
+  "model_name": "chain[dlog8,sh0,u+s]",
+  "traj": [
+   [
+    14.327,
+    15,
+    5
+   ],
+   [
+    17.213,
+    17,
+    25
+   ],
+   [
+    18.68,
+    20,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 27136,
+  "model": 589825,
+  "test": "a",
+  "stat": 7.52,
+  "n": 9,
+  "model_name": "chain[dlog18,sh0,u+s]",
+  "traj": [
+   [
+    13.604,
+    14,
+    5
+   ],
+   [
+    18.01,
+    18,
+    25
+   ],
+   [
+    18.104,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 22,
+  "cid": 5148,
+  "model": 203265,
+  "test": "a",
+  "stat": 7.52,
+  "n": 9,
+  "model_name": "chain[dlog3,sh26,u+s]",
+  "traj": [
+   [
+    13.985,
+    12,
+    5
+   ],
+   [
+    19.082,
+    17,
+    25
+   ],
+   [
+    20.507,
+    21,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 35076,
+  "model": 136448,
+  "test": "a",
+  "stat": 7.52,
+  "n": 9,
+  "model_name": "chain[dlog2,sh21,u-s]",
+  "traj": [
+   [
+    12.741,
+    13,
+    5
+   ],
+   [
+    16.216,
+    16,
+    25
+   ],
+   [
+    18.189,
+    20,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 50,
+  "cid": 27552,
+  "model": 595968,
+  "test": "a",
+  "stat": 7.41,
+  "n": 10,
+  "model_name": "chain[dlog18,sh24,u-s]",
+  "traj": [
+   [
+    14.608,
+    14,
+    5
+   ],
+   [
+    17.815,
+    17,
+    25
+   ],
+   [
+    20.418,
+    21,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 53,
+  "cid": 7369,
+  "model": 134401,
+  "test": "a",
+  "stat": 7.41,
+  "n": 10,
+  "model_name": "chain[dlog2,sh13,u+s]",
+  "traj": [
+   [
+    9.839,
+    21,
+    5
+   ],
+   [
+    11.998,
+    24,
+    25
+   ],
+   [
+    13.423,
+    26,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 50,
+  "cid": 27552,
+  "model": 589824,
+  "test": "a",
+  "stat": 7.41,
+  "n": 10,
+  "model_name": "chain[dlog18,sh0,u-s]",
+  "traj": [
+   [
+    13.551,
+    14,
+    5
+   ],
+   [
+    16.146,
+    17,
+    25
+   ],
+   [
+    18.339,
+    21,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 60,
+  "cid": 1067,
+  "model": 589824,
+  "test": "a",
+  "stat": 7.41,
+  "n": 10,
+  "model_name": "chain[dlog18,sh0,u-s]",
+  "traj": [
+   [
+    13.853,
+    13,
+    5
+   ],
+   [
+    17.238,
+    16,
+    25
+   ],
+   [
+    19.133,
+    20,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 24,
+  "cid": 80841,
+  "model": 202240,
+  "test": "a",
+  "stat": 7.32,
+  "n": 11,
+  "model_name": "chain[dlog3,sh22,u-s]",
+  "traj": [
+   [
+    15.832,
+    18,
+    5
+   ],
+   [
+    17.104,
+    20,
+    25
+   ],
+   [
+    19.646,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 31306,
+  "model": 2560,
+  "test": "a",
+  "stat": 7.3,
+  "n": 9,
+  "model_name": "chain[s-1,sh10,u-s]",
+  "traj": [
+   [
+    13.408,
+    14,
+    5
+   ],
+   [
+    17.195,
+    18,
+    25
+   ],
+   [
+    17.663,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 31349,
+  "model": 2816,
+  "test": "a",
+  "stat": 7.3,
+  "n": 9,
+  "model_name": "chain[s-1,sh11,u-s]",
+  "traj": [
+   [
+    13.411,
+    14,
+    5
+   ],
+   [
+    18.273,
+    18,
+    25
+   ],
+   [
+    18.88,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 60,
+  "cid": 5639,
+  "model": 151257344,
+  "test": "a",
+  "stat": 7.29,
+  "n": 10,
+  "model_name": "gf[off4,rev,D/x].dlog",
+  "traj": [
+   [
+    12.017,
+    13,
+    5
+   ],
+   [
+    15.853,
+    16,
+    25
+   ],
+   [
+    18.395,
+    20,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 58,
+  "cid": 4935,
+  "model": 17367297,
+  "test": "a",
+  "stat": 7.25,
+  "n": 7,
+  "model_name": "gf[off9,rev,x/D].raw",
+  "traj": [
+   [
+    13.057,
+    11,
+    5
+   ],
+   [
+    19.673,
+    17,
+    25
+   ],
+   [
+    21.417,
+    19,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 53783,
+  "model": 17301504,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off8,fwd,D/x].raw",
+  "traj": [
+   [
+    15.024,
+    16,
+    5
+   ],
+   [
+    19.408,
+    20,
+    25
+   ],
+   [
+    19.774,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 67496,
+  "model": 16908288,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off2,fwd,D/x].raw",
+  "traj": [
+   [
+    14.666,
+    15,
+    5
+   ],
+   [
+    17.26,
+    19,
+    25
+   ],
+   [
+    19.404,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 0,
+  "cid": 4668,
+  "model": 17629441,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off13,rev,x/D].raw",
+  "traj": [
+   [
+    14.52,
+    17,
+    5
+   ],
+   [
+    17.711,
+    20,
+    25
+   ],
+   [
+    18.667,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 53749,
+  "model": 17301504,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off8,fwd,D/x].raw",
+  "traj": [
+   [
+    14.062,
+    16,
+    5
+   ],
+   [
+    17.277,
+    20,
+    25
+   ],
+   [
+    18.314,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 12,
+  "cid": 14804,
+  "model": 17498112,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off11,fwd,D/x].raw",
+  "traj": [
+   [
+    14.455,
+    16,
+    5
+   ],
+   [
+    16.917,
+    18,
+    25
+   ],
+   [
+    16.642,
+    27,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 53931,
+  "model": 17301504,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off8,fwd,D/x].raw",
+  "traj": [
+   [
+    13.394,
+    16,
+    5
+   ],
+   [
+    17.058,
+    20,
+    25
+   ],
+   [
+    17.714,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 65623,
+  "model": 17629441,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off13,rev,x/D].raw",
+  "traj": [
+   [
+    14.228,
+    16,
+    5
+   ],
+   [
+    18.369,
+    20,
+    25
+   ],
+   [
+    19.748,
+    23,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 27,
+  "cid": 12023,
+  "model": 16842753,
+  "test": "a",
+  "stat": 7.18,
+  "n": 13,
+  "model_name": "gf[off1,fwd,x/D].raw",
+  "traj": [
+   [
+    15.022,
+    17,
+    5
+   ],
+   [
+    16.948,
+    23,
+    25
+   ],
+   [
+    18.907,
+    28,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 39,
+  "cid": 11426,
+  "model": 17170433,
+  "test": "a",
+  "stat": 7.08,
+  "n": 12,
+  "model_name": "gf[off6,fwd,x/D].raw",
+  "traj": [
+   [
+    15.496,
+    17,
+    5
+   ],
+   [
+    17.826,
+    24,
+    25
+   ],
+   [
+    18.695,
+    30,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 48,
+  "cid": 17764,
+  "model": 17301505,
+  "test": "a",
+  "stat": 7.08,
+  "n": 12,
+  "model_name": "gf[off8,fwd,x/D].raw",
+  "traj": [
+   [
+    14.426,
+    14,
+    5
+   ],
+   [
+    17.78,
+    18,
+    25
+   ],
+   [
+    15.307,
+    28,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 38,
+  "cid": 27128,
+  "model": 67110400,
+  "test": "a",
+  "stat": 7.04,
+  "n": 12,
+  "model_name": "vig c-p skip@5",
+  "traj": [
+   [
+    15.115,
+    16,
+    5
+   ],
+   [
+    18.006,
+    21,
+    25
+   ],
+   [
+    19.183,
+    25,
+    25
+   ]
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 30616,
+  "model": 463873,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog14,sh20,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 38729,
+  "model": 462848,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog14,sh16,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 6665,
+  "model": 459520,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog14,sh3,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 36158,
+  "model": 17105153,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off5,rev,x/D].raw",
+  "traj": [
+   [
+    11.0,
+    11,
+    4
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 15066,
+  "model": 591104,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh5,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 15244,
+  "model": 591104,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh5,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 21320,
+  "model": 151453696,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off7,fwd,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 30,
+  "cid": 22518,
+  "model": 17432577,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off10,fwd,x/D].raw",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 23397,
+  "model": 150995200,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off0,rev,D/x].dlog",
+  "traj": [
+   [
+    11.0,
+    11,
+    5
+   ],
+   [
+    14.0,
+    14,
+    6
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 35551,
+  "model": 266240,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog8,sh16,u-s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    4
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 28578,
+  "model": 1280,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[s-1,sh5,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 4,
+  "cid": 11940,
+  "model": 200193,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh14,u+s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 22,
+  "cid": 8029,
+  "model": 151257344,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off4,rev,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 35409,
+  "model": 592640,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh11,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 41102,
+  "model": 199424,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh11,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 3,
+  "cid": 4929,
+  "model": 658945,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog19,sh14,u+s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    2
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 31,
+  "cid": 6757,
+  "model": 17498368,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off11,rev,D/x].raw",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 38864,
+  "model": 263681,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog8,sh6,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 26538,
+  "model": 589825,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh0,u+s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 52,
+  "cid": 42661,
+  "model": 67110912,
+  "test": "b",
+  "stat": 9,
+  "n": 9,
+  "model_name": "vig c-p skip@7",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 31766,
+  "model": 17236225,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off7,rev,x/D].raw",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 35261,
+  "model": 591105,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh5,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 27753,
+  "model": 593409,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh14,u+s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 35240,
+  "model": 197377,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh3,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 17149,
+  "model": 131073,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog2,sh0,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 22,
+  "cid": 5624,
+  "model": 151126272,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off2,rev,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 15,
+  "cid": 1396,
+  "model": 590081,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog18,sh1,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 39462,
+  "model": 4865,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[s-1,sh19,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 30,
+  "cid": 26578,
+  "model": 462081,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog14,sh13,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 36345,
+  "model": 203264,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh26,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 47,
+  "cid": 21571,
+  "model": 67175168,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "beau c+p skip@2",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 30,
+  "cid": 30942,
+  "model": 268800,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog8,sh26,u-s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 39488,
+  "model": 4865,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[s-1,sh19,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 31,
+  "cid": 8114,
+  "model": 660480,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog19,sh20,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 40397,
+  "model": 151585024,
+  "test": "c",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off9,rev,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 52,
+  "cid": 17002,
+  "model": 267265,
+  "test": "c",
+  "stat": 8,
+  "n": 8,
+  "model_name": "chain[dlog8,sh20,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 56,
+  "cid": 2405,
+  "model": 17498113,
+  "test": "c",
+  "stat": 8,
+  "n": 8,
+  "model_name": "gf[off11,fwd,x/D].raw",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 11,
+  "cid": 12071,
+  "model": 658177,
+  "test": "c",
+  "stat": 8,
+  "n": 8,
+  "model_name": "chain[dlog19,sh11,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 40,
+  "cid": 10548,
+  "model": 4865,
+  "test": "c",
+  "stat": 8,
+  "n": 8,
+  "model_name": "chain[s-1,sh19,u+s]",
+  "traj": [
+   [
+    10.0,
+    10,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 47,
+  "cid": 5173,
+  "model": 462336,
+  "test": "c",
+  "stat": 8,
+  "n": 8,
+  "model_name": "chain[dlog14,sh14,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 4,
+  "cid": 27145,
+  "model": 199424,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh11,u-s]",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 25745,
+  "model": 135681,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog2,sh18,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 29285,
+  "model": 151585024,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off9,rev,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 16,
+  "cid": 765,
+  "model": 151716096,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off11,rev,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 28,
+  "cid": 34412,
+  "model": 199169,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh10,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 15,
+  "cid": 8900,
+  "model": 3328,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[s-1,sh13,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 24292,
+  "model": 202752,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh24,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 12535,
+  "model": 151257088,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off4,fwd,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 22,
+  "cid": 1586,
+  "model": 132608,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog2,sh6,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 33791,
+  "model": 199168,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh10,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 22,
+  "cid": 6682,
+  "model": 265985,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog8,sh15,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 6,
+  "cid": 22073,
+  "model": 151191552,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off3,fwd,D/x].dlog",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 31841,
+  "model": 263425,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog8,sh5,u+s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 31880,
+  "model": 462080,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog14,sh13,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 20,
+  "cid": 6231,
+  "model": 17432576,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off10,fwd,D/x].raw",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 41,
+  "cid": 9354,
+  "model": 17170432,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off6,fwd,D/x].raw",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 25,
+  "cid": 34983,
+  "model": 137728,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog2,sh26,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 55,
+  "cid": 5043,
+  "model": 200192,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "chain[dlog3,sh14,u-s]",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 11,
+  "cid": 11608,
+  "model": 67109888,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "vig c-p skip@3",
+  "traj": [
+   null
+  ]
+ },
+ {
+  "oid": 30,
+  "cid": 18204,
+  "model": 151650560,
+  "test": "e",
+  "stat": 9,
+  "n": 9,
+  "model_name": "gf[off10,rev,D/x].dlog",
+  "traj": [
+   [
+    11.0,
+    11,
+    1
+   ],
+   null
+  ]
+ }
+]

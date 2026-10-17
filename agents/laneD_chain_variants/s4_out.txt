@@ -1,0 +1,22 @@
+== Formal bound: key independent of the transformed text q  =>  P(doublet) = sum_x P_X(x) P_d(-x) >= min_x P_X(x), X=q_i-q_{i-1} ==
+  solved Cicada pages (1769 runes)         min_x P_X = 0.0158 at x=18 ; P_X(0)=0.0277 ; IoC28 of nonzero X = 1.157
+  technical English->runes (354k runes)    min_x P_X = 0.0132 at x=18 ; P_X(0)=0.0349 ; IoC28 of nonzero X = 1.103
+  Markov(bigram) plaintext 200k            min_x P_X = 0.0163 at x=25 ; P_X(0)=0.0279 ; IoC28 of nonzero X = 1.151
+  real doublet rate 0.0067 (se 0.0007).
+  So for q = plain letters, ANY independent key gives rate >= 0.0132 => real is -9.1 se below the bound.
+  Fourier: need |phi_X(t)|>=0.0278 for all t!=0 (|phi_D(t)|=1/29-eps for hole-flat D, |phi_d|<=1); technical English: min|phi_X|=0.0142 (t=9), #t violating=4/28
+  Fourier: need |phi_X(t)|>=0.0278 for all t!=0 (|phi_D(t)|=1/29-eps for hole-flat D, |phi_d|<=1); solved pages: min|phi_X|=0.0090 (t=10), #t violating=2/28
+  real |phi_D(t)| mean over t=0.0298 (chain prediction 0.0278), min 0.0165 max 0.0438; noise sd per t ~ 0.0088
+
+== Positive/negative controls: synthetic ciphertext on Markov plaintext, real page lengths ==
+REAL: dbl 0.0067 | D-IoC28 1.001 | IoC 1.000
+raw plaintext + flat iid key (reference OTP)         dbl 0.0344 (z vs real  -17.3) | D-IoC28 1.000 | IoC 1.000
+4a collapse-runs q + flat iid key                    dbl 0.0355 (z vs real  -17.7) | D-IoC28 1.000 | IoC 1.000
+4b bump(+1) q + flat iid key                         dbl 0.0348 (z vs real  -17.4) | D-IoC28 1.000 | IoC 1.000
+4c raw plaintext + non-repeating iid key             dbl 0.0356 (z vs real  -17.7) | D-IoC28 1.000 | IoC 1.000
+4d collapse q + Vigenere keyword L=7                 dbl 0.0349 (z vs real  -17.5) | D-IoC28 1.001 | IoC 1.002
+4d collapse q + Vigenere keyword L=13                dbl 0.0348 (z vs real  -17.4) | D-IoC28 1.001 | IoC 1.002
+4e collapse q + piecewise-const key (change p=.18)   dbl 0.0064 (z vs real    0.4) | D-IoC28 1.102 | IoC 1.000
+4f collapse q + piecewise-const key (change p=.05)   dbl 0.0021 (z vs real   11.4) | D-IoC28 1.131 | IoC 1.002
+4g bump q + optimal-walk key (cancels rarest X=4)    dbl 0.0269 (z vs real  -14.2) | D-IoC28 1.055 | IoC 1.000
+REFERENCE keyed chain (EA-zero)                      dbl 0.0106 | D-IoC28 0.999 | IoC 0.999

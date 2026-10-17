@@ -1,0 +1,8 @@
+PT.L.prime|L|rev0|rune-contA|m28 0 431 planted= (459.96372331006876, 1.7935143344590154, 431, 12838, 0) max_other_z=460.0 top= PT.L.prime|L|rev0|rune-contA|m28
+CT.L.index|L|rev1|rune-pageB|m29 1 450 planted= (547.0583294519109, 1.7649519926430293, 450, 12955, 1) max_other_z=547.1 top= CT.L.index|L|rev1|rune-pageB|m28
+PT.W.sum|W|rev0|word-cont|m28 0 300 planted= (898.5990361758425, 1.7670560681810477, 300, 12955, 0) max_other_z=898.6 top= PT.W.sum|W|rev0|word-cont|m28
+CT.W.totient|Wx|rev0|rune-contB|m29 2 350 planted= (863.0061523232164, 1.75961198543026, 350, 12596, 2) max_other_z=90.2 top= CT.W.totient|Wx|rev0|rune-contB|m29
+PT.W.cumsum|Wx|rev0|rune-contA|m29 3 400 planted= (1225.3377060583011, 1.7879343328147321, 400, 12368, 3) max_other_z=6.6 top= PT.W.cumsum|Wx|rev0|rune-contA|m29
+CT.L.cumprime|L|rev0|rune-pageB|m28 1 440 planted= (418.9746897342375, 1.7647511930557118, 440, 12955, 1) max_other_z=142.8 top= CT.L.cumprime|L|rev0|rune-pageB|m28
+PT.W.pi|W|rev1|word-page|m29 3 200 planted= (144.916093905091, 1.7578692811327938, 200, 12736, 3) max_other_z=154.8 top= CT.W.pi|W|rev1|word-page|m29
+RAW:PT.L.index|L|rev0|rune-contB|m29 4 500 planted= (507.9984170472818, 1.7655118813374429, 500, 12955, 4) max_other_z=152.4 top= RAW:PT.L.index|L|rev0|rune-contB|m29

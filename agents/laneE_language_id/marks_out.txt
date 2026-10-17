@@ -1,0 +1,21 @@
+words 2896 sentences 175 overall mean 4.474 first mean 4.429 last mean 4.291
+observed first mean,last mean, first==2, last==2, first>=7, last>=7: [4.429 4.291 0.183 0.16  0.2   0.16 ]
+random-placement null mean: [4.492 4.47  0.154 0.154 0.198 0.192] sd: [0.169 0.168 0.026 0.026 0.029 0.029]
+z: [-0.38 -1.06  1.08  0.25  0.09 -1.11]
+Cicero Tusculan (English tr.)    mean z(first),z(last) of 175-sentence windows vs random mark placement: [-4.93  5.07]
+Emerson Essays I                 mean z(first),z(last) of 175-sentence windows vs random mark placement: [-4.52  7.27]
+Moby Dick                        mean z(first),z(last) of 175-sentence windows vs random mark placement: [-3.79  3.81]
+Plato Republic (Jowett)          mean z(first),z(last) of 175-sentence windows vs random mark placement: [-3.76  7.51]
+Gospel of Buddha (Carus)         mean z(first),z(last) of 175-sentence windows vs random mark placement: [-0.31  4.17]
+Dutch: bible-corpus              mean z(first),z(last) of 175-sentence windows vs random mark placement: [-4.48 10.55]
+Agrippa Occult Phil I            mean z(first),z(last) of 175-sentence windows vs random mark placement: [-2.22  3.  ]
+sentence length bins [1, 2, 4, 7, 11, 17, 26, 40, 60, 1000000]
+obs [2, 23, 28, 27, 26, 29, 28, 7, 5]
+geometric exp [10.6, 19.3, 24.8, 26.6, 29.3, 27.7, 21.4, 11.0, 4.4] chi2=12.0 df=8
+p(chi2>=obs | random placement)= 0.1008
+variance/mean of sentence length: obs sd 14.7 mean 16.5 ; random-placement sd 15.8
+Cicero Tusculan (English tr.) sentence length mean 22.7 sd 21.0 (CV 0.93); random geometric CV ~ 1.00 ; obs unsolved CV 0.89
+Moby Dick sentence length mean 17.8 sd 17.8 (CV 1.00); random geometric CV ~ 1.00 ; obs unsolved CV 0.89
+Emerson Essays I sentence length mean 17.9 sd 13.0 (CV 0.73); random geometric CV ~ 1.00 ; obs unsolved CV 0.89
+marks: 164 at line end: 0.165 (expected for random: ~ 0.051 )
+relative position in line mean 0.636 (uniform 0.5), hist(5): [10 25 37 35 57]

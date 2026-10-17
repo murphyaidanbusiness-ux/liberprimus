@@ -1,0 +1,1046 @@
+[
+[
+"py2 hash64 CICADA3301 == real 2.7.3 value",
+true
+],
+[
+"py2.7 seed('CICADA3301') random29",
+true
+],
+[
+"py2.7 seed('CICADA3301') grb5_rej",
+true
+],
+[
+"py2.7 seed('3301') random29",
+true
+],
+[
+"py2.7 seed('3301') grb5_rej",
+true
+],
+[
+"py2.7 seed('DIVINITY') random29",
+true
+],
+[
+"py2.7 seed('DIVINITY') grb5_rej",
+true
+],
+[
+"py2.7 seed('THE PRIMES ARE SACRED') random29",
+true
+],
+[
+"py2.7 seed('THE PRIMES ARE SACRED') grb5_rej",
+true
+],
+[
+"py2.7 seed('cicada3301') random29",
+true
+],
+[
+"py2.7 seed('cicada3301') grb5_rej",
+true
+],
+[
+"py2.7 seed('an end') random29",
+true
+],
+[
+"py2.7 seed('an end') grb5_rej",
+true
+],
+[
+"py2.7 seed('ky2khlqdf7qdznac') random29",
+true
+],
+[
+"py2.7 seed('ky2khlqdf7qdznac') grb5_rej",
+true
+],
+[
+"py3 randrange(29) 0",
+true
+],
+[
+"py3 choice 0",
+true
+],
+[
+"py3 getrandbits(5)%29 0",
+true
+],
+[
+"py int(random()*29) 0",
+true
+],
+[
+"model b py3 0",
+true
+],
+[
+"model c py3 0",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 0",
+true
+],
+[
+"model s py3 shuffle 0",
+true
+],
+[
+"model e py3 0",
+true
+],
+[
+"py3 randrange(29) 1",
+true
+],
+[
+"py3 choice 1",
+true
+],
+[
+"py3 getrandbits(5)%29 1",
+true
+],
+[
+"py int(random()*29) 1",
+true
+],
+[
+"model b py3 1",
+true
+],
+[
+"model c py3 1",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 1",
+true
+],
+[
+"model s py3 shuffle 1",
+true
+],
+[
+"model e py3 1",
+true
+],
+[
+"py3 randrange(29) 42",
+true
+],
+[
+"py3 choice 42",
+true
+],
+[
+"py3 getrandbits(5)%29 42",
+true
+],
+[
+"py int(random()*29) 42",
+true
+],
+[
+"model b py3 42",
+true
+],
+[
+"model c py3 42",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 42",
+true
+],
+[
+"model s py3 shuffle 42",
+true
+],
+[
+"model e py3 42",
+true
+],
+[
+"py3 randrange(29) 3301",
+true
+],
+[
+"py3 choice 3301",
+true
+],
+[
+"py3 getrandbits(5)%29 3301",
+true
+],
+[
+"py int(random()*29) 3301",
+true
+],
+[
+"model b py3 3301",
+true
+],
+[
+"model c py3 3301",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 3301",
+true
+],
+[
+"model s py3 shuffle 3301",
+true
+],
+[
+"model e py3 3301",
+true
+],
+[
+"py3 randrange(29) 1033",
+true
+],
+[
+"py3 choice 1033",
+true
+],
+[
+"py3 getrandbits(5)%29 1033",
+true
+],
+[
+"py int(random()*29) 1033",
+true
+],
+[
+"model b py3 1033",
+true
+],
+[
+"model c py3 1033",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 1033",
+true
+],
+[
+"model s py3 shuffle 1033",
+true
+],
+[
+"model e py3 1033",
+true
+],
+[
+"py3 randrange(29) 123456789",
+true
+],
+[
+"py3 choice 123456789",
+true
+],
+[
+"py3 getrandbits(5)%29 123456789",
+true
+],
+[
+"py int(random()*29) 123456789",
+true
+],
+[
+"model b py3 123456789",
+true
+],
+[
+"model c py3 123456789",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 123456789",
+true
+],
+[
+"model s py3 shuffle 123456789",
+true
+],
+[
+"model e py3 123456789",
+true
+],
+[
+"py3 randrange(29) 4294967301",
+true
+],
+[
+"py3 choice 4294967301",
+true
+],
+[
+"py3 getrandbits(5)%29 4294967301",
+true
+],
+[
+"py int(random()*29) 4294967301",
+true
+],
+[
+"model b py3 4294967301",
+true
+],
+[
+"model c py3 4294967301",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 4294967301",
+true
+],
+[
+"model s py3 shuffle 4294967301",
+true
+],
+[
+"model e py3 4294967301",
+true
+],
+[
+"py3 randrange(29) 1099511627783",
+true
+],
+[
+"py3 choice 1099511627783",
+true
+],
+[
+"py3 getrandbits(5)%29 1099511627783",
+true
+],
+[
+"py int(random()*29) 1099511627783",
+true
+],
+[
+"model b py3 1099511627783",
+true
+],
+[
+"model c py3 1099511627783",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 1099511627783",
+true
+],
+[
+"model s py3 shuffle 1099511627783",
+true
+],
+[
+"model e py3 1099511627783",
+true
+],
+[
+"py3 randrange(29) 'cicada'",
+true
+],
+[
+"py3 choice 'cicada'",
+true
+],
+[
+"py3 getrandbits(5)%29 'cicada'",
+true
+],
+[
+"py int(random()*29) 'cicada'",
+true
+],
+[
+"model b py3 'cicada'",
+true
+],
+[
+"model c py3 'cicada'",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 'cicada'",
+true
+],
+[
+"model s py3 shuffle 'cicada'",
+true
+],
+[
+"model e py3 'cicada'",
+true
+],
+[
+"py3 randrange(29) '3301'",
+true
+],
+[
+"py3 choice '3301'",
+true
+],
+[
+"py3 getrandbits(5)%29 '3301'",
+true
+],
+[
+"py int(random()*29) '3301'",
+true
+],
+[
+"model b py3 '3301'",
+true
+],
+[
+"model c py3 '3301'",
+true
+],
+[
+"model d py3 (choice of list w/o prev) '3301'",
+true
+],
+[
+"model s py3 shuffle '3301'",
+true
+],
+[
+"model e py3 '3301'",
+true
+],
+[
+"py3 randrange(29) 'Liber Primus'",
+true
+],
+[
+"py3 choice 'Liber Primus'",
+true
+],
+[
+"py3 getrandbits(5)%29 'Liber Primus'",
+true
+],
+[
+"py int(random()*29) 'Liber Primus'",
+true
+],
+[
+"model b py3 'Liber Primus'",
+true
+],
+[
+"model c py3 'Liber Primus'",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 'Liber Primus'",
+true
+],
+[
+"model s py3 shuffle 'Liber Primus'",
+true
+],
+[
+"model e py3 'Liber Primus'",
+true
+],
+[
+"py3 randrange(29) b'\\x00\\xffab'",
+true
+],
+[
+"py3 choice b'\\x00\\xffab'",
+true
+],
+[
+"py3 getrandbits(5)%29 b'\\x00\\xffab'",
+true
+],
+[
+"py int(random()*29) b'\\x00\\xffab'",
+true
+],
+[
+"model b py3 b'\\x00\\xffab'",
+true
+],
+[
+"model c py3 b'\\x00\\xffab'",
+true
+],
+[
+"model d py3 (choice of list w/o prev) b'\\x00\\xffab'",
+true
+],
+[
+"model s py3 shuffle b'\\x00\\xffab'",
+true
+],
+[
+"model e py3 b'\\x00\\xffab'",
+true
+],
+[
+"py3 randrange(29) 'DIVINITY'",
+true
+],
+[
+"py3 choice 'DIVINITY'",
+true
+],
+[
+"py3 getrandbits(5)%29 'DIVINITY'",
+true
+],
+[
+"py int(random()*29) 'DIVINITY'",
+true
+],
+[
+"model b py3 'DIVINITY'",
+true
+],
+[
+"model c py3 'DIVINITY'",
+true
+],
+[
+"model d py3 (choice of list w/o prev) 'DIVINITY'",
+true
+],
+[
+"model s py3 shuffle 'DIVINITY'",
+true
+],
+[
+"model e py3 'DIVINITY'",
+true
+],
+[
+"numpy randint(0,29) 0",
+true
+],
+[
+"numpy random_sample*29 0",
+true
+],
+[
+"model d numpy 0",
+true
+],
+[
+"numpy randint(0,29) 1",
+true
+],
+[
+"numpy random_sample*29 1",
+true
+],
+[
+"model d numpy 1",
+true
+],
+[
+"numpy randint(0,29) 42",
+true
+],
+[
+"numpy random_sample*29 42",
+true
+],
+[
+"model d numpy 42",
+true
+],
+[
+"numpy randint(0,29) 3301",
+true
+],
+[
+"numpy random_sample*29 3301",
+true
+],
+[
+"model d numpy 3301",
+true
+],
+[
+"numpy randint(0,29) 2147483659",
+true
+],
+[
+"numpy random_sample*29 2147483659",
+true
+],
+[
+"model d numpy 2147483659",
+true
+],
+[
+"numpy randint(0,29) 4294967295",
+true
+],
+[
+"numpy random_sample*29 4294967295",
+true
+],
+[
+"model d numpy 4294967295",
+true
+],
+[
+"std::mt19937 %29 0",
+true
+],
+[
+"std::mt19937 %29 1",
+true
+],
+[
+"std::mt19937 %29 5489",
+true
+],
+[
+"std::mt19937 %29 3301",
+true
+],
+[
+"std::mt19937 %29 4294967295",
+true
+],
+[
+"PHP7 mt_rand(0,28) 0",
+true
+],
+[
+"PHP7 mt_rand()%29 0",
+true
+],
+[
+"PHP5 mt_rand(0,28) 0",
+true
+],
+[
+"PHP5 mt_rand()%29 0",
+true
+],
+[
+"PHP7 mt_rand(0,28) 1",
+true
+],
+[
+"PHP7 mt_rand()%29 1",
+true
+],
+[
+"PHP5 mt_rand(0,28) 1",
+true
+],
+[
+"PHP5 mt_rand()%29 1",
+true
+],
+[
+"PHP7 mt_rand(0,28) 42",
+true
+],
+[
+"PHP7 mt_rand()%29 42",
+true
+],
+[
+"PHP5 mt_rand(0,28) 42",
+true
+],
+[
+"PHP5 mt_rand()%29 42",
+true
+],
+[
+"PHP7 mt_rand(0,28) 3301",
+true
+],
+[
+"PHP7 mt_rand()%29 3301",
+true
+],
+[
+"PHP5 mt_rand(0,28) 3301",
+true
+],
+[
+"PHP5 mt_rand()%29 3301",
+true
+],
+[
+"PHP7 mt_rand(0,28) 1033",
+true
+],
+[
+"PHP7 mt_rand()%29 1033",
+true
+],
+[
+"PHP5 mt_rand(0,28) 1033",
+true
+],
+[
+"PHP5 mt_rand()%29 1033",
+true
+],
+[
+"PHP7 mt_rand(0,28) 123456",
+true
+],
+[
+"PHP7 mt_rand()%29 123456",
+true
+],
+[
+"PHP5 mt_rand(0,28) 123456",
+true
+],
+[
+"PHP5 mt_rand()%29 123456",
+true
+],
+[
+"PHP7 mt_rand(0,28) 2147483653",
+true
+],
+[
+"PHP7 mt_rand()%29 2147483653",
+true
+],
+[
+"PHP5 mt_rand(0,28) 2147483653",
+true
+],
+[
+"PHP5 mt_rand()%29 2147483653",
+true
+],
+[
+"PHP5 mt_srand(1) mt_rand() first = 1244335972 (known PHP5 value)",
+true
+],
+[
+"glibc rand()%29 0",
+true
+],
+[
+"glibc scaled 0",
+true
+],
+[
+"glibc div 0",
+true
+],
+[
+"drand48 scaled 0",
+true
+],
+[
+"glibc raw rand() 0",
+true
+],
+[
+"glibc rand()%29 1",
+true
+],
+[
+"glibc scaled 1",
+true
+],
+[
+"glibc div 1",
+true
+],
+[
+"drand48 scaled 1",
+true
+],
+[
+"glibc raw rand() 1",
+true
+],
+[
+"glibc rand()%29 2",
+true
+],
+[
+"glibc scaled 2",
+true
+],
+[
+"glibc div 2",
+true
+],
+[
+"drand48 scaled 2",
+true
+],
+[
+"glibc raw rand() 2",
+true
+],
+[
+"glibc rand()%29 42",
+true
+],
+[
+"glibc scaled 42",
+true
+],
+[
+"glibc div 42",
+true
+],
+[
+"drand48 scaled 42",
+true
+],
+[
+"glibc raw rand() 42",
+true
+],
+[
+"glibc rand()%29 3301",
+true
+],
+[
+"glibc scaled 3301",
+true
+],
+[
+"glibc div 3301",
+true
+],
+[
+"drand48 scaled 3301",
+true
+],
+[
+"glibc raw rand() 3301",
+true
+],
+[
+"glibc rand()%29 1033",
+true
+],
+[
+"glibc scaled 1033",
+true
+],
+[
+"glibc div 1033",
+true
+],
+[
+"drand48 scaled 1033",
+true
+],
+[
+"glibc raw rand() 1033",
+true
+],
+[
+"glibc rand()%29 2147483647",
+true
+],
+[
+"glibc scaled 2147483647",
+true
+],
+[
+"glibc div 2147483647",
+true
+],
+[
+"drand48 scaled 2147483647",
+true
+],
+[
+"glibc raw rand() 2147483647",
+true
+],
+[
+"glibc rand()%29 2147483655",
+true
+],
+[
+"glibc scaled 2147483655",
+true
+],
+[
+"glibc div 2147483655",
+true
+],
+[
+"drand48 scaled 2147483655",
+true
+],
+[
+"glibc raw rand() 2147483655",
+true
+],
+[
+"glibc rand()%29 4294967295",
+true
+],
+[
+"glibc scaled 4294967295",
+true
+],
+[
+"glibc div 4294967295",
+true
+],
+[
+"drand48 scaled 4294967295",
+true
+],
+[
+"glibc raw rand() 4294967295",
+true
+],
+[
+"glibc srand(1) rand() = 1804289383",
+true
+],
+[
+"MSVC srand(1) raw",
+true
+],
+[
+"MSVC srand(1) %29",
+true
+],
+[
+"MSVC srand(1) scaled",
+true
+],
+[
+"Java nextInt(29) 0",
+true
+],
+[
+"Java nextDouble*29 0",
+true
+],
+[
+"Java Collections.shuffle blocks 0",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) 1",
+true
+],
+[
+"Java nextDouble*29 1",
+true
+],
+[
+"Java Collections.shuffle blocks 1",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) 42",
+true
+],
+[
+"Java nextDouble*29 42",
+true
+],
+[
+"Java Collections.shuffle blocks 42",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) 3301",
+true
+],
+[
+"Java nextDouble*29 3301",
+true
+],
+[
+"Java Collections.shuffle blocks 3301",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) -1360665919",
+true
+],
+[
+"Java nextDouble*29 -1360665919",
+true
+],
+[
+"Java Collections.shuffle blocks -1360665919",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) 1099511627779",
+true
+],
+[
+"Java nextDouble*29 1099511627779",
+true
+],
+[
+"Java Collections.shuffle blocks 1099511627779",
+true
+],
+[
+"Java String.hashCode",
+true
+],
+[
+"Java nextInt(29) -5",
+true
+],
+[
+"Java nextDouble*29 -5",
+true
+],
+[
+"Java Collections.shuffle blocks -5",
+true
+],
+[
+"Java String.hashCode",
+true
+]
+]

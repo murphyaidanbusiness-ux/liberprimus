@@ -1,0 +1,5 @@
+TRUTH score -29117.1 acc 0.9972
+RESTART 0 score -29117.1 (truth -29117.1) acc 0.9972  moves/s 3134  secs 47.9
+RESTART 1 score -29117.1 (truth -29117.1) acc 0.9972  moves/s 3112  secs 48.2
+RESTART 2 score -29117.1 (truth -29117.1) acc 0.9972  moves/s 3174  secs 47.3
+RESTART 3 score -29117.1 (truth -29117.1) acc 0.9972  moves/s 3204  secs 46.8

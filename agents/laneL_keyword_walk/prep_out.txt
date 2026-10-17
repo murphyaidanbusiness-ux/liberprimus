@@ -1,0 +1,19 @@
+aldegonde import failed: ModuleNotFoundError("No module named 'scipy'")
+walk encipher identical to laneK kcore.enc_walk on 5 random keys x 60 words
+keywords: cicada 1343 + google-20k English (first20hours/google-10000-english 20k.txt, transliterated ING->NG, IO->IA, K/Q->C, V->U, Z->S) 20000 -> 20645 distinct rune words
+distinct de-duplicated keyword rune sequences: 18523
+A (keyword alphabets x rules R1,R2,R3,R4,R1rev,R2rev x {perm, inverse} + 29 shifts + 29 reflections): 220280 distinct permutations
+G: Oosterhof structured 23751; + grid orderings{gem(=prime),eng} x fills{row,col,boustro} x fixed-4 x k=1..4 -> 570024; + keyword grids -> 1008000; + powers of 78446 keyed perms with 5|ord -> total 1127284 distinct order-5 g
+affine maps x->ax+b mod 29 with order 5: 0 (orders of a in Z29* divide 28; a=1 gives order 29 or 1)
+fixed-point census of G: [(4, 1036716), (9, 23196), (14, 24460), (19, 26324), (24, 16588)]
+lexicon: W&P train types 16141 + words_alpha (both ING conventions) + cicada vocab + solved-LP words -> 386198 types (len 1-16)
+lexicon types by length: [(1, 29), (2, 466), (3, 2578), (4, 8862), (5, 20776), (6, 37157), (7, 50120), (8, 58509), (9, 56444), (10, 47099), (11, 36244), (12, 26694), (13, 18349), (14, 11828), (15, 6950), (16, 4093)]
+  held-out W&P tokens len  4:  13455, OOV 0.0022   | random strings in lexicon: 1.25e-02
+  held-out W&P tokens len  5:   8800, OOV 0.0075   | random strings in lexicon: 1.01e-03
+  held-out W&P tokens len  6:   7480, OOV 0.0053   | random strings in lexicon: 6.25e-05
+  held-out W&P tokens len  7:   5930, OOV 0.0061   | random strings in lexicon: 2.91e-06
+  held-out W&P tokens len  8:   4368, OOV 0.0092   | random strings in lexicon: 1.17e-07
+  held-out W&P tokens len  9:   2653, OOV 0.0170   | random strings in lexicon: 3.89e-09
+  held-out W&P tokens len 10:   1422, OOV 0.0091   | random strings in lexicon: 1.12e-10
+  held-out W&P tokens len 11:    637, OOV 0.0188   | random strings in lexicon: 2.97e-12
+lm16: laneK lm4.bin quantised to int16 milli-nats, max abs err 0.0005

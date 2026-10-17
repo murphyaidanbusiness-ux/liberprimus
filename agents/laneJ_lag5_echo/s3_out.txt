@@ -1,0 +1,47 @@
+== 1. plaintext within-word lag-5 / lag-10 coincidence by word length (War&Peace runes, token-weighted) ==
+  L= 6  W&P lag5 0.0275 (n=  35873)  solved-LP 0.0294 | LP   9/ 256 = 0.0352  implied phi=-0.10
+  L= 7  W&P lag5 0.0645 (n=  49014)  solved-LP 0.1383 | LP  19/ 432 = 0.0440  implied phi=0.32
+  L= 8  W&P lag5 0.0694 (n=  51915)  solved-LP 0.0400 | LP  22/ 468 = 0.0470  implied phi=0.36
+  L= 9  W&P lag5 0.0569 (n=  39544)  solved-LP 0.1029 | LP  15/ 312 = 0.0481  implied phi=0.61
+  L=10  W&P lag5 0.0483 (n=  25615)  solved-LP 0.0556 | LP  20/ 260 = 0.0769  implied phi=3.07
+  L=11  W&P lag5 0.0549 (n=  14730)  solved-LP   -   | LP   8/ 192 = 0.0417  implied phi=0.35
+  L=12  W&P lag5 0.0692 (n=   8743)  solved-LP   -   | LP   6/ 126 = 0.0476  implied phi=0.38
+  L=13  W&P lag5 0.0639 (n=   4272)  solved-LP   -   | LP   3/  32 = 0.0938  implied phi=2.01
+  L=14  W&P lag5 0.0689 (n=   1611)  solved-LP   -   | LP   2/  27 = 0.0741  implied phi=1.15
+  full-leak expectation for the LP length mix: 120.8 matches of 2105 (observed 104) -> phi_total = 0.65
+  plaintext lag-10 (words >= 11): 0.0452; LP: 2/92; predicted under phi=0.6 echo: 3.8 matches of 92 (flat 3.2)
+
+== 2. delta-histogram test (equality-only vs additive leak), partial-leak calibration ==
+  REAL deltaT = 0.53 (N(0,1) under flat nonzero bins)
+  additive per-word 5-key q=1.0 skip=False: W5=0.0575  deltaT=13.38+-1.22  P(T<=real)=0.000
+  additive per-word 5-key q=1.0 skip=True: W5=0.0548  deltaT=11.03+-1.24  P(T<=real)=0.000
+  additive per-word 5-key q=0.7 skip=False: W5=0.0511  deltaT=9.48+-1.00  P(T<=real)=0.000
+  additive per-word 5-key q=0.7 skip=True: W5=0.0473  deltaT=8.23+-1.06  P(T<=real)=0.000
+  additive per-word 5-key q=0.6 skip=False: W5=0.0490  deltaT=7.80+-1.10  P(T<=real)=0.000
+  additive per-word 5-key q=0.6 skip=True: W5=0.0455  deltaT=6.69+-1.29  P(T<=real)=0.000
+  additive per-word 5-key q=0.5 skip=False: W5=0.0458  deltaT=6.68+-1.06  P(T<=real)=0.000
+  additive per-word 5-key q=0.5 skip=True: W5=0.0438  deltaT=5.80+-1.13  P(T<=real)=0.000
+
+== 3. dictionary attack: per-word additive 5-key (lag-5 differences are key-free) ==
+  dict L=6: 34822 words, 29 distinct Vig signatures (space 29^1)
+  dict L=7: 46817 words, 841 distinct Vig signatures (space 29^2)
+  dict L=8: 54429 words, 19388 distinct Vig signatures (space 29^3)
+  dict L=9: 52501 words, 48858 distinct Vig signatures (space 29^4)
+  dict L=10: 43799 words, 43691 distinct Vig signatures (space 29^5)
+  dict L=11: 33874 words, 33869 distinct Vig signatures (space 29^6)
+  dict L=12: 25257 words, 25256 distinct Vig signatures (space 29^7)
+  dict L=13: 17552 words, 17551 distinct Vig signatures (space 29^8)
+  dict L=14: 11333 words, 11333 distinct Vig signatures (space 29^9)
+ mode=vig Lmin=9
+  REAL LP                            words(L>=9)=187 hits=5  null 5.2+-2.6 (max 12) z=-0.06 | freq-score 0.0 null 0.2+-0.5 z=-0.37
+  PLANTED q=1.0                      words(L>=9)=187 hits=187  null 5.3+-2.1 (max 10) z=+85.24 | freq-score 549.1 null 0.2+-0.6 z=+910.04
+  PLANTED q=0.6                      words(L>=9)=187 hits=109  null 6.1+-1.9 (max 10) z=+55.61 | freq-score 291.8 null 0.2+-0.6 z=+486.84
+ mode=vig Lmin=10
+  REAL LP                            words(L>=10)=109 hits=0  null 0.2+-0.4 (max 1) z=-0.45 | freq-score 0.0 null 0.0+-0.0 z=+0.00
+  PLANTED q=1.0                      words(L>=10)=109 hits=109  null 0.0+-0.0 (max 0) z=+109000000000.00 | freq-score 271.2 null 0.0+-0.0 z=+271159356308.33
+  PLANTED q=0.6                      words(L>=10)=109 hits=62  null 0.2+-0.5 (max 2) z=+129.81 | freq-score 152.8 null 0.0+-0.0 z=+152787757082.58
+  real hits (cipher word -> best dictionary candidate):
+ mode=D Lmin=10
+  REAL LP                            words(L>=10)=109 hits=5  null 2.1+-1.5 (max 7) z=+1.91 | freq-score 0.0 null 0.1+-0.3 z=-0.22
+  PLANTED q=1.0                      words(L>=10)=109 hits=106  null 3.1+-1.6 (max 6) z=+65.73 | freq-score 270.1 null 0.3+-0.6 z=+460.49
+  PLANTED q=0.6                      words(L>=10)=109 hits=76  null 3.0+-1.5 (max 6) z=+47.79 | freq-score 205.8 null 0.2+-0.9 z=+240.41

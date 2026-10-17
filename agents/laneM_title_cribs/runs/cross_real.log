@@ -1,0 +1,12 @@
+real l=6 colliding cross-opening pairs 229339 max per model 372
+real l=8 colliding cross-opening pairs 653 max per model 7
+Traceback (most recent call last):
+  File "./agents/laneM_title_cribs/cross.py", line 92, in <module>
+    out[name]=run(name,keep_examples=(name=='real'))
+              ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./agents/laneM_title_cribs/cross.py", line 64, in run
+    tb=tables(model,blk,l)
+  File "./agents/laneM_title_cribs/cross.py", line 37, in tables
+    T=np.array([[(c[j]+p)%29 if a else (c[j]-p)%29 for p in range(29)] for j in kept]); return T,kept,m
+                                        ~^^^
+IndexError: list index out of range

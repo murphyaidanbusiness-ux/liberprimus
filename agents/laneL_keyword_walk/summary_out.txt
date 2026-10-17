@@ -1,0 +1,74 @@
+page 0 (262 runes, prefix 151 runes / 34 words), full keyword corner; real vs 20 doublet-matched shuffles
+# text texts/real_page00.txt words 59 runes 262 prefix_words 34 prefix_runes 151 |base| 220280 |g| 1127284 |sigma| 220280 stageA_pairs 248318119520 survivors 21940 stageA_s 103.6
+
+mode 0: global clock (Oosterhof)   # mode 0 stageB_trials 4832943200 stageB_s 70.6 word1_pass 5855737 reached_end 48067926 total_keys 5.4700e+16
+  stat          real null mean   null sd  null max       z
+  pref_lm     -3.885    -3.940     0.053    -3.824    1.04  (nulls with a value: 20)
+  full_lm     -4.189    -4.186     0.045    -4.066   -0.09  (nulls with a value: 20)
+  quad        -6.804    -6.773     0.049    -6.640   -0.63  (nulls with a value: 20)
+  ioc          1.171     1.171     0.025     1.218    0.02  (nulls with a value: 20)
+  top: base=CONTENTS:R2 g=kwgrid:CBDAEAB:R2:bou:k2 sigma=COLLEGE:R1:inv pref_lm -3.885 full_lm -4.189 quad -7.077 ioc 1.105
+       C-H-A-U-S-S-E-S-C-R-A-U-NG-M-R-P-I-O-R-F-T-J-C-B-A-G-G-NG-G-I-N-X-I-A-S-A-E-IA-C-Y-IA-T-Y-U-EA-IA-T-N-NG-S-G-EA-L-O-N-TH-N-X-F-L-L-F-EA-NG-TH-NG-C-H-AE-U-IA-J-S-O-F-L-T-NG-G-S-W-O-C-Y-D-U-L-F-AE-S-F-U-C-W-C-B-P-H-L-N-I-E-L-TH-A-H-NG-L-I-C-G-W-I-EO-M-E-S-S-U-T
+  top: base=DM:R3:inv g=grid:gem:bou:11,20,22,26:k4 sigma=YANCEES:R2rev:inv pref_lm -4.126 full_lm -4.224 quad -7.350 ioc 1.044
+       C-O-M-N-E-N-IA-N-L-EA-D-E-D-A-M-D-I-OE-M-U-IA-X-E-N-NG-I-I-I-L-G-B-A-H-W-J-R-I-D-S-O-R-E-P-F-EO-C-TH-E-M-NG-J-I-D-A-F-F-U-Y-R-L-X-T-C-H-OE-L-A-H-T-B-R-W-D-TH-L-C-A-EA-M-X-E-U-T-O-I-N-Y-L-TH-A-C-L-E-J-A-S-F-AE-U-TH-EO-U-T-B-M-S-H-B-H-M-OE-R-N-E-X-S-O-F-R-D
+  top: base=MONCS:R1 g=kwgrid:PUBLISHED:R1:bou:k1 sigma=BUSH:R2rev:inv pref_lm -4.125 full_lm -4.236 quad -7.188 ioc 1.169
+       R-E-D-U-C-T-IA-N-P-I-P-E-T-B-D-A-A-C-D-F-C-W-S-W-A-A-X-T-NG-D-EA-A-AE-D-C-Y-B-A-D-X-T-B-W-D-U-AE-L-N-E-F-O-A-F-D-C-NG-T-NG-IA-NG-N-IA-A-L-NG-O-C-IA-A-D-G-N-NG-TH-E-S-T-TH-H-Y-P-R-E-G-E-A-TH-N-D-J-R-U-U-T-P-A-B-Y-IA-P-IA-H-T-T-L-A-E-NG-O-O-M-W-X-B-G-S-C-AE-M-OE
+
+mode 1: clock reset per word   # mode 1 stageB_trials 4832943200 stageB_s 62.8 word1_pass 5432611 reached_end 43886162 total_keys 5.4700e+16
+  stat          real null mean   null sd  null max       z
+  pref_lm     -3.943    -3.943     0.045    -3.852    0.00  (nulls with a value: 20)
+  full_lm     -4.232    -4.201     0.033    -4.155   -0.95  (nulls with a value: 20)
+  quad        -6.809    -6.759     0.081    -6.575   -0.62  (nulls with a value: 20)
+  ioc          1.154     1.170     0.024     1.220   -0.63  (nulls with a value: 20)
+  top: base=SPORTSBOOC:R4:inv g=grid:gem:row:15,23,26,28:k3 sigma=NEUTRON:R3:inv pref_lm -4.128 full_lm -4.232 quad -7.206 ioc 1.087
+       R-O-T-A-T-IA-N-S-H-A-R-B-I-T-D-T-E-S-H-M-G-A-M-G-J-TH-L-X-T-U-G-Y-E-M-C-H-TH-EA-D-U-X-D-E-TH-M-O-EA-G-D-A-I-U-P-EO-L-Y-B-C-S-EO-E-S-P-EO-L-S-E-AE-I-AE-C-OE-D-T-R-P-M-J-O-E-L-IA-F-U-M-H-IA-IA-F-NG-H-S-NG-AE-E-J-A-IA-A-G-E-D-L-H-N-H-T-M-A-O-D-J-T-Y-A-S-U-I-T-U
+  top: base=CMOLCCSAD:R2 g=grid:eng:bou:0,12,21,25:k3 sigma=DEPOSIT:R1rev pref_lm -4.068 full_lm -4.242 quad -7.243 ioc 1.069
+       R-E-N-A-T-U-R-E-H-A-N-T-NG-E-D-U-O-E-S-U-G-O-NG-TH-EA-P-NG-A-I-N-TH-M-OE-R-M-NG-N-D-IA-D-S-U-I-F-U-TH-P-P-Y-B-N-W-M-H-EA-X-N-T-X-M-F-D-T-N-D-O-P-E-R-F-M-N-U-NG-O-EA-E-F-B-C-H-D-Y-F-D-NG-B-J-L-P-N-E-R-L-I-W-H-NG-X-H-P-O-O-W-E-S-G-U-B-TH-M-Y-B-NG-G-A-W-N-F-H
+  top: base=AMASED:R3:inv g=grid:eng:col:1,5,10,23:k1 sigma=FRAME:R1 pref_lm -3.943 full_lm -4.244 quad -7.144 ioc 1.086
+       G-E-L-A-T-I-N-E-S-O-M-M-A-G-L-O-I-TH-O-B-J-EA-L-R-F-F-OE-Y-P-O-G-EA-U-T-U-S-B-N-P-J-E-C-E-TH-A-F-A-NG-O-W-A-AE-L-O-S-R-S-J-S-T-F-OE-Y-C-L-D-C-TH-P-O-S-B-N-D-NG-R-N-H-B-R-TH-S-M-L-U-TH-IA-OE-C-H-W-E-A-E-W-EA-C-TH-TH-S-Y-Y-A-W-P-C-F-P-E-N-O-S-EO-TH-TH-D-P-M-U-S
+
+mode 2: fixed base (no sigma)   # mode 2 stageB_trials 21940 stageB_s 0.2 word1_pass 0 reached_end 253476 total_keys 2.4832e+11
+  stat          real null mean   null sd  null max       z
+  pref_lm     -4.152    -4.223     0.081    -4.023    0.88  (nulls with a value: 20)
+  full_lm     -4.418    -4.436     0.048    -4.350    0.36  (nulls with a value: 18)
+  quad        -7.229    -7.035     0.101    -6.866   -1.93  (nulls with a value: 18)
+  ioc          1.017     1.073     0.032     1.147   -1.75  (nulls with a value: 18)
+  top: base=DRAWNGS:R1rev:inv g=grid:gem:bou:10,19,23,26:k3 sigma=- pref_lm -4.253 full_lm -4.418 quad -7.349 ioc 1.001
+       N-O-R-TH-M-O-S-T-J-EO-C-EO-A-Y-P-M-TH-R-TH-F-W-S-Y-C-C-TH-O-OE-OE-F-A-G-H-X-T-E-M-B-Y-B-O-EA-T-J-B-S-L-TH-Y-F-A-U-I-G-EA-N-S-T-EA-I-M-R-OE-J-L-T-NG-X-U-H-A-I-T-A-O-X-X-M-W-N-H-AE-Y-IA-TH-IA-I-Y-OE-M-U-S-U-U-W-Y-N-O-IA-A-B-T-A-O-H-EO-G-W-S-I-U-EA-IA-EO-A-S-T-A-Y-E
+  top: base=DRAWNGS:R1rev:inv g=grid:gem:bou:10,19,24,26:k3 sigma=- pref_lm -4.226 full_lm -4.422 quad -7.229 ioc 1.017
+       N-O-R-TH-M-O-S-T-J-A-C-EO-D-Y-P-M-TH-R-TH-F-W-S-Y-C-C-TH-O-OE-OE-F-D-G-H-X-T-E-M-B-Y-B-O-EA-T-J-B-S-L-TH-Y-F-D-A-I-G-EA-N-S-T-EA-I-M-R-OE-J-L-T-NG-X-U-A-D-I-T-A-O-X-IA-M-E-NG-L-W-Y-G-P-G-I-Y-N-M-A-EA-EO-D-TH-Y-F-IA-B-L-X-S-A-IA-U-H-O-TH-C-I-A-T-B-H-H-EA-R-H-Y-TH
+  top: base=DRAWNGS:R1rev:inv g=grid:gem:bou:10,19,21,26:k3 sigma=- pref_lm -4.265 full_lm -4.430 quad -7.348 ioc 0.990
+       N-O-R-TH-M-O-S-T-J-EO-C-EO-A-Y-P-M-TH-R-TH-F-W-S-Y-C-C-TH-O-NG-D-F-A-G-H-X-T-E-M-B-Y-B-O-EA-T-J-B-S-L-TH-Y-NG-A-U-I-G-EA-N-S-T-EA-I-M-R-D-J-L-T-OE-X-U-H-A-I-T-A-O-X-X-M-W-N-H-AE-Y-IA-TH-IA-I-Y-D-M-U-S-U-U-W-Y-NG-O-IA-A-B-T-A-O-H-EO-G-W-S-I-U-EA-IA-EO-A-S-T-A-Y-E
+
+control full_plant1: planted base=PILGRIM:R1 g=oost:4,11,14,20 sigma=MOUNTAIN:R2
+  mode 0 rank-1: base=PILGRIM:R1 g=oost:4,11,14,20 sigma=MOUNTAIN:R2 key=[0, 8130, 12345, 29804] pref_lm -1.834 full_lm -1.913 quad -4.460 ioc 1.752
+       B-E-H-A-U-IA-R-S-A-G-A-I-N-W-H-A-T-E-N-D-TH-A-T-U-N-R-EA-S-O-N-A-B-L-E-O-TH-E-R-S-TH-R-E-E-TH-A-T-A-R-E-Y-O-U-R-TH-I-S-F-O-L-L-O-W-U-N-R-EA-S-O-N-A-B-L-E-A-M-I-T-N-O-T-Y-O-U-C-O-N-S-U-M-NG-S-T-U-D-Y-R-EA-L-I-T-I-E-S-TH-E-H-E-R-E-T-O-M-A-N-S-A-Y-W-O-R
+  rank-2: pref_lm -4.140 full_lm -4.147 quad -7.200
+
+control full_plant2: planted base=FEEDERS:R2rev:inv g=oost:1,2,17,19 sigma=LABYRINTHINE:R1 (NOT in set)
+  mode 0 rank-1: base=CWICCLY:R2rev g=grid:eng:col:6,9,23,28:k1 sigma=WALCMAN:R2:inv key=[0, 34980, 470488, 203021] pref_lm -3.937 full_lm -4.115 quad -7.318 ioc 1.170
+       L-E-N-I-NG-R-A-D-H-A-I-R-S-R-A-M-W-B-S-I-W-C-W-N-D-C-IA-G-F-H-OE-A-M-D-D-H-M-G-O-A-A-R-N-U-S-M-W-N-U-EA-N-W-D-R-TH-NG-I-G-H-M-W-S-EO-E-L-S-U-E-A-W-M-H-A-IA-E-W-Y-G-E-Y-A-U-D-EA-C-T-X-M-I-T-S-C-C-S-X-E-N-E-EA-I-TH-C-Y-U-L-C-Y-B-I-R-N-T-EO-C-D-E-S-L-H-Y
+  rank-2: pref_lm -4.044 full_lm -4.124 quad -7.062
+
+per-start restart runs (independent key per start; per mode: best prefix LM/sym / best full-page LM/sym / best full-page quadgram)
+  start4_real_page08       |base| 1370 |g| 23751 |sigma| 1370 surv 754259  -4.551/-4.731/-7.182  -4.404/-4.628/-7.284  -4.308/-4.393/-7.133
+  start4_real_page11       |base| 1370 |g| 23751 |sigma| 1370 surv 35904  -4.040/-4.244/-6.831  -3.990/-4.239/-6.847  -4.225/-4.349/-6.883
+  start4_real_page15       |base| 1370 |g| 23751 |sigma| 1370 surv 555298  -3.990/-4.042/-6.521  -3.946/-4.006/-6.524  -4.084/-4.137/-6.573
+  start4_real_page30       |base| 1370 |g| 23751 |sigma| 1370 surv 1358564  -3.946/-4.253/-6.734  -4.020/-4.282/-6.777  -4.164/-4.366/-7.056
+  start4_real_page35       |base| 1370 |g| 23751 |sigma| 1370 surv 117779  no-survivor  no-survivor  -4.194/-4.584/-7.291
+  start4_real_page37       |base| 1370 |g| 23751 |sigma| 1370 surv 300177  -4.177/-4.266/-6.876  -4.137/-4.236/-6.848  -4.155/-4.261/-6.851
+  start4_real_page48       |base| 1370 |g| 23751 |sigma| 1370 surv 763295  -3.946/-4.115/-6.794  -3.912/-4.170/-6.820  -4.163/-4.350/-6.964
+  start4_real_sec03        |base| 1370 |g| 23751 |sigma| 1370 surv 234117  -4.038/-4.253/-6.831  -4.055/-4.253/-6.852  -4.321/-4.469/-6.952
+  start4_real_sec07t       |base| 1370 |g| 23751 |sigma| 1370 surv 545614  -3.997/-4.277/-6.771  -4.025/-4.228/-6.823  -4.061/-4.288/-6.999
+  start_real_page01        |base| 18458 |g| 23751 |sigma| 18458 surv 981895  -4.105/-4.265/-6.793  not-run  -4.119/-4.315/-6.789
+  start_real_page06        |base| 18458 |g| 285012 |sigma| 18458 surv 701297  -3.945/-4.032/-6.543  not-run  -4.201/-4.261/-6.854
+  start_real_page09        |base| 18458 |g| 23751 |sigma| 18458 surv 68829  -4.094/-4.362/-6.914  not-run  -4.369/-4.461/-7.134
+  start_real_page13        |base| 18458 |g| 285012 |sigma| 18458 surv 362513  -4.022/-4.263/-6.747  not-run  -4.152/-4.291/-6.836
+  start_real_page16        |base| 220280 |g| 1127284 |sigma| 220280 surv 0  no-survivor  no-survivor  no-survivor
+  start_real_page18        |base| 18458 |g| 285012 |sigma| 18458 surv 44270  -3.913/-4.096/-6.684  not-run  -4.273/-4.408/-6.899
+  start_real_page19        |base| 18458 |g| 23751 |sigma| 18458 surv 240792  -4.275/-4.423/-6.994  not-run  -4.541/nan/nan
+  start_real_page31        |base| 220280 |g| 1127284 |sigma| 220280 surv 28969  -3.900/-4.107/-6.694  -3.901/-4.138/-6.590  -4.145/-4.268/-6.681
+  start_real_page38        |base| 18458 |g| 285012 |sigma| 18458 surv 734785  -4.011/-4.144/-6.670  not-run  -4.166/-4.339/-6.827
+  start_real_page46        |base| 220280 |g| 1127284 |sigma| 220280 surv 523535  -3.945/-4.161/-6.741  -3.980/-4.180/-6.709  -4.133/-4.299/-6.635
+  start_real_page52        |base| 18458 |g| 23751 |sigma| 18458 surv 2124108  -4.086/-4.108/-6.675  not-run  -4.127/-4.148/-6.745
+  start_real_sec12         |base| 18458 |g| 285012 |sigma| 18458 surv 2477  -4.154/-4.167/-6.771  not-run  -4.270/-4.230/-7.031

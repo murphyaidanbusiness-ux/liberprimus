@@ -1,0 +1,9 @@
+G2 synthetic: plaintext IoC 1.774 ciphertext IoC 1.001 doublet rate 0.0103
+G2 streams 7399 trials 3077984 time 76s
+G2 top: IoC=1.7742 prefix=1.7621 seed='plant' gen=hmac_ctr/sha3_512 map=b29dig_rej28_msd app=gflog_g3-1|convY mode=restart
+G2 top: IoC=1.0904 prefix=1.1256 seed='plant' gen=hmac_ctr/sha3_512 map=b29dig_rej28_msd app=gflog_g3-1|convX mode=restart
+G2 top: IoC=1.0631 prefix=1.0607 seed='plant' gen=hmac_ctr/sha3_512 map=b29dig_rej28_msd app=gflog_g2-1|convY mode=restart
+G2 top: IoC=1.0505 prefix=1.0407 seed='plant' gen=hmac_ctr/sha3_512 map=b29dig_rej28_msd app=chainadd+1|convY mode=restart
+G2 top: IoC=1.0489 prefix=1.0459 seed='plant' gen=hmac_ctr/sha3_512 map=b29dig_rej28_msd app=gflinmul|convY mode=restart
+PLANT (b'THE PRIMES ARE SACRED', 'hmac_ctr', 'sha3_512', 'b29dig_rej28_msd', 'gflog_g3-1|convY', 1)
+best decode quadgram -4.314  text: AWARNNGBELIEUENOTHNGFROMTHISBOOCEXCEPTWHATYOUCNOWTOBETRUETESTTHECNOWLEDGEFINDYOURTRUTHEXPERIENCEYOURDEATHDONOTEDITORCHANGETHISBOOC

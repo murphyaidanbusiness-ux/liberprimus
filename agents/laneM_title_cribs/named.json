@@ -1,0 +1,183 @@
+{
+ "cribs": [
+  {
+   "sec": 1,
+   "phrase": "AN INSTRUCTION",
+   "spelling": "A-N-I-N-S-T-R-U-C-T-I-O-N",
+   "fragments": 1146,
+   "best_eng_z": 2.27,
+   "best_model": "gf[off5,fwd,x/D].raw",
+   "longest_hit": 0,
+   "hit": null
+  },
+  {
+   "sec": 8,
+   "phrase": "AN INSTAR",
+   "spelling": "A-N-I-N-S-T-A-R",
+   "fragments": 1146,
+   "best_eng_z": 4.1,
+   "best_model": "chain[dlog19,sh0,u+s]",
+   "longest_hit": 0,
+   "hit": null
+  },
+  {
+   "sec": 10,
+   "phrase": "AN EPIPHANY",
+   "spelling": "A-N-E-P-I-P-H-A-N-Y",
+   "fragments": 1146,
+   "best_eng_z": 5.49,
+   "best_model": "chain[dlog14,sh3,u-s]",
+   "longest_hit": 0,
+   "hit": null
+  },
+  {
+   "sec": 10,
+   "phrase": "AN AWAKENING",
+   "spelling": "A-N-A-W-A-C-E-N-I-NG",
+   "fragments": 1146,
+   "best_eng_z": 3.01,
+   "best_model": "gf[off3,fwd,x/D].raw",
+   "longest_hit": 0,
+   "hit": null
+  },
+  {
+   "sec": 3,
+   "phrase": "SOME",
+   "spelling": "S-O-M-E",
+   "fragments": 1146,
+   "best_eng_z": 1.69,
+   "best_model": "beau c+p skip@2",
+   "longest_hit": 5,
+   "hit": [
+    "beau c+p skip@2",
+    [
+     [
+      1,
+      "C-O-C-A-I-N-E",
+      5
+     ],
+     [
+      1,
+      "E-X-C-E-L",
+      1
+     ],
+     [
+      1,
+      "C-E-L-E-B-R-E-X",
+      7
+     ]
+    ]
+   ]
+  }
+ ],
+ "pairs": [
+  [
+   [
+    1,
+    "AN INSTRUCTION"
+   ],
+   [
+    3,
+    "SOME"
+   ],
+   2,
+   "gf[off12,rev,D/x].raw"
+  ],
+  [
+   [
+    3,
+    "SOME"
+   ],
+   [
+    8,
+    "AN INSTAR"
+   ],
+   1,
+   "chain[s-1,sh0,u+s]"
+  ],
+  [
+   [
+    3,
+    "SOME"
+   ],
+   [
+    10,
+    "AN AWAKENING"
+   ],
+   1,
+   "chain[dlog2,sh0,u-s]"
+  ],
+  [
+   [
+    3,
+    "SOME"
+   ],
+   [
+    10,
+    "AN EPIPHANY"
+   ],
+   1,
+   "chain[dlog2,sh0,u-s]"
+  ],
+  [
+   [
+    1,
+    "AN INSTRUCTION"
+   ],
+   [
+    8,
+    "AN INSTAR"
+   ],
+   0,
+   null
+  ],
+  [
+   [
+    1,
+    "AN INSTRUCTION"
+   ],
+   [
+    10,
+    "AN AWAKENING"
+   ],
+   0,
+   null
+  ],
+  [
+   [
+    1,
+    "AN INSTRUCTION"
+   ],
+   [
+    10,
+    "AN EPIPHANY"
+   ],
+   0,
+   null
+  ],
+  [
+   [
+    8,
+    "AN INSTAR"
+   ],
+   [
+    10,
+    "AN AWAKENING"
+   ],
+   0,
+   null
+  ],
+  [
+   [
+    8,
+    "AN INSTAR"
+   ],
+   [
+    10,
+    "AN EPIPHANY"
+   ],
+   0,
+   null
+  ]
+ ]
+}

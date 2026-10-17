@@ -1,0 +1,7 @@
+n=12535 words=2890 cribs=5075 Fdel=1
+calib mi=0 W=4 mu=-22.449 sd=2.131 pfthr=-16.162 recall(Z>=3)=10/10
+calib mi=0 W=8 mu=-49.532 sd=3.098 pfthr=-33.916 recall(Z>=3)=11/27
+calib mi=0 W=20 mu=-134.672 sd=4.262 pfthr=-88.793 recall(Z>=3)=3/34
+calib mi=1 W=4 mu=-22.378 sd=2.188 pfthr=-16.044 recall(Z>=3)=10/10
+calib mi=1 W=8 mu=-49.378 sd=3.077 pfthr=-33.787 recall(Z>=3)=12/26
+calib mi=1 W=20 mu=-134.445 sd=4.178 pfthr=-88.183 recall(Z>=3)=11/28

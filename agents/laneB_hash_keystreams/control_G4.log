@@ -1,0 +1,9 @@
+G4 synthetic: plaintext IoC 1.774 ciphertext IoC 1.001 doublet rate 0.0356
+G4 streams 7399 trials 3077984 time 76s
+G4 top: IoC=1.7742 prefix=1.7621 seed='word' gen=ctr_asc1/sha1 map=byte_rej29 app=otp-1 mode=cont
+G4 top: IoC=1.7742 prefix=1.7621 seed='plant' gen=ctr_asc1/sha1 map=byte_rej29 app=otp-1 mode=cont
+G4 top: IoC=1.0046 prefix=0.9972 seed='word' gen=ctr_be4/blake2b map=byte_rej29 app=otp+1 mode=cont
+G4 top: IoC=1.0044 prefix=1.0020 seed='word' gen=ctr_be4/sha1 map=byte_rej29 app=otp+1 mode=cont
+G4 top: IoC=1.0044 prefix=1.0068 seed='word' gen=ctr_asc0/blake2b map=byte_rej29 app=otp-1 mode=cont
+PLANT (b'3301', 'ctr_asc1', 'sha1', 'byte_rej29', 'otp-1', 0)
+best decode quadgram -4.314  text: AWARNNGBELIEUENOTHNGFROMTHISBOOCEXCEPTWHATYOUCNOWTOBETRUETESTTHECNOWLEDGEFINDYOURTRUTHEXPERIENCEYOURDEATHDONOTEDITORCHANGETHISBOOC

@@ -1,0 +1,5 @@
+observed doublet rate 86/12955 = 0.0066, 95% CI [0.0052, 0.0080]
+base cic             symbols with share in CI: IA 0.58%, EA 0.69% | rarest: AE 0.02%, EO 0.03%, OE 0.05%, J 0.14%, X 0.21%, IA 0.58%, EA 0.69%, NG 0.85% | EA=0.0069
+-THE/OF/TO cic       symbols with share in CI: IA 0.62%, EA 0.74% | rarest: AE 0.02%, EO 0.04%, OE 0.05%, J 0.15%, X 0.23%, IA 0.62%, EA 0.74%, NG 0.92% | EA=0.0074
+letters              symbols with share in CI: K 0.59% | rarest: Z 0.05%, Q 0.11%, J 0.13%, X 0.20%, K 0.59%, V 1.03%, B 1.60%, Y 1.82% | EA=0.0000
+letters -THE/OF/TO   symbols with share in CI: K 0.64% | rarest: Z 0.06%, Q 0.12%, J 0.14%, X 0.21%, K 0.64%, V 1.12%, F 1.61%, B 1.74% | EA=0.0000

@@ -1,0 +1,42 @@
+[
+ {
+  "name": "P1 py2.7 seed(\"cicada\") PY2 model b, page 0 (262 runes)",
+  "idiom": 0,
+  "model": 1,
+  "seedlab": "py27h64:cicada",
+  "stat": "exact",
+  "pos": 0,
+  "j": 0,
+  "len": 262
+ },
+ {
+  "name": "P2 glibc srand(77777) GLSC model d, gen offset 137, Unicode-order relabel, page 30",
+  "idiom": 12,
+  "model": 3,
+  "seedlab": "int:77777",
+  "stat": "pattern",
+  "pos": 7307,
+  "j": 137,
+  "len": 263
+ },
+ {
+  "name": "P3 Java Random(55555) nextInt model e chain increments, page 40",
+  "idiom": 16,
+  "model": 5,
+  "seedlab": "int:55555",
+  "stat": "exact",
+  "pos": 9640,
+  "j": 0,
+  "len": 231
+ },
+ {
+  "name": "P4 numpy RandomState(66666) randint model a, gen offset 2000, page 45",
+  "idiom": 5,
+  "model": 0,
+  "seedlab": "int:66666",
+  "stat": "exact",
+  "pos": 10963,
+  "j": 2000,
+  "len": 270
+ }
+]

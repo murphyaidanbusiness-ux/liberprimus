@@ -1,0 +1,3 @@
+d_tiedAsFree_K5adv 5 1 2 0 0 100000 4 5 P1 51
+d_tiedAsFree_K5adv 5 1 2 0 0 100000 4 5 P1 52
+d_tiedAsFree_K5adv 5 1 2 0 0 100000 4 5 P1 53

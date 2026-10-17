@@ -1,0 +1,137 @@
+[
+ {
+  "uid": 90000,
+  "fam": 1,
+  "var": 0,
+  "key": 338056,
+  "keytr": "AROMATOPHOR",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90001,
+  "fam": 1,
+  "var": 1,
+  "key": 220204,
+  "keytr": "SISTERISE",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90002,
+  "fam": 1,
+  "var": 6,
+  "key": 191114,
+  "keytr": "PEPLOS",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90003,
+  "fam": 1,
+  "var": 43,
+  "key": 96283,
+  "keytr": "CERMIS",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90004,
+  "fam": 1,
+  "var": 12,
+  "key": 336289,
+  "keytr": "AURENE",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90005,
+  "fam": 1,
+  "var": 102,
+  "key": 152933,
+  "keytr": "INFUSIANISM",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90006,
+  "fam": 2,
+  "var": 0,
+  "key": 24318,
+  "keytr": "UNSHOWY",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90007,
+  "fam": 2,
+  "var": 6,
+  "key": 228105,
+  "keytr": "STELLA",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90008,
+  "fam": 2,
+  "var": 11,
+  "key": 2895,
+  "keytr": "FORCED",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90009,
+  "fam": 2,
+  "var": 12,
+  "key": 285915,
+  "keytr": "EMBITTERING",
+  "roundtrip": true,
+  "doublets": 3
+ },
+ {
+  "uid": 90010,
+  "fam": 3,
+  "var": 0,
+  "key": 226347,
+  "keytr": "STRENGTHFUL",
+  "roundtrip": true,
+  "doublets": 6
+ },
+ {
+  "uid": 90011,
+  "fam": 3,
+  "var": 1,
+  "key": 355476,
+  "keytr": "AMYLOSES",
+  "roundtrip": true,
+  "doublets": 6
+ },
+ {
+  "uid": 90012,
+  "fam": 3,
+  "var": 2,
+  "key": 311922,
+  "keytr": "LINGULATED",
+  "roundtrip": true,
+  "doublets": 4
+ },
+ {
+  "uid": 90013,
+  "fam": 3,
+  "var": 3,
+  "key": 231162,
+  "keytr": "SEPHIRAN",
+  "roundtrip": false,
+  "doublets": 0
+ },
+ {
+  "uid": 90014,
+  "fam": 3,
+  "var": 4,
+  "key": 68246,
+  "keytr": "REDISPOSE",
+  "roundtrip": false,
+  "doublets": 0
+ }
+]

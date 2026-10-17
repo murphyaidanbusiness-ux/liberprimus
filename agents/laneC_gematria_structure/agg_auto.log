@@ -1,0 +1,14 @@
+
+=== family auto: 10 groups, 20 null runs ===
+family-wide max z: real 4.05 | null max-z: mean 4.14 sd 0.36 max 5.40  => real-minus-null-mean in sd = -0.26 ; real beats null max: False
+group                                            real z   real IoC |  nullmu  nullsd nullmax | sd-above
+LET lag1 / restart=cont                            3.49     3.4926 |    2.43    0.65    4.26 |   1.63
+LET lag1 / restart=page                            2.81     3.4297 |    2.23    0.48    3.05 |   1.22
+CUMSUM / restart=cont                              3.67     3.6731 |    3.24    0.65    5.40 |   0.66
+WORDSUM / restart=cont                             3.17     3.1662 |    2.84    0.56    4.09 |   0.59
+LET lag3 / restart=page                            4.05     7.0278 |    4.00    0.12    4.22 |   0.45
+WORDSUM / restart=page                             1.67     5.1779 |    1.64    0.07    1.78 |   0.37
+LET lag3 / restart=cont                            2.01     2.0102 |    2.30    0.89    4.86 |  -0.33
+CUMSUM / restart=page                              2.19     4.3559 |    2.21    0.07    2.38 |  -0.38
+LET lag2 / restart=cont                            2.09     2.0917 |    2.47    0.62    3.65 |  -0.62
+LET lag2 / restart=page                            2.62     5.6575 |    2.69    0.09    2.89 |  -0.79

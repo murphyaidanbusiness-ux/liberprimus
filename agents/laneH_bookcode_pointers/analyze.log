@@ -1,0 +1,50 @@
+32512 rows
+TOP 30 by z vs shuffle
+SR_doyle_semi rprime     W      b=0 mod qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+SR_doyle_semi rprime     W      b=0 raw qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+SR_doyle      rprime     W      b=0 mod qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+SR_doyle      rprime     W      b=0 raw qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+SR_withverse  rprime     W      b=0 mod qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+SR_withverse  rprime     W      b=0 raw qfirst    real=-7.265 z_sh=5.17 z_rd=5.14 n=12956
+AL_flat       ridx       S1     b=1 mod q         real=-6.823 z_sh=5.10 z_rd=3.77 n=12956
+CicadaPGP     rprime     TPS    b=0 raw q         real=-7.305 z_sh=5.06 z_rd=nan n=61
+SR_doyle_semi ridx1      L      b=0 mod q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+SR_doyle_semi ridx1      L      b=0 raw q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+SR_doyle      ridx1      L      b=0 mod q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+SR_doyle      ridx1      L      b=0 raw q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+SR_withverse  ridx1      L      b=0 mod q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+SR_withverse  ridx1      L      b=0 raw q         real=-6.416 z_sh=5.03 z_rd=4.38 n=12956
+KJV           w29        Wcum   b=0 mod qfirstwin real=-5.781 z_sh=4.90 z_rd=6.15 n=2896
+Mab_lines     ridx       Wp     b=0 mod qall      real=-4.572 z_sh=4.78 z_rd=-0.26 n=12498
+Mab_lines     ridx       Wp     b=0 raw qall      real=-4.572 z_sh=4.78 z_rd=-0.26 n=12498
+Mab_para      ridx       Wp     b=0 mod qall      real=-4.572 z_sh=4.78 z_rd=-0.26 n=12498
+Mab_para      ridx       Wp     b=0 raw qall      real=-4.572 z_sh=4.78 z_rd=-0.26 n=12498
+AL_flat       ridx       Wp     b=0 mod qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+AL_flat       ridx       Wp     b=0 raw qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+AL_allverses  ridx       Wp     b=0 mod qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+AL_allverses  ridx       Wp     b=0 raw qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+AL_verse      ridx       Wp     b=0 mod qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+AL_verse      ridx       Wp     b=0 raw qall      real=-4.292 z_sh=4.76 z_rd=1.50 n=12498
+Blake         ridx       Wpi    b=1 mod qall      real=-4.985 z_sh=4.73 z_rd=2.04 n=12048
+Blake         ridx       Wpi    b=1 raw qall      real=-4.985 z_sh=4.73 z_rd=2.04 n=12048
+Blake         ridx1      W      b=0 mod qall      real=-4.473 z_sh=4.54 z_rd=-0.15 n=12956
+Blake         ridx1      W      b=0 raw qall      real=-4.473 z_sh=4.54 z_rd=-0.15 n=12956
+AL_verse      rprime     TPS    b=1 mod qwin      real=-6.371 z_sh=4.41 z_rd=2.74 n=6478
+TOP 15 by z vs random
+SR_doyle_semi wlen       Wpi    b=0 mod qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+SR_doyle_semi wlen       Wpi    b=0 raw qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+SR_doyle      wlen       Wpi    b=0 mod qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+SR_doyle      wlen       Wpi    b=0 raw qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+SR_withverse  wlen       Wpi    b=0 mod qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+SR_withverse  wlen       Wpi    b=0 raw qall      real=-3.536 z_sh=1.27 z_rd=44.38 n=2813
+CicadaPGP     wlen       Wpi    b=0 mod qall      real=-4.336 z_sh=-0.73 z_rd=39.60 n=2813
+CicadaPGP     wlen       Wpi    b=0 raw qall      real=-4.336 z_sh=-0.73 z_rd=39.60 n=2813
+AL_flat       rprime     S1     b=0 raw qwin      real=-6.861 z_sh=nan z_rd=39.50 n=458
+AL_flat       rprime     S1     b=0 mod q         real=-6.123 z_sh=2.51 z_rd=39.14 n=12956
+AL_flat       wlen       Wp     b=0 mod qall      real=-3.923 z_sh=0.93 z_rd=37.96 n=2896
+AL_flat       wlen       Wp     b=0 raw qall      real=-3.923 z_sh=0.93 z_rd=37.96 n=2896
+AL_allverses  wlen       Wp     b=0 mod qall      real=-3.923 z_sh=0.93 z_rd=37.96 n=2896
+AL_allverses  wlen       Wp     b=0 raw qall      real=-3.923 z_sh=0.93 z_rd=37.96 n=2896
+AL_verse      wlen       Wp     b=0 mod qall      real=-3.923 z_sh=0.93 z_rd=37.96 n=2896
+n rows 27072 max 5.167954691683871 frac>3 0.020131501182033096 frac>4 0.0038046690307328604
+global: real max z 5.167954691683871 ; null max z over 50 shuffle replicates: max 8.190369917003094 mean 5.832481220231009 sd 0.8582952654422439

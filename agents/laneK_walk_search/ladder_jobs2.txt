@@ -1,0 +1,12 @@
+d_tied_K5adv 5 1 1 0 0 100000 4 5 P1 51 0
+d_tied_K5adv 5 1 1 0 0 100000 4 5 P1 52 0
+d_tied_K5adv 5 1 1 0 0 100000 4 5 P1 53 0
+d_tiedknowng_K5adv 5 1 1 0 0 50000 2 5 P1 51 1
+d_tiedknowng_K5adv 5 1 1 0 0 50000 2 5 P1 52 1
+d_tiedknowng_K5adv 5 1 1 0 0 50000 2 5 P1 53 1
+d_K5adv_sec8 5 1 0 0 0 100000 4 5 P1sec8 61
+d_K5adv_sec8 5 1 0 0 0 100000 4 5 P1sec8 62
+d_K5adv_sec8 5 1 0 0 0 100000 4 5 P1sec8 63
+d_K5adv_sec14 5 1 0 0 0 100000 4 5 P1sec14 61
+d_K5adv_sec14 5 1 0 0 0 100000 4 5 P1sec14 62
+d_K5adv_sec14 5 1 0 0 0 100000 4 5 P1sec14 63

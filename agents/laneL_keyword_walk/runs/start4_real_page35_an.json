@@ -1,0 +1,37 @@
+{
+ "run": "start4_real_page35",
+ "hdr": "# text texts/real_page35.txt words 61 runes 271 prefix_words 33 prefix_runes 152 |base| 1370 |g| 23751 |sigma| 1370 stageA_pairs 32538870 survivors 117779 stageA_s 0.0",
+ "modes": {
+  "0": null,
+  "1": null,
+  "2": {
+   "n": 1,
+   "ndead": 343,
+   "best": {
+    "pref_lm": -4.1938,
+    "full_lm": -4.58372891566265,
+    "quad": -7.29118232256195,
+    "ioc": 1.0336476698100314
+   },
+   "hdr": "# mode 2 stageB_trials 117779 stageB_s 1.6 word1_pass 0 reached_end 10590473 total_keys 3.2539e+07",
+   "top": [
+    {
+     "key": [
+      2,
+      13,
+      10768,
+      -1
+     ],
+     "base": "shift13",
+     "g": "oost:3,15,18,27",
+     "sigma": "-",
+     "pref_lm": -4.3818,
+     "full_lm": -4.58372891566265,
+     "quad": -7.29118232256195,
+     "ioc": 1.0336476698100314,
+     "text": "H-O-N-D-S-P-T-N-E-I-AE-J-X-A-R-B-N-J-M-Y-A-D-EA-IA-Y-G-Y-D-D-IA-M-G-EA-N-A-L-R-C-T-L-N-NG-T-NG-R-F-H-A-D-NG-NG-O-S-P-I-R-TH-U-NG-M-I-EA-OE-L-X-S-F-T-E-W-U-R-H-J-EO-I-G-EO-F-EA-O-IA-W-H-U-O-EO-A-P-TH-C-U-L-Y-M-Y-A-EA-IA-TH-R-H-J-P-R-Y-P-OE-EA-M-NG-W-F-U-L-EO-S-W-N-H"
+    }
+   ]
+  }
+ }
+}

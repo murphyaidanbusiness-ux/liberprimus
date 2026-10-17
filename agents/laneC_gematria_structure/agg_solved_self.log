@@ -1,0 +1,58 @@
+
+=== family self: 39 groups, 20 null runs ===
+family-wide max z: real 42.94 | null max-z: mean 42.17 sd 1.86 max 44.93  => real-minus-null-mean in sd = 0.42 ; real beats null max: False
+group                                            real z   real IoC |  nullmu  nullsd nullmax | sd-above
+SELF:r.pos_in_page                                 5.26     1.0250 |    4.30    0.54    5.96 |   1.77
+SELF:w.pi                                          5.57     1.0265 |    4.63    0.67    5.80 |   1.40
+SELF:r.pos_in_line                                 5.20     1.0266 |    4.48    0.51    5.59 |   1.40
+SELF:dbl.pos_cyc                                   5.92     1.0257 |    4.56    1.10    8.32 |   1.24
+SELF:r.index                                       5.40     1.0265 |    4.89    0.43    5.53 |   1.19
+SELF:l.cumsum                                      4.92     1.0271 |    4.09    0.71    5.61 |   1.18
+SELF:l.id                                          4.36     1.0275 |    3.93    0.67    5.12 |   0.64
+SELF:w.in_page                                     4.86     1.0256 |    4.50    0.61    5.49 |   0.58
+RAW-SELF:r.index                                  42.94     1.0244 |   42.17    1.86   44.93 |   0.42
+SELF:w.len                                         4.72     1.0261 |    4.48    0.74    6.19 |   0.32
+SELF:dbl.gap_cyc                                   4.68     1.0256 |    4.45    0.77    6.42 |   0.30
+RAW-SELF:r.wordsum_cur                             4.85     1.0026 |    4.70    0.57    5.89 |   0.26
+RAW-SELF:r.wordlen                                 4.84     1.0031 |    4.70    0.70    6.09 |   0.19
+SELF:p.len                                         3.73     1.0256 |    3.59    0.84    5.10 |   0.17
+SELF:w.idxsum                                      4.86     1.0262 |    4.74    0.69    6.23 |   0.17
+SELF:w.sum                                         4.59     1.0263 |    4.52    0.53    5.41 |   0.12
+SELF:w.first                                       4.84     1.0263 |    4.77    0.58    5.75 |   0.11
+SELF:l.sum                                         4.16     1.0268 |    4.14    0.68    5.18 |   0.03
+SELF:p.sum                                         3.29     1.0249 |    3.28    0.67    4.53 |   0.01
+SELF:w.cumlen                                      4.60     1.0266 |    4.68    0.68    6.29 |  -0.12
+SELF:dbl.count_gap                                 3.53     1.0254 |    3.60    0.55    4.70 |  -0.12
+RAW-SELF:r.prime                                   4.75     1.0027 |    4.82    0.43    5.51 |  -0.15
+SELF:dbl.count_pos                                 3.60     1.0261 |    3.70    0.62    4.72 |  -0.16
+SELF:w.last                                        4.55     1.0261 |    4.66    0.62    6.26 |  -0.17
+SELF:l.len                                         3.82     1.0279 |    3.93    0.65    5.06 |  -0.18
+
+=== family solved: 60 groups, 20 null runs ===
+family-wide max z: real 7.27 | null max-z: mean 7.67 sd 0.59 max 8.99  => real-minus-null-mean in sd = -0.68 ; real beats null max: False
+group                                            real z   real IoC |  nullmu  nullsd nullmax | sd-above
+PT.W.sum [Wx]                                      7.27     1.0274 |    5.78    0.54    6.92 |   2.74
+PT.L.prime [L]                                     6.87     1.0267 |    5.92    0.39    7.11 |   2.44
+PT.L.totient [L]                                   6.87     1.0267 |    5.82    0.44    6.73 |   2.40
+CT.W.idxsum [Wx]                                   6.61     1.0266 |    5.71    0.40    6.54 |   2.27
+PT.W.last [W]                                      6.11     1.0281 |    5.18    0.42    6.24 |   2.25
+PT.W.totient [W]                                   6.34     1.0268 |    5.43    0.41    6.70 |   2.23
+PT.W.sumtot1 [Wx]                                  7.27     1.0274 |    5.97    0.59    7.40 |   2.20
+PT.W.idxsum [Wx]                                   6.96     1.0274 |    5.86    0.55    7.30 |   1.99
+CT.W.last [W]                                      5.74     1.0267 |    5.18    0.28    5.64 |   1.96
+CT.L.cumprime [L]                                  6.39     1.0263 |    5.63    0.43    6.97 |   1.77
+CT.W.first [W]                                     5.99     1.0263 |    5.28    0.52    6.26 |   1.35
+PT.W.last [Wx]                                     6.11     1.0394 |    5.55    0.46    6.32 |   1.20
+CT.W.cumsum [W]                                    5.96     1.0264 |    5.48    0.46    6.29 |   1.05
+CT.W.pi [Wx]                                       6.05     1.0395 |    5.65    0.45    6.67 |   0.88
+PT.W.pi [Wx]                                       6.45     1.0273 |    5.82    0.82    7.88 |   0.77
+PT.W.primeidx [W]                                  6.05     1.0264 |    5.63    0.56    7.00 |   0.76
+CT.W.cumtot [Wx]                                   6.31     1.0267 |    5.87    0.70    7.84 |   0.64
+CT.W.primeidx [W]                                  5.49     1.0262 |    5.36    0.43    6.37 |   0.30
+RAW shift control: CT.L.index                      5.25     1.0030 |    5.06    0.75    6.64 |   0.25
+PT.W.idxsum [W]                                    5.66     1.0263 |    5.56    0.55    6.40 |   0.18
+PT.W.len [W]                                       5.43     1.0263 |    5.39    0.63    7.16 |   0.06
+CT.W.len [W]                                       5.43     1.0263 |    5.39    0.63    7.16 |   0.06
+PT.W.cumtot [W]                                    5.48     1.0260 |    5.48    0.54    6.43 |   0.01
+CT.W.totient [Wx]                                  5.94     1.0389 |    5.94    0.54    6.96 |   0.00
+RAW shift control: PT.L.prime                      4.83     1.0026 |    4.85    0.59    6.34 |  -0.03

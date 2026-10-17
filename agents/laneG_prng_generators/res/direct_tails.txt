@@ -1,0 +1,40 @@
+exact / direct (a,b,c,d,s): 12053100 streams, real max 11
+   >=7   real 52804    null(empirical, per 20 shuffles avg) 5.28e+04   analytic 4.618e+04
+   >=8   real 1839     null(empirical, per 20 shuffles avg) 1850       analytic 1595
+   >=9   real 63       null(empirical, per 20 shuffles avg) 63.25      analytic 54.99
+   >=10  real 2        null(empirical, per 20 shuffles avg) 3.3        analytic 1.896
+   >=11  real 0        null(empirical, per 20 shuffles avg) 0.4        analytic 0.06536
+   >=12  real 0        null(empirical, per 20 shuffles avg) 0          analytic 0.002253
+   >=13  real 0        null(empirical, per 20 shuffles avg) 0          analytic 7.769e-05
+exact / chain increments (e,e0): 4821240 streams, real max 11
+   >=7   real 40410    null(empirical, per 20 shuffles avg) 4.062e+04  analytic 4.703e+04
+   >=8   real 1508     null(empirical, per 20 shuffles avg) 1426       analytic 1687
+   >=9   real 62       null(empirical, per 20 shuffles avg) 50.1       analytic 60.25
+   >=10  real 3        null(empirical, per 20 shuffles avg) 1.45       analytic 2.151
+   >=11  real 0        null(empirical, per 20 shuffles avg) 0.15       analytic 0.07682
+   >=12  real 0        null(empirical, per 20 shuffles avg) 0          analytic 0.002743
+   >=13  real 0        null(empirical, per 20 shuffles avg) 0          analytic 9.795e-05
+pattern / direct (a,b,c,d,s): 12053100 streams, real max 22
+   >=18  real 458      null(empirical, per 20 shuffles avg) 2189      
+   >=19  real 236      null(empirical, per 20 shuffles avg) 395.9     
+   >=20  real 47       null(empirical, per 20 shuffles avg) 47        
+   >=21  real 0        null(empirical, per 20 shuffles avg) 8.45      
+   >=22  real 0        null(empirical, per 20 shuffles avg) 0.85      
+   >=23  real 0        null(empirical, per 20 shuffles avg) 0         
+   >=24  real 0        null(empirical, per 20 shuffles avg) 0         
+hamming / direct (a,b,c,d,s): 12053100 streams, real max 18
+   >=14  real 21827    analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 2.091e+04
+   >=15  real 2502     analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 2465
+   >=16  real 269      analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 267.1
+   >=17  real 32       analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 26.71
+   >=18  real 1        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 2.473
+   >=19  real 0        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 0.2124
+   >=20  real 0        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 0.01697
+hamming / chain increments (e,e0): 4821240 streams, real max 17
+   >=13  real 77371    analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 6.469e+04
+   >=14  real 10150    analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 8363
+   >=15  real 1182     analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 985.8
+   >=16  real 124      analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 106.8
+   >=17  real 7        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 10.69
+   >=18  real 0        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 0.9892
+   >=19  real 0        analytic Binomial(64,1/29) over 55 pages x 1001 offsets: 0.08497

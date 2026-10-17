@@ -1,0 +1,10 @@
+fam 3 units 17 keys 362700 variants 5
+key 0 0.0s
+key 40000 3.3s
+key 180000 14.6s
+key 220000 17.8s
+key 240000 19.3s
+key 300000 24.0s
+key 340000 27.2s
+stage1 pass 3741135 / 30829500 = 0.12135 (W=64 thr*1000*(W-3)=-427000)
+done 29.0s, 2.35e+10 rune-steps, 8.1e+08 steps/s

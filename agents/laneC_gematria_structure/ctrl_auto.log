@@ -1,0 +1,6 @@
+LET lag1 g=prime%28 s=+1 map0 f0 | cont planted(meanz,maxz,bestioc)= (1175.2604125103544, 1175.2604125103544, 1.72642197337883) | best other mean-z=26.4 | top: LET lag1 g=prime%28 s=+1 map0 f0 | cont 1175.3
+LET lag2 g=index s=-1 map1 f0 | page planted(meanz,maxz,bestioc)= (21.95527068634809, 29.088283903782344, 2.0541666666666667) | best other mean-z=142.4 | top: LET lag2 g=index s=-1 map1 f0 | cont 142.4
+LET lag3 g=prime%29 s=+1 map0 f0 | cont planted(meanz,maxz,bestioc)= (1175.2049548742373, 1175.2049548742373, 1.7263887947895313) | best other mean-z=22.2 | top: LET lag3 g=prime%29 s=+1 map0 f0 | cont 1175.2
+WORDSUM prev-word h=phi%28 s=+1 map0 f0 | cont planted(meanz,maxz,bestioc)= (1176.4307997059086, 1176.4307997059086, 1.727122179857152) | best other mean-z=31.5 | top: WORDSUM prev-word h=phi%28 s=+1 map0 f0 | cont 1176.4
+CUMSUM running-total h=sum%29 s=-1 map0 f0 | page planted(meanz,maxz,bestioc)= (21.987421971863363, 28.432774327353123, 2.0563823190716626) | best other mean-z=895.5 | top: CUMSUM running-total h=sum%29 s=-1 map0 f0 | cont 895.5
+LET lag1 g=prime%29 s=+1 map0 f1 | cont planted(meanz,maxz,bestioc)= (107.79641450458874, 107.79641450458874, 1.090748478631782) | best other mean-z=107.8 | top: LET lag1 g=prime%29 s=+1 map0 f1 | cont 107.8

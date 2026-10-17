@@ -1,0 +1,4 @@
+text texts/real_sec12.txt: 34 words 161 runes; prefix 32 words 152 runes; word0 len 6 word1 len 7; |base|=18458 |g|=285012 |sigma|=18458 lexicon 386198 threads 4
+stage A: 5260751496 (base,g) pairs in 0.4s = 1.50e+10 /s; exact DFS calls 6079133 (1.16e-03); survivors 2477 (4.71e-07)
+mode 0 stage B: 45720466 (survivor,sigma) trials in 0.3s = 1.61e+08 /s; word1 lexicon pass 117; reached prefix end 6700; kept 1000
+mode 2 stage B: 2477 (survivor,sigma) trials in 0.0s = 1.69e+05 /s; word1 lexicon pass 0; reached prefix end 22793; kept 1000

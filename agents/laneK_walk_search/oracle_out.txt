@@ -1,0 +1,16 @@
+    length 14,391   English score -6.725
+    NOTE: a plaintext alone cannot be verified against the ciphertext
+    without the key. What this checks is only that your text IS English.
+    To be adjudicated as a SOLUTION, submit the key that produces it —
+    a plaintext with no key is unfalsifiable, and that is precisely why
+    every historical 'solve' of this kind was never accepted.
+
+VERDICT: NOT-ADJUDICABLE (submit a key)
+    length 2,731   English score -6.388
+    NOTE: a plaintext alone cannot be verified against the ciphertext
+    without the key. What this checks is only that your text IS English.
+    To be adjudicated as a SOLUTION, submit the key that produces it —
+    a plaintext with no key is unfalsifiable, and that is precisely why
+    every historical 'solve' of this kind was never accepted.
+
+VERDICT: NOT-ADJUDICABLE (submit a key)

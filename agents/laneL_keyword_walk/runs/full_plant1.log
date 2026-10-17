@@ -1,0 +1,5 @@
+text texts/plant1.txt: 59 words 262 runes; prefix 34 words 151 runes; word0 len 8 word1 len 5; |base|=220280 |g|=1127284 |sigma|=220280 lexicon 386198 threads 4
+stage A: 248318119520 (base,g) pairs in 99.0s = 2.51e+09 /s; exact DFS calls 5216069410 (2.10e-02); survivors 34090 (1.37e-07)
+mode 0 stage B: 7509345200 (survivor,sigma) trials in 59.9s = 1.25e+08 /s; word1 lexicon pass 8888215; reached prefix end 9621735; kept 1000
+mode 1 stage B: 7509345200 (survivor,sigma) trials in 54.1s = 1.39e+08 /s; word1 lexicon pass 8653861; reached prefix end 9325010; kept 1000
+mode 2 stage B: 34090 (survivor,sigma) trials in 0.1s = 5.50e+05 /s; word1 lexicon pass 0; reached prefix end 22282; kept 1000

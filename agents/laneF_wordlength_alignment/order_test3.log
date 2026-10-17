@@ -1,0 +1,16 @@
+LP1 solved: 695 words, mean 4.02
+base LP1 solved (true runes) M1 z=4.31 M2 z=4.41
+base unsolved first 695 M1 z=-0.82 M2 z=-0.89
+base unsolved last 695 M1 z=-0.78 M2 z=-0.02
+base unsolved 4 blocks of 695 M1 z: [np.float64(-0.87), np.float64(0.92), np.float64(-2.17), np.float64(-0.59)]
+base held-out English windows of 695 words: M1 z mean 4.40 sd 1.18
+base_mF2 LP1 solved (true runes) M1 z=3.12 M2 z=4.19
+base_mF2 unsolved first 695 M1 z=-0.39 M2 z=-0.02
+base_mF2 unsolved last 695 M1 z=-1.43 M2 z=-0.42
+base_mF2 unsolved 4 blocks of 695 M1 z: [np.float64(-0.46), np.float64(1.48), np.float64(-2.89), np.float64(-1.19)]
+base_mF2 held-out English windows of 695 words: M1 z mean 3.73 sd 1.06
+base_drop3 LP1 solved (true runes) M1 z=3.39 M2 z=4.40
+base_drop3 unsolved first 695 M1 z=-0.77 M2 z=-0.28
+base_drop3 unsolved last 695 M1 z=-0.77 M2 z=0.37
+base_drop3 unsolved 4 blocks of 695 M1 z: [np.float64(-0.72), np.float64(1.05), np.float64(-2.29), np.float64(-0.38)]
+base_drop3 held-out English windows of 695 words: M1 z mean 3.59 sd 0.77

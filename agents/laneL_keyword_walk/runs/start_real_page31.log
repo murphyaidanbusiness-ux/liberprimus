@@ -1,0 +1,5 @@
+text texts/real_page31.txt: 64 words 269 runes; prefix 37 words 150 runes; word0 len 8 word1 len 2; |base|=220280 |g|=1127284 |sigma|=220280 lexicon 386198 threads 4
+stage A: 248318119520 (base,g) pairs in 96.1s = 2.58e+09 /s; exact DFS calls 4615969004 (1.86e-02); survivors 28969 (1.17e-07)
+mode 0 stage B: 6381291320 (survivor,sigma) trials in 232.6s = 2.74e+07 /s; word1 lexicon pass 3826442611; reached prefix end 148741891; kept 1000
+mode 1 stage B: 6381291320 (survivor,sigma) trials in 226.4s = 2.82e+07 /s; word1 lexicon pass 3772433838; reached prefix end 143121226; kept 1000
+mode 2 stage B: 28969 (survivor,sigma) trials in 0.4s = 6.45e+04 /s; word1 lexicon pass 0; reached prefix end 2040837; kept 1000

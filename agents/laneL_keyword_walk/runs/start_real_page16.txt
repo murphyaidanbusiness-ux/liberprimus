@@ -1,0 +1,4 @@
+# text texts/real_page16.txt words 60 runes 267 prefix_words 35 prefix_runes 150 |base| 220280 |g| 1127284 |sigma| 220280 stageA_pairs 248318119520 survivors 0 stageA_s 45.6
+# mode 0 stageB_trials 0 stageB_s 0.0 word1_pass 0 reached_end 0 total_keys 5.4700e+16
+# mode 1 stageB_trials 0 stageB_s 0.0 word1_pass 0 reached_end 0 total_keys 5.4700e+16
+# mode 2 stageB_trials 0 stageB_s 0.0 word1_pass 0 reached_end 0 total_keys 2.4832e+11

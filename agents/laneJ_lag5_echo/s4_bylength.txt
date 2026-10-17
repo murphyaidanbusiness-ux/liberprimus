@@ -1,0 +1,31 @@
+matches per word, by length (number of words with 0,1,2,3.. lag-5 matches)
+ L= 6 words=256 dist={0: 247, 1: 9}
+ L= 7 words=216 dist={0: 198, 1: 17, 2: 1}
+ L= 8 words=156 dist={0: 138, 1: 15, 2: 2, 3: 1}
+ L= 9 words= 78 dist={0: 63, 1: 15}
+ L=10 words= 52 dist={0: 36, 1: 13, 2: 2, 3: 1}
+ L=11 words= 32 dist={0: 25, 1: 6, 2: 1}
+ L=12 words= 18 dist={0: 13, 1: 4, 2: 1}
+ L=13 words=  4 dist={0: 1, 1: 3}
+ L=14 words=  3 dist={0: 1, 1: 2}
+
+L=10 words with matches (section, page, word, match positions):
+  sec 0 page  1  J.F.I.N.IA.C.Y.EA.I.IA           matches at [np.int64(4)]
+  sec 1 page  5  U.B.G.NG.OE.U.NG.S.U.C           matches at [np.int64(0)]
+  sec 1 page  6  W.I.IA.S.P.L.TH.A.S.J            matches at [np.int64(3)]
+  sec 3 page 21  I.P.A.NG.S.D.OE.O.NG.M           matches at [np.int64(3)]
+  sec 4 page 25  EA.L.U.N.TH.P.S.U.P.R            matches at [np.int64(2)]
+  sec 5 page 27  N.A.EA.O.A.N.A.TH.G.O            matches at [np.int64(0), np.int64(1)]
+  sec 5 page 28  OE.M.B.I.NG.T.A.U.I.TH           matches at [np.int64(3)]
+  sec 6 page 36  P.OE.J.A.NG.P.TH.P.A.NG          matches at [np.int64(0), np.int64(3), np.int64(4)]
+  sec 6 page 37  A.I.J.S.R.A.T.S.NG.T             matches at [np.int64(0)]
+  sec 6 page 39  U.P.S.TH.I.C.P.S.I.W             matches at [np.int64(1), np.int64(2)]
+  sec 7 page 41  X.T.OE.U.O.OE.TH.P.S.O           matches at [np.int64(4)]
+  sec 7 page 42  F.IA.A.IA.E.AE.D.J.U.E           matches at [np.int64(4)]
+  sec 7 page 43  U.I.O.J.O.EO.OE.J.D.O            matches at [np.int64(4)]
+  sec 7 page 43  B.IA.D.EA.AE.B.EA.C.X.F          matches at [np.int64(0)]
+  sec 7 page 47  F.U.X.S.X.I.TH.AE.S.M            matches at [np.int64(3)]
+  sec 7 page 52  U.NG.J.EO.G.F.NG.R.I.TH          matches at [np.int64(1)]
+
+common-phi fit over L=6..14: phi=0.53 chi2=10.6 (9 cells), Monte-Carlo P(chi2>=obs)=0.218
+per-L z vs common phi: L6:+0.4 L7:-0.6 L8:-0.6 L9:+0.1 L10:+2.8 L11:-0.2 L12:-0.3 L13:+1.1 L14:+0.5

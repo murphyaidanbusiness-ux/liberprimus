@@ -1,0 +1,154 @@
+words 2896 runes 12956 mean 4.473756906077348
+unsolved dist 1..10,11+: [ 2.9 15.5 24.9 17.7 10.9  8.8  7.5  5.4  2.7  1.8  2. ]
+page, nwords, f2, f3, f1, mean
+ 0  59 0.119 0.271 0.051 4.44
+ 1  63 0.238 0.254 0.016 4.22
+ 2  38 0.184 0.132 0.053 5.29
+ 3  44 0.114 0.250 0.023 4.93
+ 4  61 0.164 0.213 0.066 4.28
+ 5  59 0.102 0.271 0.051 4.46
+ 6  45 0.133 0.244 0.044 4.36
+ 7  50 0.160 0.320 0.020 4.16
+ 8  51 0.118 0.196 0.020 5.00
+ 9  57 0.105 0.298 0.035 4.70
+10  65 0.154 0.277 0.077 4.05
+11  55 0.164 0.273 0.000 4.96
+12  65 0.185 0.292 0.031 4.02
+13  61 0.115 0.148 0.049 4.46
+14  31 0.194 0.258 0.000 4.42
+15  37 0.135 0.189 0.027 4.30
+16  60 0.150 0.267 0.050 4.45
+17  69 0.203 0.203 0.072 3.96
+18  61 0.164 0.262 0.049 4.26
+19  66 0.182 0.227 0.061 4.11
+20  65 0.200 0.277 0.015 4.14
+21  55 0.164 0.182 0.055 4.96
+22  28 0.214 0.250 0.000 4.68
+23  46 0.065 0.261 0.043 4.63
+24  64 0.203 0.281 0.016 4.22
+25  58 0.155 0.155 0.034 4.71
+26  59 0.153 0.254 0.017 4.49
+27  52 0.212 0.269 0.019 4.50
+28  59 0.153 0.136 0.068 4.56
+29  71 0.211 0.296 0.028 3.90
+30  61 0.082 0.328 0.049 4.31
+31  64 0.156 0.312 0.031 4.20
+32  22 0.091 0.136 0.045 5.50
+33  53 0.264 0.226 0.038 4.04
+34  61 0.164 0.230 0.033 4.28
+35  61 0.180 0.295 0.033 4.44
+36  50 0.160 0.260 0.000 4.76
+37  53 0.170 0.245 0.019 4.30
+38  47 0.149 0.255 0.021 4.85
+39  55 0.091 0.255 0.036 4.36
+40  55 0.145 0.236 0.018 4.20
+41  62 0.097 0.290 0.016 4.40
+42  58 0.155 0.224 0.017 4.69
+43  59 0.237 0.220 0.000 4.64
+44  57 0.158 0.158 0.018 4.79
+45  64 0.203 0.234 0.062 4.22
+46  61 0.115 0.311 0.000 4.43
+47  59 0.136 0.288 0.034 4.64
+48  67 0.164 0.313 0.030 4.04
+49  18 0.222 0.222 0.056 3.67
+50  20 0.000 0.400 0.050 4.60
+51  60 0.167 0.217 0.050 4.38
+52  40 0.175 0.250 0.000 4.47
+53  50 0.120 0.240 0.040 4.64
+54  17 0.294 0.118 0.059 4.47
+hetero chi2(2-rune share across 55 pages)=43.1  df=54  perm-null mean 56.1 sd 9.8 p=0.918
+pages with f2>=0.22: [(1, 0.238, 63), (33, 0.264, 53), (43, 0.237, 59), (49, 0.222, 18), (54, 0.294, 17)]
+pooled f2=0.1588, binomial 95% range per 50-word page: 0.057..0.260
+section: n words, f1,f2,f3, mean
+0 2 158 0.032 0.177 0.228 4.61
+3 7 255 0.031 0.125 0.267 4.49
+8 14 383 0.029 0.146 0.251 4.51
+15 22 437 0.041 0.169 0.238 4.35
+23 26 224 0.022 0.147 0.237 4.56
+27 32 326 0.037 0.156 0.255 4.40
+33 39 378 0.024 0.164 0.254 4.44
+40 53 719 0.021 0.149 0.253 4.51
+54 54 17 0.059 0.294 0.118 4.47
+loaded Moby Dick 160403
+loaded Plato Republic 159636
+loaded KJV 367009
+loaded Emerson 74330
+loaded Poe tales 99583
+loaded Hamlet 35525
+loaded Lovecraft CoC 14893
+loaded Crowley Liber777 18923
+loaded Agrippa OP1 64235
+loaded Kant CPR 142788
+loaded Latin Newton 98972
+loaded Latin Virgil 66375
+loaded Latin Cicero Tusc 157671
+loaded Latin Suetonius 151888
+loaded Latin Caesar 8155
+loaded German Faust 35442
+loaded OE Beowulf (verse) 149899
+
+Solved Cicada pages (actual runes):  [ 3.9 24.  24.3 17.3  7.8  8.2  6.2  3.5  2.3  1.3  1.3] JS vs unsolved 0.0085
+
+Best 40 (JS vs unsolved) :
+corpus                 scheme      removed                         JS     f2     f3  mean
+Emerson                digraph_io  THE/OF/TO                   0.0009  0.155  0.251  4.45
+Emerson                cicada      THE/OF/TO                   0.0009  0.156  0.253  4.43
+Plato Republic         cicada      THE/OF/TO                   0.0009  0.154  0.251  4.45
+Plato Republic         digraph_io  THE/OF/TO                   0.0009  0.154  0.248  4.48
+Latin Cicero Tusc      th_ing      THE/OF/TO                   0.0009  0.153  0.249  4.52
+Latin Cicero Tusc      ing_only    THE/OF/TO                   0.0010  0.153  0.259  4.47
+Emerson                ing_only    THE/OF/TO                   0.0010  0.156  0.253  4.46
+Emerson                digraph     THE/OF/TO                   0.0010  0.155  0.251  4.48
+Latin Cicero Tusc      cicada      THE/OF/TO                   0.0010  0.153  0.259  4.45
+Latin Cicero Tusc      digraph     THE/OF/TO                   0.0010  0.152  0.254  4.50
+Latin Cicero Tusc      th_ng       THE/OF/TO                   0.0010  0.151  0.246  4.54
+Latin Cicero Tusc      digraph_io  THE/OF/TO                   0.0011  0.152  0.255  4.47
+Emerson                th_ing      THE/OF/TO                   0.0011  0.156  0.244  4.50
+Emerson                th_ng       THE/OF/TO                   0.0011  0.154  0.242  4.52
+Plato Republic         th_ing      THE/OF/TO                   0.0011  0.154  0.243  4.53
+Plato Republic         ing_only    THE/OF/TO                   0.0012  0.154  0.251  4.48
+Plato Republic         digraph     THE/OF/TO                   0.0012  0.153  0.248  4.51
+Agrippa OP1            ing_only    THE/OF/TO                   0.0012  0.133  0.240  4.58
+Plato Republic         th_ng       THE/OF/TO                   0.0012  0.153  0.241  4.55
+Emerson                th_only     THE/OF/TO                   0.0012  0.154  0.240  4.55
+Latin Cicero Tusc      th_only     THE/OF/TO                   0.0013  0.151  0.244  4.57
+Agrippa OP1            cicada      THE/OF/TO                   0.0013  0.133  0.240  4.55
+Moby Dick              digraph     THE/OF/TO/A                 0.0014  0.134  0.239  4.55
+Agrippa OP1            th_ing      THE/OF/TO                   0.0014  0.132  0.232  4.63
+Plato Republic         th_only     THE/OF/TO                   0.0015  0.153  0.239  4.58
+Moby Dick              digraph_io  THE/OF/TO/A                 0.0015  0.134  0.240  4.53
+Moby Dick              th_only     THE/OF/TO/A                 0.0016  0.132  0.230  4.64
+Moby Dick              ing_only    THE/OF/TO/A                 0.0017  0.136  0.241  4.51
+Moby Dick              th_ng       THE/OF/TO/A                 0.0017  0.132  0.233  4.59
+Agrippa OP1            digraph     THE/OF/TO                   0.0017  0.131  0.227  4.62
+Moby Dick              letters     none                        0.0018  0.166  0.222  4.38
+Moby Dick              cicada      THE/OF/TO/A                 0.0019  0.136  0.242  4.49
+Agrippa OP1            digraph_io  THE/OF/TO                   0.0019  0.131  0.227  4.59
+Poe tales              cicada      THE/OF/TO/A                 0.0020  0.141  0.221  4.68
+Latin Cicero Tusc      th_ing      THE/OF/TO/A                 0.0020  0.156  0.254  4.59
+Agrippa OP1            th_ng       THE/OF/TO                   0.0021  0.130  0.220  4.66
+Latin Cicero Tusc      ing_only    THE/OF/TO/A                 0.0021  0.156  0.264  4.54
+Moby Dick              th_ing      THE/OF/TO/A                 0.0021  0.133  0.233  4.55
+Latin Cicero Tusc      cicada      THE/OF/TO/A                 0.0021  0.156  0.264  4.51
+Latin Cicero Tusc      digraph     THE/OF/TO/A                 0.0021  0.155  0.259  4.57
+
+Unsolved f2=0.155 f3=0.249 mean=4.47
+
+Per corpus: JS under each scheme (no word removal) and cicada+THE/OF/TO removed:
+Moby Dick              letters=0.0018 th_only=0.0067 th_ng=0.0068 th_ing=0.0074 digraph=0.0069 digraph_io=0.0070 ing_only=0.0074 cicada=0.0076  | cicada-THE/OF/TO=0.0030
+Plato Republic         letters=0.0037 th_only=0.0132 th_ng=0.0129 th_ing=0.0129 digraph=0.0129 digraph_io=0.0127 ing_only=0.0130 cicada=0.0128  | cicada-THE/OF/TO=0.0009
+KJV                    letters=0.0084 th_only=0.0139 th_ng=0.0145 th_ing=0.0155 digraph=0.0162 digraph_io=0.0166 ing_only=0.0173 cicada=0.0177  | cicada-THE/OF/TO=0.0103
+Emerson                letters=0.0026 th_only=0.0110 th_ng=0.0109 th_ing=0.0111 digraph=0.0109 digraph_io=0.0108 ing_only=0.0111 cicada=0.0110  | cicada-THE/OF/TO=0.0009
+Poe tales              letters=0.0037 th_only=0.0135 th_ng=0.0129 th_ing=0.0130 digraph=0.0126 digraph_io=0.0123 ing_only=0.0125 cicada=0.0123  | cicada-THE/OF/TO=0.0042
+Hamlet                 letters=0.0075 th_only=0.0090 th_ng=0.0091 th_ing=0.0101 digraph=0.0096 digraph_io=0.0108 ing_only=0.0106 cicada=0.0118  | cicada-THE/OF/TO=0.0081
+Lovecraft CoC          letters=0.0045 th_only=0.0107 th_ng=0.0099 th_ing=0.0100 digraph=0.0092 digraph_io=0.0091 ing_only=0.0091 cicada=0.0090  | cicada-THE/OF/TO=0.0071
+Crowley Liber777       letters=0.0130 th_only=0.0230 th_ng=0.0224 th_ing=0.0225 digraph=0.0214 digraph_io=0.0215 ing_only=0.0212 cicada=0.0213  | cicada-THE/OF/TO=0.0208
+Agrippa OP1            letters=0.0023 th_only=0.0088 th_ng=0.0082 th_ing=0.0080 digraph=0.0081 digraph_io=0.0082 ing_only=0.0080 cicada=0.0081  | cicada-THE/OF/TO=0.0013
+Kant CPR               letters=0.0226 th_only=0.0394 th_ng=0.0379 th_ing=0.0376 digraph=0.0373 digraph_io=0.0345 ing_only=0.0369 cicada=0.0340  | cicada-THE/OF/TO=0.0177
+Latin Newton           letters=0.0405 th_only=0.0402 th_ng=0.0395 th_ing=0.0399 digraph=0.0372 digraph_io=0.0347 ing_only=0.0371 cicada=0.0346  | cicada-THE/OF/TO=0.0346
+Latin Virgil           letters=0.0575 th_only=0.0574 th_ng=0.0570 th_ing=0.0570 digraph=0.0519 digraph_io=0.0499 ing_only=0.0515 cicada=0.0495  | cicada-THE/OF/TO=0.0506
+Latin Cicero Tusc      letters=0.0031 th_only=0.0091 th_ng=0.0089 th_ing=0.0089 digraph=0.0089 digraph_io=0.0089 ing_only=0.0091 cicada=0.0091  | cicada-THE/OF/TO=0.0010
+Latin Suetonius        letters=0.0037 th_only=0.0134 th_ng=0.0125 th_ing=0.0122 digraph=0.0121 digraph_io=0.0119 ing_only=0.0117 cicada=0.0115  | cicada-THE/OF/TO=0.0029
+Latin Caesar           letters=0.0458 th_only=0.0459 th_ng=0.0457 th_ing=0.0457 digraph=0.0424 digraph_io=0.0396 ing_only=0.0422 cicada=0.0394  | cicada-THE/OF/TO=0.0394
+German Faust           letters=0.0081 th_only=0.0077 th_ng=0.0076 th_ing=0.0077 digraph=0.0077 digraph_io=0.0077 ing_only=0.0076 cicada=0.0076  | cicada-THE/OF/TO=0.0085
+OE Beowulf (verse)     letters=0.0428 th_only=0.0475 th_ng=0.0480 th_ing=0.0485 digraph=0.0490 digraph_io=0.0498 ing_only=0.0498 cicada=0.0506  | cicada-THE/OF/TO=0.0473

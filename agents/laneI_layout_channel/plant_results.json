@@ -1,0 +1,1682 @@
+[
+ {
+  "kind": "raw_A1Z26",
+  "seed": 0,
+  "Qall": {
+   "z": 19.19993575481439,
+   "label": "W|gt8|bitsf g5 o0 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.602866172790527
+  },
+  "Qwin": {
+   "z": 19.918217255325388,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.115567592152378
+  },
+  "Hwin": {
+   "z": 8.748018209180016,
+   "label": "W|gt5|bitsr g8 o5 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.022222222222222223
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.918217255325388,
+   "Qwin": -4.115567592152378
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 1,
+  "Qall": {
+   "z": 14.728323996472751,
+   "label": "W|gt8|bdtf o4 lsb inv1",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.63772201538086
+  },
+  "Qwin": {
+   "z": 19.91496365367025,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.116118619316502
+  },
+  "Hwin": {
+   "z": 8.671317036409597,
+   "label": "W|gt1|bitsf g5 o1 msb inv0 a1z26",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02857142857142857
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.91496365367025,
+   "Qwin": -4.116118619316502
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 2,
+  "Qall": {
+   "z": 17.149414792768795,
+   "label": "W|gt8|bitsf g5 o4 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.612642288208008
+  },
+  "Qwin": {
+   "z": 19.918217255325388,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.115567592152378
+  },
+  "Hwin": {
+   "z": 19.594848607829608,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03225806451612903
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.918217255325388,
+   "Qwin": -4.115567592152378
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 3,
+  "Qall": {
+   "z": 12.095366480194876,
+   "label": "W|gt8|bdtf o2 lsb inv1",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.664224624633789
+  },
+  "Qwin": {
+   "z": 19.918217255325388,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.115567592152378
+  },
+  "Hwin": {
+   "z": 8.628280111060961,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.918217255325388,
+   "Qwin": -4.115567592152378
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 4,
+  "Qall": {
+   "z": 10.897367862829869,
+   "label": "W|gt8|bdtf o2 lsb inv1",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.682746887207031
+  },
+  "Qwin": {
+   "z": 19.918217255325388,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.115567592152378
+  },
+  "Hwin": {
+   "z": 20.250373165440624,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03333333333333333
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.918217255325388,
+   "Qwin": -4.115567592152378
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 5,
+  "Qall": {
+   "z": 12.863179043500878,
+   "label": "W|gt8|bitsf g5 o3 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.66275405883789
+  },
+  "Qwin": {
+   "z": 19.86072065069957,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.125305167415686
+  },
+  "Hwin": {
+   "z": 10.692145321620716,
+   "label": "W|par|bitsr g8 o1 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03333333333333333
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.86072065069957,
+   "Qwin": -4.125305167415686
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 6,
+  "Qall": {
+   "z": 14.30737703651447,
+   "label": "W|gt8|bitsf g5 o3 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.641417503356934
+  },
+  "Qwin": {
+   "z": 19.91496365367025,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.116118619316502
+  },
+  "Hwin": {
+   "z": 8.628280111060961,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.91496365367025,
+   "Qwin": -4.116118619316502
+  }
+ },
+ {
+  "kind": "raw_A1Z26",
+  "seed": 7,
+  "Qall": {
+   "z": 18.827008816406444,
+   "label": "W|gt8|bitsf g5 o0 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.6077299118042
+  },
+  "Qwin": {
+   "z": 19.918217255325388,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.115567592152378
+  },
+  "Hwin": {
+   "z": 8.628280111060961,
+   "label": "W|rawf|A26 +25",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|rawf|A26 +25",
+   "zQwin": 19.918217255325388,
+   "Qwin": -4.115567592152378
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 0,
+  "Qall": {
+   "z": 7.219246193770601,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.802065372467041
+  },
+  "Qwin": {
+   "z": 17.95673511815621,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.121146239732441
+  },
+  "Hwin": {
+   "z": 10.830615771586373,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o0 msb inv0",
+   "zQwin": 17.95673511815621,
+   "Qwin": -4.121146239732441
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 1,
+  "Qall": {
+   "z": 7.4753883655031155,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.783090591430664
+  },
+  "Qwin": {
+   "z": 17.95375731775202,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.121757314916243
+  },
+  "Hwin": {
+   "z": 10.830615771586373,
+   "label": "W|par|bdtf o0 msb inv0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o0 msb inv0",
+   "zQwin": 17.95375731775202,
+   "Qwin": -4.121757314916243
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 2,
+  "Qall": {
+   "z": 6.807301928368685,
+   "label": "W|par|bitsf g5 o3 msb inv0 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.483254909515381
+  },
+  "Qwin": {
+   "z": 17.549690008989554,
+   "label": "W|par|bdtf o3 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.126649396461353
+  },
+  "Hwin": {
+   "z": 17.85963654356516,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.029411764705882353
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o3 msb inv0",
+   "zQwin": 17.549690008989554,
+   "Qwin": -4.126649396461353
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 3,
+  "Qall": {
+   "z": 7.598034182143926,
+   "label": "W|par|bdtf o1 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.7748188972473145
+  },
+  "Qwin": {
+   "z": 21.124641691209334,
+   "label": "W|par|bdtf o1 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 9.555253103762437,
+   "label": "W|par|bdtf o1 msb inv0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o1 msb inv0",
+   "zQwin": 21.124641691209334,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 4,
+  "Qall": {
+   "z": 8.465392148516948,
+   "label": "W|par|bdtf o2 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.688790321350098
+  },
+  "Qwin": {
+   "z": 17.47038755636413,
+   "label": "W|par|bdtf o2 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 18.980294335069285,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03125
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o2 msb inv0",
+   "zQwin": 17.47038755636413,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 5,
+  "Qall": {
+   "z": 7.541464038068211,
+   "label": "W|par|bitsf g5 o2 msb inv0 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.448934555053711
+  },
+  "Qwin": {
+   "z": 17.55478305911724,
+   "label": "W|par|bdtf o2 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.118579780846312
+  },
+  "Hwin": {
+   "z": 12.425528652052773,
+   "label": "W|par|bitsf g5 o2 msb inv0 baudot",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o2 msb inv0",
+   "zQwin": 17.55478305911724,
+   "Qwin": -4.118579780846312
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 6,
+  "Qall": {
+   "z": 7.946878042109825,
+   "label": "W|par|bdtf o4 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.730762481689453
+  },
+  "Qwin": {
+   "z": 17.25113011785567,
+   "label": "W|par|bdtf o4 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 9.361708937623128,
+   "label": "W|par|bdtf o4 msb inv0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o4 msb inv0",
+   "zQwin": 17.25113011785567,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "par_baudot",
+  "seed": 7,
+  "Qall": {
+   "z": 7.561164801217552,
+   "label": "W|par|bdtf o4 msb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.759978294372559
+  },
+  "Qwin": {
+   "z": 17.319473408157066,
+   "label": "W|par|bdtf o4 msb inv0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.121757314916243
+  },
+  "Hwin": {
+   "z": 13.360545137479876,
+   "label": "W|gt5|bitsf g8 o4 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02631578947368421
+  },
+  "planted_cell": {
+   "label": "W|par|bdtf o4 msb inv0",
+   "zQwin": 17.319473408157066,
+   "Qwin": -4.121757314916243
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 0,
+  "Qall": {
+   "z": 8.921965912930384,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.144720077514648
+  },
+  "Qwin": {
+   "z": 17.316982937581532,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.117863567251908
+  },
+  "Hwin": {
+   "z": 14.88668893378182,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "zQwin": 17.316982937581532,
+   "Qwin": -4.117863567251908
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 1,
+  "Qall": {
+   "z": 10.410684192738556,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.883752346038818
+  },
+  "Qwin": {
+   "z": 16.83748476341866,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.133016076004296
+  },
+  "Hwin": {
+   "z": 15.560851330223377,
+   "label": "W|gt5|bitsf g8 o5 lsb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02564102564102564
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "zQwin": 16.83748476341866,
+   "Qwin": -4.133016076004296
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 2,
+  "Qall": {
+   "z": 7.2274313008166935,
+   "label": "W|par|bitsf g7 o4 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.288715362548828
+  },
+  "Qwin": {
+   "z": 16.783935924190846,
+   "label": "W|par|bitsf g7 o4 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.121250520672715
+  },
+  "Hwin": {
+   "z": 16.86349628445038,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.027777777777777776
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o4 lsb inv0 ascii",
+   "zQwin": 16.783935924190846,
+   "Qwin": -4.121250520672715
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 3,
+  "Qall": {
+   "z": 8.413589150855094,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.212159633636475
+  },
+  "Qwin": {
+   "z": 17.318308733799487,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.11756512156704
+  },
+  "Hwin": {
+   "z": 14.88668893378182,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "zQwin": 17.318308733799487,
+   "Qwin": -4.11756512156704
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 4,
+  "Qall": {
+   "z": 7.848396380104158,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.239286422729492
+  },
+  "Qwin": {
+   "z": 16.87104471426659,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.125305167415686
+  },
+  "Hwin": {
+   "z": 15.180574534689315,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "zQwin": 16.87104471426659,
+   "Qwin": -4.125305167415686
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 5,
+  "Qall": {
+   "z": 9.566818564531667,
+   "label": "W|par|bitsf g7 o6 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.878190994262695
+  },
+  "Qwin": {
+   "z": 16.332689162143676,
+   "label": "W|par|bitsf g7 o6 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.129444139045582
+  },
+  "Hwin": {
+   "z": 15.832880293179553,
+   "label": "W|par|bitsf g7 o6 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o6 lsb inv0 ascii",
+   "zQwin": 16.332689162143676,
+   "Qwin": -4.129444139045582
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 6,
+  "Qall": {
+   "z": 9.093668346393562,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.066496849060059
+  },
+  "Qwin": {
+   "z": 16.88357420823161,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.122426325814766
+  },
+  "Hwin": {
+   "z": 15.180574534689315,
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o5 lsb inv0 ascii",
+   "zQwin": 16.88357420823161,
+   "Qwin": -4.122426325814766
+  }
+ },
+ {
+  "kind": "par_ascii7_lsb_off3",
+  "seed": 7,
+  "Qall": {
+   "z": 7.373496398981066,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.35013484954834
+  },
+  "Qwin": {
+   "z": 17.319399309006897,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1173196257206435
+  },
+  "Hwin": {
+   "z": 14.88668893378182,
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|par|bitsf g7 o3 lsb inv0 ascii",
+   "zQwin": 17.319399309006897,
+   "Qwin": -4.1173196257206435
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 0,
+  "Qall": {
+   "z": 8.891933348325987,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.345421314239502
+  },
+  "Qwin": {
+   "z": 16.919998934506555,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1342822627017375
+  },
+  "Hwin": {
+   "z": 17.016174909212488,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "zQwin": 16.919998934506555,
+   "Qwin": -4.1342822627017375
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 1,
+  "Qall": {
+   "z": 8.543517221675838,
+   "label": "W|gt4|bitsf g8 o1 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.302431106567383
+  },
+  "Qwin": {
+   "z": 15.143937125980223,
+   "label": "W|gt4|bitsf g8 o1 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 16.72834190806829,
+   "label": "W|gt4|bitsf g8 o1 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o1 msb inv0 ascii",
+   "zQwin": 15.143937125980223,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 2,
+  "Qall": {
+   "z": 9.100733161342754,
+   "label": "W|gt4|bitsf g8 o6 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.177743911743164
+  },
+  "Qwin": {
+   "z": 15.723744900735525,
+   "label": "W|gt4|bitsf g8 o6 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.125305167415686
+  },
+  "Hwin": {
+   "z": 22.712156456689385,
+   "label": "W|gt4|bitsf g8 o6 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o6 msb inv0 ascii",
+   "zQwin": 15.723744900735525,
+   "Qwin": -4.125305167415686
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 3,
+  "Qall": {
+   "z": 8.876327888383829,
+   "label": "W|gt4|bitsf g8 o3 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.085353851318359
+  },
+  "Qwin": {
+   "z": 14.724263066707348,
+   "label": "W|gt4|bitsf g8 o3 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1173196257206435
+  },
+  "Hwin": {
+   "z": 25.311392678021633,
+   "label": "W|gt4|bitsf g8 o3 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o3 msb inv0 ascii",
+   "zQwin": 14.724263066707348,
+   "Qwin": -4.1173196257206435
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 4,
+  "Qall": {
+   "z": 8.501831815052993,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.429602146148682
+  },
+  "Qwin": {
+   "z": 16.919998934506555,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1342822627017375
+  },
+  "Hwin": {
+   "z": 17.016174909212488,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "zQwin": 16.919998934506555,
+   "Qwin": -4.1342822627017375
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 5,
+  "Qall": {
+   "z": 10.501200505003167,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -5.998154163360596
+  },
+  "Qwin": {
+   "z": 17.051829474203306,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.102759432374385
+  },
+  "Hwin": {
+   "z": 17.016174909212488,
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o0 msb inv0 ascii",
+   "zQwin": 17.051829474203306,
+   "Qwin": -4.102759432374385
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 6,
+  "Qall": {
+   "z": 8.597737566701788,
+   "label": "W|gt4|bitsf g8 o2 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.209331035614014
+  },
+  "Qwin": {
+   "z": 15.19209256614368,
+   "label": "W|gt4|bitsf g8 o2 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 22.71215645668939,
+   "label": "W|gt4|bitsf g8 o2 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o2 msb inv0 ascii",
+   "zQwin": 15.19209256614368,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "gt4_ascii8",
+  "seed": 7,
+  "Qall": {
+   "z": 11.617089796188463,
+   "label": "W|gt4|bitsf g8 o7 msb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -5.894970893859863
+  },
+  "Qwin": {
+   "z": 17.4164926451852,
+   "label": "W|gt4|bitsf g8 o7 msb inv0 ascii",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 19.863602022094543,
+   "label": "W|gt4|bitsf g8 o7 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|gt4|bitsf g8 o7 msb inv0 ascii",
+   "zQwin": 17.4164926451852,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 0,
+  "Qall": {
+   "z": 6.372599339162553,
+   "label": "W|gt1|bdtr o3 lsb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.708196640014648
+  },
+  "Qwin": {
+   "z": 23.11663174468393,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 8.025905201677455,
+   "label": "W|gt5|bitsr g8 o5 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02040816326530612
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.11663174468393,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 1,
+  "Qall": {
+   "z": 4.5757431372280015,
+   "label": "W|gt8|bitsf g5 o3 lsb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.785192489624023
+  },
+  "Qwin": {
+   "z": 23.11663174468393,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 8.671317036409597,
+   "label": "W|gt1|bitsf g5 o1 msb inv0 a1z26",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02857142857142857
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.11663174468393,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 2,
+  "Qall": {
+   "z": 4.381516077401341,
+   "label": "W|mod9 g2 o0 BE|R29 +16",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.296618938446045
+  },
+  "Qwin": {
+   "z": 23.11663174468393,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 9.828948937581316,
+   "label": "W|gt5|bitsr g8 o7 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.022222222222222223
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.11663174468393,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 3,
+  "Qall": {
+   "z": 4.514785938935062,
+   "label": "W|base12 g3 o0|A26 +20",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.197845458984375
+  },
+  "Qwin": {
+   "z": 23.213475257691474,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.121250520672715
+  },
+  "Hwin": {
+   "z": 9.314249604805283,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.1
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.213475257691474,
+   "Qwin": -4.121250520672715
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 4,
+  "Qall": {
+   "z": 4.9468715095404185,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.180113792419434
+  },
+  "Qwin": {
+   "z": 23.11663174468393,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 20.250373165440624,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03333333333333333
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.11663174468393,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 5,
+  "Qall": {
+   "z": 5.0001243534647815,
+   "label": "W|gt5|bitsr g8 o7 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.971101760864258
+  },
+  "Qwin": {
+   "z": 23.11663174468393,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 10.876596010913046,
+   "label": "W|par|bitsr g8 o1 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03389830508474576
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.11663174468393,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 6,
+  "Qall": {
+   "z": 4.012189801170569,
+   "label": "W|base29 g3 o0|R29 +3",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.264278411865234
+  },
+  "Qwin": {
+   "z": 23.332989158967056,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.102759432374385
+  },
+  "Hwin": {
+   "z": 8.163584375572515,
+   "label": "W|gt2|bitsr g8 o2 lsb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.02702702702702703
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.332989158967056,
+   "Qwin": -4.102759432374385
+  }
+ },
+ {
+  "kind": "base15_pair",
+  "seed": 7,
+  "Qall": {
+   "z": 4.894476329789358,
+   "label": "W|gt8|bitsr g5 o2 msb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.78360366821289
+  },
+  "Qwin": {
+   "z": 23.19442986820314,
+   "label": "W|base15 g2 o0|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.124197206999126
+  },
+  "Hwin": {
+   "z": 8.103496758362525,
+   "label": "W|gt4|bitsr g8 o1 lsb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.016666666666666666
+  },
+  "planted_cell": {
+   "label": "W|base15 g2 o0|A26 +0",
+   "zQwin": 23.19442986820314,
+   "Qwin": -4.124197206999126
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 0,
+  "Qall": {
+   "z": 6.85370421421455,
+   "label": "W|gt1|bdtr o3 lsb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.697450637817383
+  },
+  "Qwin": {
+   "z": 17.09514224430654,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 8.555716375660312,
+   "label": "W|gt5|bitsr g8 o5 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.021739130434782608
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.09514224430654,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 1,
+  "Qall": {
+   "z": 5.030683289851323,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.927790641784668
+  },
+  "Qwin": {
+   "z": 17.09514224430654,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 9.202880712512583,
+   "label": "W|gt1|bitsf g5 o1 msb inv0 a1z26",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.030303030303030304
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.09514224430654,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 2,
+  "Qall": {
+   "z": 4.358678787809729,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.967074871063232
+  },
+  "Qwin": {
+   "z": 17.09514224430654,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 10.055134770102244,
+   "label": "W|gt5|bitsr g8 o7 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.022727272727272728
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.09514224430654,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 3,
+  "Qall": {
+   "z": 4.65965983414926,
+   "label": "W|mod3 g5 o3 BE|R29 +12",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.044950485229492
+  },
+  "Qwin": {
+   "z": 17.129224702537446,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.129444139045582
+  },
+  "Hwin": {
+   "z": 8.086592870386161,
+   "label": "W|gt5|bitsr g8 o3 msb inv0 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.023809523809523808
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.129224702537446,
+   "Qwin": -4.129444139045582
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 4,
+  "Qall": {
+   "z": 5.389626763934474,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.9068074226379395
+  },
+  "Qwin": {
+   "z": 17.09514224430654,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.136234065942597
+  },
+  "Hwin": {
+   "z": 18.402985775809583,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.030303030303030304
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.09514224430654,
+   "Qwin": -4.136234065942597
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 5,
+  "Qall": {
+   "z": 5.09814068175378,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.923847198486328
+  },
+  "Qwin": {
+   "z": 17.18735409927975,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.117863567251908
+  },
+  "Hwin": {
+   "z": 11.46947322649554,
+   "label": "W|par|bitsr g8 o1 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03571428571428571
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.18735409927975,
+   "Qwin": -4.117863567251908
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 6,
+  "Qall": {
+   "z": 4.4452428210225055,
+   "label": "W|mod3 g5 o3 BE|R29 +12",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.066143035888672
+  },
+  "Qwin": {
+   "z": 17.211937814714716,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1129659853483505
+  },
+  "Hwin": {
+   "z": 7.542169929883301,
+   "label": "W|gt2|bitsr g8 o2 lsb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.025
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.211937814714716,
+   "Qwin": -4.1129659853483505
+  }
+ },
+ {
+  "kind": "mod3_trits",
+  "seed": 7,
+  "Qall": {
+   "z": 4.792909169003026,
+   "label": "W|gt8|bitsr g5 o2 msb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.785030364990234
+  },
+  "Qwin": {
+   "z": 17.12899500921257,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.129489898681641
+  },
+  "Hwin": {
+   "z": 7.540422248112683,
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|mod3 g3 o0 BE|A26 +0",
+   "zQwin": 17.12899500921257,
+   "Qwin": -4.129489898681641
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 0,
+  "Qall": {
+   "z": 6.15488956299197,
+   "label": "W|gt1|bdtr o3 lsb inv0",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.713059425354004
+  },
+  "Qwin": {
+   "z": 8.43868581189939,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.114280667221337
+  },
+  "Hwin": {
+   "z": 8.502885368210032,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.43868581189939,
+   "Qwin": -4.114280667221337
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 1,
+  "Qall": {
+   "z": 4.579420128011269,
+   "label": "W|gt6|bitsr g5 o2 msb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.740918159484863
+  },
+  "Qwin": {
+   "z": 8.302506737926839,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.151627381642659
+  },
+  "Hwin": {
+   "z": 9.493579597881402,
+   "label": "W|gt1|bitsf g5 o1 msb inv0 a1z26",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03125
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.302506737926839,
+   "Qwin": -4.151627381642659
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 2,
+  "Qall": {
+   "z": 4.603627465015093,
+   "label": "W|mod3 g6 o1 BE|A26 +8",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.94586706161499
+  },
+  "Qwin": {
+   "z": 8.43868581189939,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.114280667221337
+  },
+  "Hwin": {
+   "z": 18.402985775809583,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.030303030303030304
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.43868581189939,
+   "Qwin": -4.114280667221337
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 3,
+  "Qall": {
+   "z": 4.251338214631653,
+   "label": "W|base29 g3 o2|R29 +7",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -7.801948070526123
+  },
+  "Qwin": {
+   "z": 8.383394534387289,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.129444139045582
+  },
+  "Hwin": {
+   "z": 8.502885368210032,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.383394534387289,
+   "Qwin": -4.129444139045582
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 4,
+  "Qall": {
+   "z": 4.380384663428825,
+   "label": "W|mod9 g2 o1 LE|A26 -1",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.182334899902344
+  },
+  "Qwin": {
+   "z": 8.232500223371266,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.170826464368586
+  },
+  "Hwin": {
+   "z": 20.250373165440624,
+   "label": "W|gt2|bitsr g8 o7 msb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.03333333333333333
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.232500223371266,
+   "Qwin": -4.170826464368586
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 5,
+  "Qall": {
+   "z": 4.988710837552453,
+   "label": "W|gt5|bitsr g8 o7 lsb inv0 ascii",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -6.974051475524902
+  },
+  "Qwin": {
+   "z": 8.173044360590835,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.187132061573497
+  },
+  "Hwin": {
+   "z": 15.105185948720207,
+   "label": "W|par|bitsf g7 o5 lsb inv1 ascii",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.05
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.173044360590835,
+   "Qwin": -4.187132061573497
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 6,
+  "Qall": {
+   "z": 4.660258100560517,
+   "label": "W|gt8|bdtf o0 msb inv1",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.798645973205566
+  },
+  "Qwin": {
+   "z": 8.225576452038185,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.1727252884915
+  },
+  "Hwin": {
+   "z": 8.502885368210032,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.225576452038185,
+   "Qwin": -4.1727252884915
+  }
+ },
+ {
+  "kind": "morse_t3_6",
+  "seed": 7,
+  "Qall": {
+   "z": 4.8432175019860955,
+   "label": "W|gt8|bitsr g5 o2 msb inv1 baudot",
+   "nullmax_p95": 6.2162625078101055,
+   "nullmax_max": 9.365422649643332,
+   "real": -8.784323692321777
+  },
+  "Qwin": {
+   "z": 8.425621315708504,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 6.313876687111744,
+   "nullmax_max": 7.801235876920419,
+   "real": -4.117863567251908
+  },
+  "Hwin": {
+   "z": 8.502885368210032,
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "nullmax_p95": 14.106735979665855,
+   "nullmax_max": 14.106735979665983,
+   "real": 0.08333333333333333
+  },
+  "planted_cell": {
+   "label": "W|morse dot-dash-gap t3,6 f",
+   "zQwin": 8.425621315708504,
+   "Qwin": -4.117863567251908
+  }
+ }
+]

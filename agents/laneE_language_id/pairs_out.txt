@@ -1,0 +1,62 @@
+## Variant comparison across 45 English corpora (>=30k words), word-level combined = mean(JS_A/S_A, JS_B/S_B); lower is better
+| variant | median over corpora (word-level) | median over corpora (all 5) | corpora where variant beats ref (-THE/OF/TO) | paired diff vs ref, word-level: median over corpora, 95% boot CI | P(variant better than ref) |
+|---|---|---|---|---|---|
+| base (Cicada rules) | 1.519 | 1.341 | 0/45 | +0.925 [+0.648, +1.142] | 0.000 |
+| base, ING kept | 1.482 | 1.346 | 0/45 | +0.860 [+0.641, +1.124] | 0.000 |
+| -THE | 0.832 | 0.961 | 4/45 | +0.242 [+0.114, +0.351] | 0.001 |
+| -THE/OF | 0.577 | 0.816 | 22/45 | +0.002 [-0.052, +0.054] | 0.491 |
+| -THE/OF/TO | 0.566 | 0.833 | 0/45 | +0.000 [+0.000, +0.000] | 0.000 |
+| -THE/OF/TO/AND | 0.696 | 0.706 | 14/45 | +0.066 [-0.007, +0.145] | 0.033 |
+| -THE/OF/TO/A | 0.815 | 0.844 | 10/45 | +0.159 [+0.078, +0.256] | 0.000 |
+| -THE/A/AN | 1.159 | 0.963 | 2/45 | +0.299 [+0.145, +0.453] | 0.000 |
+| -THE/OF/TO/AND/A/IN | 0.789 | 0.767 | 15/45 | +0.210 [+0.074, +0.342] | 0.003 |
+| -all function words | 7.517 | 3.994 | 0/45 | +7.154 [+6.615, +7.685] | 0.000 |
+| letters (no digraphs) | 0.739 | 1.009 | 12/45 | +0.184 [+0.056, +0.306] | 0.002 |
+| letters -THE/OF/TO | 0.933 | 0.949 | 10/45 | +0.357 [+0.207, +0.522] | 0.000 |
+| TH-only merged | 1.458 | 1.372 | 1/45 | +0.900 [+0.676, +1.113] | 0.000 |
+| TH-only -THE/OF/TO | 0.633 | 0.821 | 17/45 | +0.063 [+0.006, +0.115] | 0.018 |
+| archaic (thou/thee/-eth) | 1.561 | 1.358 | 0/45 | +0.933 [+0.666, +1.174] | 0.000 |
+| archaic -THE/OF/TO | 0.573 | 0.833 | 26/45 | -0.001 [-0.004, +0.001] | 0.884 |
+
+## Class-level comparison (best member of each class; bootstrap over the unsolved sample)
+| class | n | best member | word-level comb. best (obs) | P(this class is best of all classes) | median-of-class word-level | all-5 combined of best | JS A | JS B |
+|---|---|---|---|---|---|---|---|---|
+| English [-THE/OF/TO] | 45 | Cicero Tusculan (English tr.) | 0.168 | 0.658 | 0.566 | 0.56 | 0.0010 | 0.0054 |
+| English [-THE/OF/TO/AND] | 45 | Cicero Tusculan (English tr.) | 0.185 | 0.184 | 0.696 | 0.50 | 0.0014 | 0.0051 |
+| English [-THE/OF] | 45 | Agrippa Occult Phil I | 0.205 | 0.149 | 0.577 | 0.49 | 0.0009 | 0.0074 |
+| English [TH-only, -THE/OF/TO] | 45 | Emerson Essays I | 0.221 | 0.008 | 0.633 | 0.61 | 0.0012 | 0.0074 |
+| English [-THE/A/AN] | 45 | English: EWT (web) | 0.317 | 0.000 | 1.159 | 0.46 | 0.0017 | 0.0107 |
+| English [letters, no digraphs] | 45 | Moby Dick | 0.322 | 0.000 | 0.739 | 0.43 | 0.0011 | 0.0123 |
+| English [-THE only] | 45 | Moby Dick | 0.348 | 0.000 | 0.832 | 0.36 | 0.0022 | 0.0107 |
+| English [letters, -THE/OF/TO] | 45 | Emerson Essays I | 0.359 | 0.000 | 0.933 | 0.68 | 0.0027 | 0.0098 |
+| Germanic (nl,da,sv,no,de,is,fo,ang,non,got) [natural] | 12 | Dutch: bible-corpus | 0.398 | 0.001 | 1.276 | 0.96 | 0.0028 | 0.0114 |
+| English verse [natural] | 4 | Milton Paradise Lost | 0.686 | 0.000 | 1.109 | 1.20 | 0.0057 | 0.0174 |
+| English [TH-only merged] | 45 | Moby Dick | 0.712 | 0.000 | 1.458 | 0.58 | 0.0055 | 0.0191 |
+| English prose [natural, unmodified] | 45 | English: EWT (web) | 0.744 | 0.000 | 1.519 | 0.67 | 0.0059 | 0.0196 |
+| English KJV-style [natural] | 6 | KJB Job | 1.426 | 0.000 | 1.776 | 1.17 | 0.0119 | 0.0361 |
+| Latin (5 corpora) [natural] | 4 | Latin: PROIEL treebank | 1.945 | 0.000 | 2.990 | 1.45 | 0.0194 | 0.0407 |
+| Romance (fr,it,es) [natural] | 3 | French: bible-corpus | 2.087 | 0.000 | 2.454 | 1.82 | 0.0179 | 0.0516 |
+| Celtic (cy,ga) [natural] | 2 | Welsh: CCG treebank | 2.691 | 0.000 | 2.970 | 1.66 | 0.0249 | 0.0615 |
+| Esperanto [natural] | 1 | Esperanto: bible-corpus | 2.971 | 0.000 | 2.971 | 2.64 | 0.0274 | 0.0683 |
+| English [-all function words] | 45 | KJB Psalms | 4.532 | 0.000 | 7.517 | 3.16 | 0.0464 | 0.0917 |
+| Finno-Ugric/Turkic/Basque/Maori [natural] | 6 | Hungarian: bible-corpus | 4.975 | 0.000 | 6.259 | 3.08 | 0.0516 | 0.0989 |
+
+P(best English[-THE/OF/TO] beats best of class):
+  vs Germanic (nl,da,sv,no,de,is,fo,ang,non,got) [natural]   0.999
+  vs Romance (fr,it,es) [natural]                            1.000
+  vs Latin (5 corpora) [natural]                             1.000
+  vs Celtic (cy,ga) [natural]                                1.000
+  vs Finno-Ugric/Turkic/Basque/Maori [natural]               1.000
+  vs Esperanto [natural]                                     1.000
+  vs English prose [natural, unmodified]                     1.000
+  vs English [-THE/OF]                                       0.806
+  vs English [-THE only]                                     0.999
+  vs English [-THE/OF/TO/AND]                                0.769
+  vs English [-THE/A/AN]                                     0.995
+  vs English [letters, no digraphs]                          0.998
+  vs English [letters, -THE/OF/TO]                           1.000
+  vs English [TH-only merged]                                1.000
+  vs English [TH-only, -THE/OF/TO]                           0.979
+  vs English [-all function words]                           1.000
+  vs English verse [natural]                                 1.000
+  vs English KJV-style [natural]                             1.000

@@ -1,0 +1,101 @@
+[
+ {
+  "variant": "base",
+  "real_gain_M1": -87.4,
+  "shuf_M1": "-75.7\u00b110.8",
+  "z_M1": -1.08,
+  "real_gain_M2": -106.6,
+  "shuf_M2": "-90.4\u00b112.3",
+  "z_M2": -1.32,
+  "heldout_z_M1": "9.5 (min 6.9)",
+  "heldout_z_M2": "9.7 (min 6.9)"
+ },
+ {
+  "variant": "base_mF2",
+  "real_gain_M1": -39.6,
+  "shuf_M1": "-29.1\u00b17.4",
+  "z_M1": -1.43,
+  "real_gain_M2": -46.9,
+  "shuf_M2": "-36.3\u00b18.1",
+  "z_M2": -1.31,
+  "heldout_z_M1": "7.7 (min 5.7)",
+  "heldout_z_M2": "8.1 (min 5.1)"
+ },
+ {
+  "variant": "base_mP2",
+  "real_gain_M1": -21.0,
+  "shuf_M1": "-17.8\u00b16.0",
+  "z_M1": -0.55,
+  "real_gain_M2": -31.0,
+  "shuf_M2": "-26.7\u00b17.1",
+  "z_M2": -0.61,
+  "heldout_z_M1": "6.4 (min 3.5)",
+  "heldout_z_M2": "6.8 (min 4.6)"
+ },
+ {
+  "variant": "base_drop2",
+  "real_gain_M1": -37.6,
+  "shuf_M1": "-28.9\u00b17.8",
+  "z_M1": -1.11,
+  "real_gain_M2": -46.2,
+  "shuf_M2": "-36.4\u00b18.5",
+  "z_M2": -1.14,
+  "heldout_z_M1": "7.4 (min 2.6)",
+  "heldout_z_M2": "8.1 (min 2.7)"
+ },
+ {
+  "variant": "base_drop3",
+  "real_gain_M1": -31.0,
+  "shuf_M1": "-23.9\u00b17.1",
+  "z_M1": -1.0,
+  "real_gain_M2": -39.4,
+  "shuf_M2": "-31.5\u00b18.0",
+  "z_M2": -0.98,
+  "heldout_z_M1": "6.7 (min 1.6)",
+  "heldout_z_M2": "7.2 (min 2.0)"
+ },
+ {
+  "variant": "base_drop4",
+  "real_gain_M1": -32.6,
+  "shuf_M1": "-21.1\u00b16.6",
+  "z_M1": -1.74,
+  "real_gain_M2": -38.8,
+  "shuf_M2": "-28.9\u00b17.7",
+  "z_M2": -1.3,
+  "heldout_z_M1": "5.5 (min 1.9)",
+  "heldout_z_M2": "5.9 (min 2.3)"
+ },
+ {
+  "variant": "letters",
+  "real_gain_M1": -93.3,
+  "shuf_M1": "-83.0\u00b113.4",
+  "z_M1": -0.77,
+  "real_gain_M2": -103.0,
+  "shuf_M2": "-93.0\u00b113.8",
+  "z_M2": -0.73,
+  "heldout_z_M1": "10.0 (min 5.7)",
+  "heldout_z_M2": "10.5 (min 6.7)"
+ },
+ {
+  "variant": "letters_drop2",
+  "real_gain_M1": -36.3,
+  "shuf_M1": "-27.8\u00b17.3",
+  "z_M1": -1.16,
+  "real_gain_M2": -41.8,
+  "shuf_M2": "-34.6\u00b18.2",
+  "z_M2": -0.88,
+  "heldout_z_M1": "6.8 (min 1.7)",
+  "heldout_z_M2": "7.1 (min 1.9)"
+ },
+ {
+  "variant": "THonly_drop2",
+  "real_gain_M1": -42.1,
+  "shuf_M1": "-32.1\u00b18.2",
+  "z_M1": -1.23,
+  "real_gain_M2": -50.8,
+  "shuf_M2": "-39.5\u00b19.0",
+  "z_M2": -1.24,
+  "heldout_z_M1": "8.1 (min 5.2)",
+  "heldout_z_M2": "8.4 (min 5.7)"
+ }
+]

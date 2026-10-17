@@ -1,0 +1,15 @@
+N=12901 ; would-be collisions ~445 ; observed doublets 86 (kept fraction 0.193)
+Rewrite-to-offset-delta model: a fraction f of would-be collisions is moved to D=delta. f_delta = (n_delta - mean_of_rest)/445, se ~ 0.048
+  f_delta (delta=1..28): [-0.002, 0.106, -0.051, -0.053, -0.03, -0.065, 0.029, -0.076, 0.122, 0.092, -0.009, -0.034, 0.096, 0.029, 0.024, -0.027, -0.132, -0.06, 0.033, 0.022, 0.005, -0.088, 0.064, 0.019, 0.019, -0.004, 0.033, -0.065]
+  f_1 = -0.002 +- 0.049 (bump +1) ; f_28 = -0.065 +- 0.049 (bump -1) ; max f over delta = 0.122 (delta=9) ; 95% upper bound for any single delta ~ 0.081
+  a bump-type rewrite that explains the deficit needs f = 1-kept = 0.81 -> excluded by 17 se
+  rewrite spread over delta in [1, 28]: total f = -0.066 +- 0.069
+  rewrite spread over delta in [1, 2]: total f = 0.104 +- 0.069
+  rewrite spread over delta in [1, 28, 2, 27]: total f = 0.073 +- 0.098
+
+Byte-block / base-conversion phase test: per-phase chi2 (df28), best phase for each block length m=2..64 (z=(chi-28)/sqrt(56))
+  REAL max over m,phase: z=3.96 (m=29) ; null max over m (60 shuffles) mean 4.53 sd 0.69 max 7.17
+  CONTROL random bytes -> 5 base-29 digits per 3 bytes, per page aligned: max z=73.5 at m=5
+  CONTROL random bytes -> 4 base-29 digits per 2 bytes: max z=3879.0 at m=4
+  (real stream has no phase deficit for any block length 2..64, so no fixed-width byte/base-29 block packing aligned at page starts)
+time 18.644232034683228

@@ -1,0 +1,17 @@
+solved pages: 2 pages, 45 words, mean len 4.00
+base LP solved pages (true runes) M1 z=1.11 M2 z=0.84
+base unsolved, first 45 words M1 z=0.02 M2 z=0.12
+base unsolved all M1 z=-1.06 M2 z=-1.18
+base held-out English (2896 words, n=40): M1 z mean 8.79 sd 1.80 min 4.78
+base_mF2 LP solved pages (true runes) M1 z=1.04 M2 z=0.63
+base_mF2 unsolved, first 45 words M1 z=0.65 M2 z=0.22
+base_mF2 unsolved all M1 z=-1.30 M2 z=-1.13
+base_mF2 held-out English (2896 words, n=40): M1 z mean 7.37 sd 1.60 min 3.95
+base_drop3 LP solved pages (true runes) M1 z=0.85 M2 z=0.32
+base_drop3 unsolved, first 45 words M1 z=0.42 M2 z=-0.12
+base_drop3 unsolved all M1 z=-1.02 M2 z=-0.91
+base_drop3 held-out English (2896 words, n=40): M1 z mean 6.74 sd 1.42 min 2.04
+bigram independence chi2 (df=49): unsolved 47.5
+base_mF2 held-out English chi2 mean 152.2 min 124.0 max 191.4
+base_drop3 held-out English chi2 mean 113.3 min 75.7 max 152.8
+solved pages chi2 (n=45) 50.2; unsolved first 45 words 44.2

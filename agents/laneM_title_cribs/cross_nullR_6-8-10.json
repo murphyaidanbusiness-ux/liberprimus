@@ -1,0 +1,19 @@
+{
+ "nullR": {
+  "6": {
+   "total": 1737740,
+   "max_model": 2046,
+   "examples": []
+  },
+  "8": {
+   "total": 1667,
+   "max_model": 7,
+   "examples": []
+  },
+  "10": {
+   "total": 2,
+   "max_model": 1,
+   "examples": []
+  }
+ }
+}

@@ -1,0 +1,9 @@
+fam 2 units 1100 keys 362700 variants 16
+key 0 0.0s
+key 40000 370.9s
+key 200000 1737.3s
+key 240000 2079.6s
+key 260000 2253.1s
+key 300000 2569.1s
+key 360000 3006.9s
+done 3037.2s, 1.34e+12 rune-steps, 4.41e+08 steps/s

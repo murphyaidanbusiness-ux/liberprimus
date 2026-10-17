@@ -1,0 +1,13 @@
+
+
+  real hits (cipher word -> best dictionary candidate):
+L=9 relikd dict 52364 words; W&P token coverage 0.89
+L=10 relikd dict 43707 words; W&P token coverage 0.90
+L=11 relikd dict 33805 words; W&P token coverage 0.88
+L=12 relikd dict 25228 words; W&P token coverage 0.93
+L=13 relikd dict 17541 words; W&P token coverage 0.96
+L=14 relikd dict 11327 words; W&P token coverage 0.96
+  REAL LP (relikd dict)              words(L>=9)=187 hits=5  null 5.1+-2.0 (max 9) z=-0.06 | freq-score 0.0 null 0.1+-0.6 z=-0.23
+  PLANTED W&P q=1.0 (relikd dict)    words(L>=9)=187 hits=162  null 6.3+-2.6 (max 12) z=+59.45 | freq-score 464.2 null 0.4+-0.8 z=+586.37
+  PLANTED W&P q=0.6 (relikd dict)    words(L>=9)=187 hits=102  null 5.7+-1.8 (max 10) z=+52.67 | freq-score 259.0 null 0.3+-0.6 z=+407.20
+solved-LP words >=9 runes: 35  in relikd dict: 0.9714285714285714

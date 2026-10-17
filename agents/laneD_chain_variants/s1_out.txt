@@ -1,0 +1,25 @@
+valid lags 1..238 (>=1000 pairs)
+REAL lag1 doublets 86 of 12901 rate 0.00667 p0=0.03448 z1=-17.3
+REAL z at lags 2..10: [-0.38 -0.34  0.58  1.25  0.28  0.17 -0.52  1.25 -0.13]
+REAL min z over lags 2..LV: -3.10 at lag 11 ; max z: 2.13 at lag 213
+NULL(300 shuffles) min z lags2..LV: mean -2.91 sd 0.35  | max z mean 2.98 sd 0.77 | z1 mean -0.30
+real min z -3.10 -> null-percentile 23.0%; real max z 2.13 -> upper percentile 96.3%
+D histogram real (D=0..28): [86, 457, 503, 436, 435, 445, 430, 470, 425, 510, 497, 454, 443, 499, 470, 468, 446, 401, 432, 472, 467, 460, 420, 485, 466, 466, 456, 472, 430]
+D z-scores (D=1..28): [-0.03, 2.16, -1.03, -1.08, -0.6, -1.32, 0.59, -1.56, 2.49, 1.87, -0.18, -0.7, 1.97, 0.59, 0.49, -0.56, -2.7, -1.22, 0.68, 0.44, 0.11, -1.79, 1.3, 0.4, 0.4, -0.08, 0.68, -1.32]
+chi2 uniform(D=1..28, df27): real 42.1 ; null mean 26.9 sd 7.6 ; pctile 3.3%
+max|zD| real 2.70 ; null mean 2.28 sd 0.48 ; max 3.80
+D=1: 457 (expect 457.7) z=-0.03 one-sided p(binom normal)=0.513 ; D=28: 430 z=-1.32
+D=1,28 vs mean of other 26 values: 457.0, 430.0 vs 458.8 (sd 26.6)
+ratio D=1 / mean(other 26) = 0.996  (bump-rewrite hypothesis predicts ~1.8)
+time 2.26251220703125
+
+POSITIVE CONTROLS (mean of 12 syntheses at real page lengths; solved plaintext tiled)
+chain L=1 (s!=0 except EA)                     dbl-rate 0.0101 | z(lag1)   -15.2 | z(lag2)     0.7 | minz(2..LV)   -2.6 | D1/other 0.98 | zD1   -0.3 | chi2(D)    27.4
+chain L=2 (s!=0 except EA)                     dbl-rate 0.0340 | z(lag1)    -0.3 | z(lag2)   -15.0 | minz(2..LV)  -15.0 | D1/other 0.99 | zD1   -0.2 | chi2(D)    29.8
+chain L=3                                      dbl-rate 0.0344 | z(lag1)    -0.0 | z(lag2)    -0.5 | minz(2..LV)  -15.2 | D1/other 1.00 | zD1    0.1 | chi2(D)    29.1
+lag-2 base + bump rule leak .19                dbl-rate 0.0064 | z(lag1)   -17.5 | z(lag2)     0.9 | minz(2..LV)   -2.8 | D1/other 1.83 | zD1   16.9 | chi2(D)   315.8
+lag-2 base + redraw rule leak .19              dbl-rate 0.0063 | z(lag1)   -17.5 | z(lag2)     0.4 | minz(2..LV)   -2.7 | D1/other 0.99 | zD1   -0.3 | chi2(D)    26.9
+lag-1 base(Vig-diff)+bump rule leak .19        dbl-rate 0.0068 | z(lag1)   -17.3 | z(lag2)     0.3 | minz(2..LV)   -2.6 | D1/other 1.84 | zD1   17.1 | chi2(D)   318.9
+iid base-29 digits + bump(+1) leak .19         dbl-rate 0.0065 | z(lag1)   -17.4 | z(lag2)     0.3 | minz(2..LV)   -2.7 | D1/other 1.83 | zD1   16.9 | chi2(D)   311.0
+iid base-29 digits + redraw leak .19           dbl-rate 0.0069 | z(lag1)   -17.2 | z(lag2)     0.2 | minz(2..LV)   -2.7 | D1/other 1.00 | zD1    0.1 | chi2(D)    27.8
+flat Vigenere (random key) [no rule]           dbl-rate 0.0344 | z(lag1)    -0.0 | z(lag2)    -0.2 | minz(2..LV)   -2.7 | D1/other 1.00 | zD1    0.1 | chi2(D)    28.7

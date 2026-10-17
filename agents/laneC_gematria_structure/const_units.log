@@ -1,0 +1,16 @@
+REAL data: pooled within-unit coincidence of nonzero increments (flat = 1/28 = 0.03571)
+  word      units= 2896 pairs=     59762 rate=0.03598  null 0.03570+-0.00104  z=+0.26
+  line      units=  594 pairs=    269950 rate=0.03577  null 0.03575+-0.00052  z=+0.03
+  sentence  units=  175 pairs=   1701384 rate=0.03622  null 0.03573+-0.00018  z=+2.74
+  chapter   units=   17 pairs=  18791740 rate=0.03580  null 0.03575+-0.00005  z=+0.93
+  page      units=   55 pairs=   3155412 rate=0.03582  null 0.03575+-0.00014  z=+0.55
+  within-word lag-1 D coincidence: 0.0356 (n=9929; flat 0.0357, SE 0.0019)
+  within-word lag-2 D coincidence: 0.0341 (n=7145; flat 0.0357, SE 0.0022)
+  within-word lag-3 D coincidence: 0.0365 (n=4820; flat 0.0357, SE 0.0027)
+
+POSITIVE CONTROL: Moby-Dick plaintext, chain cipher, key constant within the unit (uniform random per unit), same structure as real
+  key constant per word      -> within-unit rate 0.0440 (pairs 54476)
+  key constant per line      -> within-unit rate 0.0574 (pairs 358270)
+  key constant per sentence  -> within-unit rate 0.0600 (pairs 615406)
+  key constant per chapter   -> within-unit rate 0.0618 (pairs 22435344)
+  key constant per page      -> within-unit rate 0.0613 (pairs 3186718)

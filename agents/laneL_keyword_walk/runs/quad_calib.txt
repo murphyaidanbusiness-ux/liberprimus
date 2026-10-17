@@ -1,0 +1,2 @@
+solved-LP 262-rune chunks quad -4.399 +- 0.212 ; ioc 1.78
+random runes 262 quad -7.485 +- 0.140

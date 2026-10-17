@@ -1,0 +1,285 @@
+{
+ "run": "start4_real_sec06",
+ "hdr": "# text texts/real_sec06.txt words 2 runes 9 prefix_words 2 prefix_runes 9 |base| 1370 |g| 23751 |sigma| 1370 stageA_pairs 32538870 survivors 555298 stageA_s 0.2",
+ "modes": {
+  "0": {
+   "n": 1000,
+   "ndead": 0,
+   "best": {
+    "pref_lm": -1.7118,
+    "full_lm": -1.7118181818181817,
+    "quad": -3.355237251666,
+    "ioc": 3.2222222222222223
+   },
+   "hdr": "# mode 0 stageB_trials 760758260 stageB_s 2.9 word1_pass 781903 reached_end 781903 total_keys 4.4578e+10",
+   "top": [
+    {
+     "key": [
+      0,
+      9828,
+      11797,
+      2165
+     ],
+     "base": "SMJDGBT:R1",
+     "g": "oost:4,8,9,12",
+     "sigma": "UPXAI:R1",
+     "pref_lm": -1.7118,
+     "full_lm": -1.7118181818181817,
+     "quad": -4.950805819869016,
+     "ioc": 0.0,
+     "text": "W-H-I-S-T-U-R-N-NG"
+    },
+    {
+     "key": [
+      0,
+      8974,
+      17828,
+      10868
+     ],
+     "base": "SOMEWISDOM:R1",
+     "g": "oost:8,9,13,25",
+     "sigma": "BJAT:R1",
+     "pref_lm": -1.7118,
+     "full_lm": -1.7118181818181817,
+     "quad": -4.950805819869016,
+     "ioc": 0.0,
+     "text": "W-H-I-S-T-U-R-N-NG"
+    },
+    {
+     "key": [
+      0,
+      8974,
+      17828,
+      10856
+     ],
+     "base": "SOMEWISDOM:R1",
+     "g": "oost:8,9,13,25",
+     "sigma": "BJPL:R1",
+     "pref_lm": -1.7118,
+     "full_lm": -1.7118181818181817,
+     "quad": -4.950805819869016,
+     "ioc": 0.0,
+     "text": "W-H-I-S-T-U-R-N-NG"
+    },
+    {
+     "key": [
+      0,
+      9828,
+      11796,
+      9406
+     ],
+     "base": "SMJDGBT:R1",
+     "g": "oost:4,8,9,11",
+     "sigma": "SPEFIES:R1",
+     "pref_lm": -1.7118,
+     "full_lm": -1.7118181818181817,
+     "quad": -4.950805819869016,
+     "ioc": 0.0,
+     "text": "W-H-I-S-T-U-R-N-NG"
+    },
+    {
+     "key": [
+      0,
+      9828,
+      11796,
+      2165
+     ],
+     "base": "SMJDGBT:R1",
+     "g": "oost:4,8,9,11",
+     "sigma": "UPXAI:R1",
+     "pref_lm": -1.7118,
+     "full_lm": -1.7118181818181817,
+     "quad": -4.950805819869016,
+     "ioc": 0.0,
+     "text": "W-H-I-S-T-U-R-N-NG"
+    }
+   ]
+  },
+  "1": {
+   "n": 1000,
+   "ndead": 0,
+   "best": {
+    "pref_lm": -1.6545,
+    "full_lm": -1.6544545454545456,
+    "quad": -3.4299733405095134,
+    "ioc": 4.027777777777778
+   },
+   "hdr": "# mode 1 stageB_trials 760758260 stageB_s 2.5 word1_pass 925043 reached_end 925043 total_keys 4.4578e+10",
+   "top": [
+    {
+     "key": [
+      1,
+      5270,
+      18116,
+      31
+     ],
+     "base": "GEMATRIA:R1",
+     "g": "oost:8,11,13,24",
+     "sigma": "refl2",
+     "pref_lm": -1.6545,
+     "full_lm": -1.6544545454545456,
+     "quad": -3.9071910054244783,
+     "ioc": 2.4166666666666665,
+     "text": "W-H-I-S-S-T-I-L-L"
+    },
+    {
+     "key": [
+      1,
+      5270,
+      18250,
+      31
+     ],
+     "base": "GEMATRIA:R1",
+     "g": "oost:8,12,14,24",
+     "sigma": "refl2",
+     "pref_lm": -1.6545,
+     "full_lm": -1.6544545454545456,
+     "quad": -3.9071910054244783,
+     "ioc": 2.4166666666666665,
+     "text": "W-H-I-S-S-T-I-L-L"
+    },
+    {
+     "key": [
+      1,
+      5270,
+      18101,
+      31
+     ],
+     "base": "GEMATRIA:R1",
+     "g": "oost:8,11,12,24",
+     "sigma": "refl2",
+     "pref_lm": -1.6545,
+     "full_lm": -1.6544545454545456,
+     "quad": -3.9071910054244783,
+     "ioc": 2.4166666666666665,
+     "text": "W-H-I-S-S-T-I-L-L"
+    },
+    {
+     "key": [
+      1,
+      5270,
+      18355,
+      31
+     ],
+     "base": "GEMATRIA:R1",
+     "g": "oost:8,13,14,24",
+     "sigma": "refl2",
+     "pref_lm": -1.6545,
+     "full_lm": -1.6544545454545456,
+     "quad": -3.9071910054244783,
+     "ioc": 2.4166666666666665,
+     "text": "W-H-I-S-S-T-I-L-L"
+    },
+    {
+     "key": [
+      1,
+      5270,
+      18236,
+      31
+     ],
+     "base": "GEMATRIA:R1",
+     "g": "oost:8,12,13,24",
+     "sigma": "refl2",
+     "pref_lm": -1.6545,
+     "full_lm": -1.6544545454545456,
+     "quad": -3.9071910054244783,
+     "ioc": 2.4166666666666665,
+     "text": "W-H-I-S-S-T-I-L-L"
+    }
+   ]
+  },
+  "2": {
+   "n": 1000,
+   "ndead": 0,
+   "best": {
+    "pref_lm": -2.3569,
+    "full_lm": -2.356909090909091,
+    "quad": -3.6580034846642824,
+    "ioc": 1.6111111111111112
+   },
+   "hdr": "# mode 2 stageB_trials 555298 stageB_s 0.0 word1_pass 0 reached_end 618406 total_keys 3.2539e+07",
+   "top": [
+    {
+     "key": [
+      2,
+      6640,
+      3897,
+      -1
+     ],
+     "base": "NCPXUWOS:R1",
+     "g": "oost:1,3,25,28",
+     "sigma": "-",
+     "pref_lm": -2.3569,
+     "full_lm": -2.356909090909091,
+     "quad": -4.452805938552423,
+     "ioc": 0.8055555555555556,
+     "text": "H-A-I-R-R-EA-L-EO-N"
+    },
+    {
+     "key": [
+      2,
+      3616,
+      6199,
+      -1
+     ],
+     "base": "RBIXUSHC:R1",
+     "g": "oost:1,25,27,28",
+     "sigma": "-",
+     "pref_lm": -2.3569,
+     "full_lm": -2.356909090909091,
+     "quad": -4.452805938552423,
+     "ioc": 0.8055555555555556,
+     "text": "H-A-I-R-R-EA-L-EO-N"
+    },
+    {
+     "key": [
+      2,
+      6640,
+      347,
+      -1
+     ],
+     "base": "NCPXUWOS:R1",
+     "g": "oost:0,1,25,28",
+     "sigma": "-",
+     "pref_lm": -2.3569,
+     "full_lm": -2.356909090909091,
+     "quad": -4.452805938552423,
+     "ioc": 0.8055555555555556,
+     "text": "H-A-I-R-R-EA-L-EO-N"
+    },
+    {
+     "key": [
+      2,
+      6640,
+      372,
+      -1
+     ],
+     "base": "NCPXUWOS:R1",
+     "g": "oost:0,2,3,25",
+     "sigma": "-",
+     "pref_lm": -2.3569,
+     "full_lm": -2.356909090909091,
+     "quad": -4.452805938552423,
+     "ioc": 0.8055555555555556,
+     "text": "H-A-I-R-R-EA-L-EO-N"
+    },
+    {
+     "key": [
+      2,
+      3616,
+      6496,
+      -1
+     ],
+     "base": "RBIXUSHC:R1",
+     "g": "oost:2,3,25,27",
+     "sigma": "-",
+     "pref_lm": -2.3569,
+     "full_lm": -2.356909090909091,
+     "quad": -4.452805938552423,
+     "ioc": 0.8055555555555556,
+     "text": "H-A-I-R-R-EA-L-EO-N"
+    }
+   ]
+  }
+ }
+}

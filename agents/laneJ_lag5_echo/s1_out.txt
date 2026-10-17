@@ -1,0 +1,58 @@
+== observed profile (z vs 1/29) ==
+lag  1  within   63/10060 = 0.0063 z=-15.51 | across   23/ 2895 = 0.0079 z=-7.83
+lag  2  within  252/ 7247 = 0.0348 z=+0.14 | across  189/ 5707 = 0.0331 z=-0.57
+lag  3  within  181/ 4882 = 0.0371 z=+0.99 | across  258/ 8071 = 0.0320 z=-1.24
+lag  4  within  131/ 3237 = 0.0405 z=+1.87 | across  328/ 9715 = 0.0338 z=-0.39
+lag  5  within  104/ 2105 = 0.0494 z=+3.75 | across  375/10846 = 0.0346 z=+0.05
+lag  6  within   32/ 1290 = 0.0248 z=-1.90 | across  423/11660 = 0.0363 z=+1.06
+lag  7  within   30/  731 = 0.0410 z=+0.97 | across  421/12218 = 0.0345 z=-0.02
+lag  8  within   10/  388 = 0.0258 z=-0.94 | across  428/12560 = 0.0341 z=-0.25
+lag  9  within    5/  201 = 0.0249 z=-0.75 | across  458/12746 = 0.0359 z=+0.90
+lag 10  within    2/   92 = 0.0217 z=-0.67 | across  440/12854 = 0.0342 z=-0.16
+lag 11  within    1/   35 = 0.0286 z=-0.19 | across  385/12910 = 0.0298 z=-2.90
+lag 12  within    0/   10 = 0.0000 z=-0.60 | across  437/12934 = 0.0338 z=-0.43
+
+Null A (global shuffle, 2000): z5 null mean 0.02 sd 1.01; P(z5>=obs) = 0.0010
+  family-wise over 24 cells (max upward z): P(max>=3.75) = 0.0110   [null max: median 1.96, 95% 3.11]
+  family-wise over 22 cells excluding lag 1: P = 0.0110
+  family-wise over 12 within cells: P = 0.0090
+  observed max upward z among the other 23 cells: 1.87
+
+Null B (rune stream fixed, word lengths permuted within the 9 sections, 2000):
+  lag5 within: obs 104, null 77.8 +- 7.8, z=+3.36, P(>=)=0.0000
+  within profile z vs null B: -0.99 +0.47 +1.50 +1.78 +3.36 -2.11 +0.99 -0.88 -0.86 -0.63 -0.04 -0.56
+  family-wise max over 12 within cells: P = 0.0155; over 24 cells: P = 0.0185
+
+== robustness ==
+  drop section 0 (n= 729 runes): 97/1970 = 0.0492 z=+3.59   | section alone: 7/135 z=+1.11
+  drop section 1 (n=1145 runes): 99/1922 = 0.0515 z=+4.09   | section alone: 5/183 z=-0.53
+  drop section 2 (n=1729 runes): 86/1814 = 0.0474 z=+3.02   | section alone: 18/291 z=+2.56
+  drop section 3 (n=1903 runes): 86/1810 = 0.0475 z=+3.04   | section alone: 18/295 z=+2.50
+  drop section 4 (n=1021 runes): 96/1937 = 0.0496 z=+3.64   | section alone: 8/168 z=+0.93
+  drop section 5 (n=1433 runes): 95/1878 = 0.0506 z=+3.82   | section alone: 9/227 z=+0.43
+  drop section 6 (n=1680 runes): 91/1841 = 0.0494 z=+3.51   | section alone: 13/264 z=+1.31
+  drop section 7 (n=3008 runes): 81/1619 = 0.0500 z=+3.43   | section alone: 23/486 z=+1.55
+  drop section 8 (n= 308 runes): 101/2049 = 0.0493 z=+3.67   | section alone: 3/56 z=+0.78
+  word length 6-9: 65/1468 = 0.0443 z=+2.06
+  word length 6-6: 9/256 = 0.0352 z=+0.06
+  word length 7-7: 19/432 = 0.0440 z=+1.08
+  word length 8-8: 22/468 = 0.0470 z=+1.49
+  word length 9-9: 15/312 = 0.0481 z=+1.32
+  word length 10-14: 39/637 = 0.0612 z=+3.70
+  word length 6-7: 28/688 = 0.0407 z=+0.89
+  word length 8-14: 76/1417 = 0.0536 z=+3.95
+  aldegonde page0-58 tokenisation (+32 boundaries): 102/2073 = 0.0492 z=+3.67
+  relikd LiberPrayground pages: 104/2105 = 0.0494 z=+3.75 (runes and boundaries identical to main)
+
+== increments D (both increments inside the same word), within-word lag k; chance for D!=0 ~ 1/28 ==
+  D lag  1 within: 267/7247 = 0.0368 z=+0.52
+  D lag  2 within: 161/4882 = 0.0330 z=-1.03
+  D lag  3 within: 133/3237 = 0.0411 z=+1.65
+  D lag  4 within: 70/2105 = 0.0333 z=-0.61
+  D lag  5 within: 55/1290 = 0.0426 z=+1.34
+  D lag  6 within: 24/731 = 0.0328 z=-0.42
+  D lag  7 within: 20/388 = 0.0515 z=+1.68
+  D lag  8 within: 8/201 = 0.0398 z=+0.31
+  D lag  9 within: 5/92 = 0.0543 z=+0.96
+  D lag 10 within: 0/35 = 0.0000 z=-1.14
+  D lag-5 across-word: 382/10846 = 0.0352

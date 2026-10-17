@@ -1,0 +1,12 @@
+extracted: ['encipher']
+common.enc_walk == aldegonde encipher on 20 random keys x 200 words
+kwdec round trip on plant1 (262 runes): 262/262 runes correct
+kwdec round trip mode 0, 2950 runes: accuracy 0.9993
+kwdec round trip mode 1, 2950 runes: accuracy 0.9993
+kwdec round trip mode 2, 2950 runes: accuracy 0.9993
+kwdec round trip mode 0, 2749 runes: accuracy 1.0000
+kwdec round trip mode 1, 2749 runes: accuracy 1.0000
+kwdec round trip mode 2, 2749 runes: accuracy 1.0000
+kwdec round trip mode 0, 2910 runes: accuracy 1.0000
+kwdec round trip mode 1, 2910 runes: accuracy 1.0000
+kwdec round trip mode 2, 2910 runes: accuracy 1.0000

@@ -1,0 +1,10 @@
+realK5adv_all          real nats/sym -3.6760 ioc 1.284 quad -6.72 | null(n=20) nats/sym -3.6750+-0.0043 max -3.6675 ioc 1.273+-0.007 quad -6.77+-0.02 | z -0.22
+realK5adv_sec5         real nats/sym -3.2935 ioc 1.389 quad -6.41 | null(n=20) nats/sym -3.3040+-0.0148 max -3.2711 ioc 1.371+-0.014 quad -6.38+-0.05 | z 0.71
+realK5adv_sec7         real nats/sym -3.3065 ioc 1.381 quad -6.44 | null(n=20) nats/sym -3.3118+-0.0120 max -3.2889 ioc 1.361+-0.017 quad -6.38+-0.07 | z 0.45
+realK5adv_sec8         real nats/sym -3.1753 ioc 1.444 quad -6.24 | null(n=20) nats/sym -3.1575+-0.0123 max -3.1381 ioc 1.393+-0.030 quad -6.17+-0.08 | z -1.44
+realK5adv_sec9         real nats/sym -3.2696 ioc 1.399 quad -6.23 | null(n=20) nats/sym -3.2482+-0.0136 max -3.2157 ioc 1.387+-0.021 quad -6.29+-0.05 | z -1.57
+realK5adv_sec11        real nats/sym -3.2385 ioc 1.358 quad -6.20 | null(n=20) nats/sym -3.2242+-0.0176 max -3.1950 ioc 1.388+-0.023 quad -6.27+-0.05 | z -0.81
+realK5adv_sec14        real nats/sym -3.3712 ioc 1.358 quad -6.39 | null(n=20) nats/sym -3.3912+-0.0098 max -3.3719 ioc 1.346+-0.017 quad -6.46+-0.05 | z 2.05
+realK4adv_all          real nats/sym -3.7878 ioc 1.229 quad -6.86 | null(n=5) nats/sym -3.7842+-0.0046 max -3.7787 ioc 1.237+-0.005 quad -6.88+-0.02 | z -0.79
+realK6adv_all          real nats/sym -3.5926 ioc 1.301 quad -6.67 | null(n=5) nats/sym -3.5857+-0.0029 max -3.5809 ioc 1.304+-0.007 quad -6.68+-0.01 | z -2.39
+realK7adv_all          real nats/sym -3.5143 ioc 1.328 quad -6.61 | null(n=5) nats/sym -3.5152+-0.0057 max -3.5093 ioc 1.325+-0.006 quad -6.61+-0.01 | z 0.16

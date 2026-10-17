@@ -1,0 +1,1 @@
+cipher doublets 260 | second rune g-fixed: 260 | within-word 224 of which plaintext doublets 224 | across word boundary 36

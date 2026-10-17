@@ -1,0 +1,4 @@
+indexes built: C 271992 D 543984 P 271992
+shard 3: 2000 seeds
+shard 3: 4000 seeds
+shard 3: 6000 seeds

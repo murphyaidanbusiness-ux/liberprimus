@@ -1,0 +1,9 @@
+G1 synthetic: plaintext IoC 1.774 ciphertext IoC 1.000 doublet rate 0.0103
+G1 streams 107016 trials 44518656 time 1182s
+G1 top: IoC=1.7742 prefix=1.7621 seed='word' gen=ctr_be4/sha256 map=byte_mod28 app=chainadd+1|convX mode=cont
+G1 top: IoC=1.0755 prefix=1.0789 seed='word' gen=ctr_be4/sha256 map=byte_mod28 app=gflinmul|convX mode=cont
+G1 top: IoC=1.0475 prefix=1.0388 seed='word' gen=ctr_be4/sha256 map=byte_mod28 app=gflog_g2+1|convX mode=cont
+G1 top: IoC=1.0451 prefix=1.0420 seed='word' gen=ctr_be4/sha256 map=byte_mod28 app=gflog_g2-1|convX mode=cont
+G1 top: IoC=1.0448 prefix=1.0518 seed='word' gen=ctr_be4/sha256 map=byte_mod28 app=gflindiv|convX mode=cont
+PLANT (b'cicada3301', 'ctr_be4', 'sha256', 'byte_mod28', 'chainadd+1|convX', 0)
+best decode quadgram -4.314  text: AWARNNGBELIEUENOTHNGFROMTHISBOOCEXCEPTWHATYOUCNOWTOBETRUETESTTHECNOWLEDGEFINDYOURTRUTHEXPERIENCEYOURDEATHDONOTEDITORCHANGETHISBOOC

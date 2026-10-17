@@ -1,0 +1,9 @@
+SELF:r.pos_in_word|rev0|m28 form 0 planted o= 0 -> (223.61274008570263, 1.7663731422179851, 0, 12955, 0) | max other z=419.7 | top: RAW-SELF:r.index|rev0|m29 419.7
+SELF:l.len|rev0|m29 form 3 planted o= 2 -> (387.17859242729827, 1.76136247100483, 2, 11938, 3) | max other z=387.2 | top: SELF:l.len|rev0|m29 387.2
+SELF:p.sum|rev0|m28 form 1 planted o= 0 -> (6.1927071541957375, 1.090724604272078, -26, 6638, 1) | max other z=57.8 | top: RAW-SELF:r.index|rev0|m29 57.8
+SELF:dbl.gap_cyc|rev0|m28 form 0 planted o= 20 -> (289.71085005152537, 1.7635405201566188, 20, 12955, 0) | max other z=42.2 | top: SELF:dbl.gap_cyc|rev0|m28 289.7
+SELF:r.prime|rev0|m28 form 0 planted o= -3 -> (1015.3243431747399, 1.765608755024282, -3, 12953, 0) | max other z=1015.3 | top: SELF:r.prime|rev0|m28 1015.3
+SELF:r.cumprime|rev0|m29 form 1 planted o= -1 -> (1255.6844844730315, 1.7667671379659058, -1, 12955, 1) | max other z=1255.7 | top: SELF:r.cumprime|rev0|m29 1255.7
+SELF:w.sum|rev0|m29 form 2 planted o= -1 -> (921.110232748249, 1.7660298220413615, -1, 12493, 2) | max other z=921.1 | top: SELF:w.sum|rev0|m29 921.1
+SELF:w.sum|rev0|m29 form 3 planted o= -2 -> (978.0257769749627, 1.7663105208042025, -2, 12551, 3) | max other z=978.0 | top: SELF:w.sum|rev0|m29 978.0
+RAW-SELF:r.prime|rev0|m29 form 4 planted o= -7 -> (1222.2636472531633, 1.7645871748039939, -7, 12949, 4) | max other z=1222.3 | top: RAW-SELF:r.prime|rev0|m29 1222.3

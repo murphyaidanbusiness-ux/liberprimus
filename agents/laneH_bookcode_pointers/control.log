@@ -1,0 +1,11 @@
+message letters 211
+SR_doyle L b1 mod (letter number): q: real=-4.253 z_shuf=14.6 z_rand=13.5; qwin: real=-4.041 z_shuf=11.4 z_rand=10.5 
+SR_doyle W b1 mod (word number, first letter): qfirst: real=-4.253 z_shuf=15.2 z_rand=15.4; qfirstwin: real=-4.041 z_shuf=11.7 z_rand=12.6; qall: real=-4.366 z_shuf=-0.3 z_rand=-2.0; pmi: real=-3.938 z_shuf=-0.9 z_rand=-0.3; pmiwin: real=-3.502 z_shuf=-0.3 z_rand=-0.2 
+SR_doyle TPSWL b1 raw (2014 para:sent:word:letter): q: real=-4.253 z_shuf=6.3 z_rand=nan; qwin: real=-4.041 z_shuf=nan z_rand=nan 
+SR_doyle TPSWL b1 mod: q: real=-4.253 z_shuf=15.3 z_rand=13.9; qwin: real=-4.041 z_shuf=11.3 z_rand=11.1 
+SR_doyle Lp b1 mod (n-th prime -> letter): q: real=-4.253 z_shuf=16.4 z_rand=14.7; qwin: real=-4.041 z_shuf=11.7 z_rand=11.7 
+AL_verse TPSL b1 raw (chapter:verse:letter): q: real=-4.253 z_shuf=5.5 z_rand=nan; qwin: real=-4.041 z_shuf=nan z_rand=nan 
+Mab_lines TSL b1 raw (line:letter): q: real=-4.253 z_shuf=8.9 z_rand=nan; qwin: real=-4.041 z_shuf=nan z_rand=nan 
+SR_doyle W b1 mod: 200-pointer message embedded in the real 2896-word gsum stream (whole-stream score): qfirst: real=-7.152 z_shuf=5.2 z_rand=1.8; qfirstwin: real=-4.041 z_shuf=20.9 z_rand=18.2; qall: real=-4.222 z_shuf=0.9 z_rand=4.6; pmi: real=-3.762 z_shuf=0.2 z_rand=0.8; pmiwin: real=-2.894 z_shuf=-0.2 z_rand=-0.1 
+missing words []
+SR_doyle W b1 mod (word-sequence message, 54 words): qfirst: real=-6.657 z_shuf=2.2 z_rand=1.5; qfirstwin: real=nan z_shuf=nan z_rand=nan; qall: real=-4.021 z_shuf=5.3 z_rand=3.1; pmi: real=1.028 z_shuf=11.4 z_rand=11.1; pmiwin: real=nan z_shuf=nan z_rand=nan 

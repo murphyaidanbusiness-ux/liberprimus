@@ -1,0 +1,10 @@
+dl/
+__pycache__/
+*.pyc
+*.pkl
+*.bin
+*.npy
+hashhunt/data/
+hashhunt/store/
+hashhunt/results/
+.env

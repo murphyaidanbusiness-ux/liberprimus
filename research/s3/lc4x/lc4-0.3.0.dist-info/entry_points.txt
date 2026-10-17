@@ -1,0 +1,3 @@
+[console_scripts]
+lc4 = lc4.lc4:main
+

@@ -1,0 +1,71 @@
+natural done 15.126028060913086
+Moby Dick 17.278106451034546
+Plato Republic (Jowett) 19.309855461120605
+Emerson Essays I 20.071088790893555
+Emerson Essays II 21.04642629623413
+Emerson Self-Reliance 21.3540940284729
+Agrippa Occult Phil I 22.052058696746826
+Agrippa Occult Phil II 22.58647346496582
+Agrippa Occult Phil III 23.39590072631836
+Blavatsky Secret Doctrine I 26.386176109313965
+Crowley Book of Lies 26.65907311439514
+/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:219: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:178: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:211: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Crowley Book of the Law 26.89409327507019
+Crowley Liber 777 27.240445613861084
+Manly Hall Initiates Flame 27.539222240447998
+Levi History of Magic 29.369240760803223
+Lovecraft Mountains Madness 29.945494890213013
+Lovecraft Dunwich 30.24556612968445
+Poe Complete Works 34.71989893913269
+Mabinogion (Guest, English) 35.15744066238403
+Homer Odyssey (Butler) 36.23975110054016
+Dante Inferno (Longfellow) 37.54185938835144
+KJB Genesis 37.974895000457764
+KJB Psalms 38.496830701828
+KJB Ecclesiastes 38.72746157646179
+KJB Revelation 39.030850410461426
+KJB John 39.39770150184631
+KJB Isaiah 39.88780975341797
+KJB Job 40.58290410041809
+KJB Ezekiel 41.196906089782715
+KJV Bible (whole) 47.75226163864136
+Tyndale NT 50.886022329330444
+Douay-Rheims 60.15797805786133
+Tao Te Ching (Legge) 60.49046802520752
+Bhagavad Gita (Arnold) 60.90352702140808
+Upanishads (Hume) 61.24826121330261
+Gospel of Buddha (Carus) 62.362404584884644
+Nietzsche Twilight Idols 63.38569951057434
+Kant CPR 64.94364786148071
+Schopenhauer World as Will 66.67693996429443
+Leibniz Theodicy 68.61243867874146
+Bacon Novum Organum 69.5065848827362
+Aristotle Nic. Ethics 70.83111238479614
+Mill On Liberty 71.50584697723389
+Paine Age of Reason 72.25618362426758
+Plato Symposium 72.68491911888123
+Plato Timaeus 73.34581923484802
+Cicero Tusculan (English tr.) 75.16482377052307
+Suetonius (English tr.) 77.36933279037476
+Lucretius (English tr.) 78.39962530136108
+Gibbon Decline Fall I 79.86254334449768
+Bunyan Pilgrim Progress 80.80164909362793
+Shelley Frankenstein 81.62572860717773
+Stoker Dracula 83.40495276451111
+Voltaire Candide (tr.) 83.87347149848938
+De Quincey Opium Eater 84.3895046710968
+Magna Carta 84.70244026184082
+Austen Emma 86.69444346427917
+Carroll Alice 87.10006785392761
+Chesterton Ball 87.86772322654724
+English: bible-corpus (modern) 94.69065856933594
+English: EWT (web) 96.73760056495667

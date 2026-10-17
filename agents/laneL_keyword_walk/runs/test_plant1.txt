@@ -1,0 +1,3 @@
+# text texts/plant1.txt words 59 runes 262 prefix_words 34 prefix_runes 151 |base| 2001 |g| 1127284 |sigma| 220280 stageA_pairs 2255695284 survivors 265 stageA_s 6.5
+# mode 0 stageB_trials 58374200 stageB_s 0.3 word1_pass 64801 reached_end 2 total_keys 4.9688e+14
+0 8130 12345 29804 -339335 -1.8342

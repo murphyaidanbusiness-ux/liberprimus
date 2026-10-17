@@ -1,0 +1,3 @@
+TRUTH score -29298.9 acc 1.0000 (prefix words 2896 runes 12956)
+RESTART 0 init 4 best -78305.2 (truth -29298.9) prefix-acc 0.0397 full-acc 0.0397 sigma-correct 14/29 evals/s 3771
+RESTART 1 init 4 best -78071.0 (truth -29298.9) prefix-acc 0.0383 full-acc 0.0383 sigma-correct 15/29 evals/s 3785

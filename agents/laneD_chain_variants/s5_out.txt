@@ -1,0 +1,32 @@
+reorderings total 470 ; genuinely different adjacency (<20% of adjacent pairs preserved): 390 ; adjacency-preserving (>=20%): ['serp(w=2)', 'blockrev(b=2)', 'serp(w=3)', 'blockrev(b=3)', 'serp(w=4)', 'blockrev(b=4)', 'serp(w=5)', 'blockrev(b=5)', 'serp(w=6)', 'blockrev(b=6)', 'serp(w=7)', 'blockrev(b=7)', 'serp(w=8)', 'blockrev(b=8)', 'serp(w=9)', 'blockrev(b=9)', 'serp(w=10)', 'blockrev(b=10)', 'serp(w=11)', 'blockrev(b=11)', 'serp(w=12)', 'blockrev(b=12)', 'serp(w=13)', 'blockrev(b=13)', 'serp(w=14)', 'blockrev(b=14)', 'serp(w=15)', 'blockrev(b=15)', 'serp(w=16)', 'blockrev(b=16)', 'serp(w=17)', 'blockrev(b=17)', 'serp(w=18)', 'blockrev(b=18)', 'serp(w=19)', 'blockrev(b=19)', 'serp(w=20)', 'blockrev(b=20)', 'serp(w=21)', 'blockrev(b=21)']
+REAL scan: 470 reorderings x 55 pages; identity doublets 86 (z=-17.3); reverse z=-17.3
+best 12 non-trivial reorderings by pooled doublet z:
+   col(w=11,Lcols,down)               doublets   379  z=-3.18
+   col(w=11,Rcols,up)                 doublets   379  z=-3.18
+   col(w=11,Lcols,up)                 doublets   382  z=-3.03
+   col(w=11,Rcols,down)               doublets   382  z=-3.03
+   col(w=25,Lcols,up)^-1              doublets   394  z=-2.45
+   rail(r=26)^-1                      doublets   394  z=-2.45
+   rail(r=15)                         doublets   398  z=-2.26
+   rail(r=22)                         doublets   405  z=-1.92
+   col(w=21,Lcols,up)                 doublets   406  z=-1.87
+   col(w=21,Rcols,down)               doublets   406  z=-1.87
+   rail(r=3)                          doublets   406  z=-1.87
+   col(w=33,Lcols,up)^-1              doublets   408  z=-1.78
+best genuinely-different reordering: z = -3.18 (col(w=11,Lcols,down))
+adjacency-preserving reorderings keep the deficit in proportion to their overlap (z, overlap): [('blockrev(b=36)', np.float64(-17.2), 0.97), ('serp(w=40)', np.float64(-17.2), 0.98), ('blockrev(b=40)', np.float64(-17.1), 0.98), ('serp(w=28)', np.float64(-17.1), 0.97), ('serp(w=38)', np.float64(-17.0), 0.98), ('serp(w=30)', np.float64(-17.0), 0.97)] ...
+blockrev z by b (b=2..12): [np.float64(-8.5), np.float64(-11.8), np.float64(-14.0), np.float64(-13.6), np.float64(-15.0), np.float64(-14.9), np.float64(-15.1), np.float64(-15.9), np.float64(-15.9), np.float64(-16.1), np.float64(-16.0)]  ... b=40: -17.1
+family minima: {'col': (np.float64(-3.18), 'col(w=11,Lcols,down)'), 'col^-1': (np.float64(-2.45), 'col(w=25,Lcols,up)^-1'), 'rail^-1': (np.float64(-2.45), 'rail(r=26)^-1'), 'rail': (np.float64(-2.26), 'rail(r=15)')}
+NULL (60 shuffled corpora): min z over 390 non-trivial reorderings: mean -2.96 sd 0.38 min -3.90 ; real best -3.18 -> z-vs-null -0.56
+per page: identity strictly below ALL 390 genuinely different reorderings on 23/55 pages, <= on 37/55; mean fraction of reorderings beating identity 0.009
+   shuffled-corpus calibration: identity strictly lowest on 0.1 +- 0.3 of 55 pages
+scan time 5.584380149841309
+
+== POSITIVE CONTROLS: chain(EA-zero) on Markov plaintext, then transposition of the ciphertext (page-level) ==
+no transposition                         reading-order z  -14.4 | best reordering: col(w=9,Lcols,down)^-1 z=-3.0; col(w=14,Rcols,down)^-1 z=-2.0; col(w=12,Lcols,up) z=-2.4
+columnar w=13 (read cols)                reading-order z   -0.1 | best reordering: col(w=13,Lcols,down)^-1 z=-13.8; col(w=13,Lcols,down)^-1 z=-15.2; col(w=13,Lcols,down)^-1 z=-14.9
+columnar w=7 reversed cols, up           reading-order z    0.3 | best reordering: col(w=7,Rcols,up)^-1 z=-14.3; col(w=7,Rcols,up)^-1 z=-14.3; col(w=7,Rcols,up)^-1 z=-15.0
+rail fence r=5                           reading-order z    0.5 | best reordering: rail(r=5)^-1 z=-14.6; rail(r=5)^-1 z=-14.8; rail(r=5)^-1 z=-14.4
+serpentine w=17                          reading-order z  -15.0 | best reordering: col(w=8,Lcols,up)^-1 z=-3.4; rail(r=14) z=-2.5; col(w=9,Lcols,up) z=-3.2
+block reversal b=6                       reading-order z  -12.3 | best reordering: col(w=11,Lcols,down) z=-3.8; col(w=11,Lcols,down) z=-2.9; col(w=20,Lcols,down)^-1 z=-1.9
+columnar w=29 (alphabet width)           reading-order z    0.4 | best reordering: col(w=29,Lcols,down)^-1 z=-14.7; col(w=29,Lcols,down)^-1 z=-14.7; col(w=29,Lcols,down)^-1 z=-14.1

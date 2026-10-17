@@ -1,0 +1,15 @@
+F1 var  0 key AROMATOPHOR  | top-quad key AROMATOPHOR  var   0 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.546 | z_q=44.8 z_ioc=20.9
+F1 var  1 key SISTERISE    | top-quad key SISTERISE    var   1 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.197 | z_q=43.3 z_ioc=18.6
+F1 var  6 key PEPLOS       | top-quad key PEPLOS       var   6 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.687 | z_q=41.7 z_ioc=15.0
+F1 var 43 key CERMIS       | top-quad key CERMIS       var  43 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.465 | z_q=42.0 z_ioc=15.5
+F1 var 12 key AURENE       | top-quad key AURENE       var  12 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.574 | z_q=38.5 z_ioc=12.7
+F1 var102 key INFUSIANISM  | top-quad key INFUSIANISM  var 102 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -4.931 | z_q=43.1 z_ioc=16.2
+F2 var  0 key UNSHOWY      | top-quad key UNSHOWY      var   0 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.345 | z_q=32.2 z_ioc=12.7
+F2 var  6 key STELLA       | top-quad key STELLA       var   6 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.297 | z_q=34.3 z_ioc=13.4
+F2 var 11 key FORCED       | top-quad key FORCED       var  11 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -4.220 | z_q=35.6 z_ioc=13.5
+F2 var 12 key EMBITTERING  | top-quad key EMBITTERING  var  12 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.016 | z_q=40.3 z_ioc=18.4
+F3 var  0 key STRENGTHFUL  | top-quad key STRENGTHFUL  var   0 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.631 | z_q=39.6 z_ioc=20.1
+F3 var  1 key AMYLOSES     | top-quad key AMYLOSES     var   1 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.012 | z_q=36.9 z_ioc=16.1
+F3 var  2 key LINGULATED   | top-quad key LINGULATED   var   2 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.024 | z_q=38.4 z_ioc=19.9
+F3 var  3 key SEPHIRAN     | top-quad key SEPHIRAN     var   3 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -6.522 | z_q=38.6 z_ioc=25.0
+F3 var  4 key REDISPOSE    | top-quad key REDISPOSE    var   4 q -4.220 ioc 1.781 | planted rank(quad)=[0] rank(ioc)=[0] | best wrong q -5.149 | z_q=39.7 z_ioc=25.6

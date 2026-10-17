@@ -1,0 +1,5 @@
+text texts/null_p0_s11.txt: 59 words 262 runes; prefix 34 words 151 runes; word0 len 8 word1 len 5; |base|=220280 |g|=1127284 |sigma|=220280 lexicon 386198 threads 4
+stage A: 248318119520 (base,g) pairs in 88.8s = 2.80e+09 /s; exact DFS calls 4666585058 (1.88e-02); survivors 24575 (9.90e-08)
+mode 0 stage B: 5413381000 (survivor,sigma) trials in 43.4s = 1.25e+08 /s; word1 lexicon pass 6507124; reached prefix end 7102344; kept 1000
+mode 1 stage B: 5413381000 (survivor,sigma) trials in 38.2s = 1.42e+08 /s; word1 lexicon pass 6484646; reached prefix end 7264264; kept 1000
+mode 2 stage B: 24575 (survivor,sigma) trials in 0.0s = 5.30e+05 /s; word1 lexicon pass 0; reached prefix end 58029; kept 1000
