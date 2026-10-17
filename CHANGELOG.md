@@ -69,3 +69,8 @@ every doublet in the window, so the real window (two doublets on one residue) ke
 separately. Also: the decoder is an exact dynamic program over (position, k) with no beam cap; a cap can drop the true path, so
 it was removed (the one English miss in the self-test occurs with and without the cap). The gate's C2 does not test doublet residues; the orchestrator added C2c after
 lane S reported that the simulator puts all doublets on one residue mod 5.
+
+## 2026-10-17 · attack-lane (lane O tier A) · claude-opus-5-5
+Fail: the tier A estimate (~1.5 h) assumed 10 workers give ~10x one worker; the run took 177 min, ~5x, on this 8-core /
+16-thread i7-11700F. Fix: estimates in lane O RESULTS section 9 and REPORT_ROUND2.md now use the measured 16,197 keys/s
+at -NProc 10 (tier B ~7 h, tier C ~57 h). Measure aggregate throughput, not per-core, before quoting a wall time.

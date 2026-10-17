@@ -1,0 +1,92 @@
+56 keyed alphabets from 3301's vocabulary, 10 workers
+  5/240 tasks, 15,367,100 keys, best +0.6968, 8,370 keys/s, 30.6 min
+  10/240 tasks, 30,734,200 keys, best +0.7053, 16,714 keys/s, 30.6 min
+  15/240 tasks, 46,101,300 keys, best +0.7053, 12,566 keys/s, 61.1 min
+  20/240 tasks, 61,468,400 keys, best +0.7053, 16,732 keys/s, 61.2 min
+  25/240 tasks, 76,835,500 keys, best +0.7053, 13,950 keys/s, 91.8 min
+  30/240 tasks, 92,202,600 keys, best +0.7053, 16,713 keys/s, 91.9 min
+  35/240 tasks, 107,569,700 keys, best +0.7059, 14,610 keys/s, 122.7 min
+  40/240 tasks, 122,936,800 keys, best +0.7059, 16,663 keys/s, 123.0 min
+  45/240 tasks, 138,303,900 keys, best +0.7059, 15,034 keys/s, 153.3 min
+  50/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  55/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  60/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  65/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  70/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  75/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  80/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  85/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  90/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  95/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  100/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  105/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  110/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  115/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  120/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  125/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  130/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  135/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  140/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  145/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  150/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  155/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  160/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  165/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  170/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  175/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  180/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  185/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  190/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  195/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  200/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  205/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  210/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  215/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  220/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  225/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  230/240 tasks, 144,450,740 keys, best +0.7059, 15,691 keys/s, 153.4 min
+  235/240 tasks, 156,744,420 keys, best +0.7059, 14,933 keys/s, 174.9 min
+  240/240 tasks, 172,111,520 keys, best +0.7059, 16,197 keys/s, 177.1 min
+
+DONE: 172,111,520 keys in 177.1 min
+  +0.7059  WISDOM/R3 cyclic             sched [1, 0, 28, 11, 18] dial 19
+  +0.7059  WISDOM/R3 cyclic             sched [11, 18, 1, 0, 28] dial 19
+  +0.7059  WISDOM/R4 grid-cols          sched [0, 15, 9, 18, 16] dial 4
+  +0.7059  WISDOM/R4 grid-cols          sched [15, 9, 18, 16, 0] dial 4
+  +0.7053  CIRCUMFERENCE/R3 cyclic      sched [17, 16, 22, 3, 0] dial 27
+  +0.7053  CIRCUMFERENCE/R3 cyclic      sched [0, 17, 16, 22, 3] dial 27
+  +0.7020  PRIMUS/R3 cyclic             sched [17, 0, 10, 5, 26] dial 14
+  +0.7018  KOAN/R1 gematria             sched [5, 0, 26, 5, 22] dial 2
+  +0.7006  CIRCUMFERENCE/R2 reversed    sched [22, 0, 11, 15, 10] dial 1
+  +0.7000  PRIMUS/R2 reversed           sched [2, 0, 6, 11, 10] dial 10
+  +0.7000  WISDOM/R1 gematria           sched [10, 17, 25, 0, 6] dial 0
+  +0.6996  KOAN/R1 gematria             sched [24, 0, 1, 25, 8] dial 14
+  +0.6993  DIVINITY/R2 reversed         sched [0, 21, 25, 27, 14] dial 17
+  +0.6993  DIVINITY/R2 reversed         sched [21, 25, 27, 14, 0] dial 17
+  +0.6991  DIVINITY/R4 grid-cols        sched [3, 13, 24, 0, 18] dial 8
+  +0.6990  WISDOM/R2 reversed           sched [14, 9, 28, 0, 7] dial 19
+  +0.6988  INSTAR/R3 cyclic             sched [19, 13, 11, 15, 0] dial 16
+  +0.6988  INSTAR/R3 cyclic             sched [0, 19, 13, 11, 15] dial 16
+  +0.6987  PARABLE/R3 cyclic            sched [11, 12, 3, 0, 3] dial 9
+  +0.6987  KOAN/R2 reversed             sched [20, 6, 6, 0, 26] dial 0
+  +0.6985  PRIME/R3 cyclic              sched [19, 15, 18, 0, 6] dial 23
+  +0.6985  LIBER/R1 gematria            sched [23, 16, 0, 4, 15] dial 16
+  +0.6980  WISDOM/R3 cyclic             sched [2, 26, 6, 24, 0] dial 20
+  +0.6980  WISDOM/R3 cyclic             sched [0, 2, 26, 6, 24] dial 20
+  +0.6979  DIVINITY/R2 reversed         sched [0, 6, 6, 12, 5] dial 24
+  +0.6979  DIVINITY/R2 reversed         sched [6, 6, 12, 5, 0] dial 24
+  +0.6975  DIVINITY/R3 cyclic           sched [18, 0, 25, 11, 4] dial 5
+  +0.6970  DIVINITY/R3 cyclic           sched [0, 19, 17, 19, 3] dial 23
+  +0.6970  DIVINITY/R3 cyclic           sched [19, 17, 19, 3, 0] dial 23
+  +0.6968  CICADA/R4 grid-cols          sched [11, 5, 0, 25, 17] dial 27
+  +0.6966  WISDOM/R4 grid-cols          sched [10, 7, 23, 0, 18] dial 19
+  +0.6966  PRIMES/R2 reversed           sched [2, 4, 9, 0, 14] dial 25
+  +0.6965  KOAN/R1 gematria             sched [12, 4, 4, 9, 0] dial 14
+  +0.6965  KOAN/R1 gematria             sched [0, 12, 4, 4, 9] dial 14
+  +0.6964  PRIMUS/R4 grid-cols          sched [11, 13, 0, 19, 15] dial 7
+  +0.6960  PRIMUS/R4 grid-cols          sched [5, 0, 5, 1, 18] dial 20
+  +0.6956  FIRFUMFERENFE/R3 cyclic      sched [23, 10, 10, 0, 15] dial 27
+  +0.6956  PRIME/R2 reversed            sched [10, 27, 0, 5, 16] dial 5
+  +0.6956  DIVINITY/R1 gematria         sched [18, 24, 14, 2, 0] dial 25
+  +0.6956  DIVINITY/R1 gematria         sched [0, 18, 24, 14, 2] dial 25
+written to agents\laneO_quagmire_dodge\out\tierA_candidates.jsonl

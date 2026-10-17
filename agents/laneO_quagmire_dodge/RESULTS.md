@@ -322,3 +322,28 @@ missing from the upstream vocabulary. `launch_sweep.ps1 -Tier A|B|C` picks the w
 ```
 powershell -ExecutionPolicy Bypass -File agents\laneO_quagmire_dodge\launch_sweep.ps1 -Tier A -NProc 10
 ```
+
+## 9. Tier A result (orchestrator, run 2026-10-16 21:47 to 2026-10-17 00:45)
+
+**Verdict: NULL for tier A.** `launch_sweep.ps1 -Tier A -NProc 10`: 56 keyed alphabets from 14 words (DIVINITY,
+FIRFUMFERENFE, CIRCUMFERENCE, PRIMES, PRIME, TOTIENT, INSTAR, PARABLE, KOAN, CICADA, LIBER, PRIMUS, WISDOM, PILGRIM) x
+105,980 one-zero schedules x 29 dials = **172,111,520 keys in 177.1 min**, every one scored. Logs:
+`logs/tierA_sweep.log`, progress `out/tierA_progress.jsonl`, top 40 `out/tierA_candidates.jsonl`.
+
+- First-400-word scores: best **+0.7059** (WISDOM/R3 cyclic, schedule [1, 0, 28, 11, 18], dial 19; its rotation and a
+  WISDOM/R4 key tie it). The single random-slice smoke task reached +0.7002, and 89 of 100 planted keyword keys score
+  above 0.75. Nothing in tier A stands out of the noise on the text it was fitted to.
+- Held-out test (`adjudicate.py` on all 280 retained candidates, `progress_to_candidates.py`; log
+  `logs/adjudicate_tierA_lp.log`, output `out/adjudicate_tierA_lp.json`): six held-out chunks of 400 words, null of
+  200 random keys (pinned chunk-mean +0.5860 +- 0.0122, max +0.6218; best-dial +0.6359 +- 0.0049, max +0.6503).
+  - Pinned dial: **0 of 280 above the null max**; max z +2.90 (KOAN/R4, margin -0.0009); the 280 z-scores have mean +0.11
+    and sd 0.86, which is the noise expectation (the maximum of 280 standard normals is about +2.9).
+  - Best dial: 1 of 280 above the null max by +0.0005 (PARABLE/R3 cyclic, z +3.0; pinned z +1.7, first-400 score 0.690,
+    not a top scorer). One exceedance of a 200-draw null max in 280 draws is expected.
+  - For scale: lane O's planted true key held out at z +21.
+- Power: about 89% for a key of this family built from these 14 words (section 7b), so tier A excludes the Cicada-keyword
+  Quagmire-odometer-dodge with those words at roughly that power.
+
+**Throughput correction.** 172.1M keys in 177.1 min is 16,197 keys/s: ten BelowNormal workers on this 8-core/16-thread
+machine delivered about 5.0x one worker (3,214 keys/s), not 10x. Revised estimates at -NProc 10: tier B (132 alphabets)
+~7 h; tier C (1,080 alphabets) ~57 h, in resumable chunks.
