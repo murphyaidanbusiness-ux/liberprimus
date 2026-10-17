@@ -16,7 +16,8 @@ One orchestrator, one folder per job. Find the job below, open its folder, follo
 - Archive scraping only through `hashhunt` with `--allowlist hashhunt/cicada_onions_allowlist.txt`. No Tor, no onion or
   gateway contact, no wider allowlist without the owner's yes in chat.
 - The PC is shared with the owner's own work: long jobs at below-normal priority, check free RAM, ask before anything over 2 hours,
-  and remember it idle-sleeps: an unattended run needs the owner's sleep setting off, so check progress after the first task.
+  and remember it idle-sleeps after 15 min: start `python agents/laneO_quagmire_dodge/stay_awake.py <pid>` alongside an
+  unattended run (a per-process keep-awake request; it changes no settings and ends with the run), and check progress after the first task.
 - If a job is not listed here, stop and ask.
 
 ## Jobs

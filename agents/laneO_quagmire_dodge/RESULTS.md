@@ -347,3 +347,18 @@ FIRFUMFERENFE, CIRCUMFERENCE, PRIMES, PRIME, TOTIENT, INSTAR, PARABLE, KOAN, CIC
 **Throughput correction.** 172.1M keys in 177.1 min is 16,197 keys/s: ten BelowNormal workers on this 8-core/16-thread
 machine delivered about 5.0x one worker (3,214 keys/s), not 10x. Revised estimates at -NProc 10: tier B (132 alphabets)
 ~7 h; tier C (1,080 alphabets) ~57 h, in resumable chunks.
+
+## 10. Tier B result (orchestrator, run 2026-10-17 00:55 to 15:19)
+
+**Verdict: NULL for tier B.** `launch_sweep.ps1 -Tier B -NProc 10`: 132 keyed alphabets from the other 33 named puzzle
+terms x 105,980 schedules x 29 dials = **405,691,440 keys in 404.1 min** of run time. The PC idle-slept for most of
+the first night (CHANGELOG 2026-10-17); from 10:04 `stay_awake.py` held it awake until the sweep exited (5.3 h).
+
+- Best on the scored 400 words: **+0.7202** (SACRED/R1 gematria, schedule [15, 0, 5, 22, 16], dial 2); next EMERGE
+  +0.7105, ADHERENCE +0.7095. Below the +0.75 that 89 of 100 planted keys beat.
+- Held-out test on all **655** retained candidates (`logs/adjudicate_tierB_lp.log`, `out/adjudicate_tierB_lp.json`;
+  same null as tier A): pinned dial **0 of 655 above the null max**, max z +2.60 (STUDENT/R1), z mean +0.06, sd 0.94;
+  best dial 1 of 655 above the null max (INSTRUCTION/R3, z +3.3, pinned z +0.8), within the expected maximum of 655 draws.
+
+Tiers A and B together: 188 alphabets from 47 words, 577.8M keys, both null at ~89% power. Tier C (the 1,080
+register-word alphabets, ~57 h) remains.

@@ -17,7 +17,7 @@ sys.path[:0] = ["toolbox", "lp"]
 import fingerprint as fp  # noqa: E402
 import runes as rn  # noqa: E402
 
-HARD = ("C1", "C2 ", "C2b", "C3", "C6")
+HARD = ("C1", "C2 ", "C2b", "C2c", "C3", "C6")  # same hard set as gate_sim.py (C2c added 2026-10-16)
 
 
 def load(path):
@@ -41,7 +41,7 @@ def report(label, results):
     total = len(results)
     all_pass = sum(1 for _, hard in results if all(hard.values()))
     print("%s: %d draws" % (label, total))
-    for cid in ("C1", "C2", "C2b", "C3", "C6"):
+    for cid in ("C1", "C2", "C2b", "C2c", "C3", "C6"):
         ok = sum(1 for _, hard in results if hard.get(cid, False))
         print("  %-4s passes %4d / %d" % (cid, ok, total))
     print("  all hard constraints pass: %d / %d" % (all_pass, total))

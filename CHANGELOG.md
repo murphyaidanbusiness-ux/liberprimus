@@ -85,3 +85,13 @@ Crawl hash hunt (15 queries in 8 h). The app's keep-awake only holds while the s
 idle minutes). Fix: before an unattended multi-hour run, tell the owner it needs Windows sleep off (Settings > System >
 Power, "when plugged in, put my device to sleep after: Never") or the session kept active; check task completions after
 the first expected task time instead of assuming progress.
+
+## 2026-10-17 · attack-lane (lane O tier B) · claude-opus-5-5
+Fix for the sleep stall: `agents/laneO_quagmire_dodge/stay_awake.py PID [max_hours]` holds the PC awake with
+SetThreadExecutionState until the run's process exits (no power-plan change; the owner's 15-minute sleep setting stays).
+Started for tier B (pid 21788, cap 9 h) at 10:04.
+## 2026-10-17 · hypothesis-gate · claude-haiku-5-5 (quagmire_dodge_clock)
+Fail: `tools/walk_draws.py` left C2c out of its hard set (its HARD tuple predated the C2c addition of 2026-10-16), so its
+"all hard constraints" census was looser than `gate_sim.py`'s. Fix: C2c added to HARD and to the per-constraint rows, so
+both tools share one hard set. Also run: the clock-dependent dodge (`quagmire_dodge_clock`) gates PASS with a marginal C2
+on 1 of 12 seeds; its 300-key census has 211 keys passing every hard constraint (`runs/2026-10-17-quagmire_dodge_clock.md`).
