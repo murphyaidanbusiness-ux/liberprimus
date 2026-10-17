@@ -1,0 +1,214 @@
+{
+ "version": "1.0",
+ "n": 4,
+ "queries": [
+  {
+   "id": "wb|ky2khlqdf7qdznac.onion.to|text/html",
+   "source": "wayback",
+   "base": "https://web.archive.org/cdx/search/cdx",
+   "params": [
+    [
+     "url",
+     "ky2khlqdf7qdznac.onion.to"
+    ],
+    [
+     "matchType",
+     "host"
+    ],
+    [
+     "from",
+     "2013"
+    ],
+    [
+     "to",
+     "2017"
+    ],
+    [
+     "filter",
+     "mimetype:text/html"
+    ],
+    [
+     "filter",
+     "statuscode:200"
+    ],
+    [
+     "fl",
+     "timestamp,original,mimetype,statuscode,digest,length"
+    ],
+    [
+     "collapse",
+     "digest"
+    ],
+    [
+     "output",
+     "json"
+    ],
+    [
+     "showResumeKey",
+     "true"
+    ],
+    [
+     "limit",
+     "5000"
+    ]
+   ],
+   "paginate": "resumeKey"
+  },
+  {
+   "id": "wb|ky2khlqdf7qdznac.onion.to|text/plain",
+   "source": "wayback",
+   "base": "https://web.archive.org/cdx/search/cdx",
+   "params": [
+    [
+     "url",
+     "ky2khlqdf7qdznac.onion.to"
+    ],
+    [
+     "matchType",
+     "host"
+    ],
+    [
+     "from",
+     "2013"
+    ],
+    [
+     "to",
+     "2017"
+    ],
+    [
+     "filter",
+     "mimetype:text/plain"
+    ],
+    [
+     "filter",
+     "statuscode:200"
+    ],
+    [
+     "fl",
+     "timestamp,original,mimetype,statuscode,digest,length"
+    ],
+    [
+     "collapse",
+     "digest"
+    ],
+    [
+     "output",
+     "json"
+    ],
+    [
+     "showResumeKey",
+     "true"
+    ],
+    [
+     "limit",
+     "5000"
+    ]
+   ],
+   "paginate": "resumeKey"
+  },
+  {
+   "id": "wb|ky2khlqdf7qdznac.onion|text/html",
+   "source": "wayback",
+   "base": "https://web.archive.org/cdx/search/cdx",
+   "params": [
+    [
+     "url",
+     "ky2khlqdf7qdznac.onion"
+    ],
+    [
+     "matchType",
+     "host"
+    ],
+    [
+     "from",
+     "2013"
+    ],
+    [
+     "to",
+     "2017"
+    ],
+    [
+     "filter",
+     "mimetype:text/html"
+    ],
+    [
+     "filter",
+     "statuscode:200"
+    ],
+    [
+     "fl",
+     "timestamp,original,mimetype,statuscode,digest,length"
+    ],
+    [
+     "collapse",
+     "digest"
+    ],
+    [
+     "output",
+     "json"
+    ],
+    [
+     "showResumeKey",
+     "true"
+    ],
+    [
+     "limit",
+     "5000"
+    ]
+   ],
+   "paginate": "resumeKey"
+  },
+  {
+   "id": "wb|ky2khlqdf7qdznac.onion|text/plain",
+   "source": "wayback",
+   "base": "https://web.archive.org/cdx/search/cdx",
+   "params": [
+    [
+     "url",
+     "ky2khlqdf7qdznac.onion"
+    ],
+    [
+     "matchType",
+     "host"
+    ],
+    [
+     "from",
+     "2013"
+    ],
+    [
+     "to",
+     "2017"
+    ],
+    [
+     "filter",
+     "mimetype:text/plain"
+    ],
+    [
+     "filter",
+     "statuscode:200"
+    ],
+    [
+     "fl",
+     "timestamp,original,mimetype,statuscode,digest,length"
+    ],
+    [
+     "collapse",
+     "digest"
+    ],
+    [
+     "output",
+     "json"
+    ],
+    [
+     "showResumeKey",
+     "true"
+    ],
+    [
+     "limit",
+     "5000"
+    ]
+   ],
+   "paginate": "resumeKey"
+  }
+ ]
+}

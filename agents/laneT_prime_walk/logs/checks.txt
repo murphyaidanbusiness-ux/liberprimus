@@ -1,0 +1,13 @@
+== 1. inverse self-test (W=4096, n=60, 40 random plaintexts)
+decoded path re-encrypts to the cipher: 0 failures of 40
+decoder mean below the true path's mean: 0 of 40 (must be 0)
+decoded path equals the planted plaintext: 15 of 40 (not a pass criterion: the walk admits alternative paths)
+
+== 2. full-length survivor, key index 19144 (prime, k0 9144)
+random-runes reference (12956 runes, numpy seed 1): ioc 0.9998 quadgram -7.5048
+W=512: decodes 12956 of 12956 runes; mean -7.3084; ioc 1.0116; quadgram -7.3084; first 120 runes: WOEGTHYNGBNGOAELOEAEWECOLUEOESOEEOMNDYOECFAEHDTHAEPNEAEOAENGWOEEANOWCGNGGDUEIADOIAEAERMNRUOEEMONEABLPNGCXPDGREWJMRCNBIANGUFUETHLSTHDSYTHRMIMGRPIAUBEGFTJ
+W=4096: decodes 4774 of 12956 runes; mean -7.2084; ioc 1.0131; quadgram -7.2084; first 120 runes: WOEGTHYNGBNGOAELOEAEWECOLUEOESOEEOMNDYOECFAEHDTHAEPNEAEOAENGWOEEANOWCGNGGDUEIADOIAEAERMNRUOEEMONEABLPNGCXPDGREWJMRCNBIANGUFUETHLSTHDSYTHRMIMGRPIAUBEGFTJ
+
+== 3. LP2 300-rune window
+doublets in the first 300 runes: 2, at positions [122, 207]
+doublets in all 12,956 runes: 86

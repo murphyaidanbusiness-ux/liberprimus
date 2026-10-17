@@ -1,0 +1,115 @@
+REAL pages  raw units=55 cells= 532565 maxz=6.861 arg=(10, 14, 60, 77, 14) n4=253
+REAL pages  D   units=55 cells= 529540 maxz=6.058 arg=(12, 44, -59, 201, 23) n4=208
+REAL chap   raw units=17 cells= 180600 maxz=5.156 arg=(3, 10, -172, 91, 12) n4=54
+REAL chap   D   units=17 cells= 180375 maxz=5.335 arg=(5, 13, -345, 120, 15) n4=42
+REAL stream raw units= 1 cells=  12896 maxz=4.184 arg=(0, 0, 6002, 6954, 304) n4=1
+REAL stream D   units= 1 cells=  12895 maxz=3.803 arg=(0, 0, 7550, 5405, 243) n4=0
+real pass done (1.3 s); running 200 nulls
+
+== pages|raw
+  maxz real=6.861 | null maxz mean=6.162 sd=0.412 max=7.526 | z=+1.70 emp_p=0.065
+  n(z>4) real=253 | null mean=230.02 sd=15.11 max=272 | emp_p=0.070
+    bin [60,100)       real max 6.861 vs null 5.965+-0.436  (emp_p 0.050) | n4 real 87 null 87.7
+    bin [100,150)      real max 6.049 vs null 5.694+-0.439  (emp_p 0.199) | n4 real 87 null 65.7
+    bin [150,250)      real max 5.229 vs null 5.580+-0.398  (emp_p 0.811) | n4 real 72 null 71.0
+    bin [250,500)      real max 4.570 vs null 4.755+-0.378  (emp_p 0.622) | n4 real 7 null 5.6
+    top: p10     p14     t=   60 n=  77 M= 14 z=6.861  -log10 binom=6.21  longest run=2
+    top: p37     p43     t=  153 n= 121 M= 16 z=6.049  -log10 binom=5.51  longest run=2
+    top: p08     p13     t=  212 n=  60 M= 10 z=5.685  -log10 binom=4.50  longest run=2
+    top: p07     p39     t= -127 n=  81 M= 12 z=5.512  -log10 binom=4.57  longest run=2
+    top: p05     p27     t= -187 n=  76 M= 11 z=5.389  -log10 binom=4.34  longest run=2
+    top: p33     p45     t= -142 n=  72 M= 11 z=5.385  -log10 binom=4.34  longest run=2
+    top: p25     p35     t=  175 n=  96 M= 13 z=5.363  -log10 binom=4.51  longest run=2
+    top: p17     p19     t=  206 n=  65 M= 10 z=5.306  -log10 binom=4.15  longest run=2
+
+== pages|D
+  maxz real=6.058 | null maxz mean=6.119 sd=0.407 max=7.874 | z=-0.15 emp_p=0.527
+  n(z>4) real=208 | null mean=220.64 sd=14.80 max=268 | emp_p=0.816
+    bin [60,100)       real max 5.848 vs null 5.942+-0.452  (emp_p 0.498) | n4 real 90 null 86.0
+    bin [100,150)      real max 5.558 vs null 5.637+-0.392  (emp_p 0.532) | n4 real 52 null 62.0
+    bin [150,250)      real max 6.058 vs null 5.577+-0.373  (emp_p 0.109) | n4 real 59 null 68.0
+    bin [250,500)      real max 4.925 vs null 4.676+-0.361  (emp_p 0.254) | n4 real 7 null 4.8
+    top: p12     p44     t=  -59 n= 201 M= 23 z=6.058  -log10 binom=6.02  longest run=2
+    top: p10     p21     t=   80 n= 192 M= 22 z=5.902  -log10 binom=5.76  longest run=2
+    top: p29     p53     t= -198 n=  78 M= 12 z=5.848  -log10 binom=4.90  longest run=1
+    top: p08     p44     t= -161 n=  93 M= 13 z=5.595  -log10 binom=4.75  longest run=2
+    top: p09     p12     t= -197 n=  70 M= 11 z=5.574  -log10 binom=4.52  longest run=2
+    top: p24     p37     t= -129 n= 140 M= 17 z=5.558  -log10 binom=5.03  longest run=3
+    top: p33     p53     t=  160 n=  71 M= 11 z=5.293  -log10 binom=4.26  longest run=2
+    top: p21     p30     t=   81 n= 181 M= 19 z=5.227  -log10 binom=4.76  longest run=2
+
+== chap|raw
+  maxz real=5.156 | null maxz mean=5.557 sd=0.430 max=7.348 | z=-0.93 emp_p=0.811
+  n(z>4) real=54 | null mean=48.11 sd=7.31 max=69 | emp_p=0.239
+    bin [60,100)       real max 5.156 vs null 5.215+-0.457  (emp_p 0.453) | n4 real 11 null 10.8
+    bin [100,150)      real max 4.993 vs null 5.198+-0.470  (emp_p 0.577) | n4 real 17 null 12.0
+    bin [150,250)      real max 4.597 vs null 4.921+-0.411  (emp_p 0.731) | n4 real 11 null 8.7
+    bin [250,500)      real max 4.599 vs null 4.828+-0.375  (emp_p 0.697) | n4 real 11 null 8.4
+    bin [500,1000)     real max 4.190 vs null 4.702+-0.370  (emp_p 0.960) | n4 real 4 null 5.9
+    bin [1000,inf)     real max 3.909 vs null 4.394+-0.357  (emp_p 0.965) | n4 real 0 null 2.2
+    top: chap03  chap10  t= -172 n=  91 M= 12 z=5.156  -log10 binom=4.21  longest run=2
+    top: chap07  chap10  t=-1701 n=  91 M= 12 z=5.147  -log10 binom=4.20  longest run=2
+    top: chap01  chap08  t=  701 n= 119 M= 14 z=4.993  -log10 binom=4.20  longest run=2
+    top: chap08  chap15  t=  464 n=  70 M= 10 z=4.983  -log10 binom=3.86  longest run=2
+    top: chap09  chap13  t= -226 n= 121 M= 14 z=4.899  -log10 binom=4.10  longest run=1
+    top: chap05  chap15  t=-1665 n=  64 M=  9 z=4.669  -log10 binom=3.48  longest run=2
+    top: chap02  chap05  t= -441 n= 252 M= 22 z=4.599  -log10 binom=4.13  longest run=3
+    top: chap02  chap14  t= 2236 n= 238 M= 21 z=4.597  -log10 binom=4.09  longest run=2
+
+== chap|D
+  maxz real=5.335 | null maxz mean=5.595 sd=0.436 max=7.653 | z=-0.60 emp_p=0.711
+  n(z>4) real=42 | null mean=45.70 sd=7.50 max=65 | emp_p=0.706
+    bin [60,100)       real max 5.175 vs null 5.220+-0.523  (emp_p 0.448) | n4 real 12 null 9.9
+    bin [100,150)      real max 5.335 vs null 5.172+-0.388  (emp_p 0.343) | n4 real 12 null 11.5
+    bin [150,250)      real max 4.922 vs null 4.920+-0.430  (emp_p 0.403) | n4 real 7 null 7.8
+    bin [250,500)      real max 4.786 vs null 4.869+-0.424  (emp_p 0.488) | n4 real 8 null 8.7
+    bin [500,1000)     real max 4.039 vs null 4.699+-0.349  (emp_p 0.995) | n4 real 3 null 5.8
+    bin [1000,inf)     real max 3.938 vs null 4.442+-0.412  (emp_p 0.910) | n4 real 0 null 2.1
+    top: chap05  chap13  t= -345 n= 120 M= 15 z=5.335  -log10 binom=4.64  longest run=1
+    top: chap07  chap11  t=-1828 n=  65 M= 10 z=5.175  -log10 binom=4.04  longest run=2
+    top: chap05  chap08  t=  788 n= 232 M= 22 z=4.922  -log10 binom=4.52  longest run=4
+    top: chap07  chap13  t=-1370 n= 120 M= 14 z=4.873  -log10 binom=4.08  longest run=2
+    top: chap07  chap13  t=-1131 n= 120 M= 14 z=4.873  -log10 binom=4.08  longest run=3
+    top: chap03  chap14  t=  227 n= 318 M= 27 z=4.786  -log10 binom=4.50  longest run=2
+    top: chap07  chap12  t=   88 n=  72 M= 10 z=4.750  -log10 binom=3.65  longest run=2
+    top: chap08  chap08  t=  795 n= 225 M= 21 z=4.659  -log10 binom=4.17  longest run=2
+
+== stream|raw
+  maxz real=4.184 | null maxz mean=4.068 sd=0.318 max=4.904 | z=+0.36 emp_p=0.323
+  n(z>4) real=1 | null mean=0.71 sd=0.81 max=3 | emp_p=0.517
+    bin [60,100)       real max 2.520 vs null 2.506+-0.606  (emp_p 0.488) | n4 real 0 null 0.0
+    bin [100,150)      real max 2.220 vs null 2.522+-0.625  (emp_p 0.682) | n4 real 0 null 0.0
+    bin [150,250)      real max 2.724 vs null 2.802+-0.561  (emp_p 0.502) | n4 real 0 null 0.0
+    bin [250,500)      real max 2.465 vs null 3.029+-0.442  (emp_p 0.925) | n4 real 0 null 0.0
+    bin [500,1000)     real max 2.780 vs null 3.271+-0.416  (emp_p 0.896) | n4 real 0 null 0.0
+    bin [1000,inf)     real max 4.184 vs null 4.001+-0.311  (emp_p 0.249) | n4 real 1 null 0.6
+    top: stream  stream  t= 6002 n=6954 M=304 z=4.184  -log10 binom=4.50  longest run=4
+    top: stream  stream  t= 9428 n=3528 M=162 z=3.696  -log10 binom=3.63  longest run=2
+    top: stream  stream  t= 8686 n=4270 M=190 z=3.558  -log10 binom=3.45  longest run=3
+    top: stream  stream  t= 2039 n=10917 M=444 z=3.500  -log10 binom=3.46  longest run=2
+    top: stream  stream  t= 4908 n=8048 M=335 z=3.474  -log10 binom=3.39  longest run=2
+    top: stream  stream  t= 5850 n=7106 M=298 z=3.408  -log10 binom=3.28  longest run=2
+    top: stream  stream  t=   99 n=12857 M=512 z=3.272  -log10 binom=3.13  longest run=3
+    top: stream  stream  t=11380 n=1576 M= 78 z=3.247  -log10 binom=2.89  longest run=2
+  stream lags <=6478 (campaign XIV range): max z=4.184, n(z>4)=1 ; lags >6478: max z=3.696
+
+== stream|D
+  maxz real=3.803 | null maxz mean=4.113 sd=0.346 max=5.182 | z=-0.90 emp_p=0.836
+  n(z>4) real=0 | null mean=0.84 sd=0.96 max=5 | emp_p=1.000
+    bin [60,100)       real max 2.009 vs null 2.608+-0.672  (emp_p 0.816) | n4 real 0 null 0.0
+    bin [100,150)      real max 2.662 vs null 2.613+-0.550  (emp_p 0.418) | n4 real 0 null 0.0
+    bin [150,250)      real max 2.340 vs null 2.886+-0.546  (emp_p 0.856) | n4 real 0 null 0.0
+    bin [250,500)      real max 2.925 vs null 3.203+-0.501  (emp_p 0.692) | n4 real 0 null 0.1
+    bin [500,1000)     real max 3.176 vs null 3.357+-0.442  (emp_p 0.607) | n4 real 0 null 0.1
+    bin [1000,inf)     real max 3.803 vs null 4.004+-0.335  (emp_p 0.721) | n4 real 0 null 0.6
+    top: stream  stream  t= 7550 n=5405 M=243 z=3.803  -log10 binom=3.85  longest run=3
+    top: stream  stream  t= 8172 n=4783 M=217 z=3.731  -log10 binom=3.72  longest run=2
+    top: stream  stream  t= 2148 n=10807 M=452 z=3.615  -log10 binom=3.63  longest run=3
+    top: stream  stream  t= 4358 n=8597 M=365 z=3.541  -log10 binom=3.50  longest run=2
+    top: stream  stream  t= 7532 n=5423 M=238 z=3.383  -log10 binom=3.22  longest run=2
+    top: stream  stream  t=11640 n=1315 M= 69 z=3.350  -log10 binom=3.00  longest run=3
+    top: stream  stream  t= 8060 n=4895 M=216 z=3.304  -log10 binom=3.10  longest run=3
+    top: stream  stream  t=11095 n=1860 M= 92 z=3.282  -log10 binom=2.96  longest run=2
+  stream lags <=6478 (campaign XIV range): max z=3.615, n(z>4)=0 ; lags >6478: max z=3.803
+
+wrote agents\laneQ_superposition\out\real.json (87 s)

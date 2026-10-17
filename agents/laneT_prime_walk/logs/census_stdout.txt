@@ -1,0 +1,2 @@
+21:13:56 == lane T census (priority: BELOW_NORMAL class now 0x4000, beam W=512)
+21:19:02 census: per-constraint passes {'C1': 9332, 'C2': 8159, 'C2b': 19476, 'C3': 18331, 'C6': 6082}; all hard constraints 1550 / 20000 (gate census: C1 9332, C2 8159, C2b 19476, C3 18331, C6 6082, all 1550); 306s

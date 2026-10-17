@@ -1,0 +1,5 @@
+21:26:44 == lane S real (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:27:21 real sign +1: relaxed best -6.74446 key {'phase': 0, 'k0': 9378}; strict consistent 10000 (per phase [0, 0, 10000, 0, 0]); best strict -6.744455571338647 (36.9s)
+21:29:32 real sign +1 top-50 (relaxed screen) full decode over 12956 runes: best full-stream quadgram -7.2416 (key phase 3 k0 5504), median -7.2736, strict-consistent-to-the-end 0 of 50
+21:29:52 real sign -1: relaxed best -6.80664 key {'phase': 1, 'k0': 8223}; strict consistent 10000 (per phase [0, 0, 10000, 0, 0]); best strict -6.877310969552263 (20.2s)
+21:31:45 real sign -1 top-50 (relaxed screen) full decode over 12956 runes: best full-stream quadgram -7.2438 (key phase 4 k0 7261), median -7.2695, strict-consistent-to-the-end 0 of 50

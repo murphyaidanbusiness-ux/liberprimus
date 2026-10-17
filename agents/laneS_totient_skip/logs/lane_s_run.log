@@ -1,0 +1,171 @@
+20:50:52 == lane S selftest (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=False; priority class now 0x0)
+20:50:52 selftest encrypt(phase 0, sign +1) == simulator encrypt: 60/60
+20:50:53 selftest plant sign +1 k0 2386 phase 3: alive 300 exact True mean -4.4566 quadgram(path) -4.4566 pruned 1
+20:50:53 selftest plant sign +1 k0 7453 phase 1: alive 300 exact True mean -4.2974 quadgram(path) -4.2974 pruned 4
+20:50:53 selftest plant sign +1 k0 6439 phase 2: alive 300 exact True mean -4.4408 quadgram(path) -4.4408 pruned 7
+20:50:53 selftest plant sign +1 k0 7102 phase 4: alive 300 exact True mean -4.4548 quadgram(path) -4.4548 pruned 5
+20:50:53 selftest plant sign +1 k0 1801 phase 4: alive 300 exact True mean -4.4795 quadgram(path) -4.4795 pruned 2
+20:50:53 selftest plant sign +1 k0 1987 phase 0: alive 300 exact True mean -4.4293 quadgram(path) -4.4293 pruned 4
+20:50:53 selftest plant sign -1 k0 5839 phase 4: alive 300 exact True mean -4.4566 quadgram(path) -4.4566 pruned 5
+20:50:53 selftest plant sign -1 k0 705 phase 2: alive 300 exact True mean -4.2974 quadgram(path) -4.2974 pruned 4
+20:50:53 selftest plant sign -1 k0 6851 phase 0: alive 300 exact True mean -4.4408 quadgram(path) -4.4408 pruned 4
+20:50:53 selftest plant sign -1 k0 7755 phase 2: alive 300 exact False mean -4.4637 quadgram(path) -4.4637 pruned 7
+20:50:53 selftest plant sign -1 k0 9113 phase 0: alive 300 exact True mean -4.4795 quadgram(path) -4.4795 pruned 5
+20:50:53 selftest plant sign -1 k0 8143 phase 1: alive 300 exact True mean -4.4293 quadgram(path) -4.4293 pruned 5
+20:50:53 selftest decoder exact on 11/12 English plants
+20:50:53 selftest decoder exact on random plaintext, 300 runes: 0/30
+20:50:54 == lane S throughput (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=False; priority class now 0x0)
+20:50:55 throughput single core: 2000 keys in 1.13s = 1768 keys/s on the 300-rune real window (phase 0, sign +1)
+20:51:30 == lane S selftest (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:51:30 selftest encrypt(phase 0, sign +1) == simulator encrypt: 60/60
+20:51:31 selftest plant sign +1 k0 2386 phase 3: alive 300 exact True mean -4.4566 quadgram(path) -4.4566 maxpop 9
+20:51:31 selftest plant sign +1 k0 7453 phase 1: alive 300 exact True mean -4.2974 quadgram(path) -4.2974 maxpop 12
+20:51:31 selftest plant sign +1 k0 6439 phase 2: alive 300 exact True mean -4.4408 quadgram(path) -4.4408 maxpop 11
+20:51:31 selftest plant sign +1 k0 7102 phase 4: alive 300 exact True mean -4.4548 quadgram(path) -4.4548 maxpop 13
+20:51:31 selftest plant sign +1 k0 1801 phase 4: alive 300 exact True mean -4.4795 quadgram(path) -4.4795 maxpop 10
+20:51:31 selftest plant sign +1 k0 1987 phase 0: alive 300 exact True mean -4.4293 quadgram(path) -4.4293 maxpop 12
+20:51:31 selftest plant sign -1 k0 5839 phase 4: alive 300 exact True mean -4.4566 quadgram(path) -4.4566 maxpop 13
+20:51:31 selftest plant sign -1 k0 705 phase 2: alive 300 exact True mean -4.2974 quadgram(path) -4.2974 maxpop 12
+20:51:31 selftest plant sign -1 k0 6851 phase 0: alive 300 exact True mean -4.4408 quadgram(path) -4.4408 maxpop 11
+20:51:31 selftest plant sign -1 k0 7755 phase 2: alive 300 exact False mean -4.4637 quadgram(path) -4.4637 maxpop 15
+20:51:31 selftest plant sign -1 k0 9113 phase 0: alive 300 exact True mean -4.4795 quadgram(path) -4.4795 maxpop 13
+20:51:31 selftest plant sign -1 k0 8143 phase 1: alive 300 exact True mean -4.4293 quadgram(path) -4.4293 maxpop 13
+20:51:31 selftest decoder exact on 11/12 English plants
+20:51:31 selftest decoder exact on random plaintext, 300 runes: 0/30; alive 30/30 (consistent with window)
+20:51:32 == lane S throughput (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:51:33 throughput single core: 2000 keys in 0.88s = 2282 keys/s on the 300-rune real window (phase 0, sign +1)
+20:51:46 == lane S control (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:51:52 control sign +1 plant 0: k0 2185 phase 4 -> rank 1 mean -4.456569641267607 survivors 10000 exact True (5.0s)
+20:52:06 control sign +1 plant 1: k0 8434 phase 3 -> rank 1 mean -4.297379533422594 survivors 10000 exact True (14.2s)
+20:52:12 control sign +1 plant 2: k0 8974 phase 2 -> rank 1 mean -4.440818882023699 survivors 10000 exact True (5.8s)
+20:52:16 control sign +1 plant 3: k0 7275 phase 1 -> rank 1 mean -4.45481264803208 survivors 10016 exact True (4.5s)
+20:52:40 control sign +1 plant 4: k0 1614 phase 4 -> rank 1 mean -4.4794828521957335 survivors 50000 exact True (23.4s)
+20:52:48 control sign +1 plant 5: k0 8623 phase 1 -> rank 1 mean -4.4293302467244695 survivors 10000 exact True (7.9s)
+20:53:12 control sign +1 plant 6: k0 8686 phase 2 -> rank 1 mean -4.323145747307545 survivors 50000 exact True (23.9s)
+20:53:18 control sign +1 plant 7: k0 869 phase 1 -> rank 1 mean -4.137486895965693 survivors 10000 exact True (6.5s)
+20:53:23 control sign +1 plant 8: k0 1006 phase 0 -> rank 1 mean -4.4818807814564146 survivors 10000 exact True (5.2s)
+20:53:28 control sign +1 plant 9: k0 7734 phase 2 -> rank 1 mean -4.949680109157522 survivors 10000 exact True (5.0s)
+20:53:34 control sign +1 plant 10: k0 9230 phase 3 -> rank 1 mean -4.608262890762751 survivors 10000 exact True (5.3s)
+20:53:38 control sign +1 plant 11: k0 5894 phase 4 -> rank 1 mean -4.490160036509565 survivors 10000 exact True (4.6s)
+20:53:51 control sign +1 plant 12: k0 6461 phase 3 -> rank 1 mean -4.41254997596322 survivors 10109 exact True (13.1s)
+20:54:15 control sign +1 plant 13: k0 1974 phase 3 -> rank 1 mean -4.628212011920439 survivors 50000 exact True (23.4s)
+20:54:29 control sign +1 plant 14: k0 6891 phase 2 -> rank 1 mean -4.397588108634206 survivors 10000 exact True (13.9s)
+20:54:34 control sign +1 plant 15: k0 989 phase 4 -> rank 1 mean -4.344949426585182 survivors 10000 exact True (4.9s)
+20:54:41 control sign +1 plant 16: k0 3792 phase 0 -> rank 2 mean -4.459678844282156 survivors 10000 exact True (7.1s)
+20:54:45 control sign +1 plant 17: k0 7781 phase 1 -> rank 1 mean -4.695732010840051 survivors 10000 exact True (4.0s)
+20:54:52 control sign +1 plant 18: k0 9109 phase 4 -> rank 1 mean -4.874432238660949 survivors 10071 exact True (7.2s)
+20:55:04 control sign +1 plant 19: k0 5139 phase 1 -> rank 1 mean -4.486927632011511 survivors 10000 exact True (12.1s)
+20:55:09 control sign -1 plant 0: k0 4595 phase 0 -> rank 1 mean -4.456569641267607 survivors 10000 exact True (4.5s)
+20:55:14 control sign -1 plant 1: k0 7173 phase 1 -> rank 1 mean -4.297379533422594 survivors 10000 exact True (5.1s)
+20:55:22 control sign -1 plant 2: k0 1991 phase 3 -> rank 1 mean -4.440818882023699 survivors 10079 exact True (7.9s)
+20:55:29 control sign -1 plant 3: k0 8577 phase 4 -> rank 1 mean -4.45481264803208 survivors 10048 exact True (7.5s)
+20:55:35 control sign -1 plant 4: k0 8545 phase 4 -> rank 1 mean -4.4794828521957335 survivors 10000 exact True (5.7s)
+20:55:35 control forward: rank 1 in 19/20
+20:55:35 control reverse: rank 1 in 5/5
+20:55:36 == lane S null (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:55:38 null sign +1 seed 0: survivors 29 best -7.261166142745863 key {'phase': 1, 'k0': 8240} (1.9s)
+20:55:43 null sign +1 seed 1: survivors 35 best -7.192360766937178 key {'phase': 4, 'k0': 7700} (4.5s)
+20:55:45 null sign +1 seed 2: survivors 27 best -7.204992830813829 key {'phase': 0, 'k0': 8339} (2.1s)
+20:55:49 null sign +1 seed 3: survivors 0 best None key None (4.1s)
+20:55:51 null sign +1 seed 4: survivors 25 best -7.142642355646176 key {'phase': 1, 'k0': 4441} (1.7s)
+20:56:02 null sign +1 seed 5: survivors 63 best -6.981109273918081 key {'phase': 2, 'k0': 8103} (11.3s)
+20:56:05 null sign +1 seed 6: survivors 32 best -7.257312057041695 key {'phase': 2, 'k0': 8192} (3.3s)
+20:56:10 null sign +1 seed 7: survivors 0 best None key None (4.7s)
+20:56:11 null sign +1 seed 8: survivors 19 best -7.172921156304207 key {'phase': 1, 'k0': 5914} (0.7s)
+20:56:15 null sign +1 seed 9: survivors 40 best -7.0882392215404915 key {'phase': 1, 'k0': 4517} (4.0s)
+20:56:18 null sign +1 seed 10: survivors 35 best -7.207460650010793 key {'phase': 3, 'k0': 4545} (2.9s)
+20:56:26 null sign +1 seed 11: survivors 10000 best -6.8001690941492985 key {'phase': 2, 'k0': 678} (7.9s)
+20:57:10 == lane S selftest (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:57:10 selftest encrypt(phase 0, sign +1) == simulator encrypt: 60/60
+20:57:10 selftest plant sign +1 k0 2386 phase 3: consistent True exact True mean -4.4566 maxpop 9
+20:57:10 selftest plant sign +1 k0 7453 phase 1: consistent True exact True mean -4.2974 maxpop 12
+20:57:10 selftest plant sign +1 k0 6439 phase 2: consistent True exact True mean -4.4408 maxpop 11
+20:57:10 selftest plant sign +1 k0 7102 phase 4: consistent True exact True mean -4.4548 maxpop 13
+20:57:10 selftest plant sign +1 k0 1801 phase 4: consistent True exact True mean -4.4795 maxpop 10
+20:57:10 selftest plant sign +1 k0 1987 phase 0: consistent True exact True mean -4.4293 maxpop 12
+20:57:10 selftest plant sign -1 k0 5839 phase 4: consistent True exact True mean -4.4566 maxpop 13
+20:57:10 selftest plant sign -1 k0 705 phase 2: consistent True exact True mean -4.2974 maxpop 12
+20:57:10 selftest plant sign -1 k0 6851 phase 0: consistent True exact True mean -4.4408 maxpop 11
+20:57:10 selftest plant sign -1 k0 7755 phase 2: consistent True exact False mean -4.4637 maxpop 15
+20:57:10 selftest plant sign -1 k0 9113 phase 0: consistent True exact True mean -4.4795 maxpop 13
+20:57:10 selftest plant sign -1 k0 8143 phase 1: consistent True exact True mean -4.4293 maxpop 13
+20:57:10 selftest strict decoder recovers the planted plaintext exactly: 11/12
+20:57:10 selftest true key consistent with random-plaintext windows: 30/30
+20:57:11 == lane S control (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+20:57:31 control sign +1 plant 0: k0 2185 phase 4 -> relaxed rank 1 (mean -4.45657, best other {'phase': 4, 'k0': 2185}) strict consistent True strict rank 1 exact True (18.8s)
+20:58:00 control sign +1 plant 1: k0 8434 phase 3 -> relaxed rank 1 (mean -4.29738, best other {'phase': 3, 'k0': 8434}) strict consistent True strict rank 1 exact True (29.0s)
+20:58:26 control sign +1 plant 2: k0 8974 phase 2 -> relaxed rank 1 (mean -4.44082, best other {'phase': 2, 'k0': 8974}) strict consistent True strict rank 1 exact True (26.6s)
+20:58:52 control sign +1 plant 3: k0 7275 phase 1 -> relaxed rank 1 (mean -4.45481, best other {'phase': 1, 'k0': 7275}) strict consistent True strict rank 1 exact True (25.8s)
+20:59:34 control sign +1 plant 4: k0 1614 phase 4 -> relaxed rank 1 (mean -4.47948, best other {'phase': 4, 'k0': 1614}) strict consistent True strict rank 1 exact True (41.4s)
+21:00:01 control sign +1 plant 5: k0 8623 phase 1 -> relaxed rank 1 (mean -4.42933, best other {'phase': 1, 'k0': 8623}) strict consistent True strict rank 1 exact True (26.8s)
+21:00:46 control sign +1 plant 6: k0 8686 phase 2 -> relaxed rank 1 (mean -4.32315, best other {'phase': 0, 'k0': 8686}) strict consistent True strict rank 1 exact True (45.2s)
+21:01:12 control sign +1 plant 7: k0 869 phase 1 -> relaxed rank 1 (mean -4.13749, best other {'phase': 0, 'k0': 869}) strict consistent True strict rank 1 exact True (26.6s)
+21:01:38 control sign +1 plant 8: k0 1006 phase 0 -> relaxed rank 1 (mean -4.48188, best other {'phase': 0, 'k0': 1006}) strict consistent True strict rank 1 exact True (25.7s)
+21:02:01 control sign +1 plant 9: k0 7734 phase 2 -> relaxed rank 1 (mean -4.94968, best other {'phase': 2, 'k0': 7734}) strict consistent True strict rank 1 exact True (22.5s)
+21:02:24 control sign +1 plant 10: k0 9230 phase 3 -> relaxed rank 1 (mean -4.60826, best other {'phase': 1, 'k0': 9230}) strict consistent True strict rank 1 exact True (23.9s)
+21:02:46 control sign +1 plant 11: k0 5894 phase 4 -> relaxed rank 1 (mean -4.49016, best other {'phase': 4, 'k0': 5894}) strict consistent True strict rank 1 exact True (21.6s)
+21:03:14 control sign +1 plant 12: k0 6461 phase 3 -> relaxed rank 1 (mean -4.41255, best other {'phase': 3, 'k0': 6461}) strict consistent True strict rank 1 exact True (28.2s)
+21:03:53 control sign +1 plant 13: k0 1974 phase 3 -> relaxed rank 1 (mean -4.62821, best other {'phase': 1, 'k0': 1974}) strict consistent True strict rank 1 exact True (39.1s)
+21:04:23 control sign +1 plant 14: k0 6891 phase 2 -> relaxed rank 1 (mean -4.39759, best other {'phase': 2, 'k0': 6891}) strict consistent True strict rank 1 exact True (29.6s)
+21:04:45 control sign +1 plant 15: k0 989 phase 4 -> relaxed rank 1 (mean -4.34495, best other {'phase': 4, 'k0': 989}) strict consistent True strict rank 1 exact True (22.4s)
+21:05:07 control sign +1 plant 16: k0 3792 phase 0 -> relaxed rank 3 (mean -4.45968, best other {'phase': 0, 'k0': 3791}) strict consistent True strict rank 2 exact True (21.2s)
+21:05:25 control sign +1 plant 17: k0 7781 phase 1 -> relaxed rank 1 (mean -4.69573, best other {'phase': 1, 'k0': 7781}) strict consistent True strict rank 1 exact True (18.8s)
+21:05:50 control sign +1 plant 18: k0 9109 phase 4 -> relaxed rank 1 (mean -4.87443, best other {'phase': 4, 'k0': 9109}) strict consistent True strict rank 1 exact True (24.6s)
+21:06:17 control sign +1 plant 19: k0 5139 phase 1 -> relaxed rank 1 (mean -4.48693, best other {'phase': 1, 'k0': 5139}) strict consistent True strict rank 1 exact True (27.2s)
+21:06:39 control sign -1 plant 0: k0 4595 phase 0 -> relaxed rank 1 (mean -4.45657, best other {'phase': 0, 'k0': 4595}) strict consistent True strict rank 1 exact True (21.4s)
+21:07:01 control sign -1 plant 1: k0 7173 phase 1 -> relaxed rank 1 (mean -4.29738, best other {'phase': 1, 'k0': 7173}) strict consistent True strict rank 1 exact True (22.0s)
+21:07:26 control sign -1 plant 2: k0 1991 phase 3 -> relaxed rank 1 (mean -4.44082, best other {'phase': 1, 'k0': 1991}) strict consistent True strict rank 1 exact True (24.9s)
+21:07:49 control sign -1 plant 3: k0 8577 phase 4 -> relaxed rank 1 (mean -4.45481, best other {'phase': 2, 'k0': 8577}) strict consistent True strict rank 1 exact True (22.9s)
+21:08:11 control sign -1 plant 4: k0 8545 phase 4 -> relaxed rank 1 (mean -4.47948, best other {'phase': 2, 'k0': 8545}) strict consistent True strict rank 1 exact True (22.2s)
+21:08:11 control forward relaxed: rank 1 in 19/20; strict true key consistent in 20/20
+21:08:11 control reverse relaxed: rank 1 in 5/5; strict true key consistent in 5/5
+21:08:11 == lane S null (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:08:30 null sign +1 seed 1000: doublets 2 strict consistent 29 relaxed best -6.71816 key {'phase': 4, 'k0': 8009} (18.1s)
+21:08:51 null sign +1 seed 1001: doublets 2 strict consistent 35 relaxed best -6.79232 key {'phase': 2, 'k0': 236} (21.1s)
+21:09:08 null sign +1 seed 1002: doublets 2 strict consistent 27 relaxed best -6.80431 key {'phase': 3, 'k0': 595} (17.8s)
+21:09:28 null sign +1 seed 1003: doublets 3 strict consistent 0 relaxed best -6.77569 key {'phase': 0, 'k0': 4840} (19.2s)
+21:09:46 null sign +1 seed 1004: doublets 2 strict consistent 25 relaxed best -6.74747 key {'phase': 0, 'k0': 114} (18.2s)
+21:10:14 null sign +1 seed 1005: doublets 2 strict consistent 63 relaxed best -6.77803 key {'phase': 4, 'k0': 833} (28.1s)
+21:10:33 null sign +1 seed 1006: doublets 2 strict consistent 32 relaxed best -6.68295 key {'phase': 0, 'k0': 3203} (19.1s)
+21:10:55 null sign +1 seed 1007: doublets 3 strict consistent 0 relaxed best -6.76066 key {'phase': 4, 'k0': 8437} (22.2s)
+21:11:12 null sign +1 seed 1008: doublets 2 strict consistent 19 relaxed best -6.77210 key {'phase': 3, 'k0': 6369} (16.4s)
+21:11:30 null sign +1 seed 1009: doublets 2 strict consistent 40 relaxed best -6.71680 key {'phase': 4, 'k0': 5356} (18.7s)
+21:11:49 null sign +1 seed 1010: doublets 2 strict consistent 35 relaxed best -6.80938 key {'phase': 1, 'k0': 6048} (18.7s)
+21:12:12 null sign +1 seed 1011: doublets 2 strict consistent 10000 relaxed best -6.80017 key {'phase': 0, 'k0': 678} (22.7s)
+21:12:32 null sign +1 seed 1012: doublets 2 strict consistent 42 relaxed best -6.76656 key {'phase': 1, 'k0': 1187} (20.5s)
+21:13:04 null sign +1 seed 1013: doublets 2 strict consistent 29 relaxed best -6.71819 key {'phase': 2, 'k0': 5730} (32.0s)
+21:13:39 null sign +1 seed 1014: doublets 2 strict consistent 31 relaxed best -6.76554 key {'phase': 2, 'k0': 904} (34.8s)
+21:14:16 null sign +1 seed 1015: doublets 2 strict consistent 10000 relaxed best -6.74499 key {'phase': 0, 'k0': 4485} (37.4s)
+21:14:52 null sign +1 seed 1016: doublets 2 strict consistent 36 relaxed best -6.70623 key {'phase': 1, 'k0': 3782} (35.6s)
+21:15:31 null sign +1 seed 1017: doublets 2 strict consistent 41 relaxed best -6.76241 key {'phase': 4, 'k0': 887} (38.9s)
+21:16:09 null sign +1 seed 1018: doublets 2 strict consistent 34 relaxed best -6.75638 key {'phase': 2, 'k0': 6408} (38.2s)
+21:16:57 null sign +1 seed 1019: doublets 2 strict consistent 55 relaxed best -6.75236 key {'phase': 2, 'k0': 7404} (47.9s)
+21:16:58 == lane S null (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:17:38 null sign -1 seed 1500: doublets 2 strict consistent 31 relaxed best -6.80122 key {'phase': 0, 'k0': 6637} (39.4s)
+21:18:17 null sign -1 seed 1501: doublets 3 strict consistent 0 relaxed best -6.77514 key {'phase': 1, 'k0': 5169} (39.4s)
+21:18:52 null sign -1 seed 1502: doublets 2 strict consistent 21 relaxed best -6.81893 key {'phase': 1, 'k0': 5445} (35.1s)
+21:19:15 null sign -1 seed 1503: doublets 2 strict consistent 15 relaxed best -6.84337 key {'phase': 2, 'k0': 5241} (22.6s)
+21:19:34 null sign -1 seed 1504: doublets 2 strict consistent 24 relaxed best -6.75381 key {'phase': 4, 'k0': 7357} (19.5s)
+21:19:54 null sign -1 seed 1505: doublets 3 strict consistent 20 relaxed best -6.81626 key {'phase': 2, 'k0': 2250} (19.8s)
+21:20:14 null sign -1 seed 1506: doublets 2 strict consistent 43 relaxed best -6.80074 key {'phase': 4, 'k0': 1690} (19.9s)
+21:20:38 null sign -1 seed 1507: doublets 2 strict consistent 52 relaxed best -6.77474 key {'phase': 0, 'k0': 121} (24.0s)
+21:21:00 null sign -1 seed 1508: doublets 2 strict consistent 10000 relaxed best -6.72591 key {'phase': 1, 'k0': 7765} (22.6s)
+21:21:35 null sign -1 seed 1509: doublets 2 strict consistent 10000 relaxed best -6.71065 key {'phase': 2, 'k0': 1586} (35.0s)
+21:22:19 null sign -1 seed 1510: doublets 2 strict consistent 43 relaxed best -6.77068 key {'phase': 2, 'k0': 8763} (43.7s)
+21:23:02 null sign -1 seed 1511: doublets 2 strict consistent 43 relaxed best -6.83612 key {'phase': 4, 'k0': 9147} (42.4s)
+21:23:33 null sign -1 seed 1512: doublets 3 strict consistent 8 relaxed best -6.74969 key {'phase': 3, 'k0': 6893} (31.4s)
+21:24:06 null sign -1 seed 1513: doublets 2 strict consistent 39 relaxed best -6.77214 key {'phase': 1, 'k0': 2426} (32.9s)
+21:24:49 null sign -1 seed 1514: doublets 3 strict consistent 10000 relaxed best -6.80932 key {'phase': 1, 'k0': 4288} (43.1s)
+21:25:22 null sign -1 seed 1515: doublets 3 strict consistent 34 relaxed best -6.82407 key {'phase': 1, 'k0': 8964} (32.8s)
+21:25:42 null sign -1 seed 1516: doublets 2 strict consistent 30 relaxed best -6.75705 key {'phase': 2, 'k0': 3361} (20.0s)
+21:26:02 null sign -1 seed 1517: doublets 2 strict consistent 39 relaxed best -6.81969 key {'phase': 4, 'k0': 9675} (20.3s)
+21:26:23 null sign -1 seed 1518: doublets 2 strict consistent 10000 relaxed best -6.75161 key {'phase': 1, 'k0': 2979} (20.9s)
+21:26:43 null sign -1 seed 1519: doublets 2 strict consistent 45 relaxed best -6.70989 key {'phase': 3, 'k0': 4298} (20.1s)
+21:26:44 == lane S real (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:27:21 real sign +1: relaxed best -6.74446 key {'phase': 0, 'k0': 9378}; strict consistent 10000 (per phase [0, 0, 10000, 0, 0]); best strict -6.744455571338647 (36.9s)
+21:29:32 real sign +1 top-50 (relaxed screen) full decode over 12956 runes: best full-stream quadgram -7.2416 (key phase 3 k0 5504), median -7.2736, strict-consistent-to-the-end 0 of 50
+21:29:52 real sign -1: relaxed best -6.80664 key {'phase': 1, 'k0': 8223}; strict consistent 10000 (per phase [0, 0, 10000, 0, 0]); best strict -6.877310969552263 (20.2s)
+21:31:45 real sign -1 top-50 (relaxed screen) full decode over 12956 runes: best full-stream quadgram -7.2438 (key phase 4 k0 7261), median -7.2695, strict-consistent-to-the-end 0 of 50
+21:31:46 == lane S report (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:31:46 report sign +1: null mean -6.75653 sd 0.03423 max -6.68295 (n=20); real -6.74446 z +0.35; real above null max: False
+21:31:46 report sign -1: null mean -6.78105 sd 0.04040 max -6.70989 (n=20); real -6.80664 z -0.63; real above null max: False

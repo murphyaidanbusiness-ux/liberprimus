@@ -1,0 +1,143 @@
+# Liber Primus campaign, round two (2026-10-16)
+
+**Outcome: not cracked.** Round two used the one thing round one lacked, network access to the public
+archives. It ran the first safe, live hash hunt for the page-56 target, two new controlled tests, a
+transcription robustness check, and a port of the community's best-motivated, never-run sweep to this PC.
+Every completed test is null. The sweep is validated and ready, but not yet run (section 6).
+
+In the second half of the session the work was reorganised into the owner's folder method (one map, one folder per job,
+proof before playbook), three research agents graded 64 published cryptanalytic techniques against the LP2 fingerprint,
+and a new hypothesis gate simulated the most promising untested families on English (section 5). The gate added a seventh
+constraint (C2c) and left one family standing: the Quagmire-odometer dodge that the validated sweep searches.
+
+Round one's six constraints (`REPORT.md`) stand. Nothing here weakens them; C5 is sharpened and C2c is new.
+
+Work was split across Haiku agents, each with the protocol in `docs/BRIEF_ROUND2.md`, and every headline
+number below was re-derived by the orchestrator before it went into this file.
+
+## 1. What changed since round one
+
+- **The archives are reachable.** `web.archive.org` and `index.commoncrawl.org` answer from this machine.
+  Common Crawl's index was down (HTTP 504) for the whole session.
+- **The community moved, but did not solve anything** (`research/scout6_delta.md`). No solve claim anywhere,
+  2026-09-01 to 10-16. Oosterhof's period-5 per-word structure is the live lead; Dukotah's sweeps have been
+  dead since a 2026-09-15 reboot; Theron found a scorer defect in his own nulls; Leo corrected the IoC null
+  spread. One loose end, Dukotah's round-27 "HIT-CANDIDATE" seed 35563892, is already closed by their own
+  adjudication (`round27/ORACLE-35563892.md`): its score regresses from 7.67 to 4.96 when the window doubles,
+  and the decrypt is not language.
+- **The tools here got stricter.** `hashhunt` refuses to run without an onion allowlist (section 2).
+
+## 2. Safety: what was and was not scraped
+
+The owner's rule for this round: nothing harmful, illegal or disgusting, and no malware, may come through.
+An onion address says nothing about the site behind it, so a blind sweep of archived darknet pages cannot
+meet that rule. It was not attempted.
+
+- `hashhunt` now has an `--allowlist` mode and refuses `plan`/`fetch` without it (or an explicit `--blind`,
+  which was never used). Every archive query names one allowlisted host; any row returned for another host is
+  dropped before it is written; off-list captures are never fetched. Selftest: 39/39, including a mocked
+  archive that misbehaves on purpose.
+- The allowlist is the 4 onions named in Cicada's own PGP-signed messages, each signature re-verified
+  (`hashhunt/cicada_onions.md`). The 2014 onions 1 to 6 are well documented but attributed only by the
+  community record; they were not queried and widening the list is the owner's call.
+- Text only, 5 MB cap, never rendered, opened or executed; no Tor, no onion or gateway contact.
+- Community code (Oosterhof's sweep) was audited for network, process, deletion and write calls before any of
+  it ran (`agents/laneO_quagmire_dodge/audit/`): nothing reachable beyond the expected compile step.
+
+## 3. Results
+
+| lane | question | result |
+|---|---|---|
+| **P** hash hunt | Does any archived capture of a Cicada-signed onion hash to the page-56 target? | **Null.** 80 Wayback queries, 3 captures (a 2015 gateway placeholder and two `robots.txt`), 2 distinct, hashed under 6 functions x ~160 normalisations (672 and 780 tuples), 0 matches. Common Crawl not covered (index down). `agents/laneP_hashhunt/RESULTS.md` |
+| **Q** key reuse | Is any stretch of LP2 enciphered with a keystream reused elsewhere at any shift? | **Null, power-limited.** All pairs of 55 pages and 17 chapters at every shift, and the whole stream at lags 1 to 12,896, raw and increments, 200 doublet-preserving nulls per cell set. Real maxima inside the null (pages raw z 6.86, emp. p 0.065; stream raw z 4.18 at lag 6002, p 0.32). Excluded: single-lag reuse of about 3,200 runes or more in the whole stream at 90% power. **Not** excluded: page- or chapter-length reuse (planted page-length reuse is detected 0/20 times at this sample size). `agents/laneQ_superposition/RESULTS.md` |
+| **R** transcriptions | Do the two signals survive the choice of transcription? | **Yes.** ~20 distinct readings among 87 runic files; every faithful full-book reading gives 86 doublets and a lag-5 echo of z +3.63 to +3.96. The echo's size depends on which marks count as word breaks (+3.14 without sentence breaks, +2.06 if line breaks count). `agents/laneR_transcriptions/RESULTS.md` |
+| **O** Quagmire dodge | Port, validate and run Oosterhof's never-run zero-offset Quagmire-odometer-dodge sweep over Cicada's vocabulary | **Validated, not yet run.** C kernel builds with MSVC and equals the Python reference; community selftest z +20.3; our own 100-plant control recovers 95/100 keyword keys at rank 1 (median z +23.7); held-out adjudicator separates a planted key at z +21. Full run: 3.9e9 keys, ~360 core-hours. `agents/laneO_quagmire_dodge/RESULTS.md` section 7 |
+| **S** totient stream | Does Cicada's solved-page prime-totient keystream, with a collision skip, decrypt LP2 from any start? | **Null.** Every start k0 0..9999 and skip phase 0..4 (50,000 keys) in both sign conventions, exact decoder; control 19/20 and 5/5 at rank 1; real best z +0.35 and -0.63 against 20-shuffle nulls, both below the null max; full-text decodes of the top 50 reach -7.24 per quadgram (noise). The family is also excluded by C2c, which this lane found. `agents/laneS_totient_skip/RESULTS.md` |
+| **T** prime-seeded walk | Does Oosterhof's dodge walk, with its permutations built from Cicada's prime/totient ladder, decrypt LP2 under any of its 20,000 keys? | **Null.** Exhaustive decode at beam width 512 (300-rune screen unchanged at 4,096); control 20/20 at rank 1 over all 20,000 keys; real best -6.870 per quadgram, z -1.56 against a 20-shuffle null (max -6.667); the top 50 keys all die before the end of the text. `agents/laneT_prime_walk/RESULTS.md` |
+| scout 6 | What is new in the community? | No solves; items and their bearing on next steps in `research/scout6_delta.md` |
+| gap audit | Which hypotheses are consistent with the constraints and untested? | Ranked list in `research/gap_audit.md`; see section 4 for the corrections |
+| provenance | Which onions are verifiably Cicada's? | 4 signed, 16 community-only, 12 unknown, 1 hallucination. `hashhunt/cicada_onions.md` |
+
+## 4. Corrections and sharpened findings
+
+**Constraint 5, sharpened (orchestrator, `lp/t7_lag5_lines.py`).** Lane R found the lag-5 echo drops to
+z +2.06 when line breaks are counted as word breaks. Split directly: within-word lag-5 pairs that straddle a
+line break coincide at 32/460 = 6.96% (z +4.12); pairs on one line at 72/1645 = 4.38% (z +2.06). Matched
+for word length, the straddling excess has a permutation p of 0.018. The doublet deficit is line-blind
+(lag 1: 0.71% straddling vs 0.62% same line). Other lags show no general straddle excess (lag 3 +1.70,
+lag 7 +2.35, lag 8 -2.05). This is post hoc and about 2 sigma: an observation to pre-register against, not
+a constraint. If it is real, the echo is tied to the layout, which no cipher in the community's catalogue
+predicts.
+
+**Gap-audit candidates 2 and 3 are excluded, not open.** Runes as the direct output of PHP `mt_rand` or
+glibc `random()` with a no-repeat redraw (or as chain increments drawn from 1..28) produce zero doublets.
+The book has 86 (constraint 2). These are dead before any seed sweep.
+
+**The parked dodge sweep was runnable, and it would have mostly worked.** The community priced it at 218
+core-hours and parked it. Here it measures ~3,000 keys/s/core, so ~360 core-hours. Its scorer misses about
+1 true key in 20 outright (the plaintext draw decides), and a near-true neighbour can outrank the truth, so
+the run must be adjudicated over all 1,200 retained candidates, not by its global top.
+
+## 5. The job system, the technique surveys and the gate
+
+**Structure** (from the owner's guide, murphmaxxing.com, "The folder method"): `AGENTS.md` is the map, `CLAUDE.md` is
+`@AGENTS.md`, `CHANGELOG.md` logs every fix with the model that was running, `toolbox/` holds what every job shares, and
+`jobs/` has seven folders (technique-survey, hypothesis-gate, attack-lane, verify-lane, port-community-code, hashhunt-run,
+community-scout), each with a pass/fail `PROOF.md` written before its `SKILL.md` playbook, scripts that check the proof
+mechanically, and a fixture that the checker must pass and fail correctly. Each job has a Haiku agent file,
+`.claude/agents/lp-<job>.md` (they register from the next session; this session used general Haiku agents told to read
+them). The shared gate is `toolbox/fingerprint.py`: C1-C6 plus C2c for any rune stream, reproducing LP2's pinned values.
+
+**Surveys** (`jobs/technique-survey/runs/`, catalogue in `toolbox/TECHNIQUES.md`): agency and classical methods (Friedman,
+Kullback, Kerckhoffs, Turing and Good, Tutte, Rejewski; official public sources only, and nsa.gov refused PDF fetches, so
+those entries rest on secondary sources), computational and AI decipherment (Lasry, Jakobsen, Knight/Ravi/Nuhn, neural
+decipherment, Copiale, Z340, DECRYPT, LLM agents), and Cicada's own toolbox. 64 techniques: 28 excluded by a named
+constraint, 20 already tested, 16 untested. Every verified historical solve rests on non-flat statistics that LP2 lacks.
+Two corrections came out: Cicada's solved pages show no repeat suppression and the F-interrupt cannot make LP2's deficit;
+and the community's `SOLVED-PAGES.json` has deletion artefacts (page 03 reads `...THEENDOALLTHNGS...`).
+
+**Gate verdicts** (`jobs/hypothesis-gate/runs/`), each re-run by the orchestrator:
+
+| hypothesis | gate | verdict |
+|---|---|---|
+| Chaocipher-29 dynamic substitution, strict skip-on-repeat | FAIL C2 C6 (0 doublets) | excluded |
+| the same, skip at 4 of 5 positions | FAIL C2c (chi-square 300+ at mod 5) | excluded (passed the first version of the gate; see below) |
+| Cicada's totient stream, literal F, collision skip (and keyword-shift, skip-45 variants) | FAIL C1 (rune 0 at 5.6% vs 3.54%), C2, C6 | excluded; matches the community's "body passes no F through" (-8.9 sigma) |
+| the totient stream, no literal F, skip at 4 of 5 positions | FAIL C2c | excluded |
+| Oosterhof doublet-dodge walk, random permutations | FAIL C2 (majority of keys) | typical keys excluded; a census finds 14% of random keys pass every hard constraint |
+| the walk with g, sigma and base from Cicada's prime/totient ladder (20,000 keys) | FAIL C1 C2 C6 | typical keys excluded; 1,550 of 20,000 keys pass; lane T decoded LP2 under every key: null |
+| Quagmire-odometer dodge (lane O's family) | PASS, marginal C6 on 1 of 3 seeds | **proceed**: over 12 keys, doublets 87.4 (LP2 86), cross-word 22.1 +- 6.2 (23), lag-5 5.7% (4.94%) |
+
+**C2c, the new constraint.** Lane S, sweeping the totient variant, noticed that its simulator puts every surviving doublet
+on one residue mod 5, while LP2's 86 fall on residues 0-4 as 18, 21, 16, 11, 20. Checked by the orchestrator: LP2's
+doublet positions are uniform for every modulus 2-8, by global and within-page index (largest chi-square 11.3 against
+24.3 at p = 0.001). So no repeat-suppression rule keyed to the absolute position can be LP2's; an exempt phase has to
+drift, as the dodge family's clock does. Two "PROCEED" verdicts were withdrawn, the gate now checks C2c, and the gate
+counts a constraint as failed only when most random keys fail it (one unlucky key had been failing a family whose
+twelve-key average matches LP2). Both fixes are in `CHANGELOG.md`.
+
+**What it adds up to.** Of every family simulated this round, only the Quagmire-odometer dodge reproduces the lag-5
+echo, the doublet rate, the cross-word share and the uniform doublet positions together. That is the family the
+validated, never-run sweep searches, which makes the sweep the round's best next step.
+
+## 6. What is pending, and why
+
+| item | state | needs |
+|---|---|---|
+| Full dodge sweep | launch-ready; smoke run and resume tested; tiered by prior (`agents/laneO_quagmire_dodge/RESULTS.md` section 8): tier A, Cicada's 14 signature words incl. the missing real key FIRFUMFERENFE, ~1.5 h; tier B ~3.5 h; tier C ~29 h in resumable chunks | Owner's go-ahead per tier. Command: `powershell -ExecutionPolicy Bypass -File agents\laneO_quagmire_dodge\launch_sweep.ps1 -Tier A -NProc 10` |
+| Common Crawl half of the hash hunt | 1,044 host-scoped queries planned | Common Crawl's index back up; then `plan --no-wayback`, `fetch`, `hash` |
+| 2014 onions 1 to 6 | documented, not queried | Owner's decision to add the community-attributed tier to the allowlist |
+| Upstream register text | Moby-Dick used in place of Pride and Prejudice | Optional: owner's OK to download Gutenberg #1342 (~770 KB) to match upstream exactly |
+| Marsaglia CDROM units (gap audit #7) | not started | A 634 MB archive.org download, owner's OK; low prior |
+
+## 7. Files added this round
+
+- `REPORT_ROUND2.md` (this file), `docs/BRIEF_ROUND2.md`
+- `research/scout6_delta.md`, `research/gap_audit.md`
+- `hashhunt/cicada_onions.md`, `hashhunt/cicada_onions_allowlist.txt`; `hashhunt.py` allowlist mode and a
+  Windows file-lock retry; README section "Scope: the allowlist mode"
+- `agents/laneO_quagmire_dodge/` (port patch, setup, MSVC build, env, launcher, controls, adjudicator, audit, logs)
+- `agents/laneP_hashhunt/RESULTS.md`, `agents/laneQ_superposition/`, `agents/laneR_transcriptions/`
+- `lp/t7_lag5_lines.py`
+- `AGENTS.md`, `CHANGELOG.md`, `toolbox/` (CONSTRAINTS, TECHNIQUES, fingerprint, runes, nulls, score), `jobs/` (seven jobs), `.claude/agents/lp-*.md`
+- `jobs/technique-survey/runs/` (three surveys), `jobs/hypothesis-gate/runs/` (gate reports and simulators), `agents/laneS_totient_skip/`

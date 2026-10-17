@@ -1,0 +1,14 @@
+cipher: walk_dodge_prime: doublet-dodge walk, g/sigma/base0 from the prime/totient ladder at offset k0
+census over ['phi', 'prime'] x K0_RANGE=10000: 20000 draws
+  C1   passes 9332 / 20000
+  C2   passes 8159 / 20000
+  C2b  passes 19476 / 20000
+  C3   passes 18331 / 20000
+  C6   passes 6082 / 20000
+  all hard constraints pass: 1550 / 20000
+  ioc             min 0.99846  median 1.01887  max 1.31378
+  doublet_rate    min 0.00000  median 0.00363  max 0.02184
+  doublets_cross  min 0.00000  median 9.00000  max 138.00000
+  cond_ioc        min 1.00441  median 1.04029  max 1.48141
+  first keys passing all hard constraints: [('phi', 1), ('phi', 7), ('phi', 8), ('phi', 9), ('prime', 15), ('prime', 24), ('prime', 35), ('prime', 36), ('prime', 37), ('prime', 38), ('prime', 40), ('prime', 41), ('prime', 42), ('prime', 43), ('prime', 49), ('prime', 59), ('prime', 61), ('prime', 62), ('prime', 71), ('prime', 116)]
+  passing count: 1550

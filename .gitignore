@@ -8,3 +8,8 @@ hashhunt/data/
 hashhunt/store/
 hashhunt/results/
 .env
+*.dll
+*.obj
+*.exp
+*.lib
+agents/laneO_quagmire_dodge/build/

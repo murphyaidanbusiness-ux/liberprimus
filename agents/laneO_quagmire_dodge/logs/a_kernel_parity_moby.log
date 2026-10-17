@@ -1,0 +1,17 @@
+400 words, 1802 runes, window 18, 3 passes
+
+     dials      python      kernel      diff
+   (21,11)      1.0380      1.0380   0.00000 <- planted
+     (0,0)      0.5923      0.5923  -0.00000
+    (7,19)      0.5812      0.5812   0.00000
+    (28,3)      0.5898      0.5898   0.00000
+
+largest disagreement 0.00000 nats/rune
+
+all 841 dial pairs in 0.307s (2,741 keys/s/core)
+planted dials (21, 11) score +1.0380, rank 1 of 841; runner-up +1.0380
+largest score spread across the 29 OUTER dials, over all inner dials: 0.000000
+so the outer dial is free and the sweep enumerates 29 dials, not 841.
+
+at 2,741 keys/s/core the priority sweep is 38 core-hours,
+or 23 with the 60% prefilter.

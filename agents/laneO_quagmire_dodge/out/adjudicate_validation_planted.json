@@ -1,0 +1,63 @@
+{
+  "candidates": "agents/laneO_quagmire_dodge/out/planted_true_candidate.jsonl",
+  "corpus": "agents/laneO_quagmire_dodge/out/planted_corpus.json",
+  "chunk_starts": [
+    400,
+    800,
+    1200,
+    1600,
+    2000,
+    2400
+  ],
+  "chunk_words": 400,
+  "null": {
+    "n": 200,
+    "pinned": {
+      "mean": 0.5854617103685935,
+      "sd": 0.011729881408699634,
+      "max": 0.6160018344720205
+    },
+    "best_dial": {
+      "mean": 0.6358138113717238,
+      "sd": 0.005206313594263033,
+      "max": 0.6469504137833914
+    }
+  },
+  "null_seed": 9301,
+  "candidate_results": [
+    {
+      "pinned": [
+        0.6771752834320068,
+        1.0201358795166016,
+        0.7458771467208862,
+        0.910462498664856,
+        0.9906032085418701,
+        0.6442471742630005
+      ],
+      "pinned_mean": 0.8314168651898702,
+      "best_dial": [
+        0.6771752834320068,
+        1.0201358795166016,
+        0.7458771467208862,
+        0.910462498664856,
+        0.9906032085418701,
+        0.6442471742630005
+      ],
+      "best_dial_mean": 0.8314168651898702,
+      "keyword": "MOBIUS",
+      "first400_score": null,
+      "sched": [
+        25,
+        17,
+        14,
+        0,
+        2
+      ],
+      "dial": 7,
+      "z_pinned": 20.96825588013708,
+      "margin_pinned_over_null_max": 0.21541503071784973,
+      "z_best_dial": 37.570355737634856,
+      "margin_best_dial_over_null_max": 0.18446645140647888
+    }
+  ]
+}

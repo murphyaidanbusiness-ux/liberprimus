@@ -1,0 +1,4 @@
+sq6wmgv2zcsrix6t  # 2012 enrollment page (email-number gate), evidence: dl/dukotah/corpus/A-primary-artifacts/pgp/messages/2012-01-anonymous-email-enrollment.asc:14
+xsxnaksict6egxkq  # 2013 telnet-hello step, evidence: dl/dukotah/corpus/A-primary-artifacts/pgp/messages/2013-01-telnet-hello.asc:9
+pklmx2eeh6fjt7zf  # 2013 onion-pointer step, evidence: dl/dukotah/corpus/A-primary-artifacts/pgp/messages/2013-01-onion-pointer.asc:7
+ky2khlqdf7qdznac  # 2014 onion 7 (community numbering) welcome message, evidence: dl/dukotah/corpus/A-primary-artifacts/pgp/messages/2014-01-onion-welcome.asc:6

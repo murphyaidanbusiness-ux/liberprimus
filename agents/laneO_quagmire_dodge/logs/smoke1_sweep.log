@@ -1,0 +1,10 @@
+1,264 keyed alphabets from 3301's vocabulary, 1 workers
+resuming: 1 tasks already in agents\laneO_quagmire_dodge\out\smoke1_progress.jsonl
+
+DONE: 18,440,520 keys in 0.0 min
+  +0.7002  R1 gematria                  sched [23, 24, 4, 0, 7] dial 10
+  +0.6997  R1 gematria                  sched [25, 0, 12, 20, 1] dial 3
+  +0.6996  R1 gematria                  sched [10, 0, 2, 25, 21] dial 11
+  +0.6991  R1 gematria                  sched [23, 0, 15, 25, 24] dial 3
+  +0.6973  R1 gematria                  sched [4, 24, 12, 18, 0] dial 26
+written to agents\laneO_quagmire_dodge\out\smoke1_candidates.jsonl

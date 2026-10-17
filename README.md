@@ -11,6 +11,18 @@ for the one lead the book itself gives.
 
 Read [REPORT.md](REPORT.md) for the full account. This file is the map.
 
+**Round two (2026-10-16)** is in [REPORT_ROUND2.md](REPORT_ROUND2.md): the first live, Cicada-only hash
+hunt (null), an all-shift key-reuse scan (null, with a power curve), a transcription robustness check
+(both signals survive every faithful reading; the lag-5 echo is sharpest across line breaks), and a
+validated Windows port of the community's never-run Quagmire-dodge sweep, ready to launch.
+
+## How the work is organised
+
+`AGENTS.md` is the map. Each recurring task is a folder under `jobs/` with a pass/fail `PROOF.md`, a `SKILL.md`
+playbook, its scripts and a test fixture; shared code and the LP2 fingerprint live in `toolbox/`; `CHANGELOG.md` records
+every fix with the model that was running. Any new cipher idea goes through `jobs/hypothesis-gate/` first, which
+simulates it on English and grades it against the seven constraints in `toolbox/CONSTRAINTS.md` before compute is spent.
+
 ## The problem in one paragraph
 
 Liber Primus is a 58-page runic book released in 2014. Part one was solved quickly with simple
@@ -67,8 +79,10 @@ Page 56 of the book says a page on the deep web hashes to a given 512-bit value.
 standard-library-only tool that enumerates archived captures of 2013–2017 tor2web gateway URLs in
 the Wayback Machine and Common Crawl, downloads text-only originals, and hashes them under six
 functions (including original BLAKE-512, verified against published vectors) and ~160
-normalisations. It never renders or executes anything. Self-test: 35/35. Odds of a match are low;
-see its README for why.
+normalisations. It never renders or executes anything, and `plan`/`fetch` refuse to run without an
+allowlist of onion hosts: by default the four named in Cicada's own signed messages, so it never pulls
+content from unknown darknet sites. Self-test: 39/39. The round-two run over the Wayback Machine was
+null; see `agents/laneP_hashhunt/RESULTS.md`.
 
 ## Reproducing
 

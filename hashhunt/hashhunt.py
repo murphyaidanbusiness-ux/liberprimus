@@ -42,8 +42,16 @@ ONION_RE = re.compile(r"^(?:[a-z2-7]{16}|[a-z2-7]{56})$")
 
 # ------------------------------------------------------------------ small utilities
 def jl_append(path, obj):
-    with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(obj, separators=(",", ":"), sort_keys=True) + "\n")
+    line = json.dumps(obj, separators=(",", ":"), sort_keys=True) + "\n"
+    for attempt in range(6):            # Windows: a scanner or indexer can hold the file for a moment (EINVAL/EACCES)
+        try:
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(line)
+            return
+        except OSError:
+            if attempt == 5:
+                raise
+            time.sleep(0.5 * (attempt + 1))
 
 def jl_read(path):
     if not os.path.exists(path):
@@ -67,6 +75,21 @@ def now():
 def onion_label(url):
     host = (urllib.parse.urlparse(url if "//" in url else "//" + url).hostname or "").lower()
     return next((l for l in host.split(".") if ONION_RE.match(l)), None)
+
+def load_allowlist(path):
+    """Onion labels (16 or 56 base32 chars), one per line, '#' comments. A malformed line is an error, not a skip."""
+    labels = set()
+    for n, line in enumerate(open(path, encoding="utf-8"), 1):
+        s = line.split("#")[0].strip().lower()
+        if not s:
+            continue
+        s = s[:-6] if s.endswith(".onion") else s
+        if not ONION_RE.match(s):
+            raise SystemExit("allowlist %s line %d: %r is not an onion label" % (path, n, s))
+        labels.add(s)
+    if not labels:
+        raise SystemExit("allowlist %s is empty" % path)
+    return labels
 
 def paths(d):
     P = {k: os.path.join(d, v) for k, v in dict(
@@ -245,12 +268,18 @@ def cc_collections(fetcher, discover):
         print("collinfo.json unavailable; using static list", file=sys.stderr)
     return list(CC_STATIC)
 
-def build_queries(gateways, colls, status="200", limit=5000, hosts=(), want_wb=True, want_cc=True, cc_filter=True):
+def build_queries(gateways, colls, status="200", limit=5000, hosts=(), want_wb=True, want_cc=True, cc_filter=True,
+                  allow=None):
+    """With `allow` (a set of onion labels) every query names one allowlisted host: no gateway-wide domain
+    queries and no CC wildcards, so the archives never return rows for other onion sites."""
     qs = []
     fl = "timestamp,original,mimetype,statuscode,digest,length"
     if want_wb:
-        targets = [(g, "domain", g) for g in gateways] + \
-                  [(h + "." + g, "host", h + "." + g) for h in hosts for g in gateways]
+        if allow:
+            targets = [(h + "." + g, "host", h + "." + g) for h in sorted(allow) for g in list(gateways) + ["onion"]]
+        else:
+            targets = [(g, "domain", g) for g in gateways] + \
+                      [(h + "." + g, "host", h + "." + g) for h in hosts for g in gateways]
         for url, mt_type, name in targets:
             for mt in PLAN_MIMES:
                 p = [("url", url), ("matchType", mt_type), ("from", "2013"), ("to", "2017"),
@@ -264,13 +293,15 @@ def build_queries(gateways, colls, status="200", limit=5000, hosts=(), want_wb=T
     if want_cc:
         for c in colls:
             for g in gateways:
-                p = [("url", "*." + g), ("output", "json")]
-                if cc_filter:
-                    p.append(("filter", "mime:text/(html|plain)"))
-                    if status != "any":
-                        p.append(("filter", "=status:" + status))
-                qs.append({"id": "cc|%s|%s" % (c, g), "source": "cc", "base": CC_INDEX.format(coll=c),
-                           "params": p, "paginate": "page", "collection": c})
+                scopes = [(h + "." + g, [("matchType", "host")]) for h in sorted(allow)] if allow else [("*." + g, [])]
+                for url, mt in scopes:
+                    p = [("url", url)] + mt + [("output", "json")]
+                    if cc_filter:
+                        p.append(("filter", "mime:text/(html|plain)"))
+                        if status != "any":
+                            p.append(("filter", "=status:" + status))
+                    qs.append({"id": "cc|%s|%s" % (c, url if allow else g), "source": "cc",
+                               "base": CC_INDEX.format(coll=c), "params": p, "paginate": "page", "collection": c})
     return qs
 
 def qurl(q, extra=()):
@@ -303,9 +334,17 @@ def cmd_plan(a, fetcher):
     if a.hosts_file:
         hosts = [l.split("#")[0].strip().lower().replace(".onion", "") for l in open(a.hosts_file) if l.split("#")[0].strip()]
     if a.hosts_from_captures:           # e.g. labels discovered via Common Crawl -> per-host Wayback queries
+        if a.allow:
+            raise SystemExit("--hosts-from-captures widens the scope and is refused with --allowlist")
         hosts += sorted({onion_label(c["url"]) for c in jl_read(P["captures"])} - {None})
+    if a.allow:
+        off = set(hosts) - a.allow
+        if off:
+            raise SystemExit("--hosts-file labels not in the allowlist: " + ", ".join(sorted(off)))
+        hosts = sorted(a.allow)
     colls = cc_collections(fetcher, a.discover_cc) if not a.no_cc else []
-    qs = build_queries(gws, colls, a.status, a.limit, hosts, not a.no_wayback, not a.no_cc, not a.no_server_filter)
+    qs = build_queries(gws, colls, a.status, a.limit, hosts, not a.no_wayback, not a.no_cc, not a.no_server_filter,
+                       allow=a.allow)
     for q in qs:
         q["url"] = qurl(q) + ("&showNumPages=true  (then &page=0..N-1)" if q["source"] == "cc" else "  (+&resumeKey=... until none)")
     with open(P["queries"], "w") as f:
@@ -344,14 +383,17 @@ def run_query(q, st, fetcher, P, seen, a, state):
 
     def commit(rows, **fields):
         nonlocal new
-        n0 = new
+        n0, off = new, 0
         for row in rows:
             c = capture_from(row, q)
+            if a.allow and onion_label(c["url"]) not in a.allow:
+                off += 1                    # an archive answered outside the asked host: drop it, keep nothing
+                continue
             if mime_ok(c["mime"]) and (a.status == "any" or c["status"] == a.status) and c["id"] not in seen:
                 seen.add(c["id"])
                 jl_append(P["captures"], c)
                 new += 1
-        rec = dict(qid=q["id"], at=now(), rows=len(rows), new=new - n0, **fields)
+        rec = dict(qid=q["id"], at=now(), rows=len(rows), new=new - n0, offlist=off, **fields)
         jl_append(P["pstate"], rec)
         state[q["id"]] = rec
 
@@ -493,10 +535,14 @@ def cmd_fetch(a, fetcher):
     os.makedirs(P["store"], exist_ok=True)
     last, by_digest, by_sha = load_fetch_state(P)
     done = {"ok", "dup_digest", "dup_content"}
+    if a.allow and a.all_hosts:
+        raise SystemExit("--all-hosts is refused with --allowlist")
     n = 0
     for c in jl_read(P["captures"]):
         if a.source != "all" and c["src"] != a.source:
             continue
+        if a.allow and onion_label(c["url"]) not in a.allow:
+            continue                        # never fetched (e.g. a captures file left over from a blind plan)
         if not a.all_hosts and not onion_label(c["url"]):
             continue
         prev = last.get(c["id"])
@@ -933,7 +979,7 @@ def selftest(keep=False):
         fet = Fetcher(transport, sleep=sleeps.append, delay=0.5, jitter=0, log=lambda *a: None)
         d = os.path.join(tmp, "data")
         P = paths(d)
-        base = ["--dir", d]
+        base = ["--dir", d, "--blind"]
         main(base + ["plan", "--gateways", "onion.to,onion.cab", "--run", "--max-pages", "1", "--only", "wb|onion.to|text/html"], fet)
         n1 = len(list(jl_read(P["captures"])))
         check("429 then 503 -> exponential backoff 4s, 8s", 4.0 in sleeps and 8.0 in sleeps, "(sleeps=%s)" % sleeps[:5])
@@ -1024,6 +1070,56 @@ def selftest(keep=False):
         with contextlib.redirect_stdout(io.StringIO()):
             rc = main(["--dir", d3, "hash", "--targets", tf, "--jobs", "2"], None)
         check("negative control: no false MATCH (and --jobs 2 works)", rc == 0 and not list(jl_read(paths(d3)["matches"])))
+
+        print("== 5. allowlist mode (only named onion hosts are ever queried, stored or fetched)")
+        other = "qrstuvwxyz234567"
+        aq = build_queries(["onion.to", "onion.cab"], ["CC-MAIN-2015-11"], allow={label})
+        check("allowlist queries: host-scoped only, no domain/wildcard",
+              aq and all(label in qurl(q) and "matchType=domain" not in qurl(q) and "*." not in qurl(q) for q in aq)
+              and all("matchType=host" in qurl(q) for q in aq), "(%d queries)" % len(aq))
+        af = os.path.join(tmp, "allow.txt")
+        with open(af, "w") as f:
+            f.write("%s.onion  # planted\n" % label)
+        calls5 = []
+        hdr = ["timestamp", "original", "mimetype", "statuscode", "digest", "length"]
+
+        def tr_allow(url, headers, max_bytes, timeout):
+            calls5.append(url)
+            if "cdx/search/cdx" in url and ("url=%s.onion.to&" % label) in url and "text/html" in url:
+                return Resp(200, {}, json.dumps([hdr, ["20150101000000", "http://%s.onion.to/" % label, "text/html", "200", "AAAA", "100"],
+                                                 ["20150105000000", "http://%s.onion.to/" % other, "text/html", "200", "EEEE", "100"]]).encode())
+            if "/web/20150101000000id_/" in url:
+                return Resp(200, {"Content-Type": "text/html"}, fixture_served())
+            if "/web/" in url:
+                return Resp(200, {"Content-Type": "text/html"}, b"<html>off-list</html>")
+            return Resp(200, {}, b"") if "cdx/search/cdx" in url else Resp(404, {}, b"")
+        f5 = Fetcher(tr_allow, sleep=lambda s: None, delay=0, jitter=0, log=lambda *a: None)
+        d5 = os.path.join(tmp, "allow")
+        P5 = paths(d5)
+        with contextlib.redirect_stdout(io.StringIO()):
+            main(["--dir", d5, "--allowlist", af, "plan", "--gateways", "onion.to", "--no-cc", "--run"], f5)
+        caps5 = list(jl_read(P5["captures"]))
+        check("off-list row from a misbehaving server dropped, never written",
+              len(caps5) == 1 and onion_label(caps5[0]["url"]) == label
+              and other not in open(P5["captures"]).read() + open(P5["pstate"]).read()
+              and not any("matchType=domain" in u for u in calls5))
+        jl_append(P5["captures"], dict(caps5[0], id="planted-offlist", ts="20150105000000", url="http://%s.onion.to/" % other,
+                                      digest="EEEE"))
+        with contextlib.redirect_stdout(io.StringIO()):
+            main(["--dir", d5, "--allowlist", af, "fetch"], f5)
+        check("fetch skips an off-list capture already in the manifest",
+              not any(other in u for u in calls5) and any("20150101000000id_/" in u for u in calls5))
+        refused = []
+        for argv in (["--dir", d5, "plan", "--run"], ["--dir", d5, "fetch"],
+                     ["--dir", d5, "--allowlist", af, "fetch", "--all-hosts"],
+                     ["--dir", d5, "--allowlist", af, "plan", "--hosts-from-captures"]):
+            try:
+                with contextlib.redirect_stdout(io.StringIO()):
+                    main(argv, f5)
+                refused.append(False)
+            except SystemExit:
+                refused.append(True)
+        check("no allowlist and no --blind -> refused; scope-widening flags refused", all(refused), str(refused))
     finally:
         if keep:
             print("kept", tmp)
@@ -1039,6 +1135,9 @@ def main(argv=None, fetcher=None):
     ap.add_argument("--delay", type=float, default=2.0, help="seconds between requests (default 2.0)")
     ap.add_argument("--contact", default=os.environ.get("HASHHUNT_CONTACT", ""), help="contact string for the User-Agent")
     ap.add_argument("--allow-host", action="append", default=[], help="extra https host allowed for redirects")
+    ap.add_argument("--allowlist", help="file of onion labels: plan and fetch touch ONLY these hosts (recommended)")
+    ap.add_argument("--blind", action="store_true",
+                    help="permit plan/fetch without --allowlist (gateway-wide queries return arbitrary onion sites)")
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("plan", help="write CDX queries (and with --run, execute them)")
     p.add_argument("--gateways", default=",".join(GATEWAYS))
@@ -1073,6 +1172,9 @@ def main(argv=None, fetcher=None):
     a = ap.parse_args(argv)
     if a.cmd == "selftest":
         return selftest(a.keep)
+    a.allow = load_allowlist(a.allowlist) if a.allowlist else None
+    if a.cmd in ("plan", "fetch") and not a.allow and not a.blind:
+        raise SystemExit("plan/fetch need --allowlist FILE (only the named onion hosts) or an explicit --blind")
     if a.cmd in ("plan", "fetch") and fetcher is None:
         fetcher = Fetcher(delay=a.delay, contact=a.contact, extra_hosts=tuple(a.allow_host))
     if a.cmd == "plan":

@@ -1,0 +1,10 @@
+planted keyword 'MOBIUS', rule R2 reversed, schedule [25, 17, 14, 0, 2], start dials (7, 8)
+surviving schedules for this alphabet: 105,980
+odometer + dodge cipher: 2928 words, 12956 runes
+scored on the first 400 words in 564.3s on 3 workers
+schedules scored: 105,980
+planted schedule ranks 24558 of 105,980; score +0.6494 vs rest mean +0.6417 sd 0.0111; z = +0.70; best other +0.7009
+recovered inner dial 24, planted start dial 7 (the outer dial is absorbed by the free bijection, so it is not scored)
+
+plant control: FAIL (planted rank 24558)
+written to agents\laneO_quagmire_dodge\out

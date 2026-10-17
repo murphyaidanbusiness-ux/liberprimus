@@ -1,0 +1,50 @@
+experiments/d5_partial_leak.py:20:The plaintext reference is a proxy: real English (/usr/share/dict/web2)
+experiments/d5_partial_leak.py:43:DICT = "/usr/share/dict/web2"
+experiments/dodge_priority_sweep.py:33:import tempfile
+experiments/dodge_priority_sweep.py:61:OUT = ROOT / "experiments" / "dodge_priority_candidates.jsonl"
+experiments/dodge_priority_sweep.py:338:    progress = Path(tempfile.gettempdir()) / "dodge_priority_progress.jsonl"
+experiments/dodge_priority_sweep.py:366:    with OUT.open("w") as fout:
+experiments/dodge_score_kernel.py:19:import subprocess
+experiments/dodge_score_kernel.py:21:import tempfile
+experiments/dodge_score_kernel.py:39:_LIB: dict[int, ctypes.CDLL] = {}
+experiments/dodge_score_kernel.py:42:def _library(points: int = M) -> ctypes.CDLL:
+experiments/dodge_score_kernel.py:46:        target = Path(tempfile.gettempdir()) / f"dodge_score_{digest}_{points}.so"
+experiments/dodge_score_kernel.py:48:            subprocess.run(  # noqa: S603
+experiments/dodge_score_kernel.py:61:        lib = ctypes.CDLL(str(target))
+experiments/doublet_position_profile.py:28:import urllib.request
+experiments/doublet_position_profile.py:188:        urllib.request.urlretrieve(PROSE_URL, prose_path)
+experiments/ea_direction_test.py:23:import tempfile
+experiments/ea_direction_test.py:24:import urllib.request
+experiments/ea_direction_test.py:32:PROSE_URL = "https://www.gutenberg.org/files/1342/1342-0.txt"
+experiments/ea_direction_test.py:33:PROSE_CACHE = Path(tempfile.gettempdir()) / "pg1342.txt"
+experiments/ea_direction_test.py:93:            urllib.request.urlretrieve(PROSE_URL, prose_path)
+experiments/external_text_length_match.py:35:import subprocess
+experiments/external_text_length_match.py:37:import tempfile
+experiments/external_text_length_match.py:51:CACHE = Path(tempfile.gettempdir()) / "lp_external_texts"
+experiments/external_text_length_match.py:151:    CACHE.mkdir(exist_ok=True)
+experiments/external_text_length_match.py:154:        url = f"https://www.gutenberg.org/cache/epub/{number}/pg{number}.txt"
+experiments/external_text_length_match.py:155:        subprocess.run(
+experiments/keyword_exhaustion.py:48:DICT = Path("/usr/share/dict/web2")
+experiments/quagmire_runner.py:807:    out_path = ROOT / "experiments" / "quagmire_candidates.jsonl"
+experiments/quagmire_runner.py:808:    with out_path.open("w") as fout:
+experiments/quagmire_ungated_sweep.py:44:import tempfile
+experiments/quagmire_ungated_sweep.py:87:OUT = ROOT / "experiments" / "quagmire_ungated_candidates.jsonl"
+experiments/quagmire_ungated_sweep.py:310:    out_path = OUT.with_name("quagmire_ungated_extra.jsonl") if extra else OUT
+experiments/quagmire_ungated_sweep.py:311:    progress = Path(tempfile.gettempdir()) / f"{out_path.stem}_progress.jsonl"
+experiments/quagmire_ungated_sweep.py:340:    with out_path.open("w") as fout:
+experiments/quagmire_ungated_sweep.py:368:        globals()["OUT"] = OUT.with_name("quagmire_priority_candidates.jsonl")
+experiments/quagmire_ungated_sweep.py:379:        globals()["OUT"] = OUT.with_name("quagmire_wideband_candidates.jsonl")
+experiments/runeglish_frequency.py:106:        with open("/usr/share/dict/words") as f:
+experiments/sigma_algebraic_floor.py:31:import urllib.request
+experiments/sigma_algebraic_floor.py:138:        urllib.request.urlretrieve(PROSE_URL, prose_path)
+experiments/walk_score_kernel.py:20:import subprocess
+experiments/walk_score_kernel.py:22:import tempfile
+experiments/walk_score_kernel.py:40:_LIB: dict[int, ctypes.CDLL] = {}
+experiments/walk_score_kernel.py:43:def _library(points: int = M) -> ctypes.CDLL:
+experiments/walk_score_kernel.py:52:        target = Path(tempfile.gettempdir()) / f"walk_score_kernel_{digest}_{points}.so"
+experiments/walk_score_kernel.py:54:            subprocess.run(  # noqa: S603
+experiments/walk_score_kernel.py:67:        lib = ctypes.CDLL(str(target))
+src/aldegonde/stats/compare.py:95:    """https://en.wikipedia.org/wiki/G-test
+src/aldegonde/stats/compare.py:186:    http://practicalcryptography.com/media/cryptanalysis/files/ngram_score_1.py
+src/aldegonde/stats/index_of_coincidence.py:258:    https://www.johndcook.com/blog/2021/08/14/index-of-coincidence
+src/aldegonde/stats/ngram.py:30:    # https://stackoverflow.com/questions/24527006/split-a-generator-into-chunks-without-pre-walking-it
