@@ -30,6 +30,7 @@ One orchestrator, one folder per job. Find the job below, open its folder, follo
 | run or port a community repository's sweep or experiment | jobs/port-community-code/ |
 | hunt archives for the page-56 hash | jobs/hashhunt-run/ |
 | find what the community has done or claimed recently | jobs/community-scout/ |
+| list what the community has already ruled out, and how solidly | jobs/exhaustion-census/ |
 
 Each job also has a Haiku agent wrapper, `.claude/agents/lp-<job>.md` (spawn it by that name; it just points at the job folder).
 

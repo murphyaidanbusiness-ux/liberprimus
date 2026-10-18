@@ -362,3 +362,20 @@ the first night (CHANGELOG 2026-10-17); from 10:04 `stay_awake.py` held it awake
 
 Tiers A and B together: 188 alphabets from 47 words, 577.8M keys, both null at ~89% power. Tier C (the 1,080
 register-word alphabets, ~57 h) remains.
+
+## 11. The "hold" variant is covered by tiers A and B (orchestrator, 2026-10-17)
+
+The sweep, its controls and the gate planted `doublet_phase_test.encipher` with `"advance"` only. The community's own
+scorer self-test also plants `"hold"` (re-emit with the previous phase, clock does not advance), which nobody swept.
+Checked whether tiers A and B already cover it:
+
+- Gate: `"hold"` passes (marginal C3 on 1 of 12 seeds; `jobs/hypothesis-gate/runs/2026-10-17-quagmire_odometer_dodge_hold.md`),
+  so it is a live sibling, not an excluded one.
+- Scorer: `diag_alphabet_kind.py` with `DIAG_VARIANT=hold`, 20 fresh keyword plants (seeds 300-319), 2,000 wrong schedules
+  each, 4 BelowNormal workers (`logs/diag_hold_keyword20.log`, `out/diag_hold_keyword20.jsonl`): **18/20 at rank 1, median
+  z +22.8**, inner dial recovered in every rank-1 case. The `"advance"` control was 95/100, median z +23.7.
+- 18 of 20 plants score above +0.75; tiers A and B's best real scores are +0.706 and +0.720.
+- The adjudicator scores through the same kernel (phase refitted per 18-rune window), so nothing in it depends on the variant.
+
+So the tier A and B nulls exclude the `"hold"` variant over the same 47 words at roughly the same power (about 90%, from
+20 plants). `diag_alphabet_kind.py` now takes `DIAG_VARIANT` (default `"advance"`) and `DIAG_PROCS`.

@@ -1,7 +1,7 @@
 # Orchestrator diagnostic for lane O: does the sweep's scorer recover planted keys whose alphabet is
 # keyword-built (the only kind the sweep searches) as well as it recovers random alphabets (the kind
 # the community selftest plants)?
-"""For each seed: plant an odometer + dodge key (doublet_phase_test.encipher, 'advance') on a register
+"""For each seed: plant an odometer + dodge key (doublet_phase_test.encipher, 'advance' or DIAG_VARIANT) on a register
 matched to the LP's first 400 word lengths, then score the planted schedule and 4,000 random wrong
 one-zero schedules under the planted alphabet with the sweep's own score path (score_key, 29 inner
 dials each, outer dial absorbed). Report the planted key's rank and z per alphabet kind.
@@ -27,6 +27,8 @@ sys.path[:0] = [str(PORT / "src"), str(PORT / "experiments")]
 M = 29
 WRONG = int(os.environ.get("DIAG_WRONG", "4000"))
 SEEDS = range(int(os.environ.get("DIAG_SEED0", "0")), int(os.environ.get("DIAG_SEED1", "10")))
+VARIANT = os.environ.get("DIAG_VARIANT", "advance")  # doublet_phase_test.VARIANTS key; the sweep plants "advance"
+PROCS = int(os.environ.get("DIAG_PROCS", "14"))
 
 
 def run(job):
@@ -55,7 +57,7 @@ def run(job):
     offsets = schedule(rng)
     dials = (rng.randrange(M), rng.randrange(M))
     plain = matched_register(rng, lens, pools)
-    cipher = encipher(plain, K, offsets, dials, 0, "advance")
+    cipher = encipher(plain, K, offsets, dials, 0, VARIANT)
     corpus = dps.Corpus(cipher)
     wrong = set()
     while len(wrong) < WRONG:
@@ -70,7 +72,7 @@ def run(job):
     truth = ranked[pos]
     # how far is the planted alphabet from "keyword then the rest in order"? count ascending runs
     runs = 1 + sum(1 for i in range(1, M) if K[i] != (K[i - 1] + 1) % M)
-    return {"kind": kind, "seed": seed, "alphabet": label, "runs": runs, "offsets": offsets,
+    return {"kind": kind, "variant": VARIANT, "seed": seed, "alphabet": label, "runs": runs, "offsets": offsets,
             "dials": list(dials), "rank": pos + 1, "of": len(ranked), "score": round(truth[0], 4),
             "wrong_mean": round(float(others.mean()), 4), "wrong_sd": round(float(others.std()), 4),
             "wrong_max": round(float(others.max()), 4),
@@ -80,7 +82,7 @@ def run(job):
 
 if __name__ == "__main__":
     jobs = [(k, s) for k in os.environ.get("DIAG_KINDS", "random,keyword").split(",") for s in SEEDS]
-    with get_context("spawn").Pool(min(14, len(jobs))) as pool:
+    with get_context("spawn").Pool(min(PROCS, len(jobs))) as pool:
         res = pool.map(run, jobs)
     out = REPO / "agents" / "laneO_quagmire_dodge" / "out" / os.environ.get("DIAG_OUT", "diag_alphabet_kind.jsonl")
     out.parent.mkdir(parents=True, exist_ok=True)

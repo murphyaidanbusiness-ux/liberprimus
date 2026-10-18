@@ -108,3 +108,29 @@ is one), matching the community's 4.5-6.5% collision rate. Corrected in RESULTS.
 quoting a community number, quote what it measures. Also recorded: the community's hypothesis file says the dodge-aware
 scorer recovers this family at z 12-20, but its self-test and the parked sweep plant the odometer, not
 `quagmire_dodge.encipher`; noted in REPORT_ROUND2.md section 4. Lane W's PROOF item 2 (audit after first run) stays a fail.
+
+## 2026-10-17 · exhaustion-census (new job) · claude-haiku-5-5 x4, merged by claude-opus-5-5
+New job `jobs/exhaustion-census/` (proof first: PROOF.md, SKILL.md, `tools/check_census.py`, fixtures; wrapper
+`.claude/agents/lp-exhaustion-census.md`; routing row in AGENTS.md). Four Haiku parts, 232 rows, merged by
+`research/census/merge.py` into `research/EXHAUSTED.md`.
+Fail: the agents were too lenient on the constraint cell. They marked pure transpositions, digraphic tables, periodic keys
+above period 1500, unfiltered autokeys and no-repeat rewrites `unclear` or `consistent` where the quick exclusions in
+`toolbox/CONSTRAINTS.md` kill them, and flagged 99 reopen candidates. Fix: 23 rows re-graded in `merge.py` (each with its
+reason), and the orchestrator's buckets separate open-ended dictionaries, off-stream channels and statistical probes
+from finite partial searches (11 remain). Lesson for the job: SKILL.md should tell agents to try every quick exclusion
+before writing `unclear`.
+Fail (ours, round two): C2c was presented as new. Oosterhof's `hypotheses/doublet-preventer-clock-drift.md` had already
+measured the mod-5 doublet phase counts (18, 21, 16, 11, 20) and used them to rule out drift-free preventers. Fix:
+attribution added in `toolbox/CONSTRAINTS.md`, `REPORT_ROUND2.md` and `docs/COMMUNITY_SUMMARY_DRAFT.md`. Lesson: grep
+the community ledgers for a number before calling it new.
+Also: the odometer dodge's "hold" variant gates PASS (marginal C3) and lane O's scorer recovers 18/20 planted hold keys
+(median z +22.8), so tiers A and B cover it (lane O RESULTS.md section 11; `diag_alphabet_kind.py` gained `DIAG_VARIANT`).
+
+## 2026-10-18 · exhaustion-census (judging pass) · claude-opus-5-5
+Fix: the first merge re-graded only the rows the orchestrator happened to spot (23, hard-coded in `merge.py`). The job
+now has a formal judging pass: `research/census/write_judgments.py` records a verdict and one bucket for every row of
+every part (232: 205 agree, 26 constraint cells re-graded to dead, one strength re-graded), writes `judgments.tsv`, and
+`merge.py` reads it and fails on any unjudged row, double bucket, or dead row bucketed elsewhere. SKILL.md and PROOF.md
+gained the orchestrator step. The full pass moved four more rows: AX-07 and AX-14 to dead (C2), WB-21 to dead under
+either reading, AL-15 to searched in full (its 154M keys are the whole pool), AL-25 and AL-31 to refuted by a direct
+test. The reopen list went from 11 to 6. Lesson: agents extract, the orchestrator judges every row, not a sample.

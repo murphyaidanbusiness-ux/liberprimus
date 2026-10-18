@@ -8,9 +8,9 @@ Every completed test is null. The sweep is validated and ready, but not yet run 
 In the second half of the session the work was reorganised into the owner's folder method (one map, one folder per job,
 proof before playbook), three research agents graded 64 published cryptanalytic techniques against the LP2 fingerprint,
 and a new hypothesis gate simulated the most promising untested families on English (section 5). The gate added a seventh
-constraint (C2c) and left one family standing: the Quagmire-odometer dodge that the validated sweep searches.
+constraint (C2c, first measured at mod 5 by Oosterhof; see section 5) and left one family standing: the Quagmire-odometer dodge that the validated sweep searches.
 
-Round one's six constraints (`REPORT.md`) stand. Nothing here weakens them; C5 is sharpened and C2c is new.
+Round one's six constraints (`REPORT.md`) stand. Nothing here weakens them; C5 is sharpened and C2c is added (an extension of Oosterhof's mod-5 phase test, found independently).
 
 Work was split across Haiku agents, each with the protocol in `docs/BRIEF_ROUND2.md`, and every headline
 number below was re-derived by the orchestrator before it went into this file.
@@ -61,6 +61,7 @@ meet that rule. It was not attempted.
 | **W** clock-variant scorer | Can the community's dodge-aware scorer recognise a planted key of the clock-dependent dodge (`quagmire_dodge.encipher`)? | **No.** 0/20 planted keys at rank 1 against 2,000 wrong keys each (median z +0.3); its fitted clock phase is at chance (0.19 against 0.20). The odometer reference on the same harness: 17/20, counting exact ties with equivalent keys as wins. With the true key and the true phases the word model decrypts exactly and the planted key beats every wrong key, so what fails is recovering the clock path. Re-derived by the orchestrator with fresh code and text (`orch_check.py`). `agents/laneW_clock_dodge/RESULTS.md` |
 | scout 6 | What is new in the community? | No solves; items and their bearing on next steps in `research/scout6_delta.md` |
 | gap audit | Which hypotheses are consistent with the constraints and untested? | Ranked list in `research/gap_audit.md`; see section 4 for the corrections |
+| exhaustion census | What has the community already ruled out, and how solidly? | 232 methods from four ledgers and the public web, every row judged by the orchestrator: 130 dead by the fingerprint, 21 searched in full or refuted, 21 open-ended, 34 off the rune stream, 20 structure probes, 6 partial and finite (5 of them walk/dodge variants; none high-hope). It also caught two errors in our own record (C2c's attribution; the dodge's "hold" variant, which tiers A and B turn out to cover). `research/EXHAUSTED.md` |
 | provenance | Which onions are verifiably Cicada's? | 4 signed, 16 community-only, 12 unknown, 1 hallucination. `hashhunt/cicada_onions.md` |
 
 ## 4. Corrections and sharpened findings
@@ -125,7 +126,10 @@ and the community's `SOLVED-PAGES.json` has deletion artefacts (page 03 reads `.
 | Quagmire dodge, clock-dependent word step (the community's `quagmire_dodge.encipher`, never swept) | PASS (C2 marginal on 1 of 12 keys) | **proceed, but not yet attackable**: 12-key means match LP2 as well as the odometer's (doublets 90.9, cross-word 24.2, share 0.266, lag-5 5.7%); raw key space ~10^96 (K, schedule, a free 29-cycle sigma, base0); the community's old scorer misses a planted key of this variant (0.493 vs 0.619), and a vocabulary sweep is ~4,600 core-hours. Needs a validated scorer first; lane W found the dodge-aware scorer is blind to it too (0/20), so that means a new beam-decode scorer. `jobs/hypothesis-gate/runs/2026-10-17-quagmire_dodge_clock.md` |
 | Quagmire-odometer dodge (lane O's family) | PASS, marginal C6 on 1 of 3 seeds | **proceed**: over 12 keys, doublets 87.4 (LP2 86), cross-word 22.1 +- 6.2 (23), lag-5 5.7% (4.94%) |
 
-**C2c, the new constraint.** Lane S, sweeping the totient variant, noticed that its simulator puts every surviving doublet
+**C2c, the added constraint.** Attribution: Oosterhof measured LP2's mod-5 doublet phase counts first, in
+`dl/aldegonde_clone/hypotheses/doublet-preventer-clock-drift.md` (18, 21, 16, 11, 20; chi-square 3.7; flat at every space
+skip), and used them to rule out drift-free preventers. We missed that file and found the same counts independently; the
+exhaustion census (`research/EXHAUSTED.md`) caught it. Lane S, sweeping the totient variant, noticed that its simulator puts every surviving doublet
 on one residue mod 5, while LP2's 86 fall on residues 0-4 as 18, 21, 16, 11, 20. Checked by the orchestrator: LP2's
 doublet positions are uniform for every modulus 2-8, by global and within-page index (largest chi-square 11.3 against
 24.3 at p = 0.001). So no repeat-suppression rule keyed to the absolute position can be LP2's; an exempt phase has to

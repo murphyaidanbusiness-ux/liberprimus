@@ -1,0 +1,21 @@
+keyword  seed 300  NEUER/R3 cyclic              runs  7  rank    1/2001  score +1.0647  wrong +0.6650±0.0217 max +0.8762  z +18.38  dial  3/ 3
+keyword  seed 301  PRIME/R4 grid-cols           runs 28  rank    1/2001  score +0.7571  wrong +0.6394±0.0112 max +0.6863  z +10.51  dial  3/ 3
+keyword  seed 302  SPECIES/R1 gematria          runs 11  rank    1/2001  score +1.0790  wrong +0.6369±0.0127 max +0.8103  z +34.85  dial 18/18
+keyword  seed 303  NOW/R3 cyclic                runs  5  rank    1/2001  score +0.8041  wrong +0.6410±0.0120 max +0.6864  z +13.63  dial 24/24
+keyword  seed 304  PATIENCE/R3 cyclic           runs 12  rank    1/2001  score +1.0746  wrong +0.6477±0.0160 max +0.8333  z +26.74  dial  9/ 9
+keyword  seed 305  ENLIGHTENMENT/R4 grid-cols   runs 29  rank   22/2001  score +0.6664  wrong +0.6370±0.0117 max +0.6957  z  +2.52  dial 11/11
+keyword  seed 306  SOUGHT/R1 gematria           runs 12  rank    1/2001  score +1.0612  wrong +0.6542±0.0174 max +0.7654  z +23.37  dial 15/15
+keyword  seed 307  WEAC/R2 reversed             runs 29  rank    1/2001  score +1.0313  wrong +0.6437±0.0127 max +0.8325  z +30.59  dial 14/14
+keyword  seed 308  STUDENTS/R2 reversed         runs 28  rank    1/2001  score +0.8120  wrong +0.6456±0.0171 max +0.7503  z  +9.72  dial 10/10
+keyword  seed 309  STUDY/R4 grid-cols           runs 28  rank    1/2001  score +1.0277  wrong +0.6488±0.0155 max +0.8034  z +24.52  dial 27/27
+keyword  seed 310  HERE/R3 cyclic               runs  5  rank    1/2001  score +1.0167  wrong +0.6590±0.0161 max +0.7468  z +22.25  dial 14/14
+keyword  seed 311  DUTY/R3 cyclic               runs  7  rank   79/2001  score +0.6642  wrong +0.6438±0.0108 max +0.6897  z  +1.88  dial  3/ 9
+keyword  seed 312  UNIVERSE/R3 cyclic           runs  9  rank    1/2001  score +1.0649  wrong +0.6433±0.0122 max +0.7355  z +34.56  dial 20/20
+keyword  seed 313  PRIMALITY/R2 reversed        runs 29  rank    1/2001  score +0.8516  wrong +0.6356±0.0108 max +0.6843  z +19.97  dial 10/10
+keyword  seed 314  PARABLE/R1 gematria          runs 12  rank    1/2001  score +1.0386  wrong +0.6464±0.0148 max +0.7355  z +26.53  dial 17/17
+keyword  seed 315  OWN/R3 cyclic                runs  5  rank    1/2001  score +1.0037  wrong +0.6478±0.0147 max +0.7473  z +24.28  dial  1/ 1
+keyword  seed 316  FORWARD/R2 reversed          runs 28  rank    1/2001  score +0.9858  wrong +0.6478±0.0165 max +0.7311  z +20.48  dial 26/26
+keyword  seed 317  MAGIC/R3 cyclic              runs  9  rank    1/2001  score +1.0272  wrong +0.6525±0.0160 max +0.7663  z +23.44  dial  4/ 4
+keyword  seed 318  INTELLIGENT/R4 grid-cols     runs 29  rank    1/2001  score +1.0649  wrong +0.6652±0.0309 max +0.8850  z +12.91  dial  2/ 2
+keyword  seed 319  PILGR/R3 cyclic              runs  9  rank    1/2001  score +1.0805  wrong +0.6486±0.0182 max +0.8497  z +23.73  dial  9/ 9
+keyword: rank-1 in 18/20, median z +22.81
