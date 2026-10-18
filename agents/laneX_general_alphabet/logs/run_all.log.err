@@ -1,32 +1,32 @@
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
+agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
   loglik += np.log(s[:, 0])
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
   fa[n] = a / s
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
   post[n] = p / p.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
   be /= be.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
+agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
   loglik += np.log(s[:, 0])
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
   fa[n] = a / s
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
   be /= be.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
+agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
   loglik += np.log(s[:, 0])
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
   fa[n] = a / s
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
   post[n] = p / p.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
   be /= be.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
   post[n] = p / p.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
+agents\laneX_general_alphabet\xlib.py:360: RuntimeWarning: divide by zero encountered in log
   loglik += np.log(s[:, 0])
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:361: RuntimeWarning: invalid value encountered in divide
   fa[n] = a / s
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:369: RuntimeWarning: invalid value encountered in divide
   post[n] = p / p.sum(1, keepdims=True)
-C:\Users\aidan murphy\liberprimus\agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
+agents\laneX_general_alphabet\xlib.py:367: RuntimeWarning: invalid value encountered in divide
   be /= be.sum(1, keepdims=True)

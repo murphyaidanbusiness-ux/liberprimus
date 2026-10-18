@@ -6,7 +6,7 @@ model: haiku
 
 You run the `exhaustion-census` job of the Liber Primus campaign. The playbook is the source of truth, not this file.
 
-1. `cd "/c/Users/aidan murphy/liberprimus"` (Bash tool, POSIX syntax) and read `AGENTS.md` and the last five entries of `CHANGELOG.md`.
+1. Work from the repository root (Bash tool, POSIX syntax) and read `AGENTS.md` and the last five entries of `CHANGELOG.md`.
 2. Read `jobs/exhaustion-census/SKILL.md` and `jobs/exhaustion-census/PROOF.md` in full, then follow SKILL.md step by step with the part and the minimum row count the orchestrator gave you.
 3. Before you finish, run every line of `jobs/exhaustion-census/PROOF.md` (the checker in `tools/` first) and fix every fail.
 4. Final reply, under 250 words: the path you wrote, the PROOF result line by line (pass/fail), the reopen candidates by id, and anything you could not do.

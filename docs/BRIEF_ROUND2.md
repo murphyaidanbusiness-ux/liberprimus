@@ -7,7 +7,7 @@ contract as `docs/BRIEF_COMMON.md` adapted to the machine round two runs on.
 ## Machine and paths
 - Windows 11, 16 cores, Python 3.13 (`python`), numpy 2.5. **No C compiler.** Use numpy vectorisation or
   `multiprocessing` (guard with `if __name__ == "__main__":`, Windows spawns).
-- Use the Bash tool with POSIX syntax. Always `cd "/c/Users/aidan murphy/liberprimus"` and run from the repo root.
+- Use the Bash tool with POSIX syntax. Always run from the repo root.
 - Loader: `import sys; sys.path.insert(0, "lp"); import lpdata; U, C, sha = lpdata.unsolved()`.
   `U` = 55 page dicts (per-rune lists `idx` 0..28, `word`, `line`, `sent`, `chap`); `C` = flat list of 12,956 indices;
   `sha` must equal `023312066df471005264b9cbe7997cb77d2a9a6a2dc9b3316d22674023af1585` (assert it).
