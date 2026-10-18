@@ -1,0 +1,7 @@
+schedule [0, 7, 20, 8, 23] (sum 0 mod 29, one zero)
+adjacent alphabets coincide only at phase 4, as predicted
+
+would-be doublets 348, survivors 93 (0.267, predicted 1/5 = 0.200)
+doublet rate  model 0.00755   predicted (1/5)(1/29) 0.00690   corpus 0.00628
+control, schedules with NO zero offset: doublet rate 0.00000 over 8 keys (the dodge then never fails)
+self-test passed

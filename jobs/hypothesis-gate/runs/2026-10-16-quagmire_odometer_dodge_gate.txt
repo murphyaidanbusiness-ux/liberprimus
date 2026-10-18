@@ -1,0 +1,29 @@
+cipher: Quagmire-odometer with the doublet dodge (lane O's family; community doublet_phase_test.encipher, 'advance')
+seed 0: doublets 92 (82 within, 10 cross), lag-5 105/1828
+  C1 IoC                               1.0        LP2 1.0      PASS
+  C2 doublet rate                      0.0071     LP2 0.00664  PASS
+  C2b conditional IoC                  1.0233     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod5 chi2 6.8 LP2 uniform  PASS
+  C3 repeated words >=3                5          LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0574     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    10.0       LP2 23       FAIL
+seed 1: doublets 72 (55 within, 17 cross), lag-5 107/1828
+  C1 IoC                               1.001      LP2 1.0      PASS
+  C2 doublet rate                      0.00556    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0297     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 12.2 LP2 uniform  PASS
+  C3 repeated words >=3                12         LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0585     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    17.0       LP2 23       PASS
+seed 2: doublets 89 (75 within, 14 cross), lag-5 106/1828
+  C1 IoC                               1.0002     LP2 1.0      PASS
+  C2 doublet rate                      0.00687    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0296     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod5 chi2 7.5 LP2 uniform  PASS
+  C3 repeated words >=3                10         LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.058      LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    14.0       LP2 23       PASS
+GATE FAIL: C6

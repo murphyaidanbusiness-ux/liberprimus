@@ -1,0 +1,14 @@
+cipher: Quagmire with clock-dependent word step and doublet dodge (community quagmire_dodge.encipher: base steps by alpha_k . sigma, one-zero schedule)
+random draws (rng seeds 5000..5299): 300 draws
+  C1   passes  300 / 300
+  C2   passes  247 / 300
+  C2b  passes  300 / 300
+  C2c  passes  297 / 300
+  C3   passes  291 / 300
+  C6   passes  265 / 300
+  all hard constraints pass: 211 / 300
+  ioc             min 0.99864  median 0.99984  max 1.00163
+  doublet_rate    min 0.00232  median 0.00629  max 0.01675
+  doublets_cross  min 6.00000  median 20.50000  max 47.00000
+  cond_ioc        min 1.00437  median 1.02330  max 1.03575
+  distinct draws passing all hard constraints: 211

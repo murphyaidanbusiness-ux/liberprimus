@@ -1,0 +1,5 @@
+corpus agents/laneO_quagmire_dodge/out/planted_corpus.json: 2928 words; held out 2528 words; 6 chunks of 400 starting at words [400, 800, 1200, 1600, 2000, 2400]
+null (200 random keys): pinned chunk-mean mean +0.5855 sd 0.0117 max +0.6160
+null best-dial chunk-mean mean +0.6358 sd 0.0052 max +0.6470
+MOBIUS           sched [25, 17, 14, 0, 2] dial  7  held-out pinned mean +0.8314 (z +21.0, margin +0.2154)  best-dial mean +0.8314 (z +37.6)  first-400 score None
+written to agents\laneO_quagmire_dodge\out\adjudicate_validation_planted.json

@@ -13,6 +13,32 @@ SHA-512, SHA3-512, BLAKE2b-512, original BLAKE-512, Whirlpool or Skein-512-512? 
 Python 3.8+, standard library only. Files: `hashhunt.py` (CLI, network, store, hash stage, selftest),
 `hashfuncs.py` (pure-Python BLAKE-512 / Whirlpool / Skein-512-512 and their test vectors).
 
+## Scope: the allowlist mode (required)
+
+`plan` and `fetch` refuse to run unless you pass either `--allowlist FILE` or an explicit `--blind`. Use the allowlist.
+
+An onion address says nothing about what is behind it. A gateway-wide query (`url=onion.to&matchType=domain`) returns
+rows for every onion site the archive ever saw through that gateway, and fetching them would mean downloading unknown
+darknet content. With `--allowlist FILE` (one onion label per line, `#` comments):
+
+* every Wayback query is `matchType=host` for one allowlisted label on one gateway (or bare `.onion`); every Common
+  Crawl query is `url=<label>.<gateway>&matchType=host`. No domain-wide or wildcard query is ever sent;
+* any row an archive returns for a host off the list is dropped before anything is written (counted as `offlist` in
+  `plan_state.jsonl`; the URL itself is not stored);
+* `fetch` never downloads a capture whose host is off the list, even if one is in `captures.jsonl` from an earlier run;
+* `--hosts-from-captures` and `--all-hosts` (both widen the scope) are refused.
+
+`cicada_onions_allowlist.txt` holds the four labels named in Cicada PGP-signed messages, with the evidence in
+`cicada_onions.md` (2012 enrollment page, the two 2013 onions, the 2014 welcome onion). `cicada_onions.md` also records
+the community-attributed 2014 onions 1 to 6, which are **not** on the list: they are well documented but no signed
+message names them. Selftest section 5 checks all of the above against a mocked archive that misbehaves on purpose.
+
+```
+python -I hashhunt.py --dir data --allowlist cicada_onions_allowlist.txt --contact you@example.org plan --run
+python -I hashhunt.py --dir data --allowlist cicada_onions_allowlist.txt --contact you@example.org fetch
+python -I hashhunt.py --dir data hash --jobs 4
+```
+
 ## Safety boundaries (by construction)
 
 * **Text only.** Only `text/html`, `text/plain` (plan) and `application/xhtml+xml` (fetch gate) are accepted. The
@@ -45,8 +71,8 @@ directory holds untrusted downloads):
 
 ```
 python3 -I hashhunt.py selftest                      # run this first; ~1 s
-python3 -I hashhunt.py --contact you@example.org plan --run   # build the candidate list (network)
-python3 -I hashhunt.py --contact you@example.org fetch        # download original bytes (network)
+python3 -I hashhunt.py --allowlist cicada_onions_allowlist.txt --contact you@example.org plan --run   # candidate list (network)
+python3 -I hashhunt.py --allowlist cicada_onions_allowlist.txt --contact you@example.org fetch        # original bytes (network)
 python3 -I hashhunt.py hash --jobs 8                          # offline; prints MATCH loudly
 ```
 
@@ -174,10 +200,15 @@ stay silent, plus gzip-root and `--jobs 2` checks.
   results are not treated as complete, and add a plant to `selftest` section 4.
 * **Gateways / collections**: `--gateways`, `--extra-gateways`, `--hosts-file`, `--discover-cc`.
 
-## What was designed from documentation and never run against the real services
+## What has and has not been run against the real services
 
-The sandbox could not reach archive.org or commoncrawl.org. The following come from the public API docs and recollection
-and are exercised only against mocks: the Wayback JSON layout `[header, rows..., [], [resumeKey]]` and that the resume
+Round two (2026-10-16) ran `plan`, `fetch` and `hash` live against the Wayback Machine in allowlist mode
+(`agents/laneP_hashhunt/RESULTS.md`): the Wayback JSON layout, host-scoped CDX queries, `id_` fetches and the CDX digest
+check all behaved as designed. A transient Windows file lock (`OSError: [Errno 22]` on append) is now retried. Common
+Crawl's index returned HTTP 504 for every request that day, so the CC half is still exercised only against mocks.
+
+Originally the sandbox could not reach archive.org or commoncrawl.org. The following come from the public API docs and
+recollection and, for Common Crawl, are still exercised only against mocks: the Wayback JSON layout `[header, rows..., [], [resumeKey]]` and that the resume
 key is already percent-encoded (it is passed through verbatim); `to=2017` covering all of 2017; `showNumPages` and
 `page=` for CC; CC filter syntax (`filter=mime:regex`, `filter==status:200`; use `--no-server-filter` if rejected);
 `data.commoncrawl.org` serving ranges directly (a redirect to another host would be refused; `--allow-host`). If a

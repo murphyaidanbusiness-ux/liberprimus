@@ -1,0 +1,21 @@
+{
+ "n": 12956,
+ "full_length_survivors": 1,
+ "survivors": [
+  {
+   "kk": 19144,
+   "key": [
+    "prime",
+    9144
+   ],
+   "mean": -7.308396434563158
+  }
+ ],
+ "death_position_quartiles": [
+  207,
+  1038,
+  2026
+ ],
+ "max_alive_dying_key": 8726,
+ "seconds": 110.2
+}

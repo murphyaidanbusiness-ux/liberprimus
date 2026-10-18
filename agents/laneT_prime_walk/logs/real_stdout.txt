@@ -1,0 +1,3 @@
+21:27:42 == lane T real (priority: BELOW_NORMAL class now 0x4000, beam W=512)
+21:27:52 real screen (LP2 first 300 runes): full-window keys 14549; best kk 11143 ('prime', 1143) alive 300 mean -6.87041; 8s
+21:27:52 real top-50 full decode over 12956 runes: full-length survivors 0; best ['prime', 1143] mean -7.12933 ioc 1.0208

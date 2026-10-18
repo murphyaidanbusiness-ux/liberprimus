@@ -1,0 +1,30 @@
+cipher: Quagmire with clock-dependent word step and doublet dodge (community quagmire_dodge.encipher: base steps by alpha_k . sigma, one-zero schedule)
+seed 0: doublets 91 (69 within, 22 cross), lag-5 112/1828
+  C1 IoC                               1.0012     LP2 1.0      PASS
+  C2 doublet rate                      0.00702    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0251     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod5 chi2 4.4 LP2 uniform  PASS
+  C3 repeated words >=3                8          LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0613     LP2 0.0494   FAIL(soft)
+  C6 cross-word doublets (LP2-size)    22.0       LP2 23       PASS
+seed 1: doublets 81 (64 within, 17 cross), lag-5 106/1828
+  C1 IoC                               1.0005     LP2 1.0      PASS
+  C2 doublet rate                      0.00625    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0299     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod5 chi2 4.0 LP2 uniform  PASS
+  C3 repeated words >=3                7          LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.058      LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    17.0       LP2 23       PASS
+seed 2: doublets 115 (89 within, 26 cross), lag-5 92/1828
+  C1 IoC                               0.9992     LP2 1.0      PASS
+  C2 doublet rate                      0.00888    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0163     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod6 chi2 4.7 LP2 uniform  PASS
+  C3 repeated words >=3                5          LP2 16       PASS
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0503     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    26.0       LP2 23       PASS
+fails per constraint over 3 seeds: none
+GATE PASS

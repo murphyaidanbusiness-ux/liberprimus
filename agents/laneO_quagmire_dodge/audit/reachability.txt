@@ -1,0 +1,6 @@
+dodge_priority_sweep.main: reaches 36 functions; sink calls: [('dodge_score_kernel', '_library', 'CDLL'), ('dodge_score_kernel', '_library', 'run')]
+dodge_priority_sweep.selftest: reaches 31 functions; sink calls: [('dodge_score_kernel', '_library', 'CDLL'), ('dodge_score_kernel', '_library', 'run')]
+dodge_score_kernel.main: reaches 18 functions; sink calls: [('dodge_score_kernel', '_library', 'CDLL'), ('dodge_score_kernel', '_library', 'run')]
+dodge_aware_scorer.main: reaches 17 functions; sink calls: []
+quagmire_dodge.self_test: reaches 12 functions; sink calls: []
+quagmire_dodge_decode.self_test: reaches 17 functions; sink calls: []

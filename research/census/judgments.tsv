@@ -1,0 +1,233 @@
+id	verdict	bucket	constraint	strength	note
+DK-01	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-02	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-03	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-04	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-05	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-06	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-07	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-08	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-09	agree	full			the exact keyskip1 relation (S2) stopped at 44.14%; finishing it is a finite job
+DK-10	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-11	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-12	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-13	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-14	agree	dead			
+DK-15	agree	test			refuted by the iteration-9 diagonal test (z -17.25)
+DK-16	agree	full			
+DK-17	agree	partial			the unfiltered forms are dead (AL-32, AL-05, LZ-06); the skip-filtered forms were never counted
+DK-18	agree	dead			
+DK-19	agree	dead			
+DK-20	agree	dead			
+DK-21	regrade	dead	dead C1: an operation on the cipher stream alone (decimation, interleave) keeps LP2's flat IoC, so it cannot read as English		
+DK-22	agree	off			readings of number channels, not a key search
+DK-23	agree	dead			
+DK-24	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-25	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-26	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-27	agree	off			
+DK-28	agree	off			
+DK-29	agree	off			
+DK-30	agree	off			
+DK-31	agree	off			
+DK-32	agree	off			
+DK-33	agree	dead			
+DK-34	agree	dead			
+DK-35	agree	dead			
+DK-36	agree	dead			
+DK-37	agree	dead			
+DK-38	regrade	dead	dead C2: a no-repeat premise predicts 0 doublets (LP2 86)		
+DK-39	agree	dead			
+DK-40	agree	off			
+DK-41	agree	off			
+DK-42	agree	off			
+DK-43	agree	off			
+DK-44	agree	off			
+DK-45	agree	off			
+DK-46	agree	off			
+DK-47	agree	off			
+DK-48	agree	dead			
+DK-49	agree	off			
+DK-50	agree	off			
+DK-51	agree	off			
+DK-52	agree	off			
+DK-53	agree	off			
+DK-54	agree	off			
+DK-55	agree	off			
+DK-56	agree	off			
+DK-57	agree	open			consistent only as a filtered keystream; a word-blind stream does not explain the within-word lag-5 echo (C5, soft; AX-59)
+DK-58	agree	open			
+DK-59	regrade	dead	dead C2: a Smirnov rewrite (no adjacent repeat) predicts 0 doublets (LP2 86)		
+DK-60	agree	off			
+AL-01	agree	dead			
+AL-02	agree	dead			
+AL-03	agree	dead			
+AL-04	agree	dead			
+AL-05	agree	dead			
+AL-06	agree	dead			
+AL-07	agree	dead			
+AL-08	agree	dead			
+AL-09	agree	dead			
+AL-10	agree	dead			
+AL-11	agree	dead			
+AL-12	agree	dead			
+AL-13	agree	dead			
+AL-14	agree	full			
+AL-15	regrade	full		B	154,096,488 keys is the whole pool (190,008 g x 812 sigma); C only because base_0 is hill-climbed
+AL-16	agree	dead			
+AL-17	agree	full			
+AL-18	agree	probe			
+AL-19	agree	dead			
+AL-20	agree	dead			
+AL-21	agree	dead			
+AL-22	agree	dead			
+AL-23	agree	dead			
+AL-24	agree	dead			
+AL-25	agree	test			a fixed restart makes the seam bimodal (doublets at every boundary or none); LP2's seam/d1w ratio is 1.25
+AL-26	regrade	dead	dead C1: keyword Vigenere, Beaufort and Atbash families are periodic keys of 1500 or less (F-interrupts dead by WB-16)		
+AL-27	agree	partial			the clock-form dodge; no working scorer (lane W, 0/20)
+AL-28	agree	dead			
+AL-29	agree	full			
+AL-30	agree	dead			
+AL-31	agree	test			11 word-initial doublets where the hold predicts about 0
+AL-32	agree	dead			
+LZ-01	agree	dead			
+LZ-02	agree	dead			
+LZ-03	regrade	dead	dead C1: a fixed digraphic table leaves non-flat unigrams (bifid and Polybius measured at IoC 1.39-1.55, DK-37); LP2 1.000		
+LZ-04	agree	dead			
+LZ-05	agree	full			
+LZ-06	agree	dead			
+LZ-07	agree	dead			
+LZ-08	agree	dead			
+LZ-09	agree	dead			
+LZ-10	agree	dead			
+LZ-11	agree	off			
+LZ-12	agree	off			
+TE-01	regrade	dead	dead C4: LP2's word lengths have no sequential structure, so an exact word-length run is not plaintext evidence		
+TE-02	agree	dead			
+TE-03	regrade	dead	dead C2 as an additive key; its use as a grid for the walk's g is AL-15		
+TE-04	agree	off			
+TE-05	agree	off			
+TE-06	agree	dead			
+TE-07	agree	dead			
+AX-01	agree	full			
+AX-02	agree	full			
+AX-03	agree	full			
+AX-04	agree	open			
+AX-05	agree	dead			
+AX-06	agree	dead			
+AX-07	regrade	dead	dead C2: a keystream independent of the ciphertext on the chain's step gives step 0 at about 1/29 (additive) or at rune 0's frequency (multiplicative), against LP2's 0.66%		
+AX-08	agree	probe			
+AX-09	agree	probe			
+AX-10	agree	dead			
+AX-11	agree	dead			
+AX-12	agree	dead			
+AX-13	agree	dead			
+AX-14	regrade	dead	dead C2: a fixed-key block cipher emits adjacent repeats at about 1/29 unless a preventer is added; LP2 0.66%		
+AX-15	agree	full			
+AX-16	agree	test			same positional-profile refutation as AL-31
+AX-17	agree	probe			
+AX-18	agree	dead			
+AX-19	agree	probe			
+AX-20	agree	partial			random draws only; a global search is infeasible for the walk (lane K)
+AX-21	agree	dead			
+AX-22	agree	dead			
+AX-23	agree	dead			
+AX-24	agree	full			
+AX-25	agree	full			
+AX-26	agree	probe			
+AX-27	agree	test			one doublet across the page 50 boundary excludes a page reset
+AX-28	agree	dead			
+AX-29	agree	partial			keyword-grid g; overlaps lane L's keyword corner
+AX-30	agree	dead			
+AX-31	agree	probe			
+AX-32	agree	probe			
+AX-33	agree	dead			
+AX-34	agree	dead			
+AX-35	agree	dead			
+AX-36	agree	partial			one simulation only; a gate run would settle it cheaply
+AX-37	agree	probe			
+AX-38	agree	dead			
+AX-39	agree	probe			
+AX-40	agree	dead			
+AX-41	agree	dead			
+AX-42	agree	dead			C5 is a soft constraint (about 2.5 sigma), so this exclusion is weaker than the hard ones
+AX-43	agree	full			
+AX-44	agree	probe			
+AX-45	agree	probe			
+AX-46	agree	full			
+AX-47	agree	probe			
+AX-48	agree	dead			
+AX-49	agree	dead			
+AX-50	agree	dead			
+AX-51	agree	dead			
+AX-52	agree	dead			
+AX-53	agree	partial			keyword-filled 5x5 squares; same construction family as AX-29
+AX-54	agree	dead			
+AX-55	agree	dead			
+AX-56	agree	dead			
+AX-57	agree	dead			
+AX-58	agree	open			
+AX-59	agree	probe			
+AX-60	agree	probe			
+AX-61	agree	dead			
+AX-62	agree	probe			
+AX-63	agree	probe			
+AX-64	agree	probe			
+AX-65	agree	full			
+AX-66	agree	probe			
+TX-01	agree	dead			
+TX-02	agree	dead			
+TX-03	agree	dead			
+TX-04	agree	dead			
+TX-05	agree	dead			
+TX-06	agree	dead			
+TX-07	agree	dead			
+TX-08	agree	dead			
+TX-09	agree	dead			
+TX-10	agree	dead			
+TX-11	regrade	dead	dead C4: LP2's word lengths have no sequential structure, so an exact word-length run is not plaintext evidence		
+TX-12	agree	dead			
+WB-01	regrade	dead	dead C2: an additive periodic key at any period, independent of the ciphertext, predicts about 3.4% doublets (LP2 0.66%)		
+WB-02	regrade	dead	dead C2: raw sequence keys predict about 3.4% doublets; the chain form with steps 1..28 predicts 0 (LP2 86)		
+WB-03	regrade	dead	dead C2: unfiltered autokeys give 3.3-4.2% doublets (DK-15), and a fixed feedback table is excluded by C2b		
+WB-04	regrade	dead	dead C2b: a fixed prime feedback table is a fixed feedback table (LZ-07); conditional IoC 1.026 is flat		
+WB-05	agree	dead			
+WB-06	agree	dead			
+WB-07	regrade	dead	dead C1: a fixed digraphic table leaves non-flat unigrams (bifid and Polybius measured at IoC 1.39-1.55, DK-37); LP2 1.000		
+WB-08	agree	dead			
+WB-09	agree	dead			
+WB-10	agree	dead			
+WB-11	agree	dead			
+WB-12	agree	dead			
+WB-13	agree	dead			
+WB-14	agree	probe			
+WB-15	agree	dead			
+WB-16	regrade	dead	dead C1: rune 0 is flat (458 against 447 expected); F-passthrough would add about 190		
+WB-17	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-18	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-19	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-20	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-21	regrade	dead	dead C1/C2 under either reading: a reading-direction rule is a rearrangement (C1); a number-driven shift direction is an additive key independent of the ciphertext (C2)		
+WB-22	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-23	agree	dead			
+WB-24	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-25	agree	off			
+WB-26	agree	open			
+WB-27	agree	open			
+WB-28	regrade	dead	dead C1: a pure rearrangement keeps English unigram statistics (IoC about 1.78; LP2 1.000); as a layer after the cipher it would also scramble the adjacency deficit (C2)		
+WB-29	regrade	dead	dead C4: line breaks are a glyph-width fill, so line-initial runes carry no plaintext layout		
+WB-30	agree	dead			
+WB-31	agree	off			
+WB-32	agree	dead			
+WB-33	agree	off			
+WB-34	agree	dead			
+WB-35	agree	dead			
+WB-36	agree	off			
+WB-37	agree	dead			
+WB-38	agree	off			
+WB-39	agree	dead			
+WB-40	agree	dead			
+WB-41	regrade	dead	dead C3: a small per-word state forces hundreds of repeated cipher words (LP2 has 16)		
+WB-42	agree	dead			
+WB-43	agree	off			

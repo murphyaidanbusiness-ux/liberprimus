@@ -1,0 +1,2 @@
+21:39:10 == lane T real screen at W=4096 (robustness)
+21:39:17 real screen at W=4096: full-window keys 14549; best ['prime', 1143] alive 300 mean -6.87041

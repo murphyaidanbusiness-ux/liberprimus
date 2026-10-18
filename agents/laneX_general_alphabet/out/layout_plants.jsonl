@@ -1,0 +1,8 @@
+{"idx": 0, "variant": "advance", "anchors": 88, "s1_score": 0.23402702723018026, "quad_full": -4.722215898639776, "agree": 0.9142482247607286, "phase_acc": 0.8982710713183081}
+{"idx": 1, "variant": "hold", "anchors": 91, "s1_score": 0.166700526461617, "quad_full": -4.784687545545188, "agree": 0.8663939487496141, "phase_acc": 0.8450910774930535}
+{"idx": 2, "variant": "advance", "anchors": 122, "s1_score": 0.21229547711131946, "quad_full": -4.795582830322849, "agree": 0.8964186477307811, "phase_acc": 0.8752701451065144}
+{"idx": 3, "variant": "hold", "anchors": 92, "s1_score": 0.2179098640997636, "quad_full": -4.866522455075955, "agree": 0.8761191725841309, "phase_acc": 0.8311207162704538}
+{"idx": 4, "variant": "advance", "anchors": 81, "s1_score": 0.27212380353063903, "quad_full": -4.732876462374544, "agree": 0.9114695893794381, "phase_acc": 0.8942574868786662}
+{"idx": 5, "variant": "hold", "anchors": 95, "s1_score": 0.21423155061276097, "quad_full": -4.758577152278563, "agree": 0.9136307502315529, "phase_acc": 0.896727384995369}
+{"idx": 6, "variant": "advance", "anchors": 96, "s1_score": 0.13165993667229425, "quad_full": -6.417291855890301, "agree": 0.11948132139549243, "phase_acc": 0.7713028712565607}
+{"idx": 7, "variant": "hold", "anchors": 80, "s1_score": 0.12484737831407829, "quad_full": -6.458316405670249, "agree": 0.07571781414016672, "phase_acc": 0.7475301018832973}

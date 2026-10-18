@@ -1,0 +1,4 @@
+kw_runes(MOBIUS) = [19, 3, 17, 10, 1, 15]
+K length 29 is permutation of 0..28: True
+fast_log_table == reference log_table: True
+Python reference at dial 7: +0.58717   C kernel at dial 7: +0.58717   diff 4.27e-07

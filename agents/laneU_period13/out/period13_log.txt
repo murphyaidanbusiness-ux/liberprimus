@@ -1,0 +1,62 @@
+section: lpdata pages (53, 54), runes 308 (pages: [232, 76])
+word lengths in section (66 words): [1, 8, 8, 3, 6, 2, 5, 3, 2, 3, 5, 7, 3, 4, 10, 8, 3, 5, 8, 4, 3, 4, 5, 4, 3, 5, 1, 3, 5, 5, 3, 4, 2, 6, 5, 3, 8, 5, 4, 8, 2, 3, 4, 6, 6, 3, 2, 10, 2, 11, 4, 2, 2, 6, 6, 2, 13, 6, 4, 2, 7, 7, 2, 6, 3, 3]
+first word of page 53 has 1 rune(s), second has 8; longest word 13
+mapping: pin pages 0-54 doublets 86 (wiki total 86); pages 54+55 runes 161 (not the claim); pages 40-52 runes 3008 (wiki row 'Spiral/Branches 40-53' = 3008); page 55 85, page 56 95 runes
+increments: 307, zero increments (doublets) 3, distinct values 29
+null: 10000 shuffles of the 307 increments within the section (zero count kept)
+period-13 null M13: mean 11.013, sd 3.229, max 28, 99th pct (fixed threshold T13) = 19
+REAL M13 = 18, S-style ratio M13/null mean = 1.634, z = 2.164
+REAL fixed rule: M13 <= T13 (18 vs 19) -> NOT flagged
+false-flag check on 10000 fresh null shuffles: 67 exceed T13 (0.0067)
+scan periods 2..40: period 13 ranks 3 of 39 by z; top period 39 (z 3.534)
+look-elsewhere: P(max over 2..40 of null z >= z13 = 2.164) = 0.5792 (5792 of 10000 draws)
+look-elsewhere for the strongest period overall: k=39 z=3.534, family-wise p = 0.0325
+per-period table: k, M_k, null mean, null sd, z, ratio
+  k= 2  M= 12  mean= 11.407  sd= 3.288  z=  0.180  ratio=1.052
+  k= 3  M= 15  mean= 11.295  sd= 3.261  z=  1.136  ratio=1.328
+  k= 4  M=  5  mean= 11.274  sd= 3.256  z= -1.927  ratio=0.443
+  k= 5  M= 12  mean= 11.303  sd= 3.244  z=  0.215  ratio=1.062
+  k= 6  M= 12  mean= 11.186  sd= 3.277  z=  0.249  ratio=1.073
+  k= 7  M= 12  mean= 11.188  sd= 3.300  z=  0.246  ratio=1.073
+  k= 8  M= 11  mean= 11.122  sd= 3.249  z= -0.038  ratio=0.989
+  k= 9  M=  6  mean= 11.090  sd= 3.274  z= -1.555  ratio=0.541
+  k=10  M= 13  mean= 11.056  sd= 3.225  z=  0.603  ratio=1.176
+  k=11  M= 11  mean= 11.028  sd= 3.243  z= -0.009  ratio=0.997
+  k=12  M= 16  mean= 10.938  sd= 3.232  z=  1.566  ratio=1.463
+  k=13  M= 18  mean= 11.013  sd= 3.229  z=  2.164  ratio=1.634
+  k=14  M= 12  mean= 10.931  sd= 3.267  z=  0.327  ratio=1.098
+  k=15  M= 17  mean= 10.860  sd= 3.218  z=  1.908  ratio=1.565
+  k=16  M= 12  mean= 10.835  sd= 3.226  z=  0.361  ratio=1.108
+  k=17  M=  5  mean= 10.779  sd= 3.258  z= -1.774  ratio=0.464
+  k=18  M= 14  mean= 10.819  sd= 3.250  z=  0.979  ratio=1.294
+  k=19  M=  9  mean= 10.746  sd= 3.183  z= -0.549  ratio=0.837
+  k=20  M= 10  mean= 10.584  sd= 3.133  z= -0.186  ratio=0.945
+  k=21  M= 12  mean= 10.702  sd= 3.215  z=  0.404  ratio=1.121
+  k=22  M=  5  mean= 10.559  sd= 3.161  z= -1.759  ratio=0.474
+  k=23  M=  7  mean= 10.579  sd= 3.188  z= -1.123  ratio=0.662
+  k=24  M= 11  mean= 10.530  sd= 3.168  z=  0.148  ratio=1.045
+  k=25  M=  7  mean= 10.534  sd= 3.150  z= -1.122  ratio=0.664
+  k=26  M= 18  mean= 10.509  sd= 3.173  z=  2.361  ratio=1.713
+  k=27  M=  8  mean= 10.412  sd= 3.144  z= -0.767  ratio=0.768
+  k=28  M=  9  mean= 10.388  sd= 3.149  z= -0.441  ratio=0.866
+  k=29  M=  7  mean= 10.355  sd= 3.124  z= -1.074  ratio=0.676
+  k=30  M=  8  mean= 10.359  sd= 3.149  z= -0.749  ratio=0.772
+  k=31  M= 10  mean= 10.314  sd= 3.166  z= -0.099  ratio=0.970
+  k=32  M= 11  mean= 10.271  sd= 3.137  z=  0.233  ratio=1.071
+  k=33  M=  6  mean= 10.181  sd= 3.110  z= -1.345  ratio=0.589
+  k=34  M=  6  mean= 10.170  sd= 3.092  z= -1.349  ratio=0.590
+  k=35  M=  3  mean= 10.109  sd= 3.125  z= -2.275  ratio=0.297
+  k=36  M=  5  mean= 10.117  sd= 3.081  z= -1.661  ratio=0.494
+  k=37  M=  9  mean= 10.062  sd= 3.113  z= -0.341  ratio=0.894
+  k=38  M=  9  mean= 10.025  sd= 3.081  z= -0.333  ratio=0.898
+  k=39  M= 21  mean= 10.004  sd= 3.111  z=  3.534  ratio=2.099
+  k=40  M= 14  mean=  9.921  sd= 3.050  z=  1.338  ratio=1.411
+planted controls: 50 plants, period-13 keyword, chain cipher, English plaintext (308 runes)
+plant M13: mean 18.500, sd 4.568, min 10, max 32
+plant zero increments: mean 0.00 (the chain formula cannot produce a zero increment; real section has 3)
+PLANT recovered (flagged by the fixed rule) 18/50
+PLANT rank-1 exact period 13 among 2..40: 18/50; top period a multiple of 13: 40/50
+plant top period (z, periods 2..40): 13 in 18, 26 in 12, 39 in 10, other 10 (of 50)
+plant M13 list: [13, 23, 25, 17, 12, 11, 17, 18, 10, 14, 16, 18, 18, 19, 16, 17, 22, 17, 12, 22, 16, 15, 18, 16, 23, 11, 16, 17, 14, 19, 18, 19, 26, 21, 28, 18, 22, 22, 12, 32, 16, 16, 21, 23, 18, 23, 20, 22, 22, 24]
+power of the fixed rule at n=308: 0.36 (Wilson 95% CI 0.24 to 0.50)
+done in 6.7 s

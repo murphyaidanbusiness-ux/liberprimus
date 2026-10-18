@@ -1,0 +1,217 @@
+--- a/experiments/dodge_score_kernel.py
++++ b/experiments/dodge_score_kernel.py
+@@ -15,6 +15,7 @@
+ 
+ import ctypes
+ import hashlib
++import os
+ import random
+ import subprocess
+ import sys
+@@ -40,8 +41,19 @@
+ 
+ 
+ def _library(points: int = M) -> ctypes.CDLL:
+-    """The shared library, named by source hash so a rebuild never clobbers a sweep."""
++    """The shared library, named by source hash so a rebuild never clobbers a sweep.
++
++    PORT: if DODGE_KERNEL_DLL is set, load that prebuilt library (Windows has no `cc`;
++    agents/laneO_quagmire_dodge/build_kernel.bat builds it with MSVC). Unset, the
++    original build-and-cache path runs unchanged.
++    """
+     if points not in _LIB:
++        prebuilt = os.environ.get("DODGE_KERNEL_DLL")
++        if prebuilt and points == M:
++            lib = ctypes.CDLL(prebuilt)
++            lib.score_dials.restype = None
++            _LIB[points] = lib
++            return lib
+         digest = hashlib.sha256(SOURCE.read_bytes()).hexdigest()[:12]
+         target = Path(tempfile.gettempdir()) / f"dodge_score_{digest}_{points}.so"
+         if not target.exists():
+--- a/experiments/dodge_priority_sweep.py
++++ b/experiments/dodge_priority_sweep.py
+@@ -29,6 +29,7 @@
+ import ctypes
+ import heapq
+ import json
++import os
+ import sys
+ import tempfile
+ import time
+@@ -190,8 +191,20 @@
+     return best
+ 
+ 
++def _init_worker(lens, keys):
++    """PORT: pool initializer for spawned workers (Windows has no fork).
++
++    A spawned worker starts with an empty `_W`, so it rebuilds the tables with the same
++    `_prepare` the parent ran. The keyed alphabets are handed over from the parent rather
++    than recomputed, so every worker sees the parent's list and the task split is the
++    fork version's by construction.
++    """
++    _prepare(lens)
++    _W["keys"] = keys
++
++
+ def _prepare(lens):
+-    """Fill the tables the workers read. The pool forks, so they are shared, not copied."""
++    """Fill the tables the workers read (built in the parent, rebuilt per worker by _init_worker)."""
+     from keyword_exhaustion import alphabets, kw_runes  # noqa: PLC0415
+     from quagmire_ungated_sweep import priority_vocabulary  # noqa: PLC0415
+ 
+@@ -205,14 +218,25 @@
+     _W["corpus"] = Corpus(lp_words()[:SCORE_WORDS])
+ 
+     keys = []
+-    for word in priority_vocabulary():
++    # PORT: tiered runs. DODGE_WORDS keeps only these words, DODGE_EXCLUDE_WORDS drops them, DODGE_EXTRA_WORDS adds
++    # words missing from the vocabulary (e.g. FIRFUMFERENFE). Names now carry the word, "WORD/rule".
++    only, skip = _word_filter("DODGE_WORDS"), _word_filter("DODGE_EXCLUDE_WORDS")
++    vocab = list(priority_vocabulary()) + sorted(_word_filter("DODGE_EXTRA_WORDS"))
++    for word in dict.fromkeys(w.upper() for w in vocab):
++        if (only and word not in only) or word in skip:
++            continue
+         seq = kw_runes(word)
+         if seq:
+-            keys.extend((name, K) for name, K in alphabets(seq))
++            keys.extend((f"{word}/{name}", K) for name, K in alphabets(seq))
+     _W["keys"] = keys
+     return words, keys
+ 
+ 
++def _word_filter(var):
++    """PORT: comma-separated words from an environment variable, upper-cased; empty if unset."""
++    return {w.strip().upper() for w in os.environ.get(var, "").split(",") if w.strip()}
++
++
+ def _work(task):
+     """Sweep one slice of keyed alphabets: generate its schedules, score them."""
+     name, lo, step = task
+@@ -331,11 +355,20 @@
+     del words
+ 
+ 
+-def run(nproc: int) -> None:
+-    _words, keys = _prepare(_lens())
++def run(nproc: int, only: list[int] | None = None) -> None:
++    lens = _lens()
++    _words, keys = _prepare(lens)
+     print(f"{len(keys):,} keyed alphabets from 3301's vocabulary, {nproc} workers")
+-    tasks = [(f"dodge-{i}", i, TASKS) for i in range(TASKS)]
+-    progress = Path(tempfile.gettempdir()) / "dodge_priority_progress.jsonl"
++    # PORT: DODGE_PROGRESS and DODGE_OUT relocate the two files; defaults are the originals.
++    progress = Path(
++        os.environ.get("DODGE_PROGRESS")
++        or Path(tempfile.gettempdir()) / "dodge_priority_progress.jsonl"
++    )
++    out = Path(os.environ.get("DODGE_OUT") or OUT)
++    progress.parent.mkdir(parents=True, exist_ok=True)
++    out.parent.mkdir(parents=True, exist_ok=True)
++    indices = range(TASKS) if only is None else only  # PORT: --tasks shards or smoke-tests
++    tasks = [(f"dodge-{i}", i, TASKS) for i in indices]
+     tested, best, finished = 0, [], set()
+     if progress.exists():
+         for line in progress.read_text().splitlines():
+@@ -343,27 +376,32 @@
+             finished.add(rec["task"])
+             tested += rec["tested"]
+             best += rec["best"]
++        best = heapq.nlargest(KEEP, best, key=lambda t: t[0])  # PORT: trim as the live merge does
+         print(f"resuming: {len(finished)} tasks already in {progress}", flush=True)
+     todo = [t for t in tasks if t[0] not in finished]
+     start = time.time()
+-    with progress.open("a") as log, get_context("fork").Pool(nproc) as pool:
+-        for done, (name, count, top) in enumerate(pool.imap_unordered(_work, todo), 1):
+-            tested += count
+-            best = heapq.nlargest(
+-                KEEP, best + [list(t) for t in top], key=lambda t: t[0]
+-            )
+-            log.write(json.dumps({"task": name, "tested": count, "best": top}) + "\n")
+-            log.flush()
+-            if done % 5 == 0 or done == len(todo):
+-                rate = tested / max(1e-9, time.time() - start)
+-                print(
+-                    f"  {done}/{len(todo)} tasks, {tested:,} keys, "
+-                    f"best {best[0][0]:+.4f}, {rate:,.0f} keys/s, "
+-                    f"{(time.time() - start) / 60:.1f} min",
+-                    flush=True,
++    if todo:
++        # PORT: spawn, not fork (Windows). The initializer rebuilds _W in each worker.
++        with progress.open("a") as log, get_context("spawn").Pool(
++            nproc, initializer=_init_worker, initargs=(lens, keys)
++        ) as pool:
++            for done, (name, count, top) in enumerate(pool.imap_unordered(_work, todo), 1):
++                tested += count
++                best = heapq.nlargest(
++                    KEEP, best + [list(t) for t in top], key=lambda t: t[0]
+                 )
++                log.write(json.dumps({"task": name, "tested": count, "best": top}) + "\n")
++                log.flush()
++                if done % 5 == 0 or done == len(todo):
++                    rate = tested / max(1e-9, time.time() - start)
++                    print(
++                        f"  {done}/{len(todo)} tasks, {tested:,} keys, "
++                        f"best {best[0][0]:+.4f}, {rate:,.0f} keys/s, "
++                        f"{(time.time() - start) / 60:.1f} min",
++                        flush=True,
++                    )
+     print(f"\nDONE: {tested:,} keys in {(time.time() - start) / 60:.1f} min")
+-    with OUT.open("w") as fout:
++    with out.open("w") as fout:
+         for score, kwname, K, sched, dial in best:
+             print(f"  {score:+.4f}  {kwname:<28} sched {sched} dial {dial}")
+             fout.write(
+@@ -378,7 +416,7 @@
+                 )
+                 + "\n"
+             )
+-    print(f"written to {OUT}")
++    print(f"written to {out}")
+ 
+ 
+ def _lens() -> list[int]:
+@@ -400,10 +438,16 @@
+         selftest(sample)
+         return
+     nproc = 6
++    only = None
+     for i, a in enumerate(sys.argv):
+         if a == "--nproc" and i + 1 < len(sys.argv):
+             nproc = int(sys.argv[i + 1])
+-    run(nproc)
++        if a == "--tasks" and i + 1 < len(sys.argv):
++            only = [int(x) for x in sys.argv[i + 1].split(",") if x.strip()]
++            bad = [x for x in only if not 0 <= x < TASKS]
++            if bad:
++                raise SystemExit(f"--tasks: indices must lie in 0..{TASKS - 1}, got {bad}")
++    run(nproc, only)
+ 
+ 
+ if __name__ == "__main__":
+--- a/experiments/ea_direction_test.py
++++ b/experiments/ea_direction_test.py
+@@ -19,6 +19,7 @@
+ 
+ from __future__ import annotations
+ 
++import os
+ import sys
+ import tempfile
+ import urllib.request
+@@ -30,7 +31,13 @@
+ from doublet_word_position import DATA, RUNES, build_stream, parse_words
+ 
+ PROSE_URL = "https://www.gutenberg.org/files/1342/1342-0.txt"
+-PROSE_CACHE = Path(tempfile.gettempdir()) / "pg1342.txt"
++# PORT: DODGE_PROSE overrides the register text (Lane O: Moby-Dick, see RESULTS.md). Every
++# other module in the closure imports PROSE_CACHE from here, so one override reaches them all.
++PROSE_CACHE = (
++    Path(os.environ["DODGE_PROSE"])
++    if os.environ.get("DODGE_PROSE")
++    else Path(tempfile.gettempdir()) / "pg1342.txt"
++)
+ 
+ 
+ def prose_words(path: Path) -> list[str]:

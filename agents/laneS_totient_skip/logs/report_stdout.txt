@@ -1,0 +1,4 @@
+21:31:46 == lane S report (priority: wmic setpriority 16384 (exit 1); ctypes SetPriorityClass(BELOW_NORMAL) ok=True; priority class now 0x4000)
+21:31:46 report sign +1: null mean -6.75653 sd 0.03423 max -6.68295 (n=20); real -6.74446 z +0.35; real above null max: False
+21:31:46 report sign -1: null mean -6.78105 sd 0.04040 max -6.70989 (n=20); real -6.80664 z -0.63; real above null max: False
+QUEUE_DONE

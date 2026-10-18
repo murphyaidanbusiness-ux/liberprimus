@@ -1,0 +1,235 @@
+reference (lpdata): pages 0-54 = 12956 runes
+   N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== reference boundary conventions (reference runes, only the set of separators that count changes)
+   loader: - . & $ (word starts)      N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   no sentence breaks: - & $          N=12956 | doublets 86 (within 64, cross 22) | lag5 114/2479 = 4.60% z=+3.14
+   hyphen only: -                     N=12956 | doublets 86 (within 64, cross 22) | lag5 116/2514 = 4.61% z=+3.20
+   loader + line breaks /             N=12956 | doublets 86 (within 60, cross 26) | lag5 72/1645 = 4.38% z=+2.06
+
+== K  [krisyotam_runes.txt (loader source)]
+   placement: offset 0 of 57 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== A  [aldegonde data/page0-56.txt]
+   placement: offset 0 of 55 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 2; family has an extra one 0
+      boundary: ref p37+91 pre=./-  family pre=/  ref_wb=1 fam_wb=0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+
+== M  [aldegonde data/liber-primus__transcription--master.txt (rtkd master)]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 2; family has an extra one 0
+      boundary: ref p37+91 pre=./-  family pre=/  ref_wb=1 fam_wb=0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+
+== MT  [Taiiwo liber_primus.txt (rtkd master, krisyotam separators)]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+
+== M2  [iddqd master_218ed88.txt]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 105/2108 = 4.98% z=+3.86
+
+== AU  [aautcsh data/liber]
+   placement: offset 15 of 72 non-empty units (12954 runes matched)
+   runes placed = 12955 (reference 12956); identical reference positions 12954 of 12956 covered (99.98%); substitutions 1, insertions 0, deletions 1
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 1
+      boundary: ref p20+0 pre=/  family pre=/-  ref_wb=0 fam_wb=1
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12955 | doublets 86 (within 63, cross 23) | lag5 104/2104 = 4.94% z=+3.76
+
+== S  [scream314_lp.md (= aautcsh translation.txt)]
+   placement: flat region starting at flat index 2801, 12956 runes
+   runes placed = 12956 (reference 12956); identical reference positions 12955 of 12956 covered (99.99%); substitutions 1, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 174; family has an extra one 0
+      boundary: ref p00+13 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p00+154 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p01+13 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p01+35 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p01+88 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p01+132 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p01+172 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p02+3 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p03+0 pre=./&$  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p03+16 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p03+119 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p03+122 pre=.  family pre=-none-  ref_wb=1 fam_wb=0
+      ... 174 boundary disagreements in total
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 64, cross 22) | lag5 117/2527 = 4.63% z=+3.26
+   stat[own ] N=12956 | doublets 86 (within 64, cross 22) | lag5 117/2527 = 4.63% z=+3.26
+
+== S2  [trans_scream314.txt]
+   placement: offset 0 of 57 non-empty units (12955 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12955 of 12956 covered (99.99%); substitutions 1, insertions 0, deletions 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== H  [henkman liberprimus.txt]
+   placement: offset 0 of 57 non-empty units (12443 runes matched)
+   runes placed = 12892 (reference 12956); identical reference positions 12443 of 12956 covered (96.04%); substitutions 447, insertions 2, deletions 66
+   word boundaries on aligned runes: family lacks a reference word start 4; family has an extra one 1
+      boundary: ref p00+189 pre=-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p35+155 pre=/  family pre=u2022  ref_wb=0 fam_wb=1
+      boundary: ref p35+161 pre=-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p37+91 pre=./-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 106/2111 = 5.02% z=+3.96
+   stat[own ] N=12892 | doublets 86 (within 63, cross 23) | lag5 106/2093 = 5.06% z=+4.05
+
+== R  [transcriptions.rne]
+   placement: offset 0 of 57 non-empty units (12506 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12506 of 12956 covered (96.53%); substitutions 450, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 1
+      boundary: ref p03+136 pre=/  family pre=u2022  ref_wb=0 fam_wb=1
+      boundary: ref p37+91 pre=./-  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== C  [trans_cicadasolvers.txt (= trans_r4nd0mD3v3l0p3r)]
+   placement: offset 0 of 56 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== J  [dataset/liber_primus.json]
+   placement: label = krisyotam segment index
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== P  [PAGES.json]
+   placement: label = krisyotam segment index
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== V  [vision_results.json (AI re-reading)]
+   placement: label = LP2 page (50 runeless, 51+ shifted)
+   runes placed = 13420 (reference 12956); identical reference positions 1937 of 12956 covered (14.95%); substitutions 1614, insertions 9869, deletions 9405
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 171 (within 132, cross 39) | lag5 98/2105 = 4.66% z=+3.04
+
+== T  [template_transcription.txt (low confidence)]
+   placement: label = LP2 page (50 runeless, 51+ shifted)
+   coverage: 48 of 55 reference pages have runes in this file; other pages keep reference symbols
+   runes placed = 9156 (reference 12956); identical reference positions 7338 of 11156 covered (65.78%); substitutions 721, insertions 1097, deletions 3097
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 126 (within 92, cross 34) | lag5 109/2105 = 5.18% z=+4.35
+   stat[own ] not computed: partial coverage
+
+== RN  [thomasandfriends runes4012 (partial: pages 40-42 only)]
+   placement: label = krisyotam segment index
+   coverage: 3 of 55 reference pages have runes in this file; other pages keep reference symbols
+   runes placed = 776 (reference 12956); identical reference positions 745 of 776 covered (96.01%); substitutions 31, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] not computed: partial coverage
+
+== H+J  [henkman liberprimus.txt]
+   placement: offset 0 of 57 non-empty units (12889 runes matched)
+   runes placed = 12892 (reference 12956); identical reference positions 12889 of 12956 covered (99.48%); substitutions 2, insertions 1, deletions 65
+   word boundaries on aligned runes: family lacks a reference word start 4; family has an extra one 1
+      boundary: ref p00+189 pre=-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p35+155 pre=/  family pre=u2022  ref_wb=0 fam_wb=1
+      boundary: ref p35+161 pre=-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p37+91 pre=./-  family pre=-none-  ref_wb=1 fam_wb=0
+      boundary: ref p50+0 pre=./&  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 106/2111 = 5.02% z=+3.96
+   stat[own ] N=12892 | doublets 86 (within 63, cross 23) | lag5 106/2093 = 5.06% z=+4.05
+
+== R+J  [transcriptions.rne]
+   placement: offset 0 of 57 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 1
+      boundary: ref p03+136 pre=/  family pre=u2022  ref_wb=0 fam_wb=1
+      boundary: ref p37+91 pre=./-  family pre=-none-  ref_wb=1 fam_wb=0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== RN+J  [thomasandfriends runes4012 (partial: pages 40-42 only)]
+   placement: label = krisyotam segment index
+   coverage: 3 of 55 reference pages have runes in this file; other pages keep reference symbols
+   runes placed = 776 (reference 12956); identical reference positions 776 of 776 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] not computed: partial coverage
+
+== L  [mortlach lp_section_data.py]
+   placement: flat region starting at flat index 0, 12956 runes
+   runes placed = 12956 (reference 12956); identical reference positions 12506 of 12956 covered (96.53%); substitutions 450, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== L+J  [mortlach lp_section_data.py]
+   placement: flat region starting at flat index 0, 12956 runes
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 0
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== CL  [stones/classifier_transcription.txt]
+   placement: flat region starting at flat index 0, 12764 runes
+   runes placed = 12764 (reference 12956); identical reference positions 12719 of 12956 covered (98.17%); substitutions 45, insertions 0, deletions 192
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 103/2105 = 4.89% z=+3.63
+
+== C1B  [c1cada versions/page.27-32_fe9b225.txt (partial: pages 27-32)]
+   reference window starts at reference rune 6527 (1433 runes); family runes 1433 (U+16C2 read as J: 51)
+   identical 1433 of 1433 (100.00%); substitutions 0, insertions 0, deletions 0; boundaries lacking 0, extra 0
+
+== C1A  [c1cada versions/page.27-32_f75c1de.txt (partial, other segmentation)]
+   reference window starts at reference rune 5506 (1674 runes); family runes 1674 (U+16C2 read as J: 44)
+   identical 1090 of 1674 (65.11%); substitutions 36, insertions 548, deletions 548; boundaries lacking 12, extra 7
+
+== IN  [solver testResources/input.txt (partial: loader page 0)]
+   reference window starts at reference rune 0 (262 runes); family runes 262 (U+16C2 read as J: 0)
+   identical 262 of 262 (100.00%); substitutions 0, insertions 0, deletions 0; boundaries lacking 0, extra 0

@@ -1,0 +1,130 @@
+experiments/base_free_verifier.py:40: ROOT = Path(__file__).resolve().parent.parent
+experiments/base_free_verifier.py:41: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/compact_state_models.py:82: ROOT = Path(__file__).resolve().parent.parent
+experiments/compact_state_models.py:83: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/compact_state_models.py:93: if TYPE_CHECKING:
+experiments/compact_state_models.py:97: GP_VALUE = [c3301.r2v(r) for r in c3301.CICADA_ALPHABET]
+experiments/d5_partial_leak.py:31: BOUNDARY_CHARS = frozenset(c3301.MARK_CHARS + '&%' + c3301.NUMERAL_CHARS + c3301.QUOTE_CHARS)
+experiments/d5_partial_leak.py:36: RUNES = set(ALPH)
+experiments/d5_partial_leak.py:37: R2I = {r: i for i, r in enumerate(ALPH)}
+experiments/dodge_aware_scorer.py:55: ROOT = Path(__file__).resolve().parent.parent
+experiments/dodge_aware_scorer.py:56: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/dodge_priority_sweep.py:40: ROOT = Path(__file__).resolve().parent.parent
+experiments/dodge_priority_sweep.py:41: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/dodge_priority_sweep.py:57: BANDS: frozenset[int] = frozenset()
+experiments/dodge_priority_sweep.py:63: _W: dict = {}
+experiments/dodge_score_kernel.py:27: ROOT = Path(__file__).resolve().parent.parent
+experiments/dodge_score_kernel.py:28: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/dodge_score_kernel.py:39: _LIB: dict[int, ctypes.CDLL] = {}
+experiments/doublet_phase_test.py:47: ROOT = Path(__file__).resolve().parent.parent
+experiments/doublet_phase_test.py:48: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/doublet_position_profile.py:34: BOUNDARY_CHARS = frozenset(c3301.MARK_CHARS + '%' + c3301.NUMERAL_CHARS + c3301.QUOTE_CHARS)
+experiments/doublet_position_profile.py:38: ROOT = Path(__file__).resolve().parent.parent
+experiments/doublet_position_profile.py:39: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/doublet_position_profile.py:213: BOUNDARY_CHARS = frozenset(c3301.MARK_CHARS + '%' + c3301.NUMERAL_CHARS + c3301.QUOTE_CHARS)
+experiments/doublet_position_profile.py:217: IDX_ENG = {name: i for i, name in enumerate(c3301.CICADA_ENGLISH_ALPHABET)}
+experiments/doublet_position_profile.py:218: IDX_ENG['IO'] = IDX_ENG['IA']
+experiments/doublet_word_position.py:28: RUNES = set(c3301.CICADA_ALPHABET)
+experiments/doublet_word_position.py:29: WORD_BOUNDARIES = set(c3301.MARK_CHARS + '&$§%' + c3301.NUMERAL_CHARS + c3301.QUOTE_CHARS)
+experiments/ea_direction_test.py:28: sys.path.insert(0, str(Path(__file__).resolve().parent))
+experiments/ea_direction_test.py:33: PROSE_CACHE = Path(tempfile.gettempdir()) / 'pg1342.txt'
+experiments/external_text_length_match.py:42: ROOT = Path(__file__).resolve().parent.parent
+experiments/external_text_length_match.py:43: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/external_text_length_match.py:51: CACHE = Path(tempfile.gettempdir()) / 'lp_external_texts'
+experiments/fingerprint_battery.py:97: ROOT = Path(__file__).resolve().parent.parent
+experiments/fingerprint_battery.py:98: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/keyword_exhaustion.py:38: ROOT = Path(__file__).resolve().parent.parent
+experiments/keyword_exhaustion.py:39: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/keyword_exhaustion.py:48: DICT = Path('/usr/share/dict/web2')
+experiments/lp_corpus.py:23: ROOT = Path(__file__).resolve().parent.parent
+experiments/lp_corpus.py:24: RUNE = re.compile('[ᚠ-\u16ff]')
+experiments/lp_corpus.py:25: IDX = {r: i for i, r in enumerate(ALPHABET)}
+experiments/pure_quagmire_restart.py:67: ROOT = Path(__file__).resolve().parent.parent
+experiments/pure_quagmire_restart.py:68: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_dodge.py:46: ROOT = Path(__file__).resolve().parent.parent
+experiments/quagmire_dodge.py:47: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_dodge_decode.py:62: ROOT = Path(__file__).resolve().parent.parent
+experiments/quagmire_dodge_decode.py:63: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_runner.py:47: ROOT = Path(__file__).resolve().parent.parent
+experiments/quagmire_runner.py:48: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_runner.py:57: DJU_A, DJU_B = (1477, 2926)
+experiments/quagmire_runner.py:575: D1_BAND: tuple[float, float] | None = None
+experiments/quagmire_schedule_census.py:43: ROOT = Path(__file__).resolve().parent.parent
+experiments/quagmire_schedule_census.py:44: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_schedule_census.py:53: RNG = random.Random(3301)
+experiments/quagmire_ungated_sweep.py:51: ROOT = Path(__file__).resolve().parent.parent
+experiments/quagmire_ungated_sweep.py:52: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/quagmire_ungated_sweep.py:88: _W: dict = {}
+experiments/quagmire_ungated_sweep.py:89: PRIORITY: list[str] | None = None
+experiments/runeglish_frequency.py:17: sys.path.insert(0, 'src')
+experiments/sigma_algebraic_floor.py:38: ROOT = Path(__file__).resolve().parent.parent
+experiments/sigma_algebraic_floor.py:39: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/sigma_algebraic_floor.py:47: INV = {a: pow(a, M - 2, M) for a in range(1, M)}
+experiments/solved_plaintext_running_key.py:37: ROOT = Path(__file__).resolve().parent.parent
+experiments/solved_plaintext_running_key.py:38: sys.path.insert(0, str(ROOT / 'src'))
+experiments/solved_plaintext_running_key.py:39: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/solved_plaintext_running_key.py:45: RUNES = set(c3301.CICADA_ALPHABET)
+experiments/solved_plaintext_running_key.py:46: R2I = {r: i for i, r in enumerate(c3301.CICADA_ALPHABET)}
+experiments/solved_plaintext_running_key.py:52: TRI: dict[str, float] = {}
+experiments/solved_plaintext_running_key.py:53: with open(ROOT / 'src/aldegonde/data/ngrams/runeglish/trigrams.txt') as fh:
+experiments/solved_plaintext_running_key.py:57: _total = sum(TRI.values())
+experiments/solved_plaintext_running_key.py:58: FLOOR = math.log10(0.01 / _total)
+experiments/solved_plaintext_running_key.py:59: LOGP = {k: math.log10(v / _total) for k, v in TRI.items()}
+experiments/two_rune_gradient.py:34: ROOT = Path(__file__).resolve().parent.parent
+experiments/two_rune_gradient.py:35: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/walk_score_kernel.py:28: ROOT = Path(__file__).resolve().parent.parent
+experiments/walk_score_kernel.py:29: sys.path.insert(0, str(ROOT / 'experiments'))
+experiments/walk_score_kernel.py:40: _LIB: dict[int, ctypes.CDLL] = {}
+experiments/zero_offset_census.py:35: ROOT = Path(__file__).resolve().parent.parent
+experiments/zero_offset_census.py:36: sys.path.insert(0, str(ROOT / 'experiments'))
+src/aldegonde/__init__.py:5: try:
+src/aldegonde/alphabet.py:22: T = TypeVar('T', bound=Hashable)
+src/aldegonde/c3301.py:95: CIRCLED_ONE_TO_TWENTY = frozenset((chr(9312 + n) for n in range(20)))
+src/aldegonde/c3301.py:96: CIRCLED_TWENTY_ONE_UP = frozenset((chr(12881 + n) for n in range(15)))
+src/aldegonde/c3301.py:98: LEGACY_MARKS = frozenset('-.')
+src/aldegonde/c3301.py:126: MARK_CHARS = ''.join(sorted(MARKS))
+src/aldegonde/c3301.py:131: CLUSTER_MARKS = frozenset([m for m in DOT_MARKS if dot_count(m) >= 4] + ['.'])
+src/aldegonde/c3301.py:138: STRUCTURE = frozenset('%&$')
+src/aldegonde/c3301.py:146: NUMERALS = frozenset('0123456789')
+src/aldegonde/c3301.py:149: NUMERAL_CHARS = ''.join(sorted(NUMERALS))
+src/aldegonde/c3301.py:154: QUOTES = frozenset('"')
+src/aldegonde/c3301.py:158: QUOTE_CHARS = ''.join(sorted(QUOTES))
+src/aldegonde/c3301.py:164: LINE_WRAP = frozenset('/\n')
+src/aldegonde/c3301.py:172: RUNE_SET = frozenset(CICADA_ALPHABET)
+src/aldegonde/c3301.py:175: RUNES: Alphabet[str] = Alphabet(CICADA_ALPHABET)
+src/aldegonde/c3301.py:177: _LABELS: Alphabet[str] = Alphabet(CICADA_ENGLISH_ALPHABET)
+src/aldegonde/c3301.py:196: _ENGLISH_SPELLINGS = _english_spellings()
+src/aldegonde/c3301.py:197: _LONGEST_SPELLING = max((len(spelling) for spelling in _ENGLISH_SPELLINGS))
+src/aldegonde/c3301.py:466: unigrams = compare.loadgrams('aldegonde.data.ngrams.runeglish', 'unigrams.txt')
+src/aldegonde/c3301.py:467: bigrams = compare.loadgrams('aldegonde.data.ngrams.runeglish', 'bigrams.txt')
+src/aldegonde/c3301.py:468: trigrams = compare.loadgrams('aldegonde.data.ngrams.runeglish', 'trigrams.txt')
+src/aldegonde/c3301.py:469: quadgrams = compare.loadgrams('aldegonde.data.ngrams.runeglish', 'quadgrams.txt')
+src/aldegonde/c3301.py:471: quadgramscore = compare.make_ngram_scorer(quadgrams)
+src/aldegonde/c3301.py:472: trigramscore = compare.make_ngram_scorer(trigrams)
+src/aldegonde/c3301.py:473: bigramscore = compare.make_ngram_scorer(bigrams)
+src/aldegonde/stats/chisq.py:28: if TYPE_CHECKING:
+src/aldegonde/stats/chisq.py:31: K = TypeVar('K')
+src/aldegonde/stats/compare.py:18: T = TypeVar('T')
+src/aldegonde/stats/compare.py:62: unigrams = loadgrams('aldegonde.data.ngrams.english', 'unigrams.txt')
+src/aldegonde/stats/compare.py:63: bigrams = loadgrams('aldegonde.data.ngrams.english', 'bigrams.txt')
+src/aldegonde/stats/compare.py:64: trigrams = loadgrams('aldegonde.data.ngrams.english', 'trigrams.txt')
+src/aldegonde/stats/compare.py:65: quadgrams = loadgrams('aldegonde.data.ngrams.english', 'quadgrams.txt')
+src/aldegonde/stats/compare.py:205: quadgramscore = make_ngram_scorer(quadgrams)
+src/aldegonde/stats/compare.py:206: trigramscore = make_ngram_scorer(trigrams)
+src/aldegonde/stats/compare.py:207: bigramscore = make_ngram_scorer(bigrams)
+src/aldegonde/stats/dist.py:8: T = TypeVar('T')
+src/aldegonde/stats/entropy.py:10: T = TypeVar('T')
+src/aldegonde/stats/hamming.py:6: T = TypeVar('T')
+src/aldegonde/stats/isomorphs.py:19: T = TypeVar('T')
+src/aldegonde/stats/kappa_test.py:20: T = TypeVar('T')
+src/aldegonde/stats/markov.py:23: if TYPE_CHECKING:
+src/aldegonde/stats/markov.py:27: T = TypeVar('T', bound='Hashable')
+src/aldegonde/stats/markov.py:28: U = TypeVar('U')
+src/aldegonde/stats/ngram.py:7: T = TypeVar('T')
+src/aldegonde/stats/nulls.py:39: T = TypeVar('T', bound=Hashable)
+src/aldegonde/stats/pairs.py:27: if TYPE_CHECKING:
+src/aldegonde/stats/position.py:26: T = TypeVar('T')
+src/aldegonde/stats/repeats.py:17: T = TypeVar('T')
+src/aldegonde/stats/resample.py:34: if TYPE_CHECKING:
+src/aldegonde/stats/resample.py:37: T = TypeVar('T', bound=Hashable)
+src/aldegonde/validation.py:8: T = TypeVar('T')

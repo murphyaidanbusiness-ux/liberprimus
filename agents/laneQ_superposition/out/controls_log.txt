@@ -1,0 +1,86 @@
+English source: prose, 188085 runes; monogram IoC (29*sum f^2) = 1.836
+plaintext coincidence rate q (rune-equal) = 0.06331 ; mod-28 coincidence q28 = 0.06373 ; random 1/29 = 0.03448
+
+[0] FFT scan vs brute-force cells (real data)
+   pages  raw cells=532565  max|dM|=0 max|dz|=0
+   pages  D   cells=529540  max|dM|=0 max|dz|=0
+   chap   raw cells=180600  max|dM|=0 max|dz|=0
+   chap   D   cells=180375  max|dM|=0 max|dz|=0
+   stream raw cells= 12896  max|dM|=0 max|dz|=0
+   stream D   cells= 12895  max|dM|=0 max|dz|=0
+
+[1] block units of length L (background = page-shuffled real stream cut into L-blocks)
+  L= 250 mode=raw blocks=51  null maxz mean=6.081 sd=0.383 max=7.440 | null n4 mean=205.87
+    plant=add   planted z mean=  2.17 sd= 1.41 (overlap n 62-243)  detect(cell>T)=0.00  detect(global>T)=0.10
+    plant=chain planted z mean=  0.01 sd= 1.05 (overlap n 69-246)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean=  0.22 sd= 1.17 (overlap n 68-237)  detect(cell>T)=0.00  detect(global>T)=0.00
+  L= 250 mode=D   blocks=51  null maxz mean=6.060 sd=0.391 max=7.887 | null n4 mean=200.08
+    plant=add   planted z mean=  0.70 sd= 1.51 (overlap n 62-230)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean=  2.09 sd= 1.50 (overlap n 66-248)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean= -0.18 sd= 0.79 (overlap n 94-247)  detect(cell>T)=0.00  detect(global>T)=0.00
+  L= 500 mode=raw blocks=25  null maxz mean=5.678 sd=0.370 max=7.130 | null n4 mean=80.75
+    plant=add   planted z mean=  2.67 sd= 1.76 (overlap n 61-499)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean=  0.02 sd= 0.89 (overlap n 71-484)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean=  0.31 sd= 1.03 (overlap n 72-461)  detect(cell>T)=0.00  detect(global>T)=0.00
+  L= 500 mode=D   blocks=25  null maxz mean=5.679 sd=0.398 max=7.656 | null n4 mean=79.17
+    plant=add   planted z mean=  0.58 sd= 0.85 (overlap n 96-448)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean=  2.91 sd= 1.38 (overlap n 60-476)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean=  0.28 sd= 1.00 (overlap n 69-489)  detect(cell>T)=0.00  detect(global>T)=0.00
+  L=1000 mode=raw blocks=12  null maxz mean=5.242 sd=0.389 max=6.699 | null n4 mean=27.73
+    plant=add   planted z mean=  3.50 sd= 1.65 (overlap n 118-842)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean= -0.19 sd= 0.92 (overlap n 66-919)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean= -0.12 sd= 0.98 (overlap n 252-923)  detect(cell>T)=0.00  detect(global>T)=0.05
+  L=1000 mode=D   blocks=12  null maxz mean=5.237 sd=0.384 max=6.494 | null n4 mean=26.72
+    plant=add   planted z mean=  0.37 sd= 0.78 (overlap n 156-997)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean=  3.01 sd= 1.38 (overlap n 123-965)  detect(cell>T)=0.00  detect(global>T)=0.05
+    plant=skip  planted z mean= -0.35 sd= 0.97 (overlap n 129-961)  detect(cell>T)=0.00  detect(global>T)=0.05
+  L=2000 mode=raw blocks= 6  null maxz mean=4.875 sd=0.351 max=6.088 | null n4 mean=10.20
+    plant=add   planted z mean=  4.66 sd= 1.74 (overlap n 200-1707)  detect(cell>T)=0.20  detect(global>T)=0.20
+    plant=chain planted z mean= -0.06 sd= 0.94 (overlap n 160-1931)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=skip  planted z mean=  0.27 sd= 1.23 (overlap n 109-1974)  detect(cell>T)=0.00  detect(global>T)=0.00
+  L=2000 mode=D   blocks= 6  null maxz mean=4.909 sd=0.400 max=6.585 | null n4 mean=10.21
+    plant=add   planted z mean=  0.67 sd= 1.09 (overlap n 156-1851)  detect(cell>T)=0.00  detect(global>T)=0.00
+    plant=chain planted z mean=  4.47 sd= 1.80 (overlap n 139-1947)  detect(cell>T)=0.05  detect(global>T)=0.05
+    plant=skip  planted z mean= -0.14 sd= 1.29 (overlap n 101-1998)  detect(cell>T)=0.00  detect(global>T)=0.00
+
+[2] whole-stream self-scan (all lags), two planted segments of length L in the 12,956-rune stream
+  L= 250 mode=raw plant=add   T(null max over lags)=5.411  planted z mean= 0.06  detect=0.00
+  L= 250 mode=raw plant=chain T(null max over lags)=5.411  planted z mean= 0.38  detect=0.00
+  L= 250 mode=raw plant=skip  T(null max over lags)=5.411  planted z mean=-0.04  detect=0.00
+  L= 250 mode=D   plant=add   T(null max over lags)=5.191  planted z mean= 0.11  detect=0.00
+  L= 250 mode=D   plant=chain T(null max over lags)=5.191  planted z mean= 0.28  detect=0.00
+  L= 250 mode=D   plant=skip  T(null max over lags)=5.191  planted z mean= 0.16  detect=0.00
+  L= 500 mode=raw plant=add   T(null max over lags)=5.987  planted z mean= 0.29  detect=0.00
+  L= 500 mode=raw plant=chain T(null max over lags)=5.987  planted z mean= 0.34  detect=0.00
+  L= 500 mode=raw plant=skip  T(null max over lags)=5.987  planted z mean=-0.23  detect=0.00
+  L= 500 mode=D   plant=add   T(null max over lags)=5.643  planted z mean= 0.10  detect=0.00
+  L= 500 mode=D   plant=chain T(null max over lags)=5.643  planted z mean= 1.08  detect=0.00
+  L= 500 mode=D   plant=skip  T(null max over lags)=5.643  planted z mean= 0.19  detect=0.00
+  L=1000 mode=raw plant=add   T(null max over lags)=5.379  planted z mean= 0.95  detect=0.00
+  L=1000 mode=raw plant=chain T(null max over lags)=5.379  planted z mean= 0.15  detect=0.00
+  L=1000 mode=raw plant=skip  T(null max over lags)=5.379  planted z mean=-0.27  detect=0.00
+  L=1000 mode=D   plant=add   T(null max over lags)=6.073  planted z mean=-0.18  detect=0.00
+  L=1000 mode=D   plant=chain T(null max over lags)=6.073  planted z mean= 0.78  detect=0.00
+  L=1000 mode=D   plant=skip  T(null max over lags)=6.073  planted z mean= 0.13  detect=0.00
+  L=2000 mode=raw plant=add   T(null max over lags)=5.123  planted z mean= 1.99  detect=0.00
+  L=2000 mode=raw plant=chain T(null max over lags)=5.123  planted z mean=-0.03  detect=0.00
+  L=2000 mode=raw plant=skip  T(null max over lags)=5.123  planted z mean=-0.04  detect=0.00
+  L=2000 mode=D   plant=add   T(null max over lags)=5.012  planted z mean= 0.22  detect=0.00
+  L=2000 mode=D   plant=chain T(null max over lags)=5.012  planted z mean= 1.55  detect=0.00
+  L=2000 mode=D   plant=skip  T(null max over lags)=5.012  planted z mean=-0.32  detect=0.00
+
+[3] page-level control on real page lengths (two real pages replaced by planted units of their lengths)
+  mode=raw null maxz mean=6.163 sd=0.449 max(=T)=8.615
+  mode=raw plant=add   planted z mean= 1.13  detect(cell)=0.00  detect(global)=0.00  overlap n range 61-268
+  mode=raw plant=chain planted z mean= 0.48  detect(cell)=0.00  detect(global)=0.00  overlap n range 63-235
+  mode=raw plant=skip  planted z mean= 0.91  detect(cell)=0.00  detect(global)=0.00  overlap n range 60-252
+  mode=D   null maxz mean=6.177 sd=0.434 max(=T)=8.186
+  mode=D   plant=add   planted z mean= 0.21  detect(cell)=0.00  detect(global)=0.00  overlap n range 60-235
+  mode=D   plant=chain planted z mean= 1.62  detect(cell)=0.00  detect(global)=0.00  overlap n range 65-213
+  mode=D   plant=skip  planted z mean= 0.21  detect(cell)=0.00  detect(global)=0.00  overlap n range 64-247
+
+[4] analytic expectation: E[z_planted | overlap n] = sqrt(n) (q - p0) / sqrt(p0 (1-p0)); p0 = 1/29 (raw) or 1/28 (D)
+  raw/add  c=0.1580  n=60: 1.22, n=100: 1.58, n=250: 2.50, n=500: 3.53, n=1000: 5.00, n=2000: 7.06
+  D/chain  c=0.1509  n=60: 1.17, n=100: 1.51, n=250: 2.39, n=500: 3.38, n=1000: 4.77, n=2000: 6.75
+
+wrote agents\laneQ_superposition\out\controls.json (375 s)

@@ -1,0 +1,116 @@
+{
+  "seed": 7301,
+  "keyword": "MOBIUS",
+  "rule": "R2 reversed",
+  "K": [
+    19,
+    3,
+    17,
+    10,
+    1,
+    15,
+    28,
+    27,
+    26,
+    25,
+    24,
+    23,
+    22,
+    21,
+    20,
+    18,
+    16,
+    14,
+    13,
+    12,
+    11,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    2,
+    0
+  ],
+  "schedule": [
+    25,
+    17,
+    14,
+    0,
+    2
+  ],
+  "start_dials": [
+    7,
+    8
+  ],
+  "cipher": "doublet_phase_test.encipher, odometer, dodge 'advance'",
+  "register": "matched_register, all 2928 LP word lengths",
+  "scored": {
+    "rank": 24558,
+    "of": 105980,
+    "score": 0.6494216322898865,
+    "z": 0.6972644263278288,
+    "best_other": 0.7009491324424744,
+    "recovered_dial": 24,
+    "top5": [
+      {
+        "score": 0.70095,
+        "sched": [
+          13,
+          26,
+          0,
+          17,
+          2
+        ],
+        "dial": 11
+      },
+      {
+        "score": 0.69912,
+        "sched": [
+          9,
+          0,
+          4,
+          24,
+          21
+        ],
+        "dial": 15
+      },
+      {
+        "score": 0.69841,
+        "sched": [
+          15,
+          0,
+          19,
+          13,
+          11
+        ],
+        "dial": 24
+      },
+      {
+        "score": 0.69715,
+        "sched": [
+          28,
+          28,
+          28,
+          0,
+          3
+        ],
+        "dial": 11
+      },
+      {
+        "score": 0.69442,
+        "sched": [
+          5,
+          19,
+          0,
+          14,
+          20
+        ],
+        "dial": 6
+      }
+    ]
+  },
+  "seconds": 564.3,
+  "verdict": "FAIL"
+}

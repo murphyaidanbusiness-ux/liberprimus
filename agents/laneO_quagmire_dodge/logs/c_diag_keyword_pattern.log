@@ -1,0 +1,14 @@
+keyword SHED             R2 reversed    true-dial score +1.0445
+keyword CONSUME          R2 reversed    true-dial score +1.0833
+keyword PILGRIMAGE       R3 cyclic      true-dial score +0.8878
+keyword MOURNFUL         R4 grid-cols   true-dial score +1.0926
+keyword OBTAIN           R4 grid-cols   true-dial score +1.1028
+keyword TOTIENT          R4 grid-cols   true-dial score +1.1129
+keyword EASY             R2 reversed    true-dial score +1.0902
+keyword UOICE            R2 reversed    true-dial score +0.8256
+keyword IMAGE            R4 grid-cols   true-dial score +1.0450
+keyword HIDDEN           R1 gematria    true-dial score +1.1188
+keyword HIS              R2 reversed    true-dial score +1.1176
+keyword EXISTS           R2 reversed    true-dial score +0.6662
+keyword alphabets: mean +1.0156  min +0.6662  max +1.1188
+random alphabets:  mean +0.9709  min +0.5991  max +1.0976

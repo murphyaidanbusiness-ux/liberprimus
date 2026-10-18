@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=13804, pipe_handle=596)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "<python>\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+_pickle.UnpicklingError: pickle data was truncated

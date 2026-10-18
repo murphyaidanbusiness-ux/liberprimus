@@ -1,0 +1,12 @@
+planted: schedule [0, 7, 20, 8, 23], dials (21, 11)
+vectorised log table equals the reference exactly
+
+with all three bands: generator 7,729, counter 7,729
+bands in use none: 105,980 schedules
+COVERAGE: planted schedule IN the swept set; NOT IN the fully banded set
+scoring a random 4,000 of them, plus the planted one
+SENSITIVITY: planted key ranks 1 of 4001, score +1.1194 vs wrong mean +0.6468 (z = +17.0)
+
+measured 3,119 keys/s/core on the sweep's own shape (4,001 schedules x 29 dials in 37.2s)
+so the unbanded priority sweep is 346 core-hours
+  recovered inner dial 21, planted 21

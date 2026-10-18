@@ -1,0 +1,2 @@
+21:33:36 == lane T fulllp (priority: BELOW_NORMAL class now 0x4000, beam W=512)
+21:35:26 fulllp: 1 of 20000 keys survive all 12956 LP2 runes at W=512; death position quartiles [207, 1038, 2026]; furthest dying key reaches 8726; 110s

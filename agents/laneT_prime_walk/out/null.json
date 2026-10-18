@@ -1,0 +1,262 @@
+[
+ {
+  "seed": 7000,
+  "best_kk": 5994,
+  "best_kind_k0": [
+   "phi",
+   5994
+  ],
+  "best_alive": 300,
+  "best_mean": -6.82048000157321,
+  "full_alive_keys": 16757,
+  "doublets_in_window": 2,
+  "seconds": 9.1
+ },
+ {
+  "seed": 7001,
+  "best_kk": 9590,
+  "best_kind_k0": [
+   "phi",
+   9590
+  ],
+  "best_alive": 300,
+  "best_mean": -6.740799172582082,
+  "full_alive_keys": 3817,
+  "doublets_in_window": 2,
+  "seconds": 2.2
+ },
+ {
+  "seed": 7002,
+  "best_kk": 15175,
+  "best_kind_k0": [
+   "prime",
+   5175
+  ],
+  "best_alive": 300,
+  "best_mean": -6.808192407810805,
+  "full_alive_keys": 11169,
+  "doublets_in_window": 2,
+  "seconds": 1.9
+ },
+ {
+  "seed": 7003,
+  "best_kk": 3889,
+  "best_kind_k0": [
+   "phi",
+   3889
+  ],
+  "best_alive": 300,
+  "best_mean": -6.7539791077098394,
+  "full_alive_keys": 16524,
+  "doublets_in_window": 2,
+  "seconds": 2.9
+ },
+ {
+  "seed": 7004,
+  "best_kk": 13480,
+  "best_kind_k0": [
+   "prime",
+   3480
+  ],
+  "best_alive": 300,
+  "best_mean": -6.856804445770099,
+  "full_alive_keys": 15180,
+  "doublets_in_window": 3,
+  "seconds": 4.5
+ },
+ {
+  "seed": 7005,
+  "best_kk": 5983,
+  "best_kind_k0": [
+   "phi",
+   5983
+  ],
+  "best_alive": 300,
+  "best_mean": -6.840777216196263,
+  "full_alive_keys": 2732,
+  "doublets_in_window": 2,
+  "seconds": 1.2
+ },
+ {
+  "seed": 7006,
+  "best_kk": 13101,
+  "best_kind_k0": [
+   "prime",
+   3101
+  ],
+  "best_alive": 300,
+  "best_mean": -6.890084337607973,
+  "full_alive_keys": 4737,
+  "doublets_in_window": 3,
+  "seconds": 0.7
+ },
+ {
+  "seed": 7007,
+  "best_kk": 10990,
+  "best_kind_k0": [
+   "prime",
+   990
+  ],
+  "best_alive": 300,
+  "best_mean": -6.751560079371973,
+  "full_alive_keys": 3170,
+  "doublets_in_window": 2,
+  "seconds": 1.6
+ },
+ {
+  "seed": 7008,
+  "best_kk": 10452,
+  "best_kind_k0": [
+   "prime",
+   452
+  ],
+  "best_alive": 300,
+  "best_mean": -6.758954684038855,
+  "full_alive_keys": 2705,
+  "doublets_in_window": 2,
+  "seconds": 1.3
+ },
+ {
+  "seed": 7009,
+  "best_kk": 8277,
+  "best_kind_k0": [
+   "phi",
+   8277
+  ],
+  "best_alive": 300,
+  "best_mean": -6.817918865753445,
+  "full_alive_keys": 18328,
+  "doublets_in_window": 2,
+  "seconds": 6.3
+ },
+ {
+  "seed": 7010,
+  "best_kk": 19050,
+  "best_kind_k0": [
+   "prime",
+   9050
+  ],
+  "best_alive": 300,
+  "best_mean": -6.767265321823926,
+  "full_alive_keys": 17973,
+  "doublets_in_window": 2,
+  "seconds": 5.9
+ },
+ {
+  "seed": 7011,
+  "best_kk": 17440,
+  "best_kind_k0": [
+   "prime",
+   7440
+  ],
+  "best_alive": 300,
+  "best_mean": -6.795247031749671,
+  "full_alive_keys": 10688,
+  "doublets_in_window": 2,
+  "seconds": 1.4
+ },
+ {
+  "seed": 7012,
+  "best_kk": 16729,
+  "best_kind_k0": [
+   "prime",
+   6729
+  ],
+  "best_alive": 300,
+  "best_mean": -6.782399586416262,
+  "full_alive_keys": 7670,
+  "doublets_in_window": 2,
+  "seconds": 1.7
+ },
+ {
+  "seed": 7013,
+  "best_kk": 16959,
+  "best_kind_k0": [
+   "prime",
+   6959
+  ],
+  "best_alive": 300,
+  "best_mean": -6.806304476463625,
+  "full_alive_keys": 3867,
+  "doublets_in_window": 2,
+  "seconds": 1.0
+ },
+ {
+  "seed": 7014,
+  "best_kk": 17031,
+  "best_kind_k0": [
+   "prime",
+   7031
+  ],
+  "best_alive": 300,
+  "best_mean": -6.809906165266081,
+  "full_alive_keys": 15603,
+  "doublets_in_window": 2,
+  "seconds": 1.9
+ },
+ {
+  "seed": 7015,
+  "best_kk": 1524,
+  "best_kind_k0": [
+   "phi",
+   1524
+  ],
+  "best_alive": 300,
+  "best_mean": -6.827726172434041,
+  "full_alive_keys": 5068,
+  "doublets_in_window": 2,
+  "seconds": 1.2
+ },
+ {
+  "seed": 7016,
+  "best_kk": 17081,
+  "best_kind_k0": [
+   "prime",
+   7081
+  ],
+  "best_alive": 300,
+  "best_mean": -6.822905713102633,
+  "full_alive_keys": 11506,
+  "doublets_in_window": 2,
+  "seconds": 1.4
+ },
+ {
+  "seed": 7017,
+  "best_kk": 16339,
+  "best_kind_k0": [
+   "prime",
+   6339
+  ],
+  "best_alive": 300,
+  "best_mean": -6.774489618323862,
+  "full_alive_keys": 3146,
+  "doublets_in_window": 3,
+  "seconds": 0.8
+ },
+ {
+  "seed": 7018,
+  "best_kk": 12078,
+  "best_kind_k0": [
+   "prime",
+   2078
+  ],
+  "best_alive": 300,
+  "best_mean": -6.812435542391406,
+  "full_alive_keys": 1581,
+  "doublets_in_window": 2,
+  "seconds": 0.7
+ },
+ {
+  "seed": 7019,
+  "best_kk": 12637,
+  "best_kind_k0": [
+   "prime",
+   2637
+  ],
+  "best_alive": 300,
+  "best_mean": -6.66693815188926,
+  "full_alive_keys": 8578,
+  "doublets_in_window": 2,
+  "seconds": 1.6
+ }
+]
