@@ -134,3 +134,15 @@ every part (232: 205 agree, 26 constraint cells re-graded to dead, one strength 
 gained the orchestrator step. The full pass moved four more rows: AX-07 and AX-14 to dead (C2), WB-21 to dead under
 either reading, AL-15 to searched in full (its 154M keys are the whole pool), AL-25 and AL-31 to refuted by a direct
 test. The reopen list went from 11 to 6. Lesson: agents extract, the orchestrator judges every row, not a sample.
+
+## 2026-10-18 · attack-lane (lane X, any-alphabet odometer dodge) · claude-opus-5-5
+New lane, built and run by the orchestrator. Four approaches failed before the one that works, recorded so they are not
+retried: (1) an untied 145-group HMM over the clock drift stalls in local optima (phase accuracy 0.3-0.5); fix: doublets
+as phase anchors plus a schedule scan on the runes just after each doublet, then a tied HMM (accuracy 0.85-0.96).
+(2) Coordinate ascent on the tie collapsed to all-equal shifts; replaced by the anchor scan. (3) Stage 2 as a K climb per
+(A, b0) start-dial pair works only at the exact pair (841 cells, all-or-nothing), and a two-alphabet climb and a
+Caesar-blind difference model both fail (the difference model is gamed: every A scores alike). Fix: an IoC climb on K
+aligns the tables for ANY dial pair and leaves one fixed substitution, solved by quadgrams (1 s). (4) Stage 2 at 3,000
+iterations missed true keys 3 times in 4; diagnosed before changing the method. Lesson: when a search fails, check
+whether the parameter is absorbable before enumerating it.
+Result: NULL (agents/laneX_general_alphabet/RESULTS.md); tier C of lane O is superseded for continuous keys.

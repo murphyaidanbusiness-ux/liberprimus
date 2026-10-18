@@ -80,7 +80,7 @@ Hope is our estimate, 0-10, that the item holds the key, given everything above.
 | row | what was done | what is open | Hope |
 |---|---|---|---|
 | AL-27 clock-form Quagmire dodge | never searched; the dodge-aware scorer is blind to it (lane W, 0/20) | a new scorer: a beam decode over skip forks inside a base_0 search, then a sweep | 2 |
-| our tier C of the odometer dodge | tiers A and B (47 words, both variants) null | the 1,080 alphabets from the remaining register words, ~57 h here | 2 |
+| our tier C of the odometer dodge | tiers A and B (47 words, both variants) null; lane X (2026-10-18) excludes every alphabet for one continuous key | only keyword keys used on short spans (lane X needs about 12,000 runes of one key) | 1 |
 | AX-29, AX-53 keyword-grid `g` (5x5 squares) for the walk | 24 keywords with keyword sigma; 5,777 keyword fills at one rotation | the construction with its fixed runes and rotations freed; overlaps lane L's keyword corner (2^55.6 keys per start, null) | 1 |
 | AX-36 cyclic schedule of five distinct steps | one simulation, misses d4 and d6 | a gate run would settle it in minutes | 1 |
 | AX-20 walk with other fixed-point sets | 150 random draws; 11 of 320 reach all five cells | needs a construction rule; a global search over the walk is infeasible (lane K) | 1 |

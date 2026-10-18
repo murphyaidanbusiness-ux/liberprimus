@@ -1,0 +1,8 @@
+layout plant 0 advance anchors  88  s1 +0.234  quad -4.722  agree 0.914  phase 0.898
+layout plant 1 hold    anchors  91  s1 +0.167  quad -4.785  agree 0.866  phase 0.845
+layout plant 2 advance anchors 122  s1 +0.212  quad -4.796  agree 0.896  phase 0.875
+layout plant 3 hold    anchors  92  s1 +0.218  quad -4.867  agree 0.876  phase 0.831
+layout plant 4 advance anchors  81  s1 +0.272  quad -4.733  agree 0.911  phase 0.894
+layout plant 5 hold    anchors  95  s1 +0.214  quad -4.759  agree 0.914  phase 0.897
+layout plant 6 advance anchors  96  s1 +0.132  quad -6.417  agree 0.119  phase 0.771
+layout plant 7 hold    anchors  80  s1 +0.125  quad -6.458  agree 0.076  phase 0.748
