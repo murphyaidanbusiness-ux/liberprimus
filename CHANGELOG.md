@@ -95,3 +95,16 @@ Fail: `tools/walk_draws.py` left C2c out of its hard set (its HARD tuple predate
 "all hard constraints" census was looser than `gate_sim.py`'s. Fix: C2c added to HARD and to the per-constraint rows, so
 both tools share one hard set. Also run: the clock-dependent dodge (`quagmire_dodge_clock`) gates PASS with a marginal C2
 on 1 of 12 seeds; its 300-key census has 211 keys passing every hard constraint (`runs/2026-10-17-quagmire_dodge_clock.md`).
+
+## 2026-10-17 · port-community-code · claude-haiku-5-5 (lane W, clock-dependent dodge scorer)
+Result, not a fix: `dodge_aware_scorer` does not recover `quagmire_dodge.encipher` (the clock variant). 0/20 planted keys rank 1 against 2,000 wrong keys (median z +0.3). The word model is correct: with the true key and the true phase of every rune, the plaintext decrypts exactly, and the true key beats all 2,000 wrong keys on 20/20 plants. The failure is the phase path: a clock skip (about one per 29 runes) is invisible in the ciphertext, and the cumulative word maps make one wrong boundary phase corrupt every later word. The odometer reference is 17/20 with exact ties counted as wins. Its dials-category ties are an exact symmetry, not wrong keys: an outer-dial shift is an assignment relabel, so tied keys share K, schedule and inner dial. Report: agents/laneW_clock_dodge/RESULTS.md. No sweep priced; the hypothesis-gate verdict for quagmire_dodge_clock is unchanged.
+
+## 2026-10-17 · verify-lane (lane W) · claude-opus-5-5
+Verified lane W with fresh code (`agents/laneW_clock_dodge/orch_check.py`): every headline number reproduces (odometer 17/20
+with equivalent-key ties, clock 0/20, median z +8.23 / +0.32), and both relabel symmetries hold on 5/5 fresh plants.
+Fix: lane W's section 6 called the clock decode's forks "rare", citing the community's "0 to 6 runes in 12,388". That
+figure is the residual error of a key-holding beam search; the fork rate is about 5% (97 per 1,802 runes, every true skip
+is one), matching the community's 4.5-6.5% collision rate. Corrected in RESULTS.md. Lesson for port-community-code: when
+quoting a community number, quote what it measures. Also recorded: the community's hypothesis file says the dodge-aware
+scorer recovers this family at z 12-20, but its self-test and the parked sweep plant the odometer, not
+`quagmire_dodge.encipher`; noted in REPORT_ROUND2.md section 4. Lane W's PROOF item 2 (audit after first run) stays a fail.

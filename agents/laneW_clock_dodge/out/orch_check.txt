@@ -1,0 +1,8 @@
+A odo     n 20  strict  0  ties-as-wins 17  median z +8.23
+A odo     dials dropped, strict 17;  exact ties per plant median 15.5 (expected 500/29 = 17.2)
+A clock   n 20  strict  0  ties-as-wins  0  median z +0.32
+A literal n 20  strict  0  ties-as-wins  0  median z -0.20
+B odometer outer-dial shift is a constant relabel on 5/5 plants
+C clock base_0 is an exact outer relabel on 5/5 plants
+D clock, true key, no phase info: exact decode 20/20 with forks resolved by truth, 0/20 with the no-skip rule (median accuracy 0.045)
+D skips per ~1,802 runes: median 62 (range 44-92); forks: median 97 (range 73-135)

@@ -1,0 +1,32 @@
+{
+ "odometer": {
+  "n": 20,
+  "rank1_strict_ties_lose": 0,
+  "rank1_ties_count_as_wins": 17,
+  "rank1_dials_category_excluded": 17,
+  "rank1_equivalent_keys_removed": 17,
+  "median_z_all_2000": 8.234222394964904,
+  "median_z_equivalents_removed": 14.446161682936708,
+  "equivalent_keys_per_plant_median": 15.5,
+  "misses_equivalents_removed": [
+   1,
+   4,
+   5
+  ]
+ },
+ "clock": {
+  "n": 20,
+  "rank1_strict": 0,
+  "median_z_all_2000": 0.32115932895122956,
+  "median_phase_accuracy": 0.18756936736958935,
+  "median_base0_accuracy": 0.034482758620689655,
+  "median_fires_per_1802_runes": 63.0,
+  "ties_in_sigma_category": 0
+ },
+ "throughput_seconds_per_key_median": {
+  "odo": 0.013593167081467811,
+  "clock": 0.012854861772280821,
+  "literal": 0.01198260257507431
+ },
+ "wall_seconds": 527.9225654602051
+}

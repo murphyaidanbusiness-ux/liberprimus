@@ -58,6 +58,7 @@ meet that rule. It was not attempted.
 | **T** prime-seeded walk | Does Oosterhof's dodge walk, with its permutations built from Cicada's prime/totient ladder, decrypt LP2 under any of its 20,000 keys? | **Null.** Exhaustive decode at beam width 512 (300-rune screen unchanged at 4,096); control 20/20 at rank 1 over all 20,000 keys; real best -6.870 per quadgram, z -1.56 against a 20-shuffle null (max -6.667); the top 50 keys all die before the end of the text. `agents/laneT_prime_walk/RESULTS.md` |
 | **U** period 13 | Is the community's period-13 peak in pages 53-54 (their "54-55") real under a threshold fixed in advance? | **Inconclusive (power).** Lag-13 count 18 against a fixed 99th-percentile threshold of 19; planted period-13 keys flagged 18/50 at this length. Orchestrator follow-up: lags 13, 26 and 39 are all high (harmonic sum 57 vs 31.4), but scanning every page and pair puts it at book-wide p about 0.05 (`lp/t8_harmonic_scan.py`, 100 shuffled books), and a period-13 Vigenere/Beaufort on the increments does not decrypt it (`lp/t9_period13_solve.py`: controls 10/10, real at null). `agents/laneU_period13/RESULTS.md` |
 | **V** lag-5 echo | Is the echo localised, and which mechanism explains it best? | **Null / no selection.** Burst scan: best window pages 50 (Z 2.89) vs null 3.00 +- 0.62, p 0.51 (diffuse); localised plants of the same size found 50/50. Deciban ranking of five mechanisms: on the echo cell the walk (+22.8 dB) and the Quagmire dodge (+21.1 dB) beat the no-echo baseline, dynamic substitution and the totient stream do not (about 0), but the overall ranking flips with the cell set, so no mechanism is selected. `agents/laneV_lag5_mechanisms/RESULTS.md` |
+| **W** clock-variant scorer | Can the community's dodge-aware scorer recognise a planted key of the clock-dependent dodge (`quagmire_dodge.encipher`)? | **No.** 0/20 planted keys at rank 1 against 2,000 wrong keys each (median z +0.3); its fitted clock phase is at chance (0.19 against 0.20). The odometer reference on the same harness: 17/20, counting exact ties with equivalent keys as wins. With the true key and the true phases the word model decrypts exactly and the planted key beats every wrong key, so what fails is recovering the clock path. Re-derived by the orchestrator with fresh code and text (`orch_check.py`). `agents/laneW_clock_dodge/RESULTS.md` |
 | scout 6 | What is new in the community? | No solves; items and their bearing on next steps in `research/scout6_delta.md` |
 | gap audit | Which hypotheses are consistent with the constraints and untested? | Ranked list in `research/gap_audit.md`; see section 4 for the corrections |
 | provenance | Which onions are verifiably Cicada's? | 4 signed, 16 community-only, 12 unknown, 1 hallucination. `hashhunt/cicada_onions.md` |
@@ -81,6 +82,17 @@ The book has 86 (constraint 2). These are dead before any seed sweep.
 core-hours and parked it. Here it measures ~3,000 keys/s/core, so ~360 core-hours. Its scorer misses about
 1 true key in 20 outright (the plaintext draw decides), and a near-true neighbour can outrank the truth, so
 the run must be adjudicated over all 1,200 retained candidates, not by its global top.
+
+**The community's dodge-aware scorer was only ever tested on the odometer (lane W, checked by the orchestrator).**
+The community's hypothesis file for the clock-dependent dodge says `dodge_aware_scorer.py` puts a planted key of that
+family on top at z 12 to 20. Its self-test and the parked sweep both plant `doublet_phase_test.encipher`, the odometer,
+not `quagmire_dodge.encipher`. On the clock variant the scorer is at chance (0/20). So lane O's tier A and B nulls cover
+the odometer form only, and the clock form, which passes the gate, has no working search tool. The obstacle is
+structural. A clock skip leaves no mark in the ciphertext, so every skip is a fork in the decode: 97 forks per 1,802 runes
+with the true key in hand (about 5%, matching the community's 4.5-6.5% collision rate). One wrong fork scrambles every
+later word, because each word's map is built from all earlier ones. base_0 itself is harmless (it is an exact relabel of
+the cipher symbols, checked on 5/5 fresh plants), but even decoding with the true key needs a beam search over the
+forks. A scorer would have to run that beam decode inside a search over base_0.
 
 ## 5. The job system, the technique surveys and the gate
 
@@ -110,7 +122,7 @@ and the community's `SOLVED-PAGES.json` has deletion artefacts (page 03 reads `.
 | the totient stream, no literal F, skip at 4 of 5 positions | FAIL C2c | excluded |
 | Oosterhof doublet-dodge walk, random permutations | FAIL C2 (majority of keys) | typical keys excluded; a census finds 14% of random keys pass every hard constraint |
 | the walk with g, sigma and base from Cicada's prime/totient ladder (20,000 keys) | FAIL C1 C2 C6 | typical keys excluded; 1,550 of 20,000 keys pass; lane T decoded LP2 under every key: null |
-| Quagmire dodge, clock-dependent word step (the community's `quagmire_dodge.encipher`, never swept) | PASS (C2 marginal on 1 of 12 keys) | **proceed, but not yet attackable**: 12-key means match LP2 as well as the odometer's (doublets 90.9, cross-word 24.2, share 0.266, lag-5 5.7%); raw key space ~10^96 (K, schedule, a free 29-cycle sigma, base0); the community's old scorer misses a planted key of this variant (0.493 vs 0.619), and a vocabulary sweep is ~4,600 core-hours. Needs a validated scorer first. `jobs/hypothesis-gate/runs/2026-10-17-quagmire_dodge_clock.md` |
+| Quagmire dodge, clock-dependent word step (the community's `quagmire_dodge.encipher`, never swept) | PASS (C2 marginal on 1 of 12 keys) | **proceed, but not yet attackable**: 12-key means match LP2 as well as the odometer's (doublets 90.9, cross-word 24.2, share 0.266, lag-5 5.7%); raw key space ~10^96 (K, schedule, a free 29-cycle sigma, base0); the community's old scorer misses a planted key of this variant (0.493 vs 0.619), and a vocabulary sweep is ~4,600 core-hours. Needs a validated scorer first; lane W found the dodge-aware scorer is blind to it too (0/20), so that means a new beam-decode scorer. `jobs/hypothesis-gate/runs/2026-10-17-quagmire_dodge_clock.md` |
 | Quagmire-odometer dodge (lane O's family) | PASS, marginal C6 on 1 of 3 seeds | **proceed**: over 12 keys, doublets 87.4 (LP2 86), cross-word 22.1 +- 6.2 (23), lag-5 5.7% (4.94%) |
 
 **C2c, the new constraint.** Lane S, sweeping the totient variant, noticed that its simulator puts every surviving doublet
@@ -130,6 +142,7 @@ validated, never-run sweep searches, which makes the sweep the round's best next
 | item | state | needs |
 |---|---|---|
 | Dodge sweep, tier C | tiers A and B done and null; C (1,080 alphabets) launch-ready and resumable | Owner's go-ahead: ~57 h at 10 workers, or ~34 h if the 60% prefilter is added and validated first; run with `stay_awake.py`. `powershell -ExecutionPolicy Bypass -File agents\laneO_quagmire_dodge\launch_sweep.ps1 -Tier C -NProc 10` |
+| Clock-variant scorer | not built; lane W showed the existing scorer cannot see this variant | A new algorithm: a beam decode over skip forks inside a base_0 search, with its own planted controls, then a C port. Several days, uncertain to work, and even a working scorer faces a key space of ~10^96 (free sigma) unless sigma is assumed keyword-built. Hope 2/10 |
 | Common Crawl half of the hash hunt | 1,044 host-scoped queries planned | Common Crawl's index back up; then `plan --no-wayback`, `fetch`, `hash` |
 | 2014 onions 1 to 6 | documented, not queried | Owner's decision to add the community-attributed tier to the allowlist |
 | Upstream register text | Moby-Dick used in place of Pride and Prejudice | Optional: owner's OK to download Gutenberg #1342 (~770 KB) to match upstream exactly |
@@ -144,5 +157,6 @@ validated, never-run sweep searches, which makes the sweep the round's best next
 - `agents/laneO_quagmire_dodge/` (port patch, setup, MSVC build, env, launcher, controls, adjudicator, audit, logs)
 - `agents/laneP_hashhunt/RESULTS.md`, `agents/laneQ_superposition/`, `agents/laneR_transcriptions/`
 - `lp/t7_lag5_lines.py`
+- `agents/laneW_clock_dodge/` (scorer copy, clock word model, measurement, diagnosis, audit; `orch_check.py`)
 - `AGENTS.md`, `CHANGELOG.md`, `toolbox/` (CONSTRAINTS, TECHNIQUES, fingerprint, runes, nulls, score), `jobs/` (seven jobs), `.claude/agents/lp-*.md`
 - `jobs/technique-survey/runs/` (three surveys), `jobs/hypothesis-gate/runs/` (gate reports and simulators), `agents/laneS_totient_skip/`

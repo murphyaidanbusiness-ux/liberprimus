@@ -1,0 +1,154 @@
+odo       0  true -3.2263  best wrong -3.2263 (dials)  rank1 False  z +8.2
+odo       1  true -3.5491  best wrong -3.4951 (everything)  rank1 False  z +0.8
+odo       2  true -3.1007  best wrong -3.1007 (dials)  rank1 False  z +9.0
+odo       3  true -3.1367  best wrong -3.1367 (dials)  rank1 False  z +9.4
+odo       4  true -3.5033  best wrong -3.4572 (schedule)  rank1 False  z +2.2
+odo       5  true -3.5046  best wrong -3.4913 (schedule)  rank1 False  z +2.4
+odo       6  true -3.1034  best wrong -3.1034 (dials)  rank1 False  z +9.5
+odo       7  true -3.1250  best wrong -3.1250 (dials)  rank1 False  z +7.9
+odo       8  true -3.4093  best wrong -3.4093 (dials)  rank1 False  z +5.0
+odo       9  true -3.4458  best wrong -3.4458 (dials)  rank1 False  z +4.3
+odo      10  true -3.1356  best wrong -3.1356 (dials)  rank1 False  z +7.4
+odo      11  true -3.0989  best wrong -3.0989 (dials)  rank1 False  z +8.4
+odo      12  true -3.3510  best wrong -3.3510 (dials)  rank1 False  z +6.7
+odo      13  true -3.4757  best wrong -3.4757 (dials)  rank1 False  z +3.4
+odo      14  true -3.0693  best wrong -3.0693 (dials)  rank1 False  z +8.8
+odo      15  true -3.0359  best wrong -3.0359 (dials)  rank1 False  z +8.3
+odo      16  true -3.0931  best wrong -3.0931 (dials)  rank1 False  z +8.3
+odo      17  true -3.0996  best wrong -3.0996 (dials)  rank1 False  z +9.3
+odo      18  true -3.0679  best wrong -3.0679 (dials)  rank1 False  z +9.6
+odo      19  true -3.1590  best wrong -3.1590 (dials)  rank1 False  z +8.7
+clock     0  true -3.8423  best wrong -3.7489 (sigma)  rank1 False  z -1.0
+clock     1  true -3.8200  best wrong -3.7356 (schedule)  rank1 False  z -0.3
+clock     2  true -3.7819  best wrong -3.7352 (schedule)  rank1 False  z +1.4
+clock     3  true -3.7944  best wrong -3.7296 (sigma)  rank1 False  z +0.9
+clock     4  true -3.7858  best wrong -3.7407 (schedule)  rank1 False  z +1.3
+clock     5  true -3.8149  best wrong -3.7271 (sigma)  rank1 False  z -0.1
+clock     6  true -3.8169  best wrong -3.7305 (everything)  rank1 False  z -0.2
+clock     7  true -3.7822  best wrong -3.7399 (schedule)  rank1 False  z +1.5
+clock     8  true -3.8243  best wrong -3.7243 (alphabet)  rank1 False  z -0.3
+clock     9  true -3.8041  best wrong -3.7416 (sigma)  rank1 False  z +0.4
+clock    10  true -3.7954  best wrong -3.7428 (alphabet)  rank1 False  z +0.8
+clock    11  true -3.8281  best wrong -3.7368 (sigma)  rank1 False  z -0.5
+clock    12  true -3.8366  best wrong -3.7354 (schedule)  rank1 False  z -1.0
+clock    13  true -3.8384  best wrong -3.7206 (everything)  rank1 False  z -1.3
+clock    14  true -3.7850  best wrong -3.7456 (everything)  rank1 False  z +1.2
+clock    15  true -3.8273  best wrong -3.7355 (schedule)  rank1 False  z -0.6
+clock    16  true -3.7868  best wrong -3.7415 (sigma)  rank1 False  z +1.3
+clock    17  true -3.8025  best wrong -3.7388 (schedule)  rank1 False  z +0.3
+clock    18  true -3.7659  best wrong -3.7432 (everything)  rank1 False  z +2.3
+clock    19  true -3.7894  best wrong -3.7260 (sigma)  rank1 False  z +1.0
+literal   0  true -3.6250  best wrong -3.4925 (everything)  rank1 False  z -1.5
+literal   1  true -3.6138  best wrong -3.4833 (everything)  rank1 False  z -1.4
+literal   2  true -3.5263  best wrong -3.4934 (everything)  rank1 False  z +1.5
+literal   3  true -3.5563  best wrong -3.5043 (schedule)  rank1 False  z +0.6
+literal   4  true -3.5441  best wrong -3.4914 (everything)  rank1 False  z +1.0
+literal   5  true -3.5814  best wrong -3.4894 (everything)  rank1 False  z -0.5
+literal   6  true -3.6058  best wrong -3.4926 (alphabet)  rank1 False  z -1.3
+literal   7  true -3.6110  best wrong -3.4929 (alphabet)  rank1 False  z -1.3
+literal   8  true -3.5689  best wrong -3.4883 (alphabet)  rank1 False  z +0.3
+literal   9  true -3.5566  best wrong -3.5015 (everything)  rank1 False  z +0.5
+literal  10  true -3.5801  best wrong -3.4976 (alphabet)  rank1 False  z -0.3
+literal  11  true -3.5317  best wrong -3.4969 (schedule)  rank1 False  z +1.4
+literal  12  true -3.5780  best wrong -3.4936 (schedule)  rank1 False  z -0.1
+literal  13  true -3.6020  best wrong -3.4858 (schedule)  rank1 False  z -1.2
+literal  14  true -3.5726  best wrong -3.4906 (schedule)  rank1 False  z -0.1
+literal  15  true -3.5932  best wrong -3.4938 (alphabet)  rank1 False  z -0.7
+literal  16  true -3.5880  best wrong -3.5001 (alphabet)  rank1 False  z -0.6
+literal  17  true -3.5804  best wrong -3.4971 (alphabet)  rank1 False  z -0.5
+literal  18  true -3.5636  best wrong -3.5020 (alphabet)  rank1 False  z +0.4
+literal  19  true -3.5330  best wrong -3.4770 (schedule)  rank1 False  z +1.4
+{
+ "odo": {
+  "n": 20,
+  "rank1": 0,
+  "median_z": 8.234222394964904,
+  "misses": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "median_seconds_per_key": 0.013593167081467811,
+  "wrong_per_planted": 2000,
+  "median_pi_identity_accuracy": 1.0
+ },
+ "clock": {
+  "n": 20,
+  "rank1": 0,
+  "median_z": 0.32115932895122956,
+  "misses": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "median_seconds_per_key": 0.012854861772280821,
+  "wrong_per_planted": 2000,
+  "median_phase_accuracy": 0.18756936736958935,
+  "median_base0_accuracy": 0.034482758620689655,
+  "median_fires": 63.0
+ },
+ "literal": {
+  "n": 20,
+  "rank1": 0,
+  "median_z": -0.1952842529507292,
+  "misses": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "median_seconds_per_key": 0.01198260257507431,
+  "wrong_per_planted": 2000
+ }
+}
+wall 528 s on 3 procs

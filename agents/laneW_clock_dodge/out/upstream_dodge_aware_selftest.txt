@@ -1,0 +1,39 @@
+
+=== preventer: advance === 400 words, 1802 runes, window 18, 3 passes
+planted key -3.118 nats/rune   (0.18s in Python)
+   wrong alphabet only    mean -3.565  best -3.482  gap +0.363  z +16.6   FOUND
+   wrong schedule only    mean -3.551  best -3.459  gap +0.341  z +12.7   FOUND
+   everything wrong       mean -3.567  best -3.509  gap +0.390  z +17.2   FOUND
+
+=== preventer: hold === 400 words, 1802 runes, window 18, 3 passes
+planted key -3.094 nats/rune   (0.18s in Python)
+   wrong alphabet only    mean -3.562  best -3.509  gap +0.415  z +17.1   FOUND
+   wrong schedule only    mean -3.559  best -3.479  gap +0.385  z +16.1   FOUND
+   everything wrong       mean -3.564  best -3.504  gap +0.410  z +18.2   FOUND
+
+cost: 0.18s per key in Python, 10,184 rune-scores/s
+   at 100x for a C port: 565 keys/s/core, so the 4.9e9-key priority sweep
+      takes 2,408 core-hours
+   at 200x for a C port: 1,130 keys/s/core, so the 4.9e9-key priority sweep
+      takes 1,204 core-hours
+   against 30 core-hours for the old kernel, which cannot score this family
+   at all. A cheap first-pass bound cuts it further, as skip_below does:
+
+  prefix   runes   planted  best wrong     gap       z   separates
+      5%      90    -3.059      -2.970  -0.089     0.9   NO
+     10%     183    -3.299      -3.131  -0.168    -0.9   NO
+     20%     364    -3.384      -3.268  -0.116     0.1   NO
+     40%     720    -3.495      -3.413  -0.082     0.0   NO
+     60%    1083    -3.375      -3.477   0.101     5.6   yes
+     80%    1445    -3.372      -3.485   0.113     7.6   yes
+    100%    1802    -3.094      -3.524   0.430    18.8   yes
+
+Rejection switches on sharply between 40% and 60%, not gradually. Below that
+the per-window phase -- a FITTED parameter, one of five per window -- flatters
+a wrong key as much as the true one, and it pays off only once the base_0
+assignment is well determined. So the useful first stage is about 1,100 runes,
+not the 100 a really cheap bound would want.
+
+Two stages, then: score every key at 60% and keep what clears the wrong-key
+mean by 3 SD, which the planted key beats by 5.5; full-score the survivors.
+That costs about 0.6 of the full score per key rather than 1.0.
