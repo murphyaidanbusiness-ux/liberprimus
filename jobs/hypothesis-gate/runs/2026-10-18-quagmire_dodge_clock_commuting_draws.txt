@@ -1,0 +1,14 @@
+cipher: Quagmire with clock-dependent word step, doublet dodge, and sigma commuting with the letter alphabets (sigma = conj_shift(K, delta), one keyword for everything)
+random draws (rng seeds 5000..5299): 300 draws
+  C1   passes  300 / 300
+  C2   passes  247 / 300
+  C2b  passes  298 / 300
+  C2c  passes  299 / 300
+  C3   passes    0 / 300
+  C6   passes  263 / 300
+  all hard constraints pass: 0 / 300
+  ioc             min 0.99852  median 0.99985  max 1.00192
+  doublet_rate    min 0.00278  median 0.00645  max 0.01799
+  doublets_cross  min 7.00000  median 21.00000  max 54.00000
+  cond_ioc        min 1.02349  median 1.04331  max 1.11331
+  distinct draws passing all hard constraints: 0

@@ -1,0 +1,111 @@
+cipher: Quagmire with clock-dependent word step, doublet dodge, and sigma commuting with the letter alphabets (sigma = conj_shift(K, delta), one keyword for everything)
+seed 0: doublets 101 (81 within, 20 cross), lag-5 109/1828
+  C1 IoC                               0.9994     LP2 1.0      PASS
+  C2 doublet rate                      0.0078     LP2 0.00664  PASS
+  C2b conditional IoC                  1.0482     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 13.6 LP2 uniform  PASS
+  C3 repeated words >=3                55         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0596     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    20.0       LP2 23       PASS
+seed 1: doublets 87 (64 within, 23 cross), lag-5 102/1828
+  C1 IoC                               0.9999     LP2 1.0      PASS
+  C2 doublet rate                      0.00672    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0472     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 12.4 LP2 uniform  PASS
+  C3 repeated words >=3                60         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0558     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    23.0       LP2 23       PASS
+seed 2: doublets 101 (74 within, 27 cross), lag-5 103/1828
+  C1 IoC                               1.001      LP2 1.0      PASS
+  C2 doublet rate                      0.0078     LP2 0.00664  PASS
+  C2b conditional IoC                  1.062      LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 4.0 LP2 uniform  PASS
+  C3 repeated words >=3                54         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0563     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    27.0       LP2 23       PASS
+seed 3: doublets 104 (86 within, 18 cross), lag-5 105/1828
+  C1 IoC                               0.9997     LP2 1.0      PASS
+  C2 doublet rate                      0.00803    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0389     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 13.0 LP2 uniform  PASS
+  C3 repeated words >=3                63         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0574     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    18.0       LP2 23       PASS
+seed 4: doublets 62 (39 within, 23 cross), lag-5 103/1828
+  C1 IoC                               1.0004     LP2 1.0      PASS
+  C2 doublet rate                      0.00479    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0514     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 10.8 LP2 uniform  PASS
+  C3 repeated words >=3                58         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0563     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    23.0       LP2 23       PASS
+seed 5: doublets 60 (55 within, 5 cross), lag-5 102/1828
+  C1 IoC                               1.0007     LP2 1.0      PASS
+  C2 doublet rate                      0.00463    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0483     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod5 chi2 5.8 LP2 uniform  PASS
+  C3 repeated words >=3                54         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0558     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    5.0        LP2 23       FAIL
+seed 6: doublets 87 (65 within, 22 cross), lag-5 100/1828
+  C1 IoC                               0.9993     LP2 1.0      PASS
+  C2 doublet rate                      0.00672    LP2 0.00664  PASS
+  C2b conditional IoC                  1.041      LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 8.9 LP2 uniform  PASS
+  C3 repeated words >=3                64         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0547     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    22.0       LP2 23       PASS
+seed 7: doublets 52 (40 within, 12 cross), lag-5 103/1828
+  C1 IoC                               1.0002     LP2 1.0      PASS
+  C2 doublet rate                      0.00401    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0487     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 7.1 LP2 uniform  PASS
+  C3 repeated words >=3                56         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0563     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    12.0       LP2 23       PASS
+seed 8: doublets 72 (37 within, 35 cross), lag-5 97/1828
+  C1 IoC                               0.9992     LP2 1.0      PASS
+  C2 doublet rate                      0.00556    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0378     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod6 chi2 7.7 LP2 uniform  PASS
+  C3 repeated words >=3                69         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0531     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    35.0       LP2 23       PASS
+seed 9: doublets 144 (109 within, 35 cross), lag-5 105/1828
+  C1 IoC                               0.9994     LP2 1.0      PASS
+  C2 doublet rate                      0.01112    LP2 0.00664  FAIL
+  C2b conditional IoC                  1.0497     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod3 chi2 4.0 LP2 uniform  PASS
+  C3 repeated words >=3                52         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0574     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    35.0       LP2 23       PASS
+seed 10: doublets 84 (64 within, 20 cross), lag-5 113/1828
+  C1 IoC                               0.9999     LP2 1.0      PASS
+  C2 doublet rate                      0.00648    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0549     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 9.0 LP2 uniform  PASS
+  C3 repeated words >=3                54         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0618     LP2 0.0494   FAIL(soft)
+  C6 cross-word doublets (LP2-size)    20.0       LP2 23       PASS
+seed 11: doublets 70 (48 within, 22 cross), lag-5 103/1828
+  C1 IoC                               1.0001     LP2 1.0      PASS
+  C2 doublet rate                      0.0054     LP2 0.00664  PASS
+  C2b conditional IoC                  1.0754     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 11.6 LP2 uniform  PASS
+  C3 repeated words >=3                68         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0563     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    22.0       LP2 23       PASS
+fails per constraint over 12 seeds: {'C3': 12, 'C6': 1, 'C2': 1}
+GATE FAIL: C3

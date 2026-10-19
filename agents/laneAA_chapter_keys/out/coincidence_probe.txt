@@ -1,0 +1,22 @@
+ch 14 plant 0 advance pairs  8439  true  474  climbed  498  same_rho False  (0.3s)
+ch 14 plant 1 hold    pairs  8635  true  439  climbed  494  same_rho False  (0.3s)
+ch 14 plant 2 advance pairs  8635  true  481  climbed  501  same_rho False  (0.3s)
+ch 14 null  0          pairs  7887  climbed  439
+ch 14 null  1          pairs  7887  climbed  438
+ch 14 null  2          pairs  7887  climbed  445
+ch 14 LP2 kspace 0     pairs  7887  climbed  454
+ch 14 LP2 kspace 1     pairs  8236  climbed  450
+ch 14 LP2 kspace 2     pairs  8635  climbed  499
+ch 14 LP2 kspace 3     pairs  8538  climbed  472
+ch 14 LP2 kspace 4     pairs  8439  climbed  477
+ch  8 plant 0 advance pairs  3622  true  190  climbed  252  same_rho False  (0.4s)
+ch  8 plant 1 hold    pairs  3481  true  168  climbed  240  same_rho False  (0.4s)
+ch  8 plant 2 advance pairs  3443  true  195  climbed  247  same_rho False  (0.4s)
+ch  8 null  0          pairs  3293  climbed  243
+ch  8 null  1          pairs  3293  climbed  236
+ch  8 null  2          pairs  3293  climbed  220
+ch  8 LP2 kspace 0     pairs  3293  climbed  235
+ch  8 LP2 kspace 1     pairs  3443  climbed  241
+ch  8 LP2 kspace 2     pairs  3622  climbed  257
+ch  8 LP2 kspace 3     pairs  3505  climbed  243
+ch  8 LP2 kspace 4     pairs  3481  climbed  256

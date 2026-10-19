@@ -1,0 +1,21 @@
+own LP2 words equal lane X/Y's loader words: True (2928 words)
+
+## 1. Determinism: pipeline.attack(window, seed=0), FLOOR 1e-4, against the lane's recorded real records
+T 4000 window 3 words [1359, 2266): s1 0.029057312532899195 (lane 0.029057312532899195) exact=True; S [0, 16, 12, 4, 0] (lane [0, 16, 12, 4, 0]); kspace 0 (lane 0); anchors 31 (lane 31); quad_full -6.428223871262382 (lane -6.428223871262382); dead 0; first 400 plain runes identical: True; 12s
+   fields equal: {'n_runes': True, 'anchors': True, 's1_score': True, 'S': True, 'kspace': True, 'dead_chains': True, 'quad_full': True}
+T 6000 window 0 words [0, 1359): s1 0.021559596223919664 (lane 0.021559596223919664) exact=True; S [0, 0, 7, 17, 19] (lane [0, 0, 7, 17, 19]); kspace 4 (lane 4); anchors 35 (lane 35); quad_full -6.477359141657244 (lane -6.477359141657244); dead 0; first 400 plain runes identical: True; 13s
+   fields equal: {'n_runes': True, 'anchors': True, 's1_score': True, 'S': True, 'kspace': True, 'dead_chains': True, 'quad_full': True}
+
+## 2. Our encipher against the community encipher (doublet_phase_test.py, by AST) and lane X's encipher_trace
+community VARIANTS (advance, hold): {'advance': (1, 2), 'hold': (-1, 0)}
+300 random cases, 128155 runes, 4533 dodges exercised: ours differs from community in 0 cases, from lane X's encipher_trace in 0 cases
+
+## 3. Fresh plant: T 6000 window 1 layout, new English, new key, our encipher, variant hold
+plant: words [661, 2037), 6000 runes, English offset 844000 (lane AA used offsets below ~694,000 and up to ~523,000 for chapters/coincidence), key [27, 25, 6, 10, 24, 2, 14, 16]..., schedule [17, 3, 0, 20, 18], start (17, 3), space skip 1, variant hold, dodges 228
+our cipher equals community: True; equals lane X encipher_trace: True
+stage 1 score +0.1173 against window 1's null max 0.0245 (lane: 0.0245); above the null max: True; z vs the 20 nulls +32.91; nulls as high 0 of 20
+decrypt: 0.0627 of runes right (lane bar 0.8): does not decrypt; S [0, 9, 0, 9, 0] kspace 1 anchors 52 quad_full -6.425 dead 0; 13s
+truth   : RECCEDCREWSIDEWAYSCHURNNGTHEWATERINHISUENGEFULWACEASIFLASHNGHIMS
+decrypt : TOTHYEASIFAUIALSRNGWBNGRAEUOTHNGIIOENGFLUSDAAUFUNGSRIMJPNGWASOGODWEPLMLE
+
+wall 38s; wrote jobs\verify-lane\runs\laneAA_replay_out.json

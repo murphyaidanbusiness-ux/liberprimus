@@ -1,0 +1,240 @@
+## Setup
+LP2 (pages 0-54): 12956 runes in 2928 words; SHA pin asserted (ok)
+
+## Section 1: chapter sizes from lp/lpdata.py (own word split)
+chapters: 17 min 9 max 2474 largest chapter 14
+probe chapters: {8: 1021, 14: 2474, 15: 534}
+
+## Section 2: power curve
+sizes: {2474: 2476, 4000: 4001, 6000: 6002, 8000: 8001, 12956: 12956}
+
+## Section 3: window layout (own code, lpdata word split) vs jsonl and RESULTS.md
+T 4000: 6 windows
+  T 4000 window 0: words [0, 894) runes 0-4001 (4001 runes); jsonl words (0, 894) runes 4001; RESULTS offsets 0-4,001 match; match
+  T 4000 window 1: words [449, 1359) runes 2008-6002 (3994 runes); jsonl words (449, 1359) runes 3994; RESULTS offsets 2,008-6,002 match; match
+  T 4000 window 2: words [894, 1810) runes 4001-8001 (4000 runes); jsonl words (894, 1810) runes 4000; RESULTS offsets 4,001-8,001 match; match
+  T 4000 window 3: words [1359, 2266) runes 6002-10001 (3999 runes); jsonl words (1359, 2266) runes 3999; RESULTS offsets 6,002-10,001 match; match
+  T 4000 window 4: words [1810, 2714) runes 8001-12006 (4005 runes); jsonl words (1810, 2714) runes 4005; RESULTS offsets 8,001-12,006 match; match
+  T 4000 window 5: words [2028, 2928) runes 8952-12956 (4004 runes); jsonl words (2028, 2928) runes 4004; RESULTS offsets 8,952-12,956 match; match
+  containment: spans of 6000 runes (1.5 T): worst need over all start runes = 6003 runes (at start 6003); claim FAILS
+T 6000: 4 windows
+  T 6000 window 0: words [0, 1359) runes 0-6002 (6002 runes); jsonl words (0, 1359) runes 6002; RESULTS offsets 0-6,002 match; match
+  T 6000 window 1: words [661, 2037) runes 3000-9000 (6000 runes); jsonl words (661, 2037) runes 6000; RESULTS offsets 3,000-9,000 match; match
+  T 6000 window 2: words [1359, 2714) runes 6002-12006 (6004 runes); jsonl words (1359, 2714) runes 6004; RESULTS offsets 6,002-12,006 match; match
+  T 6000 window 3: words [1565, 2928) runes 6954-12956 (6002 runes); jsonl words (1565, 2928) runes 6002; RESULTS offsets 6,954-12,956 match; match
+  containment: spans of 9000 runes (1.5 T): worst need over all start runes = 9005 runes (at start 3001); claim FAILS
+
+## Tables: lane value next to ours
+
+## Section 3: window 3 follow-up (out/followup.jsonl)
+100 fresh nulls: mean 0.0208 sd 0.0057 max 0.0360 (n 100)
+shift 0 real: words [1359, 2267] runes 4003 (table window 3 is 3,999 runes, words [1359, 2266])
+
+## Dead chains and the misses
+records read: 439; sum of dead_chains: 0
+plants at or below their window's null max: 6
+  T 4000 window 0 plant 3 (hold): +0.0034 vs null max 0.0270
+  T 4000 window 1 plant 1 (hold): -0.0006 vs null max 0.0365
+  T 4000 window 1 plant 2 (advance): +0.0077 vs null max 0.0365
+  T 4000 window 2 plant 0 (advance): +0.0040 vs null max 0.0246
+  T 4000 window 5 plant 1 (hold): +0.0301 vs null max 0.0363
+  T 6000 window 2 plant 3 (hold): +0.0243 vs null max 0.0324
+lane's listed six found in our misses: 6 of 6; our misses in total: 6
+hold plants among our misses: 4 of 6
+
+## Section 4: coincidence probe (out/coincidence_probe.txt)
+  ch 14 plant 0 advance: pairs 8439 true 474 rate 0.0562 KL 0.00596 nats/pair evidence 50.3 nats
+  ch 14 plant 1 hold   : pairs 8635 true 439 rate 0.0508 KL 0.00352 nats/pair evidence 30.4 nats
+  ch 14 plant 2 advance: pairs 8635 true 481 rate 0.0557 KL 0.00573 nats/pair evidence 49.5 nats
+  ch 8 plant 0 advance: pairs 3622 true 190 rate 0.0525 KL 0.00420 nats/pair evidence 15.2 nats
+  ch 8 plant 1 hold   : pairs 3481 true 168 rate 0.0483 KL 0.00254 nats/pair evidence 8.9 nats
+  ch 8 plant 2 advance: pairs 3443 true 195 rate 0.0566 KL 0.00621 nats/pair evidence 21.4 nats
+  true-rho rates over all six plants: 0.0483 to 0.0566; 1/29 = 0.0345
+  true-rho rates, chapter 14: 0.0508 to 0.0562; chapter 8: 0.0483 to 0.0566
+  evidence ch 14: 30.4 to 50.3 nats; ch 8: 8.9 to 21.4 nats
+  ln(28!) = 67.89 nats; log10(28!) = 29.484
+  climbed null rates (ch 14): 0.0557, 0.0555, 0.0564
+  climbed rates, chapter 14: plants 0.0572-0.0590; nulls 0.0555-0.0564; LP2 (5 kspace) 0.0546-0.0578
+  climbed rates, chapter 8: plants 0.0689-0.0717; nulls 0.0668-0.0738; LP2 (5 kspace) 0.0693-0.0735
+
+## Checks (lane text or table value | ours | status)
+section 1 | chapter 14 | runes | lane 2,474 | ours 2474 | reproduced
+section 1 | chapter 8 | runes | lane 1,021 | ours 1021 | reproduced
+section 1 | chapter 15 | runes | lane 534 | ours 534 | reproduced
+layout | T 4000 | 1.5T span holds a whole window | lane 6000 runes | ours 6003 | DIFFERS
+layout | T 4000 | window offsets and run counts | lane table + jsonl | ours match | reproduced
+layout | T 6000 | 1.5T span holds a whole window | lane 9000 runes | ours 9005 | DIFFERS
+layout | T 6000 | window offsets and run counts | lane table + jsonl | ours match | reproduced
+probe | chapter 14 | runes | lane 2,474 | ours 2474 | reproduced
+probe | chapter 14 | null mean | lane +0.0084 | ours 0.0084 | reproduced
+probe | chapter 14 | null max | lane +0.0271 | ours 0.0271 | reproduced
+probe | chapter 14 | plant score #1 (ascending) | lane -0.012 | ours -0.012 | reproduced
+probe | chapter 14 | plant score #2 (ascending) | lane +0.034 | ours 0.034 | reproduced
+probe | chapter 14 | plant score #3 (ascending) | lane +0.065 | ours 0.065 | reproduced
+probe | chapter 14 | decrypted | lane 0 of 3 | ours 0 of 3 | reproduced
+probe | chapter 8 | runes | lane 1,021 | ours 1021 | reproduced
+probe | chapter 8 | null mean | lane -0.0392 | ours -0.0392 | reproduced
+probe | chapter 8 | null max | lane -0.0030 | ours -0.0030 | reproduced
+probe | chapter 8 | plant score #1 (ascending) | lane -0.035 | ours -0.035 | reproduced
+probe | chapter 8 | plant score #2 (ascending) | lane +0.006 | ours 0.006 | reproduced
+probe | chapter 8 | plant score #3 (ascending) | lane +0.019 | ours 0.019 | reproduced
+probe | chapter 15 | runes | lane 534 | ours 534 | reproduced
+probe | chapter 15 | null mean | lane +0.0143 | ours 0.0143 | reproduced
+probe | chapter 15 | null max | lane +0.0415 | ours 0.0415 | reproduced
+probe | chapter 15 | plant score #1 (ascending) | lane -0.071 | ours -0.071 | reproduced
+probe | chapter 15 | plant score #2 (ascending) | lane -0.030 | ours -0.030 | reproduced
+probe | chapter 15 | plant score #3 (ascending) | lane +0.007 | ours 0.007 | reproduced
+power | 2476 runes | null mean | lane 0.0046 | ours 0.0046 | reproduced
+power | 2476 runes | null sd | lane 0.0043 | ours 0.0043 | reproduced
+power | 2476 runes | null max | lane 0.0126 | ours 0.0126 | reproduced
+power | 2476 runes | plant min | lane -0.046 | ours -0.046 | reproduced
+power | 2476 runes | plant max | lane +0.017 | ours 0.017 | reproduced
+power | 2476 runes | above null max | lane 1/4 | ours 1/4 | reproduced
+power | 2476 runes | decrypted | lane 0/4 | ours 0/4 | reproduced
+power | 4001 runes | null mean | lane 0.0205 | ours 0.0205 | reproduced
+power | 4001 runes | null sd | lane 0.0069 | ours 0.0069 | reproduced
+power | 4001 runes | null max | lane 0.0289 | ours 0.0289 | reproduced
+power | 4001 runes | plant min | lane +0.031 | ours 0.031 | reproduced
+power | 4001 runes | plant max | lane +0.096 | ours 0.096 | reproduced
+power | 4001 runes | above null max | lane 4/4 (the lowest by 0.002) | ours 4/4 | reproduced
+power | 4001 runes | decrypted | lane 0/4 | ours 0/4 | reproduced
+power | 6002 runes | null mean | lane 0.0206 | ours 0.0206 | reproduced
+power | 6002 runes | null sd | lane 0.0037 | ours 0.0037 | reproduced
+power | 6002 runes | null max | lane 0.0258 | ours 0.0258 | reproduced
+power | 6002 runes | plant min | lane +0.069 | ours 0.069 | reproduced
+power | 6002 runes | plant max | lane +0.255 | ours 0.255 | reproduced
+power | 6002 runes | above null max | lane 4/4 | ours 4/4 | reproduced
+power | 6002 runes | decrypted | lane 1/4 | ours 1/4 | reproduced
+power | 8001 runes | null mean | lane 0.0163 | ours 0.0163 | reproduced
+power | 8001 runes | null sd | lane 0.0045 | ours 0.0045 | reproduced
+power | 8001 runes | null max | lane 0.0225 | ours 0.0225 | reproduced
+power | 8001 runes | plant min | lane +0.067 | ours 0.067 | reproduced
+power | 8001 runes | plant max | lane +0.260 | ours 0.260 | reproduced
+power | 8001 runes | above null max | lane 4/4 | ours 4/4 | reproduced
+power | 8001 runes | decrypted | lane 1/4 | ours 1/4 | reproduced
+power | 12956 runes | null mean | lane 0.0194 | ours 0.0194 | reproduced
+power | 12956 runes | null sd | lane 0.0028 | ours 0.0028 | reproduced
+power | 12956 runes | null max | lane 0.0227 | ours 0.0227 | reproduced
+power | 12956 runes | plant min | lane +0.080 | ours 0.080 | reproduced
+power | 12956 runes | plant max | lane +0.201 | ours 0.201 | reproduced
+power | 12956 runes | above null max | lane 4/4 | ours 4/4 | reproduced
+power | 12956 runes | decrypted | lane 3/4 | ours 3/4 | reproduced
+windows | T 4000 window 0 | null mean | lane 0.0207 | ours 0.0207 | reproduced
+windows | T 4000 window 0 | null sd | lane 0.0033 | ours 0.0033 | reproduced
+windows | T 4000 window 0 | null max | lane 0.0270 | ours 0.0270 | reproduced
+windows | T 4000 window 0 | plants above max | lane 3/4 | ours 3/4 | reproduced
+windows | T 4000 window 0 | plant min | lane +0.003 | ours 0.003 | reproduced
+windows | T 4000 window 0 | plant max | lane +0.211 | ours 0.211 | reproduced
+windows | T 4000 window 0 | LP2 | lane 0.0166 | ours 0.0166 | reproduced
+windows | T 4000 window 0 | z | lane -1.22 | ours -1.22 | reproduced
+windows | T 4000 window 0 | nulls as high | lane 17 of 20 | ours 17 of 20 | reproduced
+windows | T 4000 window 1 | null mean | lane 0.0210 | ours 0.0210 | reproduced
+windows | T 4000 window 1 | null sd | lane 0.0054 | ours 0.0054 | reproduced
+windows | T 4000 window 1 | null max | lane 0.0365 | ours 0.0365 | reproduced
+windows | T 4000 window 1 | plants above max | lane 2/4 | ours 2/4 | reproduced
+windows | T 4000 window 1 | plant min | lane -0.001 | ours -0.001 | reproduced
+windows | T 4000 window 1 | plant max | lane +0.221 | ours 0.221 | reproduced
+windows | T 4000 window 1 | LP2 | lane 0.0224 | ours 0.0224 | reproduced
+windows | T 4000 window 1 | z | lane +0.27 | ours +0.27 | reproduced
+windows | T 4000 window 1 | nulls as high | lane 6 of 20 | ours 6 of 20 | reproduced
+windows | T 4000 window 2 | null mean | lane 0.0189 | ours 0.0189 | reproduced
+windows | T 4000 window 2 | null sd | lane 0.0048 | ours 0.0048 | reproduced
+windows | T 4000 window 2 | null max | lane 0.0246 | ours 0.0246 | reproduced
+windows | T 4000 window 2 | plants above max | lane 3/4 | ours 3/4 | reproduced
+windows | T 4000 window 2 | plant min | lane +0.004 | ours 0.004 | reproduced
+windows | T 4000 window 2 | plant max | lane +0.062 | ours 0.062 | reproduced
+windows | T 4000 window 2 | LP2 | lane 0.0242 | ours 0.0242 | reproduced
+windows | T 4000 window 2 | z | lane +1.11 | ours +1.11 | reproduced
+windows | T 4000 window 2 | nulls as high | lane 2 of 20 | ours 2 of 20 | reproduced
+windows | T 4000 window 3 | null mean | lane 0.0189 | ours 0.0189 | reproduced
+windows | T 4000 window 3 | null sd | lane 0.0050 | ours 0.0050 | reproduced
+windows | T 4000 window 3 | null max | lane 0.0270 | ours 0.0270 | reproduced
+windows | T 4000 window 3 | plants above max | lane 4/4 | ours 4/4 | reproduced
+windows | T 4000 window 3 | plant min | lane +0.042 | ours 0.042 | reproduced
+windows | T 4000 window 3 | plant max | lane +0.083 | ours 0.083 | reproduced
+windows | T 4000 window 3 | LP2 | lane 0.0291 | ours 0.0291 | reproduced
+windows | T 4000 window 3 | z | lane +2.04 | ours +2.04 | reproduced
+windows | T 4000 window 3 | nulls as high | lane 0 of 20 | ours 0 of 20 | reproduced
+windows | T 4000 window 4 | null mean | lane 0.0197 | ours 0.0197 | reproduced
+windows | T 4000 window 4 | null sd | lane 0.0043 | ours 0.0043 | reproduced
+windows | T 4000 window 4 | null max | lane 0.0276 | ours 0.0276 | reproduced
+windows | T 4000 window 4 | plants above max | lane 4/4 | ours 4/4 | reproduced
+windows | T 4000 window 4 | plant min | lane +0.056 | ours 0.056 | reproduced
+windows | T 4000 window 4 | plant max | lane +0.074 | ours 0.074 | reproduced
+windows | T 4000 window 4 | LP2 | lane 0.0183 | ours 0.0183 | reproduced
+windows | T 4000 window 4 | z | lane -0.32 | ours -0.32 | reproduced
+windows | T 4000 window 4 | nulls as high | lane 13 of 20 | ours 13 of 20 | reproduced
+windows | T 4000 window 5 | null mean | lane 0.0215 | ours 0.0215 | reproduced
+windows | T 4000 window 5 | null sd | lane 0.0059 | ours 0.0059 | reproduced
+windows | T 4000 window 5 | null max | lane 0.0363 | ours 0.0363 | reproduced
+windows | T 4000 window 5 | plants above max | lane 3/4 | ours 3/4 | reproduced
+windows | T 4000 window 5 | plant min | lane +0.030 | ours 0.030 | reproduced
+windows | T 4000 window 5 | plant max | lane +0.047 | ours 0.047 | reproduced
+windows | T 4000 window 5 | LP2 | lane 0.0185 | ours 0.0185 | reproduced
+windows | T 4000 window 5 | z | lane -0.50 | ours -0.50 | reproduced
+windows | T 4000 window 5 | nulls as high | lane 14 of 20 | ours 14 of 20 | reproduced
+windows | T 6000 window 0 | null mean | lane 0.0201 | ours 0.0201 | reproduced
+windows | T 6000 window 0 | null sd | lane 0.0033 | ours 0.0033 | reproduced
+windows | T 6000 window 0 | null max | lane 0.0272 | ours 0.0272 | reproduced
+windows | T 6000 window 0 | plants above max | lane 4/4 | ours 4/4 | reproduced
+windows | T 6000 window 0 | plant min | lane +0.076 | ours 0.076 | reproduced
+windows | T 6000 window 0 | plant max | lane +0.101 | ours 0.101 | reproduced
+windows | T 6000 window 0 | LP2 | lane 0.0216 | ours 0.0216 | reproduced
+windows | T 6000 window 0 | z | lane +0.44 | ours +0.44 | reproduced
+windows | T 6000 window 0 | nulls as high | lane 5 of 20 | ours 5 of 20 | reproduced
+windows | T 6000 window 1 | null mean | lane 0.0191 | ours 0.0191 | reproduced
+windows | T 6000 window 1 | null sd | lane 0.0030 | ours 0.0030 | reproduced
+windows | T 6000 window 1 | null max | lane 0.0245 | ours 0.0245 | reproduced
+windows | T 6000 window 1 | plants above max | lane 4/4 | ours 4/4 | reproduced
+windows | T 6000 window 1 | plant min | lane +0.055 | ours 0.055 | reproduced
+windows | T 6000 window 1 | plant max | lane +0.089 | ours 0.089 | reproduced
+windows | T 6000 window 1 | LP2 | lane 0.0170 | ours 0.0170 | reproduced
+windows | T 6000 window 1 | z | lane -0.70 | ours -0.70 | reproduced
+windows | T 6000 window 1 | nulls as high | lane 13 of 20 | ours 13 of 20 | reproduced
+windows | T 6000 window 2 | null mean | lane 0.0197 | ours 0.0197 | reproduced
+windows | T 6000 window 2 | null sd | lane 0.0050 | ours 0.0050 | reproduced
+windows | T 6000 window 2 | null max | lane 0.0324 | ours 0.0324 | reproduced
+windows | T 6000 window 2 | plants above max | lane 3/4 | ours 3/4 | reproduced
+windows | T 6000 window 2 | plant min | lane +0.024 | ours 0.024 | reproduced
+windows | T 6000 window 2 | plant max | lane +0.086 | ours 0.086 | reproduced
+windows | T 6000 window 2 | LP2 | lane 0.0172 | ours 0.0172 | reproduced
+windows | T 6000 window 2 | z | lane -0.50 | ours -0.50 | reproduced
+windows | T 6000 window 2 | nulls as high | lane 14 of 20 | ours 14 of 20 | reproduced
+windows | T 6000 window 3 | null mean | lane 0.0212 | ours 0.0212 | reproduced
+windows | T 6000 window 3 | null sd | lane 0.0032 | ours 0.0032 | reproduced
+windows | T 6000 window 3 | null max | lane 0.0276 | ours 0.0276 | reproduced
+windows | T 6000 window 3 | plants above max | lane 4/4 | ours 4/4 | reproduced
+windows | T 6000 window 3 | plant min | lane +0.056 | ours 0.056 | reproduced
+windows | T 6000 window 3 | plant max | lane +0.073 | ours 0.073 | reproduced
+windows | T 6000 window 3 | LP2 | lane 0.0181 | ours 0.0181 | reproduced
+windows | T 6000 window 3 | z | lane -1.00 | ours -1.00 | reproduced
+windows | T 6000 window 3 | nulls as high | lane 17 of 20 | ours 17 of 20 | reproduced
+follow-up | window 3 margin | null mean | lane 0.0208 | ours 0.0208 | reproduced
+follow-up | window 3 margin | null sd | lane 0.0057 | ours 0.0057 | reproduced
+follow-up | window 3 margin | null max | lane 0.036 | ours 0.0360 | reproduced
+follow-up | shift 0 window | runes | lane 4003 | ours 4003 | reproduced
+follow-up | shift 0 (re-cut) | LP2 | lane 0.0295 | ours 0.0295 | reproduced
+follow-up | shift 0 (re-cut) | z | lane +1.53 | ours +1.53 | reproduced
+follow-up | shift 0 (re-cut) | nulls as high | lane 7 of 100 | ours 7 of 100 | reproduced
+follow-up | shift -1000 | LP2 | lane 0.0174 | ours 0.0174 | reproduced
+follow-up | shift -1000 | z | lane -0.61 | ours -0.61 | reproduced
+follow-up | shift -500 | LP2 | lane 0.0249 | ours 0.0249 | reproduced
+follow-up | shift -500 | z | lane +0.71 | ours +0.71 | reproduced
+follow-up | shift +500 | LP2 | lane 0.0203 | ours 0.0203 | reproduced
+follow-up | shift +500 | z | lane -0.09 | ours -0.09 | reproduced
+follow-up | shift +1000 | LP2 | lane 0.0186 | ours 0.0186 | reproduced
+follow-up | shift +1000 | z | lane -0.38 | ours -0.38 | reproduced
+all files | dead chains | count | lane 0 | ours 0 | reproduced
+misses | T 4000 window 0 plant 3 (hold) | score vs null max | lane +0.0034 vs 0.0270 | ours found | reproduced
+misses | T 4000 window 1 plant 1 (hold) | score vs null max | lane -0.0006 vs 0.0365 | ours found | reproduced
+misses | T 4000 window 1 plant 2 (advance) | score vs null max | lane +0.0077 vs 0.0365 | ours found | reproduced
+misses | T 4000 window 2 plant 0 (advance) | score vs null max | lane +0.0040 vs 0.0246 | ours found | reproduced
+misses | T 4000 window 5 plant 1 (hold) | score vs null max | lane +0.0301 vs 0.0363 | ours found | reproduced
+misses | T 6000 window 2 plant 3 (hold) | score vs null max | lane +0.0243 vs 0.0324 | ours found | reproduced
+section 4 | true-rho rate range | low end | lane 0.051 | ours 0.0483 | DIFFERS
+section 4 | true-rho rate range | high end | lane 0.057 | ours 0.0566 | reproduced
+section 4 | ch 14 evidence | range nats | lane 30 to 50 | ours 30.4 to 50.3 | reproduced
+section 4 | ch 8 evidence | range nats | lane 9 to 21 | ours 8.9 to 21.4 | reproduced
+section 4 | cost of 28! cycles | nats | lane 68 | ours 67.89 | reproduced
+
+175 of 178 checks reproduced

@@ -101,6 +101,8 @@ the control, the numbers, and the verdict, plus the code and raw outputs.
 | W | Can the community's dodge-aware scorer see the clock-dependent dodge? | no (0/20 planted keys); it was validated on the odometer only |
 | X | The odometer dodge with ANY alphabet, by a key-free attack | null for one continuous key: 24/24 planted keys detected, LP2 inside 50 nulls (z +1.5) |
 | Y | The same, with the key restarted at each chapter or each page | null for both: 20/20 planted restart keys detected, LP2 inside 50 nulls each (z +0.7, -0.3) |
+| Z | The same, with the dial stepping per line, sentence, page or chapter instead of per word | null for all four: 24/24 planted keys detected, LP2 inside 30 nulls each |
+| AA | The same, with a separate key for each part of the book | not detected for any one key over about 6,000 consecutive runes: 34/40 planted keys caught in overlapping windows, LP2 inside its nulls in all 10; single chapters are too short to test |
 | census | What has the community already ruled out, and how solidly? | 232 methods: 130 dead by the fingerprint, 6 partial and finite, none high-hope (`research/EXHAUSTED.md`) |
 
 Each lane directory under `agents/` has its `RESULTS.md`; independent re-derivations are in `jobs/verify-lane/runs/`.

@@ -1,0 +1,12 @@
+seeds: 12
+statistic                          family over 12 seeds                         LP2
+doublets                           85.3 +- 25.2 (52.0 to 144.0)                 86
+cross-word doublets                21.8 +- 8.4 (5.0 to 35.0)                    23
+cross-word share, pooled           0.256                                        0.267
+cross-word share, mean of seeds    0.260 +- 0.100                               0.267
+within-word lag-5 rate (hits/pairs) 0.0568 mean, pooled 0.0568                   0.0494
+within-word lag-5 rate (C5 row)    0.0567 mean                                  0.0494
+doublet rate (C2 row)              0.00659 mean                                 0.00664
+cross-word doublets (C6 row)       21.8 +- 8.4 (5.0 to 35.0)                    23
+C2c worst chi2 (any mod 2..8)      13.6 (max over seeds); FAIL on 0 of 12       uniform
+C2c modulus per seed               mod7 mod8 mod7 mod7 mod8 mod5 mod8 mod8 mod6 mod3 mod8 mod7

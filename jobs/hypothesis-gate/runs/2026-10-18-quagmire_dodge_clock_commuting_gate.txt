@@ -1,0 +1,30 @@
+cipher: Quagmire with clock-dependent word step, doublet dodge, and sigma commuting with the letter alphabets (sigma = conj_shift(K, delta), one keyword for everything)
+seed 0: doublets 101 (81 within, 20 cross), lag-5 109/1828
+  C1 IoC                               0.9994     LP2 1.0      PASS
+  C2 doublet rate                      0.0078     LP2 0.00664  PASS
+  C2b conditional IoC                  1.0482     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 13.6 LP2 uniform  PASS
+  C3 repeated words >=3                55         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0596     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    20.0       LP2 23       PASS
+seed 1: doublets 87 (64 within, 23 cross), lag-5 102/1828
+  C1 IoC                               0.9999     LP2 1.0      PASS
+  C2 doublet rate                      0.00672    LP2 0.00664  PASS
+  C2b conditional IoC                  1.0472     LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod8 chi2 12.4 LP2 uniform  PASS
+  C3 repeated words >=3                60         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0558     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    23.0       LP2 23       PASS
+seed 2: doublets 101 (74 within, 27 cross), lag-5 103/1828
+  C1 IoC                               1.001      LP2 1.0      PASS
+  C2 doublet rate                      0.0078     LP2 0.00664  PASS
+  C2b conditional IoC                  1.062      LP2 1.026    PASS
+  C2c doublet positions mod 2..8       mod7 chi2 4.0 LP2 uniform  PASS
+  C3 repeated words >=3                54         LP2 16       FAIL
+  C4 adjacent word-length z            -5.69      LP2 0.9      INFO
+  C5 within-word lag-5 rate            0.0563     LP2 0.0494   PASS
+  C6 cross-word doublets (LP2-size)    27.0       LP2 23       PASS
+fails per constraint over 3 seeds: {'C3': 3}
+GATE FAIL: C3

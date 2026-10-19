@@ -1,0 +1,28 @@
+{
+ "det_ok": true,
+ "enc_ok": true,
+ "same_words": true,
+ "plant": {
+  "words": [
+   661,
+   2037
+  ],
+  "n_runes": 6000,
+  "offset": 844000,
+  "variant": "hold",
+  "dodges": 228,
+  "s1": 0.11734934635919186,
+  "null_max": 0.024512231431952993,
+  "above_null_max": true,
+  "agree": 0.06266666666666666,
+  "S": [
+   0,
+   9,
+   0,
+   9,
+   0
+  ],
+  "kspace": 1,
+  "quad_full": -6.4254063352313695
+ }
+}

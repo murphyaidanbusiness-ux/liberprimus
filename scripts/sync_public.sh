@@ -22,7 +22,26 @@ git checkout -q "$SRC" -- .
 git rm -r -q --cached --ignore-unmatch CLAUDE.md AGENTS.md CHANGELOG.md .claude docs
 git ls-files | grep -E '^jobs/[^/]+/(SKILL|PROOF)\.md$' | xargs -r git rm -q --cached
 rm -rf CLAUDE.md AGENTS.md CHANGELOG.md .claude docs jobs/*/SKILL.md jobs/*/PROOF.md
-if git ls-files -z | xargs -0 grep -l -iE 'AIDANM~1|aidan murphy\|/c/Users/aidan|murphyaidanbusiness@' 2>/dev/null; then
+# Privacy check. The personal strings are read from the environment at run time, so none is written in this file:
+# the profile folder name (and its 8.3 short form from TEMP) after "Users/" or "Users\", the git user's address and
+# its local part, and any e-mail address outside a short allowlist.
+prof="${USERPROFILE:-$HOME}"
+name="${prof##*[\\/]}"
+short=$(printf '%s' "${TEMP:-}" | sed -n 's#.*Users[\\/]\([^\\/]*\).*#\1#p')
+esc() { printf '%s' "$1" | sed 's/[][\.*^$+?(){}|]/\\&/g'; }
+pat="Users[\\/]+($(esc "$name")${short:+|$(esc "$short")})"
+me=$(git config user.email || true)
+bad=$(git ls-files -z | xargs -0 grep -l -iE "$pat" 2>/dev/null || true)
+if [ -n "$me" ]; then
+  bad="$bad
+$(git ls-files -z | xargs -0 grep -l -iF "${me%@*}@" 2>/dev/null || true)"
+fi
+bad="$bad
+$(git ls-files -z | xargs -0 grep -o -H -I -E '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' 2>/dev/null \
+  | grep -v -i -E ':(you@example\.org|noreply@anthropic\.com)$' | cut -d: -f1 || true)"
+bad=$(printf '%s\n' "$bad" | sed '/^$/d' | sort -u)
+if [ -n "$bad" ]; then
+  printf '%s\n' "$bad"
   echo "ABORT: a personal path or address is in the files above"; exit 1
 fi
 if git diff --cached --quiet; then echo "nothing to publish"; exit 0; fi
