@@ -17,7 +17,7 @@ account. This file is the map.
 five-step alphabet clock with a skip on every would-be repeat). Lane O ported and ran the community's
 never-run sweep of its odometer form over Cicada's own 47 named words: 577.8 million keys, held out on
 unseen text, null. Lane X then built a new, key-free attack on the same form that needs no keyword at all,
-and excluded it for every possible alphabet under one continuous key. Lane W found that the community's
+and excluded it for every possible alphabet, under one continuous key (lane X) and with the key restarted at each chapter or page (lane Y). Lane W found that the community's
 scorer for the family's clock-dependent form was only ever validated on the odometer and cannot see the
 clock form, which so far has no working search tool. The census found that almost every method the
 community has tried is ruled out by the fingerprint itself, not by a failed search.
@@ -91,7 +91,7 @@ the control, the numbers, and the verdict, plus the code and raw outputs.
 | lane | question | result |
 |---|---|---|
 | O | Quagmire-odometer dodge keyed by Cicada's 47 named words (tiers A and B) | 577.8M keys, every retained candidate held out on unseen text: null at ~89% power; covers both dodge variants |
-| P | Does an archived capture of a Cicada-signed onion hash to the page-56 target? | Wayback half null (3 captures); Common Crawl half nearly finished, 0 captures so far |
+| P | Does an archived capture of a Cicada-signed onion hash to the page-56 target? | null: Wayback 3 captures, 0 matches; Common Crawl 871 of 1,044 queries answered, 0 captures |
 | Q | Is any keystream reused at any shift? | null; reuse of about 3,200 runes or more excluded at 90% power |
 | R | Do the two signals survive the choice of transcription? | yes, on every faithful reading |
 | S | Cicada's solved-page totient stream with a collision skip, from every start | null; found the doublet-position constraint |
@@ -100,6 +100,7 @@ the control, the numbers, and the verdict, plus the code and raw outputs.
 | V | Is the lag-5 echo localised, and which mechanism explains it? | diffuse; no mechanism selected |
 | W | Can the community's dodge-aware scorer see the clock-dependent dodge? | no (0/20 planted keys); it was validated on the odometer only |
 | X | The odometer dodge with ANY alphabet, by a key-free attack | null for one continuous key: 24/24 planted keys detected, LP2 inside 50 nulls (z +1.5) |
+| Y | The same, with the key restarted at each chapter or each page | null for both: 20/20 planted restart keys detected, LP2 inside 50 nulls each (z +0.7, -0.3) |
 | census | What has the community already ruled out, and how solidly? | 232 methods: 130 dead by the fingerprint, 6 partial and finite, none high-hope (`research/EXHAUSTED.md`) |
 
 Each lane directory under `agents/` has its `RESULTS.md`; independent re-derivations are in `jobs/verify-lane/runs/`.
@@ -119,7 +120,7 @@ functions (including original BLAKE-512, verified against published vectors) and
 normalisations. It never renders or executes anything, and `plan`/`fetch` refuse to run without an
 allowlist of onion hosts: by default the four named in Cicada's own signed messages, so it never pulls
 content from unknown darknet sites. Self-test: 39/39. The round-two run over the Wayback Machine was
-null; the Common Crawl run is nearly finished; see `agents/laneP_hashhunt/RESULTS.md`.
+null, and the Common Crawl run found no captures (871 of 1,044 queries answered); see `agents/laneP_hashhunt/RESULTS.md`.
 
 ## Reproducing
 
