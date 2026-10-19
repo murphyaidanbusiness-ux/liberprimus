@@ -335,6 +335,11 @@ def shift_scan(C, variant, alpha=0.5, top=10):
     return out, flat
 
 
+# Lane X's verified runs used FLOOR = 0. Without a floor a chain dies (all-zero forward mass, NaN) when an anchor demands
+# a phase two or more drift steps from where the path is; a small floor on every transition keeps it alive.
+FLOOR = 0.0
+
+
 def _transitions(eps, drift):
     T = np.zeros((5, 5))
     for d in range(5):
@@ -343,6 +348,9 @@ def _transitions(eps, drift):
             T[d, (d + 1) % 5] += eps / (2 if drift == "both" else 1)
         if drift in ("both", -1):
             T[d, (d - 1) % 5] += eps / (2 if drift == "both" else 1)
+    if FLOOR:
+        T = T + FLOOR
+        T /= T.sum(1, keepdims=True)
     return T
 
 
@@ -411,5 +419,6 @@ def fit_tied(words, starts, kspace=0, iters=20, eps=0.035, alpha=0.5, drift="bot
         cnt = np.bincount(g * M + y, minlength=NG * M).reshape(NG, M).astype(float)
         out.append({"S": list(map(int, Sh[b])), "start": list(map(int, starts[b])),
                     "score": float(dm_score(pool(cnt, Sh[b]))) / N, "untied": float(dm_score(cnt)) / N,
-                    "loglik": float(loglik[b]), "phase": (t + d) % 5, "kspace": kspace})
+                    "loglik": float(loglik[b]), "phase": (t + d) % 5, "kspace": kspace,
+                    "finite": bool(np.isfinite(loglik[b]))})
     return out

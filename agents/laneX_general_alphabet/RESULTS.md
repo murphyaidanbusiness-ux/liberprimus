@@ -17,7 +17,7 @@ advancing one per rune plus a drift at every dodged repeat (+1 "advance", -1 "ho
 steps per word space (space skip 0-4).
 
 Key space: K any permutation (29! = 8.8e30), schedule any one-zero five-step schedule summing to 0, dials (a0, b0) any
-of 841, two variants, five space skips: about 10^37 keys. Lane O and tiers A+B searched only keyword-built alphabets
+of 841, two variants, five space skips: about 8 x 10^39 keys (29! x 105,980 x 841 x 2 x 5; corrected from "10^37" by lane Y's verification, 2026-10-18). Lane O and tiers A+B searched only keyword-built alphabets
 (188 alphabets from 47 words); the community sweep the same kind. This lane needs no assumption about K.
 
 **Why a key-free attack exists.** Fix a word cycle r = w mod 29 and a phase k: every rune in that group is enciphered by
@@ -113,3 +113,16 @@ mean, sd and max, the real score, z +1.46 and 2 of 50 all reproduce; a fresh pla
 is detected (+0.259) and decrypted (91.1% of runes). One expectation differed, not a lane number: the untied 145-group
 DM statistic with alpha 1 has a no-signal floor near -0.10 per rune (LP2 zero-drift -0.0985, nulls -0.1014 +- 0.0024),
 so only the null comparison, not the sign of a raw score, carries meaning.
+
+## Robustness: dead chains (2026-10-18)
+
+Lane Y's verifier flagged RuntimeWarnings in the run logs. Cause: a Baum-Welch chain gets all-zero forward mass when a
+doublet anchor demands a clock phase two or more drift steps from where its path sits; that chain then yields a
+garbage grouping. `xlib.FLOOR` (default 0, as in the original runs) now adds a small floor to every drift transition,
+and every fit reports whether its chain stayed finite. `agents/laneY_section_reset/floor_check.py`
+(`out/floor_check.jsonl`, `logs/floor_check.log`):
+- LP2 with the original setting (floor 0): **0 of 40 chains dead** for lane X, lane Y chapter and lane Y page, so the
+  reported LP2 scores did not depend on a dead chain. The warnings came from some plant or null runs.
+- With floor 1e-4: LP2 0.0211 (lane X), 0.0181 (chapters), 0.0182 (pages) against 20 nulls each at 0.0167 +- 0.0027
+  (max 0.0219), 0.0173 +- 0.0031 (max 0.0239) and 0.0184 +- 0.0032 (max 0.0234): z +1.62, +0.24, -0.06. Planted keys
+  4/4 detected in each test. The verdict is unchanged.

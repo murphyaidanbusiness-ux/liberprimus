@@ -1,0 +1,79 @@
+X        plant  0 floor 1e-04  s1 +0.3175  dead 0/40 best_ok True agree 0.938
+X        real   0 floor 0e+00  s1 +0.0201  dead 0/40 best_ok True 
+X        plant  1 floor 1e-04  s1 +0.2858  dead 0/40 best_ok True agree 0.947
+X        real   0 floor 1e-04  s1 +0.0211  dead 0/40 best_ok True 
+X        plant  3 floor 1e-04  s1 +0.1547  dead 0/40 best_ok True agree 0.198
+X        plant  2 floor 1e-04  s1 +0.1828  dead 0/40 best_ok True agree 0.567
+X        null   0 floor 1e-04  s1 +0.0154  dead 0/40 best_ok True 
+X        null   1 floor 1e-04  s1 +0.0163  dead 0/40 best_ok True 
+X        null   2 floor 1e-04  s1 +0.0174  dead 0/40 best_ok True 
+X        null   3 floor 1e-04  s1 +0.0190  dead 0/40 best_ok True 
+X        null   4 floor 1e-04  s1 +0.0169  dead 0/40 best_ok True 
+X        null   5 floor 1e-04  s1 +0.0219  dead 0/40 best_ok True 
+X        null   6 floor 1e-04  s1 +0.0190  dead 0/40 best_ok True 
+X        null   7 floor 1e-04  s1 +0.0147  dead 0/40 best_ok True 
+X        null   8 floor 1e-04  s1 +0.0200  dead 0/40 best_ok True 
+X        null   9 floor 1e-04  s1 +0.0114  dead 0/40 best_ok True 
+X        null  10 floor 1e-04  s1 +0.0171  dead 0/40 best_ok True 
+X        null  11 floor 1e-04  s1 +0.0129  dead 0/40 best_ok True 
+X        null  12 floor 1e-04  s1 +0.0152  dead 0/40 best_ok True 
+X        null  13 floor 1e-04  s1 +0.0136  dead 0/40 best_ok True 
+X        null  14 floor 1e-04  s1 +0.0171  dead 0/40 best_ok True 
+X        null  15 floor 1e-04  s1 +0.0138  dead 0/40 best_ok True 
+X        null  16 floor 1e-04  s1 +0.0185  dead 0/40 best_ok True 
+X        null  17 floor 1e-04  s1 +0.0159  dead 0/40 best_ok True 
+X        null  18 floor 1e-04  s1 +0.0165  dead 0/40 best_ok True 
+X        null  19 floor 1e-04  s1 +0.0211  dead 0/40 best_ok True 
+Ychapter real   0 floor 0e+00  s1 +0.0178  dead 0/40 best_ok True 
+Ychapter real   0 floor 1e-04  s1 +0.0181  dead 0/40 best_ok True 
+Ychapter plant  0 floor 1e-04  s1 +0.3092  dead 0/40 best_ok True agree 0.940
+Ychapter plant  1 floor 1e-04  s1 +0.2865  dead 0/40 best_ok True agree 0.946
+Ychapter plant  2 floor 1e-04  s1 +0.2047  dead 0/40 best_ok True agree 0.829
+Ychapter plant  3 floor 1e-04  s1 +0.1429  dead 0/40 best_ok True agree 0.127
+Ychapter null   0 floor 1e-04  s1 +0.0162  dead 0/40 best_ok True 
+Ychapter null   1 floor 1e-04  s1 +0.0122  dead 0/40 best_ok True 
+Ychapter null   2 floor 1e-04  s1 +0.0148  dead 0/40 best_ok True 
+Ychapter null   3 floor 1e-04  s1 +0.0190  dead 0/40 best_ok True 
+Ychapter null   4 floor 1e-04  s1 +0.0191  dead 0/40 best_ok True 
+Ychapter null   5 floor 1e-04  s1 +0.0164  dead 0/40 best_ok True 
+Ychapter null   6 floor 1e-04  s1 +0.0185  dead 0/40 best_ok True 
+Ychapter null   7 floor 1e-04  s1 +0.0192  dead 0/40 best_ok True 
+Ychapter null   8 floor 1e-04  s1 +0.0153  dead 0/40 best_ok True 
+Ychapter null   9 floor 1e-04  s1 +0.0159  dead 0/40 best_ok True 
+Ychapter null  10 floor 1e-04  s1 +0.0193  dead 0/40 best_ok True 
+Ychapter null  11 floor 1e-04  s1 +0.0184  dead 0/40 best_ok True 
+Ychapter null  12 floor 1e-04  s1 +0.0239  dead 0/40 best_ok True 
+Ychapter null  13 floor 1e-04  s1 +0.0178  dead 0/40 best_ok True 
+Ychapter null  14 floor 1e-04  s1 +0.0109  dead 0/40 best_ok True 
+Ychapter null  15 floor 1e-04  s1 +0.0179  dead 0/40 best_ok True 
+Ychapter null  16 floor 1e-04  s1 +0.0188  dead 0/40 best_ok True 
+Ychapter null  17 floor 1e-04  s1 +0.0138  dead 0/40 best_ok True 
+Ychapter null  18 floor 1e-04  s1 +0.0171  dead 0/40 best_ok True 
+Ychapter null  19 floor 1e-04  s1 +0.0219  dead 0/40 best_ok True 
+Ypage    real   0 floor 0e+00  s1 +0.0174  dead 0/40 best_ok True 
+Ypage    real   0 floor 1e-04  s1 +0.0182  dead 0/40 best_ok True 
+Ypage    plant  0 floor 1e-04  s1 +0.3158  dead 0/40 best_ok True agree 0.933
+Ypage    plant  1 floor 1e-04  s1 +0.2846  dead 0/40 best_ok True agree 0.940
+Ypage    plant  2 floor 1e-04  s1 +0.1984  dead 0/40 best_ok True agree 0.827
+Ypage    plant  3 floor 1e-04  s1 +0.1549  dead 0/40 best_ok True agree 0.354
+Ypage    null   0 floor 1e-04  s1 +0.0123  dead 0/40 best_ok True 
+Ypage    null   1 floor 1e-04  s1 +0.0160  dead 0/40 best_ok True 
+Ypage    null   2 floor 1e-04  s1 +0.0234  dead 0/40 best_ok True 
+Ypage    null   3 floor 1e-04  s1 +0.0187  dead 0/40 best_ok True 
+Ypage    null   4 floor 1e-04  s1 +0.0144  dead 0/40 best_ok True 
+Ypage    null   5 floor 1e-04  s1 +0.0158  dead 0/40 best_ok True 
+Ypage    null   6 floor 1e-04  s1 +0.0218  dead 0/40 best_ok True 
+Ypage    null   7 floor 1e-04  s1 +0.0170  dead 0/40 best_ok True 
+Ypage    null   8 floor 1e-04  s1 +0.0137  dead 0/40 best_ok True 
+Ypage    null   9 floor 1e-04  s1 +0.0206  dead 0/40 best_ok True 
+Ypage    null  10 floor 1e-04  s1 +0.0195  dead 0/40 best_ok True 
+Ypage    null  11 floor 1e-04  s1 +0.0148  dead 0/40 best_ok True 
+Ypage    null  12 floor 1e-04  s1 +0.0185  dead 0/40 best_ok True 
+Ypage    null  13 floor 1e-04  s1 +0.0225  dead 0/40 best_ok True 
+Ypage    null  14 floor 1e-04  s1 +0.0228  dead 0/40 best_ok True 
+Ypage    null  15 floor 1e-04  s1 +0.0188  dead 0/40 best_ok True 
+Ypage    null  16 floor 1e-04  s1 +0.0189  dead 0/40 best_ok True 
+Ypage    null  17 floor 1e-04  s1 +0.0182  dead 0/40 best_ok True 
+Ypage    null  18 floor 1e-04  s1 +0.0192  dead 0/40 best_ok True 
+Ypage    null  19 floor 1e-04  s1 +0.0216  dead 0/40 best_ok True 
+wall 650 s

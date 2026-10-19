@@ -50,7 +50,8 @@ def attack(words, seed, do_stage2=True, kspaces=(0, 1, 2, 3, 4)):
     by_ks = {}
     for f in fits:
         by_ks[f["kspace"]] = max(by_ks.get(f["kspace"], -9.0), f["score"])
-    rec = {"n_runes": int(sum(len(w) for w in words)), "n_words": len(words), "anchors": int(n_anchor),
+    rec = {"chains": len(fits), "dead_chains": sum(not f["finite"] for f in fits), "best_finite": best["finite"],
+           "n_runes": int(sum(len(w) for w in words)), "n_words": len(words), "anchors": int(n_anchor),
            "s1_score": best["score"], "s1_untied": best["untied"], "S": best["S"], "kspace": best["kspace"],
            "s1_by_kspace": by_ks, "phase": best["phase"], "t_stage1": time.time() - t0}
     if do_stage2:

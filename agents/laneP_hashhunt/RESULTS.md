@@ -2,8 +2,9 @@
 
 **Verdict: null.** Every text capture the Wayback Machine holds for the four onion hosts named in Cicada's own
 PGP-signed messages was fetched and hashed. None hashes to the page-56 target under any of the six functions and
-~160 normalisations `hashhunt` tests. Common Crawl was not covered: its index returned HTTP 504 for every request
-during the run, including trivial lookups on recent crawls.
+~160 normalisations `hashhunt` tests. Common Crawl (run 2026-10-17 to 18): 871 of 1,044 host-scoped queries answered,
+**0 captures** of any of the four hosts through any of the nine gateways in any 2013-2016 crawl; the other 173 got only
+server errors (see below), so for those crawl-and-host cells the hunt is incomplete, not negative.
 
 ## Scope (and why it is this narrow)
 
@@ -38,7 +39,7 @@ any case (the wiki that lists them warns they may be unrelated).
 | captures found | 3: `ky2khlqdf7qdznac.onion.to/` (2015-05-25, text/html, 842 B), `ky2khlqdf7qdznac.onion.to/robots.txt` (2017-07-13, 75 B), `pklmx2eeh6fjt7zf.onion.to/robots.txt` (2017-07-13, same digest as the first robots.txt) |
 | fetch | 2 ok (Wayback `id_` original bytes; both sha1 equal the CDX digest), 1 dedup by digest |
 | hash | 2 captures; 672 and 780 (normalisation, function) tuples; functions sha512, sha3_512, blake2b512, BLAKE-512, Whirlpool, Skein-512-512 (all KAT-verified at start); **0 matches** |
-| Common Crawl | 1,044 host-scoped queries planned (29 crawls 2013 to 2016 x 9 gateways x 4 labels). Not run: HTTP 504 on every request, including `CC-MAIN-2024-10` lookups for `archive.org`; stopped rather than retried against a failing service |
+| Common Crawl | 1,044 host-scoped queries (29 crawls 2013 to 2016 x 9 gateways x 4 labels), `plan --no-wayback --run --delay 5`, 2026-10-17 08:35 to 2026-10-18 14:20, then one retry pass of the failures at `--delay 8`. **871 answered, 0 rows (0 captures)**; 173 never answered (HTTP 504, 502, 400 and dropped connections, six back-off retries each), concentrated in the 2015-27 to 2016-50 crawls. The retry was stopped at about 17:00 when the index began resetting every connection within 0.2 s, including a control lookup on `CC-MAIN-2024-10`. `check_scope.py`: PASS (0 off-list rows) |
 
 The 2015 root capture is the gateway's "temporarily not available" placeholder that the community already recorded
 (`hashhunt/NOTES.md` section 2). Nothing here contradicts the community's conclusion that Wayback never held real

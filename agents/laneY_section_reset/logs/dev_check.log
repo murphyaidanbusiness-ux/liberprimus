@@ -1,0 +1,5 @@
+LP2 words 2928 chapters 17 pages 55
+chapter restart advance anchors 116: laneY s1 +0.184 agree 0.881 phase 0.860 | laneX (no restart) s1 +0.022 agree 0.040  (16s)
+chapter restart hold    anchors 89: laneY s1 +0.307 agree 0.950 phase 0.940 | laneX (no restart) s1 +0.023 agree 0.041  (14s)
+page    restart advance anchors 114: laneY s1 +0.135 agree 0.122 phase 0.805 | laneX (no restart) s1 +0.017 agree 0.038  (14s)
+page    restart hold    anchors 93: laneY s1 +0.306 agree 0.948 phase 0.939 | laneX (no restart) s1 +0.019 agree 0.041  (14s)

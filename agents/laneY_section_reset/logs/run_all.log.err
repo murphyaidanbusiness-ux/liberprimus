@@ -1,0 +1,32 @@
+agents\laneY_section_reset\ylib.py:129: RuntimeWarning: divide by zero encountered in log
+  loglik += np.log(s[:, 0])
+agents\laneY_section_reset\ylib.py:130: RuntimeWarning: invalid value encountered in divide
+  fa[n] = a / s
+agents\laneY_section_reset\ylib.py:136: RuntimeWarning: invalid value encountered in divide
+  be /= be.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:129: RuntimeWarning: divide by zero encountered in log
+  loglik += np.log(s[:, 0])
+agents\laneY_section_reset\ylib.py:130: RuntimeWarning: invalid value encountered in divide
+  fa[n] = a / s
+agents\laneY_section_reset\ylib.py:138: RuntimeWarning: invalid value encountered in divide
+  post[n] = p / p.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:136: RuntimeWarning: invalid value encountered in divide
+  be /= be.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:129: RuntimeWarning: divide by zero encountered in log
+  loglik += np.log(s[:, 0])
+agents\laneY_section_reset\ylib.py:130: RuntimeWarning: invalid value encountered in divide
+  fa[n] = a / s
+agents\laneY_section_reset\ylib.py:138: RuntimeWarning: invalid value encountered in divide
+  post[n] = p / p.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:136: RuntimeWarning: invalid value encountered in divide
+  be /= be.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:129: RuntimeWarning: divide by zero encountered in log
+  loglik += np.log(s[:, 0])
+agents\laneY_section_reset\ylib.py:130: RuntimeWarning: invalid value encountered in divide
+  fa[n] = a / s
+agents\laneY_section_reset\ylib.py:138: RuntimeWarning: invalid value encountered in divide
+  post[n] = p / p.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:136: RuntimeWarning: invalid value encountered in divide
+  be /= be.sum(1, keepdims=True)
+agents\laneY_section_reset\ylib.py:138: RuntimeWarning: invalid value encountered in divide
+  post[n] = p / p.sum(1, keepdims=True)
