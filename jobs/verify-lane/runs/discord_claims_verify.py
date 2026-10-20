@@ -2,10 +2,10 @@
 
     python jobs/verify-lane/runs/discord_claims_verify.py [--seed 1] [--perms 100000] [--only 1|2|3]
 
-1. solver A 2026-08-19: sentence Gematria Primus sums of the solved plaintext are prime ~47% vs ~15% by chance.
-2. solver B 2026-09-23..25: the 86 doubled runes of LP2 in order; lag-1 circular GP-index distance, separations 5/12/14,
+1. camilo! 2026-08-19: sentence Gematria Primus sums of the solved plaintext are prime ~47% vs ~15% by chance.
+2. solver 2 2026-09-23..25: the 86 doubled runes of LP2 in order; lag-1 circular GP-index distance, separations 5/12/14,
    D(i+3) - D(i) = +4; with a look-elsewhere correction over lags 1-10 and every separation / difference value.
-3. solver C 2026-08-09: ~100 one-rune words in LP2, none adjacent; apostrophes at LP2 positions 1110, 5138, 8515, 10089.
+3. solver 3 2026-08-09: ~100 one-rune words in LP2, none adjacent; apostrophes at LP2 positions 1110, 5138, 8515, 10089.
 
 Data: lp/lpdata.py (LP2, pin asserted), jobs/verify-lane/tools/solved_plaintext.py (LP1 and the two solved LP2 pages,
 decoded here), toolbox/runes.py (English), the aldegonde master transcriptions (marks). Writes
@@ -112,7 +112,7 @@ def english_sentences(path):
 def claim1(rng, reps):
     secs = sp.build()
     res = {"sections": [(s["name"], s["method"], round(s["quad"], 3), len(s["p"])) for s in secs]}
-    print("CLAIM 1 (solver A): prime sentence GP sums in the solved plaintext")
+    print("CLAIM 1 (camilo!): prime sentence GP sums in the solved plaintext")
     for s in secs:
         print(f"  {s['name']}: {len(s['p'])} runes, {s['method']}, quadgram {s['quad']:.3f}")
     corpora = {
@@ -200,7 +200,7 @@ def claim1(rng, reps):
         print(fmt(f"   blocks of {N} consecutive English sentences", eng[nm]["blocks"]))
         print(fmt("   length-matched English sentences", eng[nm]["length_matched"]))
     res["english"] = eng
-    # LP2 ciphertext sentences, for reference (solver A reported LP2 clauses at the null)
+    # LP2 ciphertext sentences, for reference (camilo! reported LP2 clauses at the null)
     U, idx, h2 = lpdata.unsolved()
     assert h2 == PIN
     c = np.array(idx)
@@ -302,7 +302,7 @@ def claim2(rng, reps):
     pos = np.nonzero(c[:-1] == c[1:])[0]
     triples = int(np.sum((c[:-2] == c[1:-1]) & (c[1:-1] == c[2:])))
     D = c[pos]
-    print("CLAIM 2 (solver B): the doubled-rune stream D of LP2")
+    print("CLAIM 2 (solver 2): the doubled-rune stream D of LP2")
     print(f"  {len(pos)} doublets, {triples} triples; D = {' '.join(lpdata.TR[x] for x in D)}")
     res = dict(n=len(D), triples=triples, positions=[int(x) for x in pos], D=[int(x) for x in D])
     res["full"] = claim2_on(D, rng, reps, "whole book")
@@ -416,7 +416,7 @@ def apostrophes(path):
 
 
 def claim3(rng, reps):
-    print("CLAIM 3 (solver C): one-rune words in LP2 and the apostrophe positions")
+    print("CLAIM 3 (solver 3): one-rune words in LP2 and the apostrophe positions")
     res = {}
     L, sid, pg, first = word_table_lp2()
     res["LP2"] = onerune_test(L, sid, pg, rng, reps, "LP2 pages 0-54")
@@ -471,7 +471,7 @@ def claim3(rng, reps):
         for r in rows:
             print(f"    {r}")
     res["apostrophes"] = ap
-    res["solverC_positions"] = [1110, 5138, 8515, 10089]
+    res["solver3_positions"] = [1110, 5138, 8515, 10089]
     OUT["claim3"] = res
 
 

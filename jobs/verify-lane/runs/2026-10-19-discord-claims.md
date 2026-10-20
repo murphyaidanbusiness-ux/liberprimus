@@ -8,12 +8,12 @@ Discord, treated as data). No community code was used: the claimants posted none
 
 | # | Claim (who, date) | Our statistic | Null mean +- sd (max) | z | Verdict |
 | --- | --- | --- | --- | --- | --- |
-| 1 | solver A, 08-19: solved plaintext sentence GP sums prime ~47% vs ~15% by chance, z +8.8 | 44 of 96 solved sentences prime = **45.8%** (LP1 alone 39/88 = 44.3%) | shuffle 14.6% +- 3.5% (max 29.2%) | **+8.86** (LP1 alone +8.06) | **REPRODUCED.** Replicates on both halves (z +5.93, +6.64, each above its own null max), on a second route through the English translation (z +9.77), and under a fresh seed. Met the brief's stop bar, so it went to the orchestrator first; **ruled not a lead** (see Lead status). |
-| 2a | solver B, 09-23: lag-1 circular GP distance of the 86 doubled runes larger than in permutations, 8.81 vs 7.29, p = 0.00063 | 8.635 | 7.290 +- 0.449 (max 9.094) | +3.00; p 0.0015, **0.013 after lags 1-10** | **Weak, differs in size.** Same direction in both halves (z +2.13, +2.14, p ~0.02 each). Survives an increment-shuffle cipher null (z +3.26). Far from a lead. |
-| 2b | solver B: separations 5, 12, 14 over-represented, p = 0.014 | 31 of 85 lag-1 pairs | 17.1 +- 3.7 for {5,12,14}; 27.3 +- 2.4 for the top 3 of any values | +3.79 raw; **+1.55 as the top 3 of 15 values, p 0.54 after lags 1-10** | **Not significant.** The three values were picked after looking. |
-| 2c | solver B: D(i+3) - D(i) = +4 in 12.9% vs 3.4%, p = 0.002 | 10 of 83 = 12.0% | 3.09 +- 1.72 (max 15) | +4.01 raw; **p 0.16 over all 290 (lag, difference) cells** | **Not significant** after the correction; carried by the first half (6 of 37), absent in the second (4 of 43, z +1.88). |
-| 3a | solver C, 08-09: ~100 one-rune words in LP2, none adjacent; shuffles give runs of 2-4 | 83 one-rune words, 0 adjacent | global shuffle 2.37 +- 1.50; P(0) = 0.086 (within page 0.107, within sentence 0.127) | -1.59 | **Count differs (83 vs ~100), "none adjacent" reproduced, not significant.** LP1 (0 adjacent, P(0) 0.09-0.38) and English (deficits of z -1.1 to -3.3 against its own shuffles) behave the same way. |
-| 3b | solver C: apostrophes at LP2 positions 1110, 5138, 8515, 10089, each followed by one rune | 1110, 5138, 8515, 10089 (0-based index of the rune after the mark; pages 4, 21, 35, 41) | n/a | n/a | **REPRODUCED** in both aldegonde transcriptions. RDP v2's master has only three: it lacks the mark at 8515 (page 35). |
+| 1 | camilo!, 08-19: solved plaintext sentence GP sums prime ~47% vs ~15% by chance, z +8.8 | 44 of 96 solved sentences prime = **45.8%** (LP1 alone 39/88 = 44.3%) | shuffle 14.6% +- 3.5% (max 29.2%) | **+8.86** (LP1 alone +8.06) | **REPRODUCED.** Replicates on both halves (z +5.93, +6.64, each above its own null max), on a second route through the English translation (z +9.77), and under a fresh seed. Met the brief's stop bar, so it went to the orchestrator first; **ruled not a lead** (see Lead status). |
+| 2a | solver 2, 09-23: lag-1 circular GP distance of the 86 doubled runes larger than in permutations, 8.81 vs 7.29, p = 0.00063 | 8.635 | 7.290 +- 0.449 (max 9.094) | +3.00; p 0.0015, **0.013 after lags 1-10** | **Weak, differs in size.** Same direction in both halves (z +2.13, +2.14, p ~0.02 each). Survives an increment-shuffle cipher null (z +3.26). Far from a lead. |
+| 2b | solver 2: separations 5, 12, 14 over-represented, p = 0.014 | 31 of 85 lag-1 pairs | 17.1 +- 3.7 for {5,12,14}; 27.3 +- 2.4 for the top 3 of any values | +3.79 raw; **+1.55 as the top 3 of 15 values, p 0.54 after lags 1-10** | **Not significant.** The three values were picked after looking. |
+| 2c | solver 2: D(i+3) - D(i) = +4 in 12.9% vs 3.4%, p = 0.002 | 10 of 83 = 12.0% | 3.09 +- 1.72 (max 15) | +4.01 raw; **p 0.16 over all 290 (lag, difference) cells** | **Not significant** after the correction; carried by the first half (6 of 37), absent in the second (4 of 43, z +1.88). |
+| 3a | solver 3, 08-09: ~100 one-rune words in LP2, none adjacent; shuffles give runs of 2-4 | 83 one-rune words, 0 adjacent | global shuffle 2.37 +- 1.50; P(0) = 0.086 (within page 0.107, within sentence 0.127) | -1.59 | **Count differs (83 vs ~100), "none adjacent" reproduced, not significant.** LP1 (0 adjacent, P(0) 0.09-0.38) and English (deficits of z -1.1 to -3.3 against its own shuffles) behave the same way. |
+| 3b | solver 3: apostrophes at LP2 positions 1110, 5138, 8515, 10089, each followed by one rune | 1110, 5138, 8515, 10089 (0-based index of the rune after the mark; pages 4, 21, 35, 41) | n/a | n/a | **REPRODUCED** in both aldegonde transcriptions. RDP v2's master has only three: it lacks the mark at 8515 (page 35). |
 
 Lead status. Claim 1 is far outside its size-matched null (z +8.9; obs 45.8% against a null max of 29.2%) and
 replicates on held-out halves and a second derivation, so it meets the bar the brief set ("z >= 5 beyond the null max and
@@ -21,7 +21,7 @@ replicates on held-out halves"). It is a property of the **solved** text, not of
 the null (16.0% vs 13.0% +- 2.5%, z +1.22), as any cipher that hides letters would make them. It gives no key and no
 plaintext. It is a plaintext-side check that an LP2 decryption could be scored against. This session stopped and
 reported to the orchestrator, which ruled on 2026-10-19 that it is **not a lead** under CLAUDE.md: it is a property of
-the already-solved plaintext, not key information or structure in LP2, and it is not new (solver A posted it publicly on
+the already-solved plaintext, not key information or structure in LP2, and it is not new (camilo! posted it publicly on
 2026-08-19; the orchestrator also said the community wiki "has long noted" prime-sum sentences in LP1, but that was
 not checked against the wiki, so who found it first is unverified). No email or notification was sent. It
 goes to `jobs/hypothesis-gate` as a candidate optional scorer. Claims 2 and 3 are not leads (best z +4.0 raw,
@@ -48,7 +48,7 @@ corrected p >= 0.013).
 - Sentence: a run of runes between sentence marks ('.', '&', '$'; in the LP2 loader also '§'). Word: between word marks,
   sentence marks or numbers. Line and page breaks end neither.
 
-## Claim 1: prime sentence sums in the solved plaintext (solver A)
+## Claim 1: prime sentence sums in the solved plaintext (camilo!)
 
 Statistic: the share of sentences whose Gematria Primus sum (sum of the rune primes 2..109) is prime.
 
@@ -68,7 +68,7 @@ Statistic: the share of sentences whose Gematria Primus sum (sum of the rune pri
 | reference: LP2 ciphertext sentences (175), shuffle null | 175 | 28 | 16.0% | 12.97% +- 2.48% | 21.71% | +1.22 | 0.14 |
 
 The shuffle null pools every plaintext rune of the corpus, permutes them, and cuts at the same sentence lengths (so
-sentence length and the rune frequencies are kept). Our 45.8% vs 14.6% at z +8.86 is solver A's ~47% vs ~15% at z +8.8.
+sentence length and the rune frequencies are kept). Our 45.8% vs 14.6% at z +8.86 is camilo!'s ~47% vs ~15% at z +8.8.
 English sentences transliterated with `toolbox/runes.py` are prime 13-14% of the time (sentences split at . ! ? ; :,
 Project Gutenberg licence cut off: its one-letter "sentences" such as "1.E.8" are prime by construction, since every
 single rune's value is a prime, and before the cut they put one Moby-Dick block at 41.7%).
@@ -89,13 +89,13 @@ null). On `toolbox/score.py`: it belongs there as an optional channel (sentence-
 shuffle null), but the toolbox is not edited here; it goes to `jobs/hypothesis-gate` first, which should also ask how
 much of LP2 is narrative (where LP1 shows no effect) before weighting it.
 
-## Claim 2: the doubled-rune stream (solver B)
+## Claim 2: the doubled-rune stream (solver 2)
 
 D = the rune of each of LP2's 86 doublets, in order (0 triples), from `lp/lpdata.py`:
 `TH X EA J L AE S NG G AE N OE J F Y G X U AE G IA O M H W D X J EA AE G IA O S N X U L S E L O E R C F EO AE M TH EO F N T D H R A TH J T AE F X W I OE W EA N OE I AE OE X E O E P W W W Y NG G TH`.
 Null: 100,000 permutations of D (50,000 per half). Circular distance = min(|a - b|, 29 - |a - b|) on GP indices.
 
-| Statistic | solver B | Ours | Null mean +- sd | Null max | z | p raw | p corrected | Status |
+| Statistic | solver 2 | Ours | Null mean +- sd | Null max | z | p raw | p corrected | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | lag-1 mean circular distance | 8.81 vs 7.29 | 8.635 | 7.290 +- 0.449 | 9.094 | +3.00 | 0.0015 | 0.013 (max z over lags 1-10) | differs (8.81 vs 8.635; his list is not posted, so the cause is unknown); direction reproduced |
 | mean distance, lags 2-10 | "gone at lag 2" | 7.43 7.54 6.82 7.78 7.59 7.27 7.96 6.77 8.08 | | | z +0.31 +0.55 -1.03 +1.07 +0.65 -0.05 +1.43 -1.10 +1.67 | | | reproduced |
@@ -112,7 +112,7 @@ look-elsewhere correction (p 0.013), and it is about +2 sigma in each half. It i
 consecutive doublets tend to sit far apart on the rune circle. It is nowhere near the lead bar, and no key model in
 CONSTRAINTS.md predicts it yet. Cheap to keep as a C2-side observation; a follow-up would need a mechanism to test.
 
-## Claim 3: one-rune words and apostrophes (solver C)
+## Claim 3: one-rune words and apostrophes (solver 3)
 
 Words from `lp/lpdata.py` (2,896 words on pages 0-54). Adjacent = consecutive in reading order, across sentence and
 page breaks too (counting only pairs inside a sentence gives the same zeros). Nulls keep the word-length multiset:
@@ -135,7 +135,7 @@ English). The claim is a deficit, so the tail is P(null <= obs).
 English blocks are the first three runs of 2,896 words of each text (`toolbox/runes.py` transliteration), sentences
 split at . ! ? ; :, so the within-page column does not apply to them.
 
-solver C's count (~100, "84/100 confirmed against page images") differs from ours (83); our word marks come from the
+solver 3's count (~100, "84/100 confirmed against page images") differs from ours (83); our word marks come from the
 pinned loader, and his figure of 84 confirmed is close to ours. "None adjacent" reproduces, but a shuffle gives zero
 adjacent pairs 9-13% of the time, so it is not a signal. English shows the same thing more strongly (A and I rarely
 stand next to each other), so the LP2 pattern is what English word order gives. A small aside on the layout result
@@ -144,7 +144,7 @@ leans weakly (p ~0.09) against complete scrambling.
 
 Apostrophes, mapped onto our pinned stream (each transcription's LP2 runes equal ours for all 12,956):
 
-| solver C | Our rune index after the mark (0-based) | Page | Word before the mark | Runes after the mark in the word | aldegonde page0-58 | aldegonde master | RDP v2 master |
+| solver 3 | Our rune index after the mark (0-based) | Page | Word before the mark | Runes after the mark in the word | aldegonde page0-58 | aldegonde master | RDP v2 master |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1110 | 1110 | 4 | ᛗᛉᛁ | 1 | yes | yes | yes |
 | 5138 | 5138 | 21 | ᚫᚩ | 1 | yes | yes | yes |
@@ -154,7 +154,7 @@ Apostrophes, mapped onto our pinned stream (each transcription's LP2 runes equal
 His positions are the 0-based index of the rune after the apostrophe, and every mark is followed by exactly one rune
 and then a word mark (reproduced). Our loader does not treat the apostrophe as a word break, so the words there are
 4, 3, 3 and 4 runes long. RDP v2 (mortlach's corrected transcription) drops the page-35 mark; check this against the
-page image and against solver D's corrected transcription when it is posted.
+page image and against a community member's corrected transcription when it is posted.
 
 ## Fresh-seed replay
 
@@ -184,7 +184,7 @@ word block and splits a few sentences differently; both routes agree on the size
 | PROOF line | Result |
 | --- | --- |
 | Every headline number, one row each, the claimant's value and ours | PASS (Summary and each claim's table; the claims come from the scout notes, as there is no lane RESULTS.md) |
-| Each row reproduced / differs (both values, reason) / not checked | PASS. Differs: 2a size (8.81 vs 8.635; solver B's doublet list was not posted; trust ours, which is printed in full from the pinned loader; verdict unchanged); 3a count (~100 vs 83; word-mark convention; trust ours for our loader; verdict unchanged) |
+| Each row reproduced / differs (both values, reason) / not checked | PASS. Differs: 2a size (8.81 vs 8.635; solver 2's doublet list was not posted; trust ours, which is printed in full from the pinned loader; verdict unchanged); 3a count (~100 vs 83; word-mark convention; trust ours for our loader; verdict unchanged) |
 | Our code next to the report, no lane code imported | PASS: `discord_claims_verify.py`, `discord_claim1_crosscheck.py`, `tools/solved_plaintext.py`; imports only `lp/` and `toolbox/` (no community code exists for these claims) |
 | Re-running prints the report's numbers | PASS: a second full `--seed 1 --perms 100000` run is byte-identical to `discord_claims_out_seed1.txt` and `.json`. (`--only N` draws different nulls, because one random stream runs through the claims in order; its observed values are the same) |
 | A control replayed on a fresh seed or fresh plaintext | PASS: seed 2 for every number; fresh plaintext (translation route) for claim 1; English and LP1 controls for claim 3 |

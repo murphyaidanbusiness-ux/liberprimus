@@ -134,7 +134,7 @@ The four word-start differences (flat index = 0-based position in the pin's LP2 
   become one 5-rune word, as v2's README says ("LP37's removed separator joins rune lengths 2 and 3 into 5"). If the
   list numeral counts as a break, v2 agrees with the pin here. This changes RDP's word-length (WLI) input on that page,
   not any rune.
-- **Apostrophes.** v2 has exactly three apostrophes in LP2, at 1110, 5138 and 10089; the pin's source has none. solver C
+- **Apostrophes.** v2 has exactly three apostrophes in LP2, at 1110, 5138 and 10089; the pin's source has none. solver 3
   listed apostrophes at 1110, 5138, 8515 and 10089 (scout7 item 4). Three of the four match exactly with 0-based flat
   indices. At 8515 (p35+80) neither v2 nor the pin has any mark, and the pin has no word start there.
 - **Quotation marks.** v2 has 13 `"` marks in LP2 (flat 1659, 1677, 5459, 5478, 9715, 9727, 9811, 9869, 10211, 10279,

@@ -1,4 +1,4 @@
-CLAIM 1 (solver A): prime sentence GP sums in the solved plaintext
+CLAIM 1 (camilo!): prime sentence GP sums in the solved plaintext
   LP1 seg1: 184 runes, affine s=-1 d=28, quadgram -4.478
   LP1 seg2: 515 runes, stream DIVINITY sign=-1 F-skip, quadgram -4.343
   LP1 seg3: 157 runes, affine s=+1 d=0, quadgram -4.979
@@ -26,7 +26,7 @@ CLAIM 1 (solver A): prime sentence GP sums in the solved plaintext
      blocks of 96 consecutive English sentences: obs 0.4583 | null 0.131 +- 0.0339, max 0.1979 | z +9.66 | p 0.016 (n=62)
      length-matched English sentences: obs 0.4583 | null 0.1268 +- 0.0322, max 0.2708 | z +10.31 | p 0.0005 (n=2000)
   LP2 ciphertext sentences (175), reference: obs 0.16 | null 0.1297 +- 0.0248, max 0.2171 | z +1.22 | p 0.14 (n=2000)
-CLAIM 2 (solver B): the doubled-rune stream D of LP2
+CLAIM 2 (solver 2): the doubled-rune stream D of LP2
   86 doublets, 0 triples; D = TH X EA J L AE S NG G AE N OE J F Y G X U AE G IA O M H W D X J EA AE G IA O S N X U L S E L O E R C F EO AE M TH EO F N T D H R A TH J T AE F X W I OE W EA N OE I AE OE X E O E P W W W Y NG G TH
  whole book: n = 86 doublets
   lag-1 mean circular GP distance: obs 8.635 | null 7.29 +- 0.449, max 9.094 | z +3.00 | p 0.0015 (n=100000) | look-elsewhere (lags 1-10) p 0.013
@@ -53,7 +53,7 @@ CLAIM 2 (solver B): the doubled-rune stream D of LP2
   D(i+3)-D(i)=+4 count (of 43; 9.3%): obs 4 | null 1.652 +- 1.25, max 9 | z +1.88 | p 0.08 (n=50000) | look-elsewhere (all lags 1-10 x 29 differences) p 1
    most extreme (lag, difference) cell: lag 9 diff +11 count 5 z +2.94, look-elsewhere p 0.91
   lag-1 mean distance vs 200 increment-shuffled LP2 streams (doublet values re-drawn): obs 8.635 | null 7.219 +- 0.434, max 8.318 | z +3.26 | p 0.005 (n=200)
-CLAIM 3 (solver C): one-rune words in LP2 and the apostrophe positions
+CLAIM 3 (solver 3): one-rune words in LP2 and the apostrophe positions
  LP2 pages 0-54: 2896 words, 83 one-rune words (2.9%); adjacent one-rune pairs: 0 (within a sentence: 0)
   global word shuffle, any adjacency: obs 0 | null 2.372 +- 1.5, min 0 | z -1.59 | p 0.086 (n=20000) | P(0 adjacent) 0.086
   within-page shuffle, any adjacency: obs 0 | null 2.128 +- 1.4, min 0 | z -1.52 | p 0.11 (n=20000) | P(0 adjacent) 0.107
