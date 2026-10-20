@@ -1,0 +1,428 @@
+== 1. closure: 245 files inside the tree
+   solving/solve_output.py
+   solving/solved_lp/01_A_Warning.py
+   solving/solved_lp/02_Welcome_Pilgrim.py
+   solving/solved_lp/03_Some_Wisdom.py
+   solving/solved_lp/04_Koan_A_Man.py
+   solving/solved_lp/05_Loss_Of_Divinity.py
+   solving/solved_lp/06_Koan_During_Lesson.py
+   solving/solved_lp/07_Instruction.py
+   solving/solved_lp/08_An_End.py
+   solving/solved_lp/09_Parable.py
+   solving/solved_lp/run_all.py
+   src/rdp/__init__.py
+   src/rdp/api/__init__.py
+   src/rdp/api/_resolve.py
+   src/rdp/api/advanced.py
+   src/rdp/api/artifact_agreement.py
+   src/rdp/api/data_helpers.py
+   src/rdp/api/display.py
+   src/rdp/api/errors.py
+   src/rdp/api/experimental.py
+   src/rdp/api/known_key.py
+   src/rdp/api/liber_primus.py
+   src/rdp/api/normalize.py
+   src/rdp/api/pipeline.py
+   src/rdp/api/pipeline_helpers.py
+   src/rdp/api/run.py
+   src/rdp/api/run_artifact_manifest.py
+   src/rdp/api/run_result.py
+   src/rdp/api/run_spec.py
+   src/rdp/api/run_spec_routing.py
+   src/rdp/api/scoring.py
+   src/rdp/api/solver_report.py
+   src/rdp/api/solver_report_export.py
+   src/rdp/api/source_resolution.py
+   src/rdp/api/specs.py
+   src/rdp/api/stop_reason_contract.py
+   src/rdp/api/two_period_cribs.py
+   src/rdp/api/word_crib_config.py
+   src/rdp/backends/xp.py
+   src/rdp/ciphers/autokey_cipher.py
+   src/rdp/ciphers/base_keyed_cipher.py
+   src/rdp/ciphers/cipher_runtime_registry.py
+   src/rdp/ciphers/ciphers_pipeline.py
+   src/rdp/ciphers/columnar_transposition_cipher.py
+   src/rdp/ciphers/generic_map_cipher.py
+   src/rdp/ciphers/interruptors.py
+   src/rdp/ciphers/periodic_columnar_cipher.py
+   src/rdp/ciphers/periodic_substitution_cipher.py
+   src/rdp/ciphers/railfence_cipher.py
+   src/rdp/ciphers/scheduled_stream_lookup_cipher.py
+   src/rdp/ciphers/substitution_cipher.py
+   src/rdp/ciphers/transposition.py
+   src/rdp/ciphers/vigenere_cipher.py
+   src/rdp/core/capability_gates.py
+   src/rdp/core/component_contracts.py
+   src/rdp/core/config/cipher.py
+   src/rdp/core/config/hard_crib.py
+   src/rdp/core/config/interruptor.py
+   src/rdp/core/config/logging_config.py
+   src/rdp/core/config/output_paths.py
+   src/rdp/core/config/run.py
+   src/rdp/core/config/scorer_context.py
+   src/rdp/core/config/scoring.py
+   src/rdp/core/config/solution.py
+   src/rdp/core/config/solver.py
+   src/rdp/core/config/validation.py
+   src/rdp/core/engine/__init__.py
+   src/rdp/core/engine/builders.py
+   src/rdp/core/engine/engine.py
+   src/rdp/core/engine/finalization.py
+   src/rdp/core/hamming_dictionary_policy.py
+   src/rdp/core/problem/instance.py
+   src/rdp/core/problem/runtime.py
+   src/rdp/core/problem/spec.py
+   src/rdp/core/types.py
+   src/rdp/data/asset_paths.py
+   src/rdp/data/liber_primus/__init__.py
+   src/rdp/data/liber_primus/lp_adapter.py
+   src/rdp/data/liber_primus/lp_data.py
+   src/rdp/data/liber_primus/lp_main.py
+   src/rdp/data/liber_primus/lp_registry.py
+   src/rdp/data/liber_primus/lp_routes.py
+   src/rdp/data/liber_primus/lp_solved_plaintext.py
+   src/rdp/data/liber_primus/lp_source_catalogue.py
+   src/rdp/data/liber_primus/lp_transcript.py
+   src/rdp/data/liber_primus/lp_ui_parse.py
+   src/rdp/data/runeglish.py
+   src/rdp/data/wordlists/loaders.py
+   src/rdp/io/artifact_policy.py
+   src/rdp/io/logging_adapter.py
+   src/rdp/io/rng.py
+   src/rdp/io/run_logger.py
+   src/rdp/keyops/base_keyops.py
+   src/rdp/keyops/composite.py
+   src/rdp/keyops/periodic_structured_matrix_ops.py
+   src/rdp/keyops/permutation_ops.py
+   src/rdp/keyops/registry.py
+   src/rdp/keyops/vector.py
+   src/rdp/scoring/__init__.py
+   src/rdp/scoring/base_scorer.py
+   src/rdp/scoring/hamming/__init__.py
+   src/rdp/scoring/hamming/anneal.py
+   src/rdp/scoring/hamming/backend.py
+   src/rdp/scoring/hamming/dictionary_assets.py
+   src/rdp/scoring/hamming/loader.py
+   src/rdp/scoring/language_model/__init__.py
+   src/rdp/scoring/language_model/ecdf_validator.py
+   src/rdp/scoring/language_model/language_model_prime.py
+   src/rdp/scoring/language_model/language_model_prime_runtime.py
+   src/rdp/scoring/language_model/load_status.py
+   src/rdp/scoring/language_model/paths.py
+   src/rdp/scoring/ngram_hamming/bridge.py
+   src/rdp/scoring/ngram_hamming/reference.py
+   src/rdp/scoring/ngram_hamming/report_only_telemetry.py
+   src/rdp/scoring/objective_normalize.py
+   src/rdp/scoring/retained_state.py
+   src/rdp/scoring/rune_scorer.py
+   src/rdp/scoring/rune_scorer_impl.py
+   src/rdp/scoring/scorer_lane_report.py
+   src/rdp/scoring/scorer_report.py
+   src/rdp/scoring/scorer_report_builder.py
+   src/rdp/scoring/span_hamming/__init__.py
+   src/rdp/scoring/span_hamming/backend.py
+   src/rdp/scoring/span_hamming/calibrated_assets.py
+   src/rdp/scoring/span_hamming/ecdf_interp.py
+   src/rdp/scoring/span_hamming/fast_backend.py
+   src/rdp/scoring/span_hamming/interval_select.py
+   src/rdp/scoring/span_hamming/lm_assets_v2.py
+   src/rdp/scoring/span_hamming/split_index.py
+   src/rdp/scoring/span_hamming/types.py
+   src/rdp/scoring/stat_transform.py
+   src/rdp/scoring/torch_rune_scorer.py
+   src/rdp/scoring/unified_rune_scorer.py
+   src/rdp/scoring/unified_tables.py
+   src/rdp/scoring/windowing.py
+   src/rdp/scoring/word_ngrams/__init__.py
+   src/rdp/scoring/word_ngrams/in_memory.py
+   src/rdp/scoring/word_ngrams/runtime.py
+   src/rdp/scoring/word_ngrams/scorer.py
+   src/rdp/scoring/word_ngrams/sqlite_model.py
+   src/rdp/solvers/beam.py
+   src/rdp/solvers/ga.py
+   src/rdp/solvers/hybrid.py
+   src/rdp/solvers/kaeding_periodic_structured.py
+   src/rdp/solvers/sa.py
+   src/rdp/solvers/solver_base.py
+   src/rdp/solvers/two_period_cribs.py
+   src/rdp/telemetry/bag.py
+   src/rdp/telemetry/events.py
+   src/rdp/telemetry/pipeline.py
+   src/rdp/telemetry/schema.py
+   src/rdp/telemetry/scoring.py
+   tests/_helpers/__init__.py
+   tests/_helpers/baseline_registry.py
+   tests/_helpers/configs.py
+   tests/_helpers/hill_cases.py
+   tests/_helpers/permutation_cases.py
+   tests/_helpers/reports.py
+   tests/_helpers/runner.py
+   tests/_helpers/telemetry_contract.py
+   tests/_helpers/vigenere_case.py
+   tests/conftest.py
+   tests/data/liber_primus/test_lp_adapter.py
+   tests/data/liber_primus/test_lp_public_surface.py
+   tests/data/liber_primus/test_lp_registry.py
+   tests/data/liber_primus/test_lp_routes.py
+   tests/data/liber_primus/test_lp_solved_plaintext.py
+   tests/data/liber_primus/test_lp_solved_source_spreadsheet_references.py
+   tests/data/liber_primus/test_lp_solved_workspace.py
+   tests/data/liber_primus/test_lp_source_catalogue.py
+   tests/data/liber_primus/test_lp_ui_parse.py
+   tests/data/liber_primus/test_lp_welcome_pilgrim_known_key_smoke.py
+   tests/data/liber_primus/test_lp_workflows_smoke.py
+   tests/harness.py
+   tests/scoring/_helpers/__init__.py
+   tests/scoring/_helpers/lm_test_guard.py
+   tests/scoring/golden_vectors.py
+   tests/scoring/language_model/test_ecdf_status_reporting.py
+   tests/scoring/language_model/test_lm_asset_status.py
+   tests/scoring/span_hamming/_lm_robustness_helpers.py
+   tests/scoring/span_hamming/test_calibrated_assets.py
+   tests/scoring/span_hamming/test_ecdf_interp.py
+   tests/scoring/span_hamming/test_fast_span_hamming_backend.py
+   tests/scoring/span_hamming/test_lm_assets_v2.py
+   tests/scoring/span_hamming/test_lm_robustness_smoke.py
+   tests/scoring/span_hamming/test_span_hamming_backend.py
+   tests/scoring/test_avg_ecdf_runtime_separation.py
+   tests/scoring/test_backend_selection_and_parity.py
+   tests/scoring/test_base_scorer_enum_assignment_contract.py
+   tests/scoring/test_ecdf_cache_strict.py
+   tests/scoring/test_ecdf_energy_clamp.py
+   tests/scoring/test_ecdf_validator.py
+   tests/scoring/test_hamming_anneal.py
+   tests/scoring/test_hamming_backend.py
+   tests/scoring/test_hamming_dictionary_policy_assets.py
+   tests/scoring/test_hamming_integration.py
+   tests/scoring/test_lm_cache_isolation.py
+   tests/scoring/test_lm_raw_data_integrity.py
+   tests/scoring/test_lm_smoothing.py
+   tests/scoring/test_no_silent_hamming_fallback.py
+   tests/scoring/test_no_silent_span_hamming_fallback.py
+   tests/scoring/test_objective_input_compat_runtime.py
+   tests/scoring/test_pct_win10_stats_and_telemetry.py
+   tests/scoring/test_phaseA_v0_14_dictionary_assets.py
+   tests/scoring/test_report_only_lanes_do_not_rank.py
+   tests/scoring/test_report_only_no_rank_effect_contract.py
+   tests/scoring/test_report_only_sections_have_no_rank_effect.py
+   tests/scoring/test_requested_lanes_block_not_warn.py
+   tests/scoring/test_retained_state_plaintext_rescore.py
+   tests/scoring/test_rune_scorer_v1_optional_ngram_import.py
+   tests/scoring/test_score_parity_numpy.py
+   tests/scoring/test_scorer_kaeding_style_avg_logp.py
+   tests/scoring/test_scorer_lane_report.py
+   tests/scoring/test_scorer_lane_status_report.py
+   tests/scoring/test_scorer_pct_edges_and_clamps.py
+   tests/scoring/test_scorer_report_builder.py
+   tests/scoring/test_scorer_report_builder_diagnostics.py
+   tests/scoring/test_scorer_report_json_safe.py
+   tests/scoring/test_scorer_report_label_contract.py
+   tests/scoring/test_scorer_report_lane_sections.py
+   tests/scoring/test_scorer_report_reserved_details.py
+   tests/scoring/test_scorer_smoothing_effect.py
+   tests/scoring/test_scoring_config_asdict_json_safe.py
+   tests/scoring/test_scoring_integrity.py
+   tests/scoring/test_scoring_package_import_policy.py
+   tests/scoring/test_span_hamming_integration.py
+   tests/scoring/test_stat_transform_hook.py
+   tests/scoring/test_torch_avg_fulltext_stability.py
+   tests/scoring/test_torch_batch_score_numpy_input.py
+   tests/scoring/test_torch_hash_helpers_validation.py
+   tests/scoring/test_torch_input_validation.py
+   tests/scoring/test_torch_objective_contracts.py
+   tests/scoring/test_torch_probe_loop_safety.py
+   tests/scoring/test_torch_short_text_hamming.py
+   tests/scoring/test_unified_scorer_contract_torch.py
+   tests/scoring/test_unified_scorer_core_config_boundary.py
+   tests/scoring/test_windowing_spans.py
+   tests/scoring/test_wli_missing.py
+   tests/scoring/test_wli_windowing.py
+   tests/scoring/word_ngrams/test_in_memory.py
+   tests/scoring/word_ngrams/test_sqlite_model.py
+   tests/solved_lp/test_workbook_pages.py
+   tutorials/v1/data/plaintext_fixtures.py
+   tutorials/v1/getting_started/01_known_key.py
+   tutorials/v1/getting_started/02_first_search.py
+   outside the tree (not followed): __future__, abc, ast, bisect, cProfile, collections, contextlib, copy, csv, dataclasses, datetime, enum, functools, getpass, hashlib, importlib, inspect, io, itertools, json, logging, math, numbers, numpy, os, pathlib, platformdirs, pstats, pytest, random, re, socket, sqlite3, struct, subprocess, sys, tempfile, threading, time, tomllib, torch, types, typing, uuid, warnings, zoneinfo, zstandard
+== 2. risky call sites
+  write       solving/solve_output.py:245 in write_json_evidence: path.write_text(json.dumps(_evidence_json_value(dict(evidence)), indent=2, sort_keys=True, ensure_ascii=False)
+  process     solving/solved_lp/run_all.py:44 in run_workbook_script: subprocess.run([sys.executable, '-X', 'utf8', str(script_path)], cwd=ROOT, text=True, encoding='utf-8', errors
+  dynamic     src/rdp/__init__.py:14 in __getattr__: import_module('rdp.api')
+  write       src/rdp/api/display.py:336 in write_summary_json: path.write_text(json.dumps(summary.to_json_dict(), indent=2, sort_keys=True, ensure_ascii=False) + '\n', encod
+  write       src/rdp/api/run_artifact_manifest.py:102 in write_run_artifacts_manifest: manifest_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+  write       src/rdp/api/solver_report_export.py:21 in write_solver_report_json: report_path.write_text(json.dumps(report.to_json_dict(), indent=2, sort_keys=True) + '\n', encoding='utf-8')
+  dynamic     src/rdp/backends/xp.py:13 in _try_import: __import__(name)
+  process     src/rdp/core/config/logging_config.py:179 in _git_info: subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL)
+  process     src/rdp/core/config/logging_config.py:182 in _git_info: subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL)
+  process     src/rdp/core/config/logging_config.py:185 in _git_info: subprocess.check_output(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL
+  process     src/rdp/core/config/logging_config.py:190 in _git_info: subprocess.call(['git', 'diff', '--quiet'], cwd=repo_root, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNUL
+  write       src/rdp/core/config/logging_config.py:250 in _write_meta: (run_dir / 'META.json').write_text(json.dumps(meta, indent=2), encoding='utf-8')
+  write       src/rdp/core/config/logging_config.py:263 in _write_logging_snapshot: (config_dir / 'logging.json').write_text(json.dumps(snap, indent=2), encoding='utf-8')
+  write       src/rdp/io/run_logger.py:86 in __init__: self._jsonl_path.write_text('', encoding='utf-8')
+  write       src/rdp/io/run_logger.py:126 in log_trace: path.write_text(text, encoding='utf-8')
+  dynamic     src/rdp/scoring/hamming/backend.py:15 in _load_hamming_extension: import_module('rdp.scoring.hamming._hamming')
+  dynamic     src/rdp/scoring/span_hamming/fast_backend.py:19 in _load_fast_extension: import_module('rdp.scoring.span_hamming._span_hamming_fast')
+  delete      src/rdp/solvers/kaeding_periodic_structured.py:523 in solve: active_slips.remove(rec)
+  delete      src/rdp/solvers/kaeding_periodic_structured.py:565 in solve: active_slips.remove(rec)
+  delete      tests/conftest.py:10 in <module>: sys.path.remove(resolved)
+  dynamic     tests/data/liber_primus/test_lp_solved_workspace.py:31 in test_unenciphered_replays_reject_an_incorrect_reference: import_module(module_name)
+  write       tests/scoring/language_model/test_ecdf_status_reporting.py:11 in _write_index: (root / 'index.json').write_text(json.dumps({'version': 'test.v1', 'base': '.', 'ecdf_root': 'ecdf', 'joint_ro
+  write       tests/scoring/language_model/test_lm_asset_status.py:9 in _write_index: (root / 'index.json').write_text(json.dumps(payload if payload is not None else {'version': 'test.v1', 'base':
+  write       tests/scoring/span_hamming/test_calibrated_assets.py:14 in _write_assets: (assets / 'combined_calibration.json').write_text(json.dumps(cal), encoding='utf-8')
+  write       tests/scoring/span_hamming/test_lm_assets_v2.py:11 in _write_asset: fp.write_text(json.dumps(payload), encoding='utf-8')
+  write       tests/scoring/span_hamming/test_lm_robustness_smoke.py:32 in _write_span_assets: (assets / 'combined_calibration.json').write_text(json.dumps(cal), encoding='utf-8')
+  write       tests/scoring/span_hamming/test_lm_robustness_smoke.py:40 in _write_lm_assets: fp.write_text(json.dumps(payload), encoding='utf-8')
+  write       tests/scoring/test_ecdf_cache_strict.py:10 in _write_index: (root / 'index.json').write_text(json.dumps(data), encoding='utf-8')
+  write       tests/scoring/test_hamming_backend.py:19 in _write_csv: path.write_text('\n'.join(lines), encoding='utf-8')
+  write       tests/scoring/test_lm_cache_isolation.py:13 in _write_index: (root / 'index.json').write_text(json.dumps(data), encoding='utf-8')
+  write       tests/scoring/test_lm_cache_isolation.py:24 in _write_joint: path.write_bytes(comp)
+  dynamic     tests/scoring/test_rune_scorer_v1_optional_ngram_import.py:6 in test_rune_scorer_does_not_require_experimental_word_ngram_module_at_import_time: importlib.import_module('rdp.scoring.rune_scorer')
+  process     tests/scoring/test_scoring_package_import_policy.py:17 in _run_isolated: subprocess.run([sys.executable, '-I', '-B', '-c', launch], cwd=ROOT, capture_output=True, text=True, check=Fal
+  write       tests/scoring/test_span_hamming_integration.py:105 in _write_span_assets: (assets / 'combined_calibration.json').write_text(json.dumps(cal), encoding='utf-8')
+  process     tests/solved_lp/test_workbook_pages.py:47 in test_welcome_pilgrim_binds_current_source_before_importing_rdp: subprocess.run([sys.executable, '-I', '-B', '-X', 'utf8', '-c', probe], cwd=REPO_ROOT, text=True, capture_outp
+  process     tests/solved_lp/test_workbook_pages.py:59 in test_run_all_workbook_solves_require_solved_status: subprocess.run([sys.executable, '-X', 'utf8', str(RUN_ALL)], cwd=REPO_ROOT, text=True, capture_output=True, ti
+== 3. statements with calls that run at import time
+  solving/solve_output.py:212: _LOSSLESS_PLAINTEXT_EVIDENCE_FIELDS = frozenset({'plaintext_indices', 'word_length_information'})
+  solving/solved_lp/01_A_Warning.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/01_A_Warning.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/01_A_Warning.py:13: configure_utf8_stdio()
+  solving/solved_lp/02_Welcome_Pilgrim.py:7: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/02_Welcome_Pilgrim.py:9: for path in (ROOT, SRC):
+  solving/solved_lp/02_Welcome_Pilgrim.py:16: configure_utf8_stdio()
+  solving/solved_lp/02_Welcome_Pilgrim.py:20: KEY_LENGTH = len(KEY_TEXT_HINT)
+  solving/solved_lp/02_Welcome_Pilgrim.py:28: EVIDENCE_DIR = Path('solved_lp') / SOURCE_LABEL
+  solving/solved_lp/02_Welcome_Pilgrim.py:31: SOLVER = api.SolverSpec.beam_search(width=64, expansion=api.advanced.BeamExpansionMode.SWEEP, plateau_rounds=5
+  solving/solved_lp/03_Some_Wisdom.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/03_Some_Wisdom.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/03_Some_Wisdom.py:13: configure_utf8_stdio()
+  solving/solved_lp/04_Koan_A_Man.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/04_Koan_A_Man.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/04_Koan_A_Man.py:13: configure_utf8_stdio()
+  solving/solved_lp/05_Loss_Of_Divinity.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/05_Loss_Of_Divinity.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/05_Loss_Of_Divinity.py:13: configure_utf8_stdio()
+  solving/solved_lp/06_Koan_During_Lesson.py:7: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/06_Koan_During_Lesson.py:9: for path in (ROOT, SRC):
+  solving/solved_lp/06_Koan_During_Lesson.py:18: configure_utf8_stdio()
+  solving/solved_lp/06_Koan_During_Lesson.py:23: KEY_LENGTH = len(RECIPE_REFERENCE_KEY_OR_SHIFT)
+  solving/solved_lp/06_Koan_During_Lesson.py:26: INTERRUPTOR_COUNT = len(PINNED_FOUND_INTERRUPTORS)
+  solving/solved_lp/07_Instruction.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/07_Instruction.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/07_Instruction.py:13: configure_utf8_stdio()
+  solving/solved_lp/08_An_End.py:11: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/08_An_End.py:13: for path in (ROOT, SRC):
+  solving/solved_lp/08_An_End.py:23: configure_utf8_stdio()
+  solving/solved_lp/08_An_End.py:36: EVIDENCE_DIR = Path('solved_lp') / SOURCE_LABEL
+  solving/solved_lp/09_Parable.py:5: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/09_Parable.py:7: for path in (ROOT, SRC):
+  solving/solved_lp/09_Parable.py:13: configure_utf8_stdio()
+  solving/solved_lp/run_all.py:9: ROOT = Path(__file__).resolve().parents[2]
+  solving/solved_lp/run_all.py:10: WORKBOOK_ROOT = Path(__file__).resolve().parent
+  solving/solved_lp/run_all.py:13: _STATUS_RE = re.compile('^status:\\s*(?P<value>\\S+)\\s*$', re.MULTILINE)
+  solving/solved_lp/run_all.py:14: _MATCH_RE = re.compile('^match_ratio:\\s*(?P<value>[0-9]+(?:\\.[0-9]+)?)\\s*$', re.MULTILINE)
+  src/rdp/api/advanced.py:80: __all__ = [name for name in globals() if not name.startswith('_') and name != 'annotations']
+  src/rdp/api/artifact_agreement.py:43: ALLOWED_CLASSIFICATIONS = frozenset((item.value for item in ArtifactClassification))
+  src/rdp/api/data_helpers.py:5: if TYPE_CHECKING:
+  src/rdp/api/display.py:57: _OPSEC_PATH_PARENT_NAMES = frozenset({'artifacts', 'config', 'logs', 'trace', 'traces', 'output'})
+  src/rdp/api/display.py:58: _WINDOWS_ABSOLUTE_RE = re.compile('^[A-Za-z]:[\\\\/]')
+  src/rdp/api/normalize.py:23: _T = TypeVar('_T')
+  src/rdp/api/run.py:60: _UNSET = object()
+  src/rdp/api/run_spec.py:29: LP_SOURCE_KINDS = frozenset({'liber_primus.label', 'liber_primus.locator', 'liber_primus.partition'})
+  src/rdp/api/run_spec.py:37: _JSON_PRIMITIVE_TYPES = (str, int, float, bool, type(None))
+  src/rdp/api/run_spec.py:38: _LP_LOCATOR_BASE_KEYS = frozenset({'page_scheme', 'page_number', 'line', 'line_end', 'word', 'word_end', 'rout
+  src/rdp/api/run_spec.py:49: _LP_LOCATOR_ROUTE_KEYS = {'none': _LP_LOCATOR_BASE_KEYS, 'line': _LP_LOCATOR_BASE_KEYS | frozenset({'line_mode
+  src/rdp/api/run_spec.py:55: _LP_PARTITION_KEYS = frozenset({'partition_scheme', 'partition_ordinal', 'canon_start', 'canon_end', 'intersec
+  src/rdp/api/run_spec.py:65: _LP_LABEL_KEYS = frozenset({'label'})
+  src/rdp/api/run_spec_routing.py:17: RUNTIME_LOGGING_KEYS = frozenset({'progress_callback'})
+  src/rdp/api/source_resolution.py:14: SUPPORTED_SOURCE_KINDS = frozenset({'liber_primus.label', 'liber_primus.locator', 'liber_primus.partition'})
+  src/rdp/api/source_resolution.py:22: _JSON_PRIMITIVE_TYPES = (str, int, float, bool, type(None))
+  src/rdp/api/stop_reason_contract.py:120: SUCCESS_REASONS = frozenset((item.value for item in (KnownStopReason.TARGET, KnownStopReason.TARGET_SCORE, Kno
+  src/rdp/api/stop_reason_contract.py:129: BUDGET_REASONS = frozenset((item.value for item in (KnownStopReason.BUDGET, KnownStopReason.EVAL_BUDGET, Known
+  src/rdp/api/stop_reason_contract.py:144: BLOCKED_BEFORE_RUN_REASONS = frozenset((item.value for item in (KnownStopReason.ALL_REJECTED_BY_HARD_CRIB, Kno
+  src/rdp/api/stop_reason_contract.py:152: ERROR_REASONS = frozenset((item.value for item in (KnownStopReason.ERROR, KnownStopReason.EXCEPTION)))
+  src/rdp/api/stop_reason_contract.py:153: MANUAL_REASONS = frozenset((item.value for item in (KnownStopReason.MANUAL, KnownStopReason.CANCELLED, KnownSt
+  src/rdp/api/stop_reason_contract.py:162: BUDGET_REASON_PREFIXES = tuple((item.value for item in StopReasonPrefix))
+  src/rdp/api/stop_reason_contract.py:163: STOP_CATEGORIES = frozenset((item.value for item in StopCategory))
+  src/rdp/api/stop_reason_contract.py:194: _CANONICAL_VALUES = frozenset((reason.value for reason in StopReason))
+  src/rdp/backends/xp.py:18: _cp = _try_import('cupy')
+  src/rdp/backends/xp.py:19: _torch = _try_import('torch')
+  src/rdp/backends/xp.py:264: __all__ += ['get_versions']
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:28: _VALID_ACTIVE_STATES = frozenset({_ACTIVE_NONE, _ACTIVE_A, _ACTIVE_B, _ACTIVE_AB})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:36: _KNOWN_STREAM_KINDS = frozenset({'primes', 'fixed'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:45: _VALID_STREAM_KINDS = frozenset({'periodic', *_KNOWN_STREAM_KINDS})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:47: _VALID_STREAM_DIRECTIONS = frozenset({'forward', 'backward'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:48: _VALID_STREAM_ANCHORS = frozenset({'start', 'end'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:49: _VALID_STREAM_ADVANCE_MODES = frozenset({'core'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:51: _VALID_SCHEDULES = frozenset({'overlay', 'alternating', 'staggered_overlay', 'ragged_overlap', 'mask'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:52: _SCHEDULES_REQUIRING_TWO_STREAMS = frozenset({'alternating', 'staggered_overlay', 'ragged_overlap'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:53: _VALID_OPERATIONS = frozenset({'add', 'add_sub', 'sub_add', 'beaufort_sum', 'xor_mod', 'lookup'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:54: _VALID_DEGENERACY_MODES = frozenset({'forbid', 'allow'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:55: _OPERATIONS_REQUIRING_DEGENERACY_ALLOW = frozenset({'xor_mod', 'lookup'})
+  src/rdp/core/component_contracts.py:9: if TYPE_CHECKING:
+  src/rdp/core/config/cipher.py:8: if TYPE_CHECKING:
+  src/rdp/core/problem/runtime.py:34: logger = module_logger(__name__)
+  src/rdp/data/asset_paths.py:9: _PACKAGE_DATA_ROOT = Path(__file__).resolve().parent
+  src/rdp/data/liber_primus/lp_data.py:722: LP_DATA = LPData(splits={'page': _build_page_sections(), 'red_runes': _build_red_rune_sections()}, default_spl
+  src/rdp/data/liber_primus/lp_main.py:33: _DEFAULT_LP_ASSETS_REL = Path('liber_primus')
+  src/rdp/data/liber_primus/lp_main.py:42: MAIN_TRANSCRIPT = default_main_transcript_path()
+  src/rdp/data/liber_primus/lp_solved_plaintext.py:14: _CANONICAL_TOKEN_TO_POSITION = dict(zip(Runeglish.latin_canon, Runeglish.positions, strict=True))
+  src/rdp/data/liber_primus/lp_source_catalogue.py:110: _SOURCE_ENTRIES: tuple[LPSourceEntry, ...] = (LPSourceEntry(source_label='red_rune.warning', display_name='A W
+  src/rdp/data/liber_primus/lp_source_catalogue.py:230: _SOLVE_RECIPES: tuple[LPSolveRecipeEntry, ...] = (LPSolveRecipeEntry(recipe_label='recipe.warning.reverse_gema
+  src/rdp/data/liber_primus/lp_source_catalogue.py:308: if len(_SOURCE_BY_LABEL) != len(_SOURCE_ENTRIES):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:310: if len(_SOURCE_ALIAS_TO_LABEL) != sum((len(entry.aliases) for entry in _SOURCE_ENTRIES)):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:312: if len(_RECIPE_BY_LABEL) != len(_SOLVE_RECIPES):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:314: for recipe in _SOLVE_RECIPES:
+  src/rdp/data/liber_primus/lp_transcript.py:11: _DOT_TAG_RE = re.compile('\\[dot_[1-9][0-9]*(?:_[A-Za-z0-9]+)*\\]')
+  src/rdp/data/liber_primus/lp_ui_parse.py:8: _CANON_JPG_RE = re.compile('^(?P<num>\\d+)\\.jpg$', re.IGNORECASE)
+  src/rdp/data/liber_primus/lp_ui_parse.py:9: _BOUND_PAGE_RE = re.compile('^(?:page\\s*|p)(?P<num>\\d+)$', re.IGNORECASE)
+  src/rdp/data/liber_primus/lp_ui_parse.py:10: _CANON_NUM_RE = re.compile('^(?P<num>\\d+)$')
+  src/rdp/data/wordlists/loaders.py:13: _DEFAULT_WORDLISTS_ASSETS_REL = Path('wordlists')
+  src/rdp/data/wordlists/loaders.py:20: _DATA_DIR = default_wordlists_dir()
+  src/rdp/io/artifact_policy.py:11: _QUOTED_WINDOWS_ABS_PATH_RE = re.compile('(?i)(?<=[\\"\'])[a-z]:[\\\\/][^\\"\'<>|]+(?=[\\"\'])')
+  src/rdp/io/artifact_policy.py:12: _QUOTED_UNC_ABS_PATH_RE = re.compile('(?<=[\\"\'])\\\\\\\\[^\\"\'<>|]+(?=[\\"\'])')
+  src/rdp/io/artifact_policy.py:13: _QUOTED_UNIX_ABS_PATH_RE = re.compile('(?<=[\\"\'])/(?:[^\\"\'<>|]+/)*[^\\"\'<>|]+(?=[\\"\'])')
+  src/rdp/io/artifact_policy.py:14: _WINDOWS_ABS_PATH_RE = re.compile('(?i)\\b[a-z]:[\\\\/][^\\s\\"\'<>|]+')
+  src/rdp/io/artifact_policy.py:15: _UNC_ABS_PATH_RE = re.compile('\\\\\\\\[^\\s\\"\'<>|]+')
+  src/rdp/io/artifact_policy.py:16: _UNIX_ABS_PATH_RE = re.compile('(?<!\\w)/(?:[^\\s\\"\'<>|]+/)*[^\\s\\"\'<>|]+')
+  src/rdp/io/run_logger.py:14: try:
+  src/rdp/io/run_logger.py:42: _TZ = _load_log_timezone()
+  src/rdp/io/run_logger.py:43: _lock = threading.Lock()
+  src/rdp/scoring/base_scorer.py:21: _OBJ_RE = re.compile('^(?P<family>[A-Za-z_]+)\\.(?P<stat>[A-Za-z_]+)(?:\\.win(?P<win>\\d+))?$')
+  src/rdp/scoring/hamming/dictionary_assets.py:11: _POLICY_REL_DIRS = {HammingDictionaryPolicy.STRICT: Path('hamming_dictionary_policies/strict/hamming_raw_1g'),
+  src/rdp/scoring/hamming/loader.py:14: _DEFAULT_HAMMING_ASSETS_REL = Path('hamming_raw_1g')
+  src/rdp/scoring/language_model/paths.py:19: _MODULE_PATH = Path(__file__).resolve()
+  src/rdp/scoring/language_model/paths.py:23: _DEFAULT_LM_ASSETS_REL = Path('language_model')
+  src/rdp/scoring/ngram_hamming/bridge.py:13: PROFILE_MANIFEST_REQUIRED_FIELDS = frozenset({'profile_id', 'profile_origin', 'canonical_profile_id', 'paramet
+  src/rdp/scoring/ngram_hamming/bridge.py:35: CLUSTER_ROW_REQUIRED_FIELDS = frozenset({'run_id', 'cluster_scope', 'candidate_id', 'chunk_id', 'cluster_id', 
+  src/rdp/scoring/ngram_hamming/bridge.py:56: CANDIDATE_SUMMARY_REQUIRED_FIELDS = frozenset({'candidate_id', 'profile_id', 'profile_origin', 'canonical_prof
+  src/rdp/scoring/ngram_hamming/bridge.py:79: PAIR_LEDGER_REQUIRED_FIELDS = frozenset({'pair_id', 'expected_better_id', 'expected_worse_id', 'baseline_winne
+  src/rdp/scoring/ngram_hamming/bridge.py:101: ZERO_HIT_AUDIT_REQUIRED_FIELDS = frozenset({'pair_id', 'candidate_id', 'role', 'chunk_id', 'panel_rescue_flag'
+  src/rdp/scoring/rune_scorer_impl.py:60: _DEF_CLAMP_MAX = float(np.nextafter(np.float32(1.0), np.float32(0.0)))
+  src/rdp/scoring/scorer_report_builder.py:58: RESERVED_DETAIL_KEYS = frozenset((key.value for key in ScorerReportDetailKey))
+  src/rdp/scoring/scorer_report_builder.py:59: CALLER_FORBIDDEN_DETAIL_KEYS = frozenset({ScorerReportDetailKey.REPORT_BUILDER_DIAGNOSTICS.value})
+  src/rdp/scoring/word_ngrams/sqlite_model.py:9: KEY_SEP = bytes([WORD_SEP_BYTE])
+  src/rdp/solvers/solver_base.py:39: logger = module_logger(__name__)
+  tests/_helpers/telemetry_contract.py:22: _HEX_RE = re.compile('^[0-9a-f]+$')
+  tests/conftest.py:5: ROOT = Path(__file__).resolve().parents[1]
+  tests/conftest.py:7: for path in (ROOT, SRC):
+  tests/data/liber_primus/test_lp_solved_workspace.py:9: REPO_ROOT = Path(__file__).resolve().parents[3]
+  tests/harness.py:39: try:
+  tests/harness.py:43: _TEST_OUT_BASE = _get_run_dir() / 'artifacts' / 'tests' if _get_run_dir else _Path('output') / 'tests' / 'manu
+  tests/harness.py:44: _TEST_OUT_BASE.mkdir(parents=True, exist_ok=True)
+  tests/scoring/span_hamming/test_fast_span_hamming_backend.py:7: pytestmark = pytest.mark.skipif(not fast_span_hamming_available(), reason='optional _span_hamming_fast extensi
+  tests/scoring/test_backend_selection_and_parity.py:8: try:
+  tests/scoring/test_hamming_backend.py:7: try:
+  tests/scoring/test_hamming_backend.py:13: requires_ext = pytest.mark.skipif(not _EXT_AVAILABLE, reason='Hamming extension not built')
+  tests/scoring/test_hamming_integration.py:13: try:
+  tests/scoring/test_hamming_integration.py:17: requires_ext = pytest.mark.skipif(not _EXT_AVAILABLE, reason='Hamming extension not built')
+  tests/scoring/test_lm_raw_data_integrity.py:15: BASELINE_PATH = Path(__file__).resolve().parent / '_baselines' / 'scorer_drift_baseline.json'
+  tests/scoring/test_phaseA_v0_14_dictionary_assets.py:8: EXPECTED_RAW_FILES = {f'raw1grams_{idx:02d}.csv' for idx in range(1, 15)} | {'raw1grams_a1.csv'}
+  tests/scoring/test_scoring_package_import_policy.py:11: ROOT = Path(__file__).resolve().parents[2]
+  tests/scoring/test_torch_avg_fulltext_stability.py:12: torch_scorer_module = pytest.importorskip('rdp.scoring.torch_rune_scorer', reason='Torch backend required for 
+  tests/scoring/test_torch_hash_helpers_validation.py:5: torch = pytest.importorskip('torch')
+  tests/scoring/test_torch_hash_helpers_validation.py:6: _torch_scorer = pytest.importorskip('rdp.scoring.torch_rune_scorer', reason='Torch scorer helper tests require
+  tests/scoring/test_torch_objective_contracts.py:6: torch_scorer_module = pytest.importorskip('rdp.scoring.torch_rune_scorer', reason='Torch backend required for 
+  tests/scoring/test_torch_probe_loop_safety.py:5: torch = pytest.importorskip('torch')
+  tests/scoring/test_torch_probe_loop_safety.py:6: _torch_scorer = pytest.importorskip('rdp.scoring.torch_rune_scorer', reason='Torch scorer probe-loop tests req
+  tests/solved_lp/test_workbook_pages.py:7: REPO_ROOT = Path(__file__).resolve().parents[2]

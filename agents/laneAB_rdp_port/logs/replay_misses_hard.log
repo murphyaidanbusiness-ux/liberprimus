@@ -1,0 +1,5 @@
+tier hard: 3 scorer misses (found key outscored the true key); 5 fresh windows each, length 100
+rdp_char_avg: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+rdp_char_avg lp109 period 12 key [23, 22, 8, 3, 10, 0, 16, 12, 21, 5, 25, 26]: original window found -5.5822 > true -5.6780; fresh windows recovered 1/5
+rdp_char_avg lp117 period 10 key [5, 6, 5, 14, 25, 16, 26, 0, 26, 15]: original window found -6.0100 > true -6.0166; fresh windows recovered 2/5
+rdp_char_avg eng17 period 10 key [19, 21, 13, 18, 0, 0, 21, 10, 8, 23]: original window found -5.9044 > true -5.9592; fresh windows recovered 2/5

@@ -1,0 +1,110 @@
+CLAIM 1 (solver A): prime sentence GP sums in the solved plaintext
+  LP1 seg1: 184 runes, affine s=-1 d=28, quadgram -4.478
+  LP1 seg2: 515 runes, stream DIVINITY sign=-1 F-skip, quadgram -4.343
+  LP1 seg3: 157 runes, affine s=+1 d=0, quadgram -4.979
+  LP1 seg4: 778 runes, affine s=-1 d=2, quadgram -4.167
+  LP1 seg5: 755 runes, affine s=+1 d=0, quadgram -4.572
+  LP1 seg6: 319 runes, stream FIRFUMFERENFE sign=-1 F-skip, quadgram -4.235
+  LP1 seg7: 89 runes, affine s=+1 d=0, quadgram -4.720
+  LP2 p55 AN END: 85 runes, stream phi(prime) sign=-1 F-skip, quadgram -4.462
+  LP2 p56 PARABLE: 95 runes, affine s=+1 d=0, quadgram -4.421
+ LP1 (7 segments): 88 sentences, 39 prime = 44.3%; odd sums 64.8% (null 51.8%); prime among odd sums 68.4%
+  shuffle null (runes across sentences, lengths kept): obs 0.4432 | null 0.147 +- 0.037, max 0.3182 | z +8.01 | p 5e-05 (n=20000)
+ LP1 + AN END + PARABLE: 96 sentences, 44 prime = 45.8%; odd sums 65.6% (null 51.2%); prime among odd sums 69.8%
+  shuffle null (runes across sentences, lengths kept): obs 0.4583 | null 0.1459 +- 0.0351, max 0.2917 | z +8.91 | p 5e-05 (n=20000)
+  variant, F interrupters left out (96 sentences, 41 prime): obs 0.4271 | null 0.1563 +- 0.0358, max 0.3333 | z +7.57 | p 0.0001 (n=10000)
+  variant, section titles left out (78 sentences, 36 prime): obs 0.4615 | null 0.1396 +- 0.0388, max 0.2949 | z +8.30 | p 0.0001 (n=10000)
+  per section (sentences, prime): LP1 seg1 9/10; LP1 seg2 7/14; LP1 seg3 4/6; LP1 seg4 3/22; LP1 seg5 9/23; LP1 seg6 2/7; LP1 seg7 5/6; LP2 p55 AN END 1/4; LP2 p56 PARABLE 4/4
+  first half (48 sentences): obs 0.4375 | null 0.1431 +- 0.0496, max 0.3542 | z +5.93 | p 0.0001 (n=10000)
+  second half (48 sentences): obs 0.4792 | null 0.1498 +- 0.0497, max 0.3542 | z +6.63 | p 0.0001 (n=10000)
+  English melville_moby_dick.txt: highest block 38 (26.0%), mean sentence length 45.2 runes, starts: OCTAUOANDBEGINSBOOCIII | DUODECIMO | DUODECIMOES | THESEINCLUDETHESMALLERWHALES
+  English melville_moby_dick.txt: 14572 sentences, prime rate 14.0%
+     blocks of 96 consecutive English sentences: obs 0.4583 | null 0.1395 +- 0.0344, max 0.2604 | z +9.28 | p 0.0066 (n=151)
+     length-matched English sentences: obs 0.4583 | null 0.1579 +- 0.0342, max 0.2917 | z +8.77 | p 0.0005 (n=2000)
+  English dante_inferno_longfellow.txt: highest block 30 (19.8%), mean sentence length 68.6 runes, starts: WHENCEOFTENTHEREWEWEEPFORTHEMA | SOSAWITHEREBUTOFABETTERSEMBLAN | ISAWTHATONEWHOWASCREATEDNOBLEM | ISAWBRIAREUSSMITTENBYTHEDARTCE
+  English dante_inferno_longfellow.txt: 5958 sentences, prime rate 13.1%
+     blocks of 96 consecutive English sentences: obs 0.4583 | null 0.131 +- 0.0339, max 0.1979 | z +9.66 | p 0.016 (n=62)
+     length-matched English sentences: obs 0.4583 | null 0.126 +- 0.0321, max 0.25 | z +10.37 | p 0.0005 (n=2000)
+  LP2 ciphertext sentences (175), reference: obs 0.16 | null 0.1294 +- 0.0247, max 0.2171 | z +1.24 | p 0.13 (n=2000)
+CLAIM 2 (solver B): the doubled-rune stream D of LP2
+  86 doublets, 0 triples; D = TH X EA J L AE S NG G AE N OE J F Y G X U AE G IA O M H W D X J EA AE G IA O S N X U L S E L O E R C F EO AE M TH EO F N T D H R A TH J T AE F X W I OE W EA N OE I AE OE X E O E P W W W Y NG G TH
+ whole book: n = 86 doublets
+  lag-1 mean circular GP distance: obs 8.635 | null 7.287 +- 0.447, max 9.118 | z +3.02 | p 0.0011 (n=100000) | look-elsewhere (lags 1-10) p 0.012
+   mean distance by lag 1-10: [8.635, 7.429, 7.542, 6.817, 7.778, 7.588, 7.266, 7.962, 6.766, 8.079]; z: [3.02, 0.31, 0.56, -1.02, 1.07, 0.65, -0.05, 1.43, -1.11, 1.66]
+  lag-1 separations in {5,12,14}: obs 31 | null 17.11 +- 3.67, max 33 | z +3.78 | p 0.00033 (n=100000)
+  lag-1 top-3 separation values [14, 12, 5] summed: obs 31 | null 27.26 +- 2.41, max 41 | z +1.55 | p 0.095 (n=100000) | look-elsewhere (any 3 values, lags 1-10) p 0.52
+   lag-1 distance histogram 0..14: [2, 2, 1, 6, 4, 10, 4, 4, 5, 7, 8, 3, 10, 8, 11]
+  D(i+3)-D(i)=+4 count (of 83; 12.0%): obs 10 | null 3.091 +- 1.72, max 13 | z +4.01 | p 0.0011 (n=100000) | look-elsewhere (all lags 1-10 x 29 differences) p 0.16
+   most extreme (lag, difference) cell: lag 3 diff +4 count 10 z +4.01, look-elsewhere p 0.16
+ first half (runes 0-6477): n = 40 doublets
+  lag-1 mean circular GP distance: obs 8.795 | null 7.381 +- 0.664, max 10.13 | z +2.13 | p 0.017 (n=50000) | look-elsewhere (lags 1-10) p 0.15
+   mean distance by lag 1-10: [8.795, 7.105, 7.703, 6.444, 7.771, 7.882, 7.061, 7.625, 6.742, 8.4]; z: [2.13, -0.41, 0.47, -1.35, 0.55, 0.7, -0.45, 0.33, -0.86, 1.35]
+  lag-1 separations in {5,12,14}: obs 12 | null 8.939 +- 2.56, max 20 | z +1.20 | p 0.16 (n=50000)
+  lag-1 top-3 separation values [13, 5, 10] summed: obs 17 | null 14.62 +- 1.66, max 23 | z +1.43 | p 0.13 (n=50000) | look-elsewhere (any 3 values, lags 1-10) p 0.57
+   lag-1 distance histogram 0..14: [0, 1, 0, 4, 0, 6, 2, 0, 3, 3, 5, 3, 4, 6, 2]
+  D(i+3)-D(i)=+4 count (of 37; 16.2%): obs 6 | null 1.083 +- 1.01, max 7 | z +4.85 | p 0.00042 (n=50000) | look-elsewhere (all lags 1-10 x 29 differences) p 0.053
+   most extreme (lag, difference) cell: lag 3 diff +4 count 6 z +4.85, look-elsewhere p 0.053
+ second half (runes 6478-12955): n = 46 doublets
+  lag-1 mean circular GP distance: obs 8.644 | null 7.337 +- 0.609, max 9.756 | z +2.15 | p 0.016 (n=50000) | look-elsewhere (lags 1-10) p 0.14
+   mean distance by lag 1-10: [8.644, 7.614, 7.651, 6.857, 7.902, 6.775, 7.41, 8.184, 7.243, 7.417]; z: [2.15, 0.45, 0.5, -0.74, 0.9, -0.86, 0.12, 1.29, -0.14, 0.12]
+  lag-1 separations in {5,12,14}: obs 19 | null 9.042 +- 2.64, max 21 | z +3.77 | p 0.00054 (n=50000)
+  lag-1 top-3 separation values [14, 12, 9] summed: obs 19 | null 16.46 +- 1.8, max 27 | z +1.41 | p 0.13 (n=50000) | look-elsewhere (any 3 values, lags 1-10) p 0.58
+   lag-1 distance histogram 0..14: [2, 1, 0, 2, 4, 4, 2, 4, 2, 4, 3, 0, 6, 2, 9]
+  D(i+3)-D(i)=+4 count (of 43; 9.3%): obs 4 | null 1.635 +- 1.25, max 9 | z +1.89 | p 0.08 (n=50000) | look-elsewhere (all lags 1-10 x 29 differences) p 1
+   most extreme (lag, difference) cell: lag 9 diff +11 count 5 z +2.92, look-elsewhere p 0.92
+  lag-1 mean distance vs 200 increment-shuffled LP2 streams (doublet values re-drawn): obs 8.635 | null 7.136 +- 0.471, max 8.376 | z +3.18 | p 0.005 (n=200)
+CLAIM 3 (solver C): one-rune words in LP2 and the apostrophe positions
+ LP2 pages 0-54: 2896 words, 83 one-rune words (2.9%); adjacent one-rune pairs: 0 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 0 | null 2.344 +- 1.49, min 0 | z -1.57 | p 0.091 (n=20000) | P(0 adjacent) 0.091
+  within-page shuffle, any adjacency: obs 0 | null 2.118 +- 1.41, min 0 | z -1.50 | p 0.11 (n=20000) | P(0 adjacent) 0.114
+  within-sentence shuffle, any adjacency: obs 0 | null 1.775 +- 1.18, min 0 | z -1.51 | p 0.13 (n=20000) | P(0 adjacent) 0.130
+ LP2 pages 0-27: 1509 words, 48 one-rune words (3.2%); adjacent one-rune pairs: 0 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 0 | null 1.491 +- 1.18, min 0 | z -1.27 | p 0.21 (n=10000) | P(0 adjacent) 0.213
+  within-page shuffle, any adjacency: obs 0 | null 1.407 +- 1.15, min 0 | z -1.23 | p 0.23 (n=10000) | P(0 adjacent) 0.233
+  within-sentence shuffle, any adjacency: obs 0 | null 0.9559 +- 0.923, min 0 | z -1.04 | p 0.36 (n=10000) | P(0 adjacent) 0.362
+ LP2 pages 28-54: 1387 words, 35 one-rune words (2.5%); adjacent one-rune pairs: 0 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 0 | null 0.857 +- 0.902, min 0 | z -0.95 | p 0.41 (n=10000) | P(0 adjacent) 0.415
+  within-page shuffle, any adjacency: obs 0 | null 0.7188 +- 0.829, min 0 | z -0.87 | p 0.48 (n=10000) | P(0 adjacent) 0.481
+  within-sentence shuffle, any adjacency: obs 0 | null 0.8193 +- 0.724, min 0 | z -1.13 | p 0.35 (n=10000) | P(0 adjacent) 0.350
+ LP1 (solved, 7 segments): 694 words, 26 one-rune words (3.7%); adjacent one-rune pairs: 0 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 0 | null 0.942 +- 0.932, min 0 | z -1.01 | p 0.38 (n=20000) | P(0 adjacent) 0.376
+  within-page shuffle, any adjacency: obs 0 | null 1.616 +- 1.18, min 0 | z -1.37 | p 0.17 (n=20000) | P(0 adjacent) 0.174
+  within-sentence shuffle, any adjacency: obs 0 | null 2.082 +- 1.25, min 0 | z -1.66 | p 0.094 (n=20000) | P(0 adjacent) 0.093
+ English melville_moby_dick.txt block 1: 2896 words, 160 one-rune words (5.5%); adjacent one-rune pairs: 5 (within a sentence: 2)
+  global word shuffle, any adjacency: obs 5 | null 8.78 +- 2.8, min 1 | z -1.35 | p 0.12 (n=4000) | P(0 adjacent) 0.000
+  within-page shuffle, any adjacency: obs 5 | null 12.34 +- 2.8, min 3 | z -2.62 | p 0.0042 (n=4000) | P(0 adjacent) 0.000
+  within-sentence shuffle, any adjacency: obs 5 | null 12.24 +- 2.8, min 3 | z -2.59 | p 0.002 (n=4000) | P(0 adjacent) 0.000
+ English melville_moby_dick.txt block 2: 2896 words, 162 one-rune words (5.6%); adjacent one-rune pairs: 2 (within a sentence: 2)
+  global word shuffle, any adjacency: obs 2 | null 8.927 +- 2.81, min 1 | z -2.47 | p 0.0062 (n=4000) | P(0 adjacent) 0.000
+  within-page shuffle, any adjacency: obs 2 | null 8.919 +- 2.66, min 1 | z -2.60 | p 0.003 (n=4000) | P(0 adjacent) 0.000
+  within-sentence shuffle, any adjacency: obs 2 | null 9.055 +- 2.73, min 0 | z -2.59 | p 0.004 (n=4000) | P(0 adjacent) 0.000
+ English melville_moby_dick.txt block 3: 2896 words, 247 one-rune words (8.5%); adjacent one-rune pairs: 8 (within a sentence: 8)
+  global word shuffle, any adjacency: obs 8 | null 20.9 +- 4.19, min 5 | z -3.08 | p 0.002 (n=4000) | P(0 adjacent) 0.000
+  within-page shuffle, any adjacency: obs 8 | null 20.39 +- 3.9, min 8 | z -3.18 | p 0.00075 (n=4000) | P(0 adjacent) 0.000
+  within-sentence shuffle, any adjacency: obs 8 | null 20.25 +- 4, min 9 | z -3.06 | p 0.00025 (n=4000) | P(0 adjacent) 0.000
+ English dante_inferno_longfellow.txt block 1: 2896 words, 130 one-rune words (4.5%); adjacent one-rune pairs: 1 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 1 | null 5.749 +- 2.29, min 0 | z -2.08 | p 0.018 (n=4000) | P(0 adjacent) 0.001
+  within-page shuffle, any adjacency: obs 1 | null 6.614 +- 2.32, min 0 | z -2.42 | p 0.0082 (n=4000) | P(0 adjacent) 0.001
+  within-sentence shuffle, any adjacency: obs 1 | null 6.607 +- 2.3, min 0 | z -2.43 | p 0.0062 (n=4000) | P(0 adjacent) 0.001
+ English dante_inferno_longfellow.txt block 2: 2896 words, 90 one-rune words (3.1%); adjacent one-rune pairs: 1 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 1 | null 2.769 +- 1.62, min 0 | z -1.10 | p 0.23 (n=4000) | P(0 adjacent) 0.053
+  within-page shuffle, any adjacency: obs 1 | null 3.452 +- 1.68, min 0 | z -1.46 | p 0.12 (n=4000) | P(0 adjacent) 0.021
+  within-sentence shuffle, any adjacency: obs 1 | null 3.4 +- 1.64, min 0 | z -1.47 | p 0.12 (n=4000) | P(0 adjacent) 0.019
+ English dante_inferno_longfellow.txt block 3: 2896 words, 108 one-rune words (3.7%); adjacent one-rune pairs: 0 (within a sentence: 0)
+  global word shuffle, any adjacency: obs 0 | null 3.932 +- 1.9, min 0 | z -2.06 | p 0.015 (n=4000) | P(0 adjacent) 0.015
+  within-page shuffle, any adjacency: obs 0 | null 3.38 +- 1.7, min 0 | z -1.99 | p 0.026 (n=4000) | P(0 adjacent) 0.026
+  within-sentence shuffle, any adjacency: obs 0 | null 3.403 +- 1.68, min 0 | z -2.03 | p 0.024 (n=4000) | P(0 adjacent) 0.024
+  apostrophes in dl/aldegonde_clone/data/page0-58.txt (rune stream identical to our pin for the first 12,956: True):
+    {'rune_before': 1109, 'rune_after': 1110, 'page': 4, 'word_before': 'ᛗᛉᛁ', 'our_word_len_after': 4, 'runes_after_in_word': 1}
+    {'rune_before': 5137, 'rune_after': 5138, 'page': 21, 'word_before': 'ᚫᚩ', 'our_word_len_after': 3, 'runes_after_in_word': 1}
+    {'rune_before': 8514, 'rune_after': 8515, 'page': 35, 'word_before': 'ᛈᛖ', 'our_word_len_after': 3, 'runes_after_in_word': 1}
+    {'rune_before': 10088, 'rune_after': 10089, 'page': 41, 'word_before': 'ᛉᛚᛄ', 'our_word_len_after': 4, 'runes_after_in_word': 1}
+  apostrophes in dl/aldegonde_clone/data/liber-primus__transcription--master.txt (rune stream identical to our pin for the first 12,956: True):
+    {'rune_before': 1109, 'rune_after': 1110, 'page': 4, 'word_before': 'ᛗᛉᛁ', 'our_word_len_after': 4, 'runes_after_in_word': 1}
+    {'rune_before': 5137, 'rune_after': 5138, 'page': 21, 'word_before': 'ᚫᚩ', 'our_word_len_after': 3, 'runes_after_in_word': 1}
+    {'rune_before': 8514, 'rune_after': 8515, 'page': 35, 'word_before': 'ᛈᛖ', 'our_word_len_after': 3, 'runes_after_in_word': 1}
+    {'rune_before': 10088, 'rune_after': 10089, 'page': 41, 'word_before': 'ᛉᛚᛄ', 'our_word_len_after': 4, 'runes_after_in_word': 1}
+  apostrophes in dl/rdp/assets/liber_primus/liber-primus__transcription--master-v2.txt (rune stream identical to our pin for the first 12,956: True):
+    {'rune_before': 1109, 'rune_after': 1110, 'page': 4, 'word_before': 'ᛗᛉᛁ', 'our_word_len_after': 4, 'runes_after_in_word': 1}
+    {'rune_before': 5137, 'rune_after': 5138, 'page': 21, 'word_before': 'ᚫᚩ', 'our_word_len_after': 3, 'runes_after_in_word': 1}
+    {'rune_before': 10088, 'rune_after': 10089, 'page': 41, 'word_before': 'ᛉᛚᛄ', 'our_word_len_after': 4, 'runes_after_in_word': 1}

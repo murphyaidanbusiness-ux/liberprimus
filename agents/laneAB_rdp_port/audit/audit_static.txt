@@ -1,0 +1,265 @@
+== 1. closure: 146 files inside the tree
+   install.py
+   setup.py
+   src/rdp/__init__.py
+   src/rdp/api/__init__.py
+   src/rdp/api/_resolve.py
+   src/rdp/api/advanced.py
+   src/rdp/api/artifact_agreement.py
+   src/rdp/api/data_helpers.py
+   src/rdp/api/display.py
+   src/rdp/api/errors.py
+   src/rdp/api/experimental.py
+   src/rdp/api/known_key.py
+   src/rdp/api/liber_primus.py
+   src/rdp/api/normalize.py
+   src/rdp/api/pipeline.py
+   src/rdp/api/pipeline_helpers.py
+   src/rdp/api/run.py
+   src/rdp/api/run_artifact_manifest.py
+   src/rdp/api/run_result.py
+   src/rdp/api/run_spec.py
+   src/rdp/api/run_spec_routing.py
+   src/rdp/api/scoring.py
+   src/rdp/api/solver_report.py
+   src/rdp/api/solver_report_export.py
+   src/rdp/api/source_resolution.py
+   src/rdp/api/specs.py
+   src/rdp/api/stop_reason_contract.py
+   src/rdp/api/two_period_cribs.py
+   src/rdp/backends/xp.py
+   src/rdp/ciphers/autokey_cipher.py
+   src/rdp/ciphers/base_keyed_cipher.py
+   src/rdp/ciphers/cipher_runtime_registry.py
+   src/rdp/ciphers/ciphers_pipeline.py
+   src/rdp/ciphers/columnar_transposition_cipher.py
+   src/rdp/ciphers/generic_map_cipher.py
+   src/rdp/ciphers/interruptors.py
+   src/rdp/ciphers/periodic_columnar_cipher.py
+   src/rdp/ciphers/periodic_substitution_cipher.py
+   src/rdp/ciphers/railfence_cipher.py
+   src/rdp/ciphers/scheduled_stream_lookup_cipher.py
+   src/rdp/ciphers/substitution_cipher.py
+   src/rdp/ciphers/transposition.py
+   src/rdp/ciphers/vigenere_cipher.py
+   src/rdp/core/capability_gates.py
+   src/rdp/core/component_contracts.py
+   src/rdp/core/config/cipher.py
+   src/rdp/core/config/hard_crib.py
+   src/rdp/core/config/interruptor.py
+   src/rdp/core/config/logging_config.py
+   src/rdp/core/config/output_paths.py
+   src/rdp/core/config/scorer_context.py
+   src/rdp/core/config/scoring.py
+   src/rdp/core/config/solution.py
+   src/rdp/core/config/solver.py
+   src/rdp/core/config/validation.py
+   src/rdp/core/engine/__init__.py
+   src/rdp/core/engine/builders.py
+   src/rdp/core/engine/engine.py
+   src/rdp/core/engine/finalization.py
+   src/rdp/core/hamming_dictionary_policy.py
+   src/rdp/core/problem/instance.py
+   src/rdp/core/problem/runtime.py
+   src/rdp/core/problem/spec.py
+   src/rdp/core/types.py
+   src/rdp/data/asset_paths.py
+   src/rdp/data/liber_primus/lp_adapter.py
+   src/rdp/data/liber_primus/lp_data.py
+   src/rdp/data/liber_primus/lp_main.py
+   src/rdp/data/liber_primus/lp_registry.py
+   src/rdp/data/liber_primus/lp_routes.py
+   src/rdp/data/liber_primus/lp_solved_plaintext.py
+   src/rdp/data/liber_primus/lp_source_catalogue.py
+   src/rdp/data/liber_primus/lp_transcript.py
+   src/rdp/data/runeglish.py
+   src/rdp/io/logging_adapter.py
+   src/rdp/io/rng.py
+   src/rdp/keyops/base_keyops.py
+   src/rdp/keyops/composite.py
+   src/rdp/keyops/periodic_structured_matrix_ops.py
+   src/rdp/keyops/permutation_ops.py
+   src/rdp/keyops/registry.py
+   src/rdp/keyops/vector.py
+   src/rdp/scoring/__init__.py
+   src/rdp/scoring/base_scorer.py
+   src/rdp/scoring/hamming/__init__.py
+   src/rdp/scoring/hamming/anneal.py
+   src/rdp/scoring/hamming/backend.py
+   src/rdp/scoring/hamming/dictionary_assets.py
+   src/rdp/scoring/hamming/loader.py
+   src/rdp/scoring/hamming/setup_hamming.py
+   src/rdp/scoring/language_model/__init__.py
+   src/rdp/scoring/language_model/language_model_prime.py
+   src/rdp/scoring/language_model/language_model_prime_runtime.py
+   src/rdp/scoring/language_model/load_status.py
+   src/rdp/scoring/language_model/paths.py
+   src/rdp/scoring/language_model/setup_fastlm.py
+   src/rdp/scoring/objective_normalize.py
+   src/rdp/scoring/rune_scorer.py
+   src/rdp/scoring/rune_scorer_impl.py
+   src/rdp/scoring/scorer_lane_report.py
+   src/rdp/scoring/scorer_report.py
+   src/rdp/scoring/span_hamming/__init__.py
+   src/rdp/scoring/span_hamming/backend.py
+   src/rdp/scoring/span_hamming/calibrated_assets.py
+   src/rdp/scoring/span_hamming/ecdf_interp.py
+   src/rdp/scoring/span_hamming/fast_backend.py
+   src/rdp/scoring/span_hamming/interval_select.py
+   src/rdp/scoring/span_hamming/lm_assets_v2.py
+   src/rdp/scoring/span_hamming/setup_span_hamming_fast.py
+   src/rdp/scoring/span_hamming/split_index.py
+   src/rdp/scoring/span_hamming/types.py
+   src/rdp/scoring/stat_transform.py
+   src/rdp/scoring/torch_rune_scorer.py
+   src/rdp/scoring/unified_rune_scorer.py
+   src/rdp/scoring/unified_tables.py
+   src/rdp/scoring/windowing.py
+   src/rdp/scoring/word_ngrams/__init__.py
+   src/rdp/scoring/word_ngrams/in_memory.py
+   src/rdp/scoring/word_ngrams/runtime.py
+   src/rdp/scoring/word_ngrams/scorer.py
+   src/rdp/scoring/word_ngrams/sqlite_model.py
+   src/rdp/solvers/beam.py
+   src/rdp/solvers/ga.py
+   src/rdp/solvers/hybrid.py
+   src/rdp/solvers/kaeding_periodic_structured.py
+   src/rdp/solvers/sa.py
+   src/rdp/solvers/solver_base.py
+   src/rdp/solvers/two_period_cribs.py
+   src/rdp/telemetry/bag.py
+   src/rdp/telemetry/events.py
+   src/rdp/telemetry/pipeline.py
+   src/rdp/telemetry/schema.py
+   src/rdp/telemetry/scoring.py
+   tests/_helpers/baseline_registry.py
+   tests/_helpers/configs.py
+   tests/scoring/_helpers/lm_test_guard.py
+   tests/scoring/golden_vectors.py
+   tests/scoring/test_lm_raw_data_integrity.py
+   tests/scoring/test_score_parity_numpy.py
+   tests/scoring/test_scoring_integrity.py
+   tests/solved_lp/test_workbook_pages.py
+   tools/assets/asset_profiles.py
+   tools/assets/release_asset_installer.py
+   tools/torch_runtime.py
+   tutorials/v1/getting_started/01_known_key.py
+   tutorials/v1/getting_started/02_first_search.py
+   outside the tree (not followed): __future__, abc, argparse, ast, bisect, collections, contextlib, copy, csv, dataclasses, datetime, distutils, enum, functools, getpass, hashlib, importlib, inspect, itertools, json, logging, math, numbers, numpy, os, pathlib, platform, platformdirs, pybind11, pytest, random, re, setuptools, shutil, signal, socket, sqlite3, ssl, struct, subprocess, sys, sysconfig, tempfile, time, tomllib, torch, traceback, types, typing, urllib, uuid, warnings, zipfile, zstandard
+== 2. risky call sites
+  process     install.py:75 in _run: subprocess.Popen(args, cwd=ROOT, text=True, encoding='utf-8', errors='replace', stdout=subprocess.PIPE, stderr
+  process     install.py:93 in _run: subprocess.run(['taskkill', '/PID', str(process.pid), '/T', '/F'], stdout=subprocess.DEVNULL, stderr=subproces
+  write       install.py:288 in run_install: (LOG_DIR / 'gpu.json').write_text(json.dumps(gpu_report, indent=2), encoding='utf-8')
+  write       install.py:296 in run_install: (LOG_DIR / 'failure.json').write_text(json.dumps({'status': 'failed', 'error': str(exc)}, indent=2), encoding=
+  dynamic     src/rdp/__init__.py:14 in __getattr__: import_module('rdp.api')
+  write       src/rdp/api/display.py:336 in write_summary_json: path.write_text(json.dumps(summary.to_json_dict(), indent=2, sort_keys=True, ensure_ascii=False) + '\n', encod
+  write       src/rdp/api/run_artifact_manifest.py:102 in write_run_artifacts_manifest: manifest_path.write_text(json.dumps(payload, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+  write       src/rdp/api/solver_report_export.py:21 in write_solver_report_json: report_path.write_text(json.dumps(report.to_json_dict(), indent=2, sort_keys=True) + '\n', encoding='utf-8')
+  dynamic     src/rdp/backends/xp.py:13 in _try_import: __import__(name)
+  process     src/rdp/core/config/logging_config.py:179 in _git_info: subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL)
+  process     src/rdp/core/config/logging_config.py:182 in _git_info: subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL)
+  process     src/rdp/core/config/logging_config.py:185 in _git_info: subprocess.check_output(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], cwd=repo_root, stderr=subprocess.DEVNULL
+  process     src/rdp/core/config/logging_config.py:190 in _git_info: subprocess.call(['git', 'diff', '--quiet'], cwd=repo_root, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNUL
+  write       src/rdp/core/config/logging_config.py:250 in _write_meta: (run_dir / 'META.json').write_text(json.dumps(meta, indent=2), encoding='utf-8')
+  write       src/rdp/core/config/logging_config.py:263 in _write_logging_snapshot: (config_dir / 'logging.json').write_text(json.dumps(snap, indent=2), encoding='utf-8')
+  dynamic     src/rdp/scoring/hamming/backend.py:15 in _load_hamming_extension: import_module('rdp.scoring.hamming._hamming')
+  dynamic     src/rdp/scoring/span_hamming/fast_backend.py:19 in _load_fast_extension: import_module('rdp.scoring.span_hamming._span_hamming_fast')
+  delete      src/rdp/solvers/kaeding_periodic_structured.py:523 in solve: active_slips.remove(rec)
+  delete      src/rdp/solvers/kaeding_periodic_structured.py:565 in solve: active_slips.remove(rec)
+  process     tests/solved_lp/test_workbook_pages.py:47 in test_welcome_pilgrim_binds_current_source_before_importing_rdp: subprocess.run([sys.executable, '-I', '-B', '-X', 'utf8', '-c', probe], cwd=REPO_ROOT, text=True, capture_outp
+  process     tests/solved_lp/test_workbook_pages.py:59 in test_run_all_workbook_solves_require_solved_status: subprocess.run([sys.executable, '-X', 'utf8', str(RUN_ALL)], cwd=REPO_ROOT, text=True, capture_output=True, ti
+  delete      tools/assets/release_asset_installer.py:193 in download_file: destination_path.unlink()
+  network     tools/assets/release_asset_installer.py:200 in download_file: urllib.request.urlopen(url, context=context)
+  delete      tools/assets/release_asset_installer.py:203 in download_file: tmp_path.unlink(missing_ok=True)
+  delete      tools/assets/release_asset_installer.py:209 in download_file: tmp_path.unlink(missing_ok=True)
+  delete      tools/assets/release_asset_installer.py:290 in install_release_asset_set: zip_path.unlink()
+  process     tools/torch_runtime.py:21 in detect_gpus: subprocess.run([executable, '--query-gpu=name,driver_version,compute_cap', '--format=csv,noheader,nounits'], c
+  process     tools/torch_runtime.py:65 in probe_cuda: subprocess.run([sys.executable, '-B', '-c', PROBE], capture_output=True, text=True)
+== 3. statements with calls that run at import time
+  install.py:14: ROOT = Path(__file__).resolve().parent
+  setup.py:14: ROOT = Path(__file__).resolve().parent
+  setup.py:19: CI_LM_INDEX_REL = Path('language_model/lmp/index.json')
+  setup.py:20: PACKAGE_DATA_REL = Path('rdp/data')
+  setup.py:143: for maybe_ext in (_extension_if_sources_exist('rdp.scoring.language_model._fastlm', [lm_dir / 'fastlm.cpp'], [
+  setup.py:164: setup(include_package_data=False, packages=find_packages(where='src', include=('rdp', 'rdp.*'), exclude=_PACKA
+  src/rdp/api/advanced.py:80: __all__ = [name for name in globals() if not name.startswith('_') and name != 'annotations']
+  src/rdp/api/artifact_agreement.py:43: ALLOWED_CLASSIFICATIONS = frozenset((item.value for item in ArtifactClassification))
+  src/rdp/api/data_helpers.py:5: if TYPE_CHECKING:
+  src/rdp/api/display.py:57: _OPSEC_PATH_PARENT_NAMES = frozenset({'artifacts', 'config', 'logs', 'trace', 'traces', 'output'})
+  src/rdp/api/display.py:58: _WINDOWS_ABSOLUTE_RE = re.compile('^[A-Za-z]:[\\\\/]')
+  src/rdp/api/normalize.py:23: _T = TypeVar('_T')
+  src/rdp/api/run.py:60: _UNSET = object()
+  src/rdp/api/run_spec.py:29: LP_SOURCE_KINDS = frozenset({'liber_primus.label', 'liber_primus.locator', 'liber_primus.partition'})
+  src/rdp/api/run_spec.py:37: _JSON_PRIMITIVE_TYPES = (str, int, float, bool, type(None))
+  src/rdp/api/run_spec.py:38: _LP_LOCATOR_BASE_KEYS = frozenset({'page_scheme', 'page_number', 'line', 'line_end', 'word', 'word_end', 'rout
+  src/rdp/api/run_spec.py:49: _LP_LOCATOR_ROUTE_KEYS = {'none': _LP_LOCATOR_BASE_KEYS, 'line': _LP_LOCATOR_BASE_KEYS | frozenset({'line_mode
+  src/rdp/api/run_spec.py:55: _LP_PARTITION_KEYS = frozenset({'partition_scheme', 'partition_ordinal', 'canon_start', 'canon_end', 'intersec
+  src/rdp/api/run_spec.py:65: _LP_LABEL_KEYS = frozenset({'label'})
+  src/rdp/api/run_spec_routing.py:17: RUNTIME_LOGGING_KEYS = frozenset({'progress_callback'})
+  src/rdp/api/source_resolution.py:14: SUPPORTED_SOURCE_KINDS = frozenset({'liber_primus.label', 'liber_primus.locator', 'liber_primus.partition'})
+  src/rdp/api/source_resolution.py:22: _JSON_PRIMITIVE_TYPES = (str, int, float, bool, type(None))
+  src/rdp/api/stop_reason_contract.py:120: SUCCESS_REASONS = frozenset((item.value for item in (KnownStopReason.TARGET, KnownStopReason.TARGET_SCORE, Kno
+  src/rdp/api/stop_reason_contract.py:129: BUDGET_REASONS = frozenset((item.value for item in (KnownStopReason.BUDGET, KnownStopReason.EVAL_BUDGET, Known
+  src/rdp/api/stop_reason_contract.py:144: BLOCKED_BEFORE_RUN_REASONS = frozenset((item.value for item in (KnownStopReason.ALL_REJECTED_BY_HARD_CRIB, Kno
+  src/rdp/api/stop_reason_contract.py:152: ERROR_REASONS = frozenset((item.value for item in (KnownStopReason.ERROR, KnownStopReason.EXCEPTION)))
+  src/rdp/api/stop_reason_contract.py:153: MANUAL_REASONS = frozenset((item.value for item in (KnownStopReason.MANUAL, KnownStopReason.CANCELLED, KnownSt
+  src/rdp/api/stop_reason_contract.py:162: BUDGET_REASON_PREFIXES = tuple((item.value for item in StopReasonPrefix))
+  src/rdp/api/stop_reason_contract.py:163: STOP_CATEGORIES = frozenset((item.value for item in StopCategory))
+  src/rdp/api/stop_reason_contract.py:194: _CANONICAL_VALUES = frozenset((reason.value for reason in StopReason))
+  src/rdp/backends/xp.py:18: _cp = _try_import('cupy')
+  src/rdp/backends/xp.py:19: _torch = _try_import('torch')
+  src/rdp/backends/xp.py:264: __all__ += ['get_versions']
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:28: _VALID_ACTIVE_STATES = frozenset({_ACTIVE_NONE, _ACTIVE_A, _ACTIVE_B, _ACTIVE_AB})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:36: _KNOWN_STREAM_KINDS = frozenset({'primes', 'fixed'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:45: _VALID_STREAM_KINDS = frozenset({'periodic', *_KNOWN_STREAM_KINDS})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:47: _VALID_STREAM_DIRECTIONS = frozenset({'forward', 'backward'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:48: _VALID_STREAM_ANCHORS = frozenset({'start', 'end'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:49: _VALID_STREAM_ADVANCE_MODES = frozenset({'core'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:51: _VALID_SCHEDULES = frozenset({'overlay', 'alternating', 'staggered_overlay', 'ragged_overlap', 'mask'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:52: _SCHEDULES_REQUIRING_TWO_STREAMS = frozenset({'alternating', 'staggered_overlay', 'ragged_overlap'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:53: _VALID_OPERATIONS = frozenset({'add', 'add_sub', 'sub_add', 'beaufort_sum', 'xor_mod', 'lookup'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:54: _VALID_DEGENERACY_MODES = frozenset({'forbid', 'allow'})
+  src/rdp/ciphers/scheduled_stream_lookup_cipher.py:55: _OPERATIONS_REQUIRING_DEGENERACY_ALLOW = frozenset({'xor_mod', 'lookup'})
+  src/rdp/core/component_contracts.py:9: if TYPE_CHECKING:
+  src/rdp/core/config/cipher.py:8: if TYPE_CHECKING:
+  src/rdp/core/problem/runtime.py:34: logger = module_logger(__name__)
+  src/rdp/data/asset_paths.py:9: _PACKAGE_DATA_ROOT = Path(__file__).resolve().parent
+  src/rdp/data/liber_primus/lp_data.py:722: LP_DATA = LPData(splits={'page': _build_page_sections(), 'red_runes': _build_red_rune_sections()}, default_spl
+  src/rdp/data/liber_primus/lp_main.py:33: _DEFAULT_LP_ASSETS_REL = Path('liber_primus')
+  src/rdp/data/liber_primus/lp_main.py:42: MAIN_TRANSCRIPT = default_main_transcript_path()
+  src/rdp/data/liber_primus/lp_solved_plaintext.py:14: _CANONICAL_TOKEN_TO_POSITION = dict(zip(Runeglish.latin_canon, Runeglish.positions, strict=True))
+  src/rdp/data/liber_primus/lp_source_catalogue.py:110: _SOURCE_ENTRIES: tuple[LPSourceEntry, ...] = (LPSourceEntry(source_label='red_rune.warning', display_name='A W
+  src/rdp/data/liber_primus/lp_source_catalogue.py:230: _SOLVE_RECIPES: tuple[LPSolveRecipeEntry, ...] = (LPSolveRecipeEntry(recipe_label='recipe.warning.reverse_gema
+  src/rdp/data/liber_primus/lp_source_catalogue.py:308: if len(_SOURCE_BY_LABEL) != len(_SOURCE_ENTRIES):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:310: if len(_SOURCE_ALIAS_TO_LABEL) != sum((len(entry.aliases) for entry in _SOURCE_ENTRIES)):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:312: if len(_RECIPE_BY_LABEL) != len(_SOLVE_RECIPES):
+  src/rdp/data/liber_primus/lp_source_catalogue.py:314: for recipe in _SOLVE_RECIPES:
+  src/rdp/data/liber_primus/lp_transcript.py:11: _DOT_TAG_RE = re.compile('\\[dot_[1-9][0-9]*(?:_[A-Za-z0-9]+)*\\]')
+  src/rdp/scoring/base_scorer.py:21: _OBJ_RE = re.compile('^(?P<family>[A-Za-z_]+)\\.(?P<stat>[A-Za-z_]+)(?:\\.win(?P<win>\\d+))?$')
+  src/rdp/scoring/hamming/dictionary_assets.py:11: _POLICY_REL_DIRS = {HammingDictionaryPolicy.STRICT: Path('hamming_dictionary_policies/strict/hamming_raw_1g'),
+  src/rdp/scoring/hamming/loader.py:14: _DEFAULT_HAMMING_ASSETS_REL = Path('hamming_raw_1g')
+  src/rdp/scoring/hamming/setup_hamming.py:12: HERE = Path(__file__).resolve().parent
+  src/rdp/scoring/hamming/setup_hamming.py:28: REPO_ROOT = _find_repo_root(HERE)
+  src/rdp/scoring/hamming/setup_hamming.py:30: if sys.platform == 'win32':
+  src/rdp/scoring/hamming/setup_hamming.py:37: ext_modules = [Pybind11Extension(PKG_MOD, sources=[str(s) for s in SRC_CPP], include_dirs=[str(HERE)], extra_c
+  src/rdp/scoring/hamming/setup_hamming.py:49: BUILD_TEMP.mkdir(exist_ok=True)
+  src/rdp/scoring/hamming/setup_hamming.py:50: BUILD_LIB.mkdir(exist_ok=True)
+  src/rdp/scoring/language_model/paths.py:19: _MODULE_PATH = Path(__file__).resolve()
+  src/rdp/scoring/language_model/paths.py:23: _DEFAULT_LM_ASSETS_REL = Path('language_model')
+  src/rdp/scoring/language_model/setup_fastlm.py:20: HERE = Path(__file__).resolve().parent
+  src/rdp/scoring/language_model/setup_fastlm.py:33: REPO_ROOT = find_repo_root(HERE)
+  src/rdp/scoring/language_model/setup_fastlm.py:36: if sys.platform == 'win32':
+  src/rdp/scoring/language_model/setup_fastlm.py:47: ext_modules = [Pybind11Extension(PKG_MOD, sources=[str(SRC_CPP)], include_dirs=[str(HERE)], extra_compile_args
+  src/rdp/scoring/language_model/setup_fastlm.py:60: BUILD_TEMP.mkdir(exist_ok=True)
+  src/rdp/scoring/language_model/setup_fastlm.py:61: BUILD_LIB.mkdir(exist_ok=True)
+  src/rdp/scoring/rune_scorer_impl.py:60: _DEF_CLAMP_MAX = float(np.nextafter(np.float32(1.0), np.float32(0.0)))
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:13: HERE = Path(__file__).resolve().parent
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:25: REPO_ROOT = _find_repo_root(HERE)
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:27: if sys.platform == 'win32':
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:34: ext_modules = [Pybind11Extension(PKG_MOD, sources=[str(path) for path in SRC_CPP], include_dirs=[str(HERE)], e
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:46: BUILD_TEMP.mkdir(exist_ok=True)
+  src/rdp/scoring/span_hamming/setup_span_hamming_fast.py:47: BUILD_LIB.mkdir(exist_ok=True)
+  src/rdp/scoring/word_ngrams/sqlite_model.py:9: KEY_SEP = bytes([WORD_SEP_BYTE])
+  src/rdp/solvers/solver_base.py:39: logger = module_logger(__name__)
+  tests/scoring/test_lm_raw_data_integrity.py:15: BASELINE_PATH = Path(__file__).resolve().parent / '_baselines' / 'scorer_drift_baseline.json'
+  tests/solved_lp/test_workbook_pages.py:7: REPO_ROOT = Path(__file__).resolve().parents[2]

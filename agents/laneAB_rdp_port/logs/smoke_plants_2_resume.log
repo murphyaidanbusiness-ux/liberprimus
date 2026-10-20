@@ -1,0 +1,6 @@
+plants: 40 (solved LP1 stream 1769 runes; English with word ids); window 260; seed 20261019
+rdp_default: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+skip rdp_default eng00 (already in out_plants.jsonl)
+rdp_default eng01 p4 recovered=True found=0.5144 true=0.5144 evals=699 8.5s
+scorer | recovered k/n (lp1, eng) | true key scores >= found (search miss, not scorer miss) | sec/plant | misses
+rdp_default | 2/2 (0/0, 2/2) | 0 | 15.8 | none

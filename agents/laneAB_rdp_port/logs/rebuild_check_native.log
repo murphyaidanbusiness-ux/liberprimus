@@ -1,0 +1,48 @@
+'vswhere.exe' is not recognized as an internal or external command,
+operable program or batch file.
+<python>\Lib\site-packages\setuptools\config\_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  dist._finalize_license_expression()
+<python>\Lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: MIT License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()
+cl : Command line warning D9025 : overriding '/std:c++latest' with '/std:c++20'
+fastlm.cpp
+   Creating library build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\language_model\_fastlm.cp313-win_amd64.lib and object build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\language_model\_fastlm.cp313-win_amd64.exp
+Generating code
+Finished generating code
+cl : Command line warning D9025 : overriding '/std:c++latest' with '/std:c++20'
+Flat2DArray.cpp
+cl : Command line warning D9025 : overriding '/std:c++latest' with '/std:c++20'
+Hamming.cpp
+cl : Command line warning D9025 : overriding '/std:c++latest' with '/std:c++20'
+bindings.cpp
+   Creating library build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\hamming\_hamming.cp313-win_amd64.lib and object build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\hamming\_hamming.cp313-win_amd64.exp
+Generating code
+Finished generating code
+cl : Command line warning D9025 : overriding '/std:c++latest' with '/std:c++20'
+fast_bindings.cpp
+   Creating library build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\span_hamming\_span_hamming_fast.cp313-win_amd64.lib and object build\temp.win-amd64-cpython-313\Release\src\rdp\scoring\span_hamming\_span_hamming_fast.cp313-win_amd64.exp
+Generating code
+Finished generating code
+built native modules in "<repo>\dl\rdp_check\src\rdp\scoring"

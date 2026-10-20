@@ -1,0 +1,11 @@
+kernel vs pure-Python reference (sum of joint n-gram logp per text; 24 texts per table, half random, half English windows of 30-300 runes; seed 20261019)
+mode model n | table K (seen n-grams) T (total count) alpha | texts | max |diff| | max relative diff
+ltr char 3 | 21609 12101431364916 0.500000 | 24 | 9.656e-04 | 4.685e-07
+ltr char 4 | 351808 10883812355211 0.500000 | 24 | 9.081e-03 | 1.541e-06
+ltr wli 3 | 1733806 12101431364916 0.500000 | 24 | 1.438e-02 | 2.014e-06
+ltr wli 4 | 12497503 10883812355211 0.500000 | 24 | 1.456e-02 | 2.340e-06
+rtl char 3 | 19501 12882531292985 0.500000 | 24 | 2.752e-03 | 5.933e-07
+rtl char 4 | 295172 11664914686748 0.500000 | 24 | 6.750e-03 | 1.115e-06
+rtl wli 3 | 1757175 12882531292985 0.500000 | 24 | 2.125e-02 | 3.209e-06
+rtl wli 4 | 12247114 11664914686748 0.500000 | 24 | 1.367e-02 | 1.828e-06
+VERDICT: PASS (largest relative difference 3.21e-06; the kernel accumulates in float32)

@@ -1,0 +1,256 @@
+tier hard: plants 40 (solved LP1 stream 1769 runes; English with word ids); window 100; periods 6-12; seed 20261019
+rdp_default: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+skip rdp_default eng00 (already in out_plants_hard.jsonl)
+skip rdp_default eng01 (already in out_plants_hard.jsonl)
+skip rdp_default eng02 (already in out_plants_hard.jsonl)
+skip rdp_default eng03 (already in out_plants_hard.jsonl)
+skip rdp_default eng04 (already in out_plants_hard.jsonl)
+skip rdp_default eng05 (already in out_plants_hard.jsonl)
+skip rdp_default eng06 (already in out_plants_hard.jsonl)
+skip rdp_default eng07 (already in out_plants_hard.jsonl)
+skip rdp_default eng08 (already in out_plants_hard.jsonl)
+skip rdp_default eng09 (already in out_plants_hard.jsonl)
+skip rdp_default eng10 (already in out_plants_hard.jsonl)
+skip rdp_default eng11 (already in out_plants_hard.jsonl)
+skip rdp_default eng12 (already in out_plants_hard.jsonl)
+skip rdp_default eng13 (already in out_plants_hard.jsonl)
+skip rdp_default eng14 (already in out_plants_hard.jsonl)
+skip rdp_default eng15 (already in out_plants_hard.jsonl)
+skip rdp_default eng16 (already in out_plants_hard.jsonl)
+skip rdp_default eng17 (already in out_plants_hard.jsonl)
+skip rdp_default eng18 (already in out_plants_hard.jsonl)
+skip rdp_default eng19 (already in out_plants_hard.jsonl)
+rdp_char_pct: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+skip rdp_char_pct lp100 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp101 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp102 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp103 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp104 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp105 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp106 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp107 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp108 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp109 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp110 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp111 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp112 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp113 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp114 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp115 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp116 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp117 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp118 (already in out_plants_hard.jsonl)
+skip rdp_char_pct lp119 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng00 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng01 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng02 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng03 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng04 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng05 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng06 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng07 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng08 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng09 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng10 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng11 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng12 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng13 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng14 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng15 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng16 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng17 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng18 (already in out_plants_hard.jsonl)
+skip rdp_char_pct eng19 (already in out_plants_hard.jsonl)
+rdp_char_avg: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+skip rdp_char_avg lp100 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp101 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp102 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp103 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp104 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp105 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp106 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp107 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp108 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp109 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp110 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp111 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp112 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp113 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp114 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp115 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp116 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp117 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp118 (already in out_plants_hard.jsonl)
+skip rdp_char_avg lp119 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng00 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng01 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng02 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng03 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng04 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng05 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng06 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng07 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng08 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng09 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng10 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng11 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng12 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng13 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng14 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng15 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng16 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng17 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng18 (already in out_plants_hard.jsonl)
+skip rdp_char_avg eng19 (already in out_plants_hard.jsonl)
+skip ours_quad lp100 (already in out_plants_hard.jsonl)
+skip ours_quad lp101 (already in out_plants_hard.jsonl)
+skip ours_quad lp102 (already in out_plants_hard.jsonl)
+skip ours_quad lp103 (already in out_plants_hard.jsonl)
+skip ours_quad lp104 (already in out_plants_hard.jsonl)
+skip ours_quad lp105 (already in out_plants_hard.jsonl)
+skip ours_quad lp106 (already in out_plants_hard.jsonl)
+skip ours_quad lp107 (already in out_plants_hard.jsonl)
+skip ours_quad lp108 (already in out_plants_hard.jsonl)
+skip ours_quad lp109 (already in out_plants_hard.jsonl)
+skip ours_quad lp110 (already in out_plants_hard.jsonl)
+skip ours_quad lp111 (already in out_plants_hard.jsonl)
+skip ours_quad lp112 (already in out_plants_hard.jsonl)
+skip ours_quad lp113 (already in out_plants_hard.jsonl)
+skip ours_quad lp114 (already in out_plants_hard.jsonl)
+skip ours_quad lp115 (already in out_plants_hard.jsonl)
+skip ours_quad lp116 (already in out_plants_hard.jsonl)
+skip ours_quad lp117 (already in out_plants_hard.jsonl)
+skip ours_quad lp118 (already in out_plants_hard.jsonl)
+skip ours_quad lp119 (already in out_plants_hard.jsonl)
+skip ours_quad eng00 (already in out_plants_hard.jsonl)
+skip ours_quad eng01 (already in out_plants_hard.jsonl)
+skip ours_quad eng02 (already in out_plants_hard.jsonl)
+skip ours_quad eng03 (already in out_plants_hard.jsonl)
+skip ours_quad eng04 (already in out_plants_hard.jsonl)
+skip ours_quad eng05 (already in out_plants_hard.jsonl)
+skip ours_quad eng06 (already in out_plants_hard.jsonl)
+skip ours_quad eng07 (already in out_plants_hard.jsonl)
+skip ours_quad eng08 (already in out_plants_hard.jsonl)
+skip ours_quad eng09 (already in out_plants_hard.jsonl)
+skip ours_quad eng10 (already in out_plants_hard.jsonl)
+skip ours_quad eng11 (already in out_plants_hard.jsonl)
+skip ours_quad eng12 (already in out_plants_hard.jsonl)
+skip ours_quad eng13 (already in out_plants_hard.jsonl)
+skip ours_quad eng14 (already in out_plants_hard.jsonl)
+skip ours_quad eng15 (already in out_plants_hard.jsonl)
+skip ours_quad eng16 (already in out_plants_hard.jsonl)
+skip ours_quad eng17 (already in out_plants_hard.jsonl)
+skip ours_quad eng18 (already in out_plants_hard.jsonl)
+skip ours_quad eng19 (already in out_plants_hard.jsonl)
+rdp_char4_pct: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+rdp_char4_pct lp100 p10 recovered=False found=0.0737 true=0.5390 evals=2903 3.6s
+rdp_char4_pct lp101 p7 recovered=False found=0.0429 true=0.4320 evals=1830 2.1s
+rdp_char4_pct lp102 p8 recovered=True found=0.6685 true=0.6685 evals=3019 3.2s
+rdp_char4_pct lp103 p9 recovered=False found=0.0917 true=0.5795 evals=2352 2.4s
+rdp_char4_pct lp104 p7 recovered=False found=0.0800 true=0.4667 evals=1830 1.9s
+rdp_char4_pct lp105 p6 recovered=False found=0.0452 true=0.4428 evals=1569 1.5s
+rdp_char4_pct lp106 p11 recovered=False found=0.0886 true=0.4776 evals=4469 4.3s
+rdp_char4_pct lp107 p6 recovered=False found=0.0535 true=0.5390 evals=1221 1.2s
+rdp_char4_pct lp108 p8 recovered=True found=0.4789 true=0.4789 evals=2091 2.0s
+rdp_char4_pct lp109 p12 recovered=False found=0.0970 true=0.4659 evals=4179 4.0s
+rdp_char4_pct lp110 p10 recovered=False found=0.0770 true=0.3673 evals=3483 3.4s
+rdp_char4_pct lp111 p8 recovered=False found=0.1271 true=0.6763 evals=2323 2.2s
+rdp_char4_pct lp112 p8 recovered=True found=0.6439 true=0.6439 evals=2787 2.7s
+rdp_char4_pct lp113 p10 recovered=False found=0.0791 true=0.4591 evals=3483 3.3s
+rdp_char4_pct lp114 p9 recovered=True found=0.6672 true=0.6672 evals=3396 3.3s
+rdp_char4_pct lp115 p6 recovered=True found=0.8013 true=0.8013 evals=1569 1.5s
+rdp_char4_pct lp116 p8 recovered=False found=0.0474 true=0.4537 evals=1859 1.8s
+rdp_char4_pct lp117 p10 recovered=False found=0.1047 true=0.3294 evals=3773 3.6s
+rdp_char4_pct lp118 p11 recovered=False found=0.1176 true=0.6296 evals=4150 4.0s
+rdp_char4_pct lp119 p10 recovered=False found=0.1044 true=0.4617 evals=3773 3.6s
+rdp_char4_pct eng00 p12 recovered=True found=0.4611 true=0.4611 evals=4875 4.7s
+rdp_char4_pct eng01 p10 recovered=False found=0.0627 true=0.5677 evals=3483 3.4s
+rdp_char4_pct eng02 p8 recovered=False found=0.0645 true=0.5134 evals=2091 2.0s
+rdp_char4_pct eng03 p6 recovered=True found=0.6378 true=0.6378 evals=2265 2.2s
+rdp_char4_pct eng04 p7 recovered=False found=0.0630 true=0.5716 evals=1830 1.8s
+rdp_char4_pct eng05 p6 recovered=True found=0.6088 true=0.6088 evals=2265 2.2s
+rdp_char4_pct eng06 p8 recovered=False found=0.0878 true=0.5632 evals=2555 2.4s
+rdp_char4_pct eng07 p8 recovered=False found=0.0652 true=0.5016 evals=2555 2.4s
+rdp_char4_pct eng08 p7 recovered=False found=0.0280 true=0.3483 evals=1627 1.6s
+rdp_char4_pct eng09 p8 recovered=False found=0.0577 true=0.5089 evals=2555 2.5s
+rdp_char4_pct eng10 p8 recovered=False found=0.0516 true=0.6322 evals=2091 2.2s
+rdp_char4_pct eng11 p8 recovered=False found=0.0744 true=0.3907 evals=3251 3.1s
+rdp_char4_pct eng12 p8 recovered=False found=0.0660 true=0.4621 evals=3251 3.1s
+rdp_char4_pct eng13 p12 recovered=False found=0.1307 true=0.5908 evals=5223 5.0s
+rdp_char4_pct eng14 p12 recovered=False found=0.1235 true=0.5365 evals=7659 7.4s
+rdp_char4_pct eng15 p11 recovered=False found=0.0782 true=0.5112 evals=3831 4.2s
+rdp_char4_pct eng16 p10 recovered=False found=0.0653 true=0.2654 evals=4353 5.1s
+rdp_char4_pct eng17 p10 recovered=False found=0.1153 true=0.3493 evals=3773 3.7s
+rdp_char4_pct eng18 p9 recovered=False found=0.0838 true=0.3348 evals=3135 3.0s
+rdp_char4_pct eng19 p11 recovered=False found=0.0920 true=0.4269 evals=3512 3.4s
+rdp_char4_avg: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+rdp_char4_avg lp100 p10 recovered=True found=-9.9183 true=-9.9183 evals=2903 1.2s
+rdp_char4_avg lp101 p7 recovered=True found=-10.4667 true=-10.4667 evals=2033 0.8s
+rdp_char4_avg lp102 p8 recovered=True found=-9.5598 true=-9.5598 evals=1859 0.8s
+rdp_char4_avg lp103 p9 recovered=True found=-9.8498 true=-9.8498 evals=3396 1.4s
+rdp_char4_avg lp104 p7 recovered=True found=-10.1701 true=-10.1701 evals=1830 0.7s
+rdp_char4_avg lp105 p6 recovered=True found=-10.3680 true=-10.3680 evals=1917 0.8s
+rdp_char4_avg lp106 p11 recovered=True found=-10.0909 true=-10.0909 evals=3512 1.5s
+rdp_char4_avg lp107 p6 recovered=True found=-9.9183 true=-9.9183 evals=1743 0.7s
+rdp_char4_avg lp108 p8 recovered=True found=-10.1399 true=-10.1399 evals=2323 1.0s
+rdp_char4_avg lp109 p12 recovered=False found=-11.4812 true=-10.2779 evals=4875 2.0s
+rdp_char4_avg lp110 p10 recovered=True found=-10.7961 true=-10.7961 evals=3193 1.3s
+rdp_char4_avg lp111 p8 recovered=True found=-9.5459 true=-9.5459 evals=2787 1.2s
+rdp_char4_avg lp112 p8 recovered=True found=-9.6404 true=-9.6404 evals=1859 0.8s
+rdp_char4_avg lp113 p10 recovered=True found=-10.5073 true=-10.5073 evals=3193 1.3s
+rdp_char4_avg lp114 p9 recovered=True found=-9.5657 true=-9.5657 evals=2613 1.1s
+rdp_char4_avg lp115 p6 recovered=True found=-9.1425 true=-9.1425 evals=1569 0.6s
+rdp_char4_avg lp116 p8 recovered=True found=-11.0510 true=-11.0510 evals=2091 0.9s
+rdp_char4_avg lp117 p10 recovered=True found=-10.9187 true=-10.9187 evals=3483 1.4s
+rdp_char4_avg lp118 p11 recovered=True found=-9.6517 true=-9.6517 evals=3193 1.3s
+rdp_char4_avg lp119 p10 recovered=True found=-11.0319 true=-11.0319 evals=3193 1.5s
+rdp_char4_avg eng00 p12 recovered=True found=-10.2064 true=-10.2064 evals=3831 1.6s
+rdp_char4_avg eng01 p10 recovered=True found=-9.8570 true=-9.8570 evals=4933 2.0s
+rdp_char4_avg eng02 p8 recovered=True found=-10.0180 true=-10.0180 evals=3019 1.2s
+rdp_char4_avg eng03 p6 recovered=True found=-9.6336 true=-9.6336 evals=1569 0.6s
+rdp_char4_avg eng04 p7 recovered=True found=-9.8210 true=-9.8210 evals=1830 0.7s
+rdp_char4_avg eng05 p6 recovered=True found=-9.7446 true=-9.7446 evals=1569 0.6s
+rdp_char4_avg eng06 p8 recovered=True found=-9.8354 true=-9.8354 evals=2091 0.9s
+rdp_char4_avg eng07 p8 recovered=True found=-10.0031 true=-10.0031 evals=1859 0.8s
+rdp_char4_avg eng08 p7 recovered=True found=-10.6723 true=-10.6723 evals=1627 0.7s
+rdp_char4_avg eng09 p8 recovered=True found=-10.0930 true=-10.0930 evals=2555 1.1s
+rdp_char4_avg eng10 p8 recovered=True found=-9.5916 true=-9.5916 evals=2555 1.1s
+rdp_char4_avg eng11 p8 recovered=True found=-10.3865 true=-10.3865 evals=2091 0.9s
+rdp_char4_avg eng12 p8 recovered=True found=-10.4305 true=-10.4305 evals=1859 0.7s
+rdp_char4_avg eng13 p12 recovered=True found=-9.7648 true=-9.7648 evals=4179 1.8s
+rdp_char4_avg eng14 p12 recovered=True found=-9.9254 true=-9.9254 evals=4179 1.8s
+rdp_char4_avg eng15 p11 recovered=True found=-9.9951 true=-9.9951 evals=4788 2.9s
+rdp_char4_avg eng16 p10 recovered=True found=-10.9807 true=-10.9807 evals=4353 2.7s
+rdp_char4_avg eng17 p10 recovered=True found=-10.5516 true=-10.5516 evals=3483 2.2s
+rdp_char4_avg eng18 p9 recovered=True found=-10.6269 true=-10.6269 evals=2091 1.3s
+rdp_char4_avg eng19 p11 recovered=True found=-10.3218 true=-10.3218 evals=4150 2.4s
+rdp_default4: batch path vs rdp.api.score_many max |diff| = 0 on 6 candidates
+rdp_default4 eng00 p12 recovered=False found=0.0662 true=0.4248 evals=5223 10.0s
+rdp_default4 eng01 p10 recovered=False found=0.0465 true=0.4858 evals=4353 8.3s
+rdp_default4 eng02 p8 recovered=False found=0.0509 true=0.5243 evals=2555 4.9s
+rdp_default4 eng03 p6 recovered=True found=0.6338 true=0.6338 evals=1917 3.8s
+rdp_default4 eng04 p7 recovered=True found=0.5661 true=0.5661 evals=2642 5.1s
+rdp_default4 eng05 p6 recovered=True found=0.6181 true=0.6181 evals=1569 3.0s
+rdp_default4 eng06 p8 recovered=False found=0.0274 true=0.6092 evals=2091 4.1s
+rdp_default4 eng07 p8 recovered=False found=0.0435 true=0.4601 evals=1627 3.2s
+rdp_default4 eng08 p7 recovered=True found=0.4356 true=0.4356 evals=2236 4.3s
+rdp_default4 eng09 p8 recovered=False found=0.0527 true=0.5040 evals=2555 4.9s
+rdp_default4 eng10 p8 recovered=False found=0.0261 true=0.6284 evals=2787 5.3s
+rdp_default4 eng11 p8 recovered=True found=0.4674 true=0.4674 evals=2323 4.5s
+rdp_default4 eng12 p8 recovered=False found=0.1771 true=0.4365 evals=2323 4.5s
+rdp_default4 eng13 p12 recovered=False found=0.0538 true=0.6368 evals=4179 8.0s
+rdp_default4 eng14 p12 recovered=False found=0.0915 true=0.4657 evals=5919 11.3s
+rdp_default4 eng15 p11 recovered=True found=0.5467 true=0.5467 evals=4150 8.1s
+rdp_default4 eng16 p10 recovered=False found=0.0484 true=0.2950 evals=3773 7.3s
+rdp_default4 eng17 p10 recovered=False found=0.0439 true=0.3955 evals=3483 6.9s
+rdp_default4 eng18 p9 recovered=False found=0.0527 true=0.2544 evals=4179 8.3s
+rdp_default4 eng19 p11 recovered=False found=0.1204 true=0.4529 evals=3831 7.4s
+scorer | recovered k/n (lp1, eng) | true key scores >= found (search miss, not scorer miss) | sec/plant | misses
+ours_quad | 16/40 (9/20, 7/20) | 24 | 0.1 | eng00(p12,search) eng01(p10,search) eng02(p8,search) eng03(p6,search) eng04(p7,search) eng06(p8,search) eng08(p7,search) eng13(p12,search) eng14(p12,search) eng15(p11,search) eng16(p10,search) eng17(p10,search) eng19(p11,search) lp101(p7,search) lp104(p7,search) lp106(p11,search) lp108(p8,search) lp109(p12,search) lp110(p10,search) lp113(p10,search) lp116(p8,search) lp117(p10,search) lp118(p11,search) lp119(p10,search)
+rdp_char4_avg | 39/40 (19/20, 20/20) | 1 | 1.3 | lp109(p12,search)
+rdp_char4_pct | 8/40 (5/20, 3/20) | 32 | 3.0 | eng01(p10,search) eng02(p8,search) eng04(p7,search) eng06(p8,search) eng07(p8,search) eng08(p7,search) eng09(p8,search) eng10(p8,search) eng11(p8,search) eng12(p8,search) eng13(p12,search) eng14(p12,search) eng15(p11,search) eng16(p10,search) eng17(p10,search) eng18(p9,search) eng19(p11,search) lp100(p10,search) lp101(p7,search) lp103(p9,search) lp104(p7,search) lp105(p6,search) lp106(p11,search) lp107(p6,search) lp109(p12,search) lp110(p10,search) lp111(p8,search) lp113(p10,search) lp116(p8,search) lp117(p10,search) lp118(p11,search) lp119(p10,search)
+rdp_char_avg | 35/40 (17/20, 18/20) | 2 | 1.3 | eng16(p10,search) eng17(p10,scorer) lp109(p12,scorer) lp113(p10,search) lp117(p10,scorer)
+rdp_char_pct | 24/40 (11/20, 13/20) | 16 | 5.4 | eng00(p12,search) eng08(p7,search) eng11(p8,search) eng15(p11,search) eng16(p10,search) eng17(p10,search) eng19(p11,search) lp100(p10,search) lp101(p7,search) lp109(p12,search) lp110(p10,search) lp112(p8,search) lp113(p10,search) lp114(p9,search) lp117(p10,search) lp119(p10,search)
+rdp_default | 15/20 (0/0, 15/20) | 5 | 8.9 | eng01(p10,search) eng07(p8,search) eng12(p8,search) eng16(p10,search) eng17(p10,search)
+rdp_default4 | 6/20 (0/0, 6/20) | 14 | 6.1 | eng00(p12,search) eng01(p10,search) eng02(p8,search) eng06(p8,search) eng07(p8,search) eng09(p8,search) eng10(p8,search) eng12(p8,search) eng13(p12,search) eng14(p12,search) eng16(p10,search) eng17(p10,search) eng18(p9,search) eng19(p11,search)
+peak working set 1700 MB

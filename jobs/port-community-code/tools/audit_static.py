@@ -120,6 +120,7 @@ def import_time(t):
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")   # redirected output on Windows is cp1252 and dies on runic source lines
     tree = Path(sys.argv[1]).resolve()
     seen, external = closure(tree, sys.argv[2:])
     print("== 1. closure: %d files inside the tree" % len(seen))

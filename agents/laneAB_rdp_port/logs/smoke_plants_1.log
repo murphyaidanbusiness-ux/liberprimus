@@ -1,0 +1,4 @@
+plants: 40 (solved LP1 stream 1769 runes; English with word ids); window 260; seed 20261019
+rdp_default eng00 p7 recovered=True found=0.5090 true=0.5090 evals=2033 23.1s
+scorer | recovered k/n (lp1, eng) | true key scores >= found (search miss, not scorer miss) | sec/plant | misses
+rdp_default | 1/1 (0/0, 1/1) | 0 | 23.1 | none

@@ -1,0 +1,128 @@
+pin (lp/lpdata.py): pages 0-54 = 12956 runes, sha 023312066df471005264b9cbe7997cb77d2a9a6a2dc9b3316d22674023af1585 (asserted)
+   N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+file dl/rdp/assets/liber_primus/liber-primus__transcription--master-v2.txt: 57236 bytes, sha256 431202b7e38df1365b28f8a6938afdbd894dd74f34215a91bc0c58dc10f74979; runic chars 15933, runic-stream sha12 d620b4f6e88e
+file dl/rdp/assets/liber_primus/liber-primus__transcription--master.txt: 55485 bytes, sha256 b32985daa1e9a35f25abf7e699519413bfa752c55f002b1cdd32019151b05e5d; runic chars 15933, runic-stream sha12 d620b4f6e88e
+file dl/aldegonde_clone/data/liber-primus__transcription--master.txt: 62430 bytes, sha256 45d4724eb1c93bb1d31e0588a831a144d73d8ad797173b89c108ae9f963f1e09; runic chars 15933, runic-stream sha12 ee1f3d0d10e9
+
+== V2 direct: placement offset 15 (non-empty units skipped before pin page 0), 12956 runes matched; LP2 runes 12956, comma-joined sha 023312066df471005264b9cbe7997cb77d2a9a6a2dc9b3316d22674023af1585, equals pin: True
+
+== RV1 direct: placement offset 15 (non-empty units skipped before pin page 0), 12956 runes matched; LP2 runes 12956, comma-joined sha 023312066df471005264b9cbe7997cb77d2a9a6a2dc9b3316d22674023af1585, equals pin: True
+
+pin page | RDP page ID | RDP LP page | pin start | pin runes | v2 runes | identical | sub ins del | word-start disagreements vs pin: RDP rule (lacking/extra), loader rule (lacking/extra) | v1->v2 runes equal
+p00 | 15 | 0 | 0 | 262 | 262 | True | 0 0 0 | 0/0, 0/0 | True
+p01 | 16 | 1 | 262 | 266 | 266 | True | 0 0 0 | 0/0, 0/0 | True
+p02 | 17 | 2 | 528 | 201 | 201 | True | 0 0 0 | 0/0, 0/0 | True
+p03 | 18 | 3 | 729 | 217 | 217 | True | 0 0 0 | 0/0, 0/0 | True
+p04 | 19 | 4 | 946 | 261 | 261 | True | 0 0 0 | 0/1, 0/1 | True
+p05 | 20 | 5 | 1207 | 263 | 263 | True | 0 0 0 | 0/0, 0/0 | True
+p06 | 21 | 6 | 1470 | 196 | 196 | True | 0 0 0 | 0/0, 0/0 | True
+p07 | 22 | 7 | 1666 | 208 | 208 | True | 0 0 0 | 0/0, 0/0 | True
+p08 | 23 | 8 | 1874 | 255 | 255 | True | 0 0 0 | 0/0, 0/0 | True
+p09 | 24 | 9 | 2129 | 268 | 268 | True | 0 0 0 | 0/0, 0/0 | True
+p10 | 25 | 10 | 2397 | 263 | 263 | True | 0 0 0 | 0/0, 0/0 | True
+p11 | 26 | 11 | 2660 | 273 | 273 | True | 0 0 0 | 0/0, 0/0 | True
+p12 | 27 | 12 | 2933 | 261 | 261 | True | 0 0 0 | 0/0, 0/0 | True
+p13 | 28 | 13 | 3194 | 272 | 272 | True | 0 0 0 | 0/0, 0/0 | True
+p14 | 29 | 14 | 3466 | 137 | 137 | True | 0 0 0 | 0/0, 0/0 | True
+p15 | 30 | 15 | 3603 | 159 | 159 | True | 0 0 0 | 0/0, 0/0 | True
+p16 | 31 | 16 | 3762 | 267 | 267 | True | 0 0 0 | 0/0, 0/0 | True
+p17 | 32 | 17 | 4029 | 273 | 273 | True | 0 0 0 | 0/0, 0/0 | True
+p18 | 33 | 18 | 4302 | 260 | 260 | True | 0 0 0 | 0/0, 0/0 | True
+p19 | 34 | 19 | 4562 | 271 | 271 | True | 0 0 0 | 0/0, 0/0 | True
+p20 | 35 | 20 | 4833 | 269 | 269 | True | 0 0 0 | 0/0, 0/0 | True
+p21 | 36 | 21 | 5102 | 273 | 273 | True | 0 0 0 | 0/1, 0/1 | True
+p22 | 37 | 22 | 5375 | 131 | 131 | True | 0 0 0 | 0/0, 0/0 | True
+p23 | 38 | 23 | 5506 | 213 | 213 | True | 0 0 0 | 0/0, 0/0 | True
+p24 | 39 | 24 | 5719 | 270 | 270 | True | 0 0 0 | 0/0, 0/0 | True
+p25 | 40 | 25 | 5989 | 273 | 273 | True | 0 0 0 | 0/0, 0/0 | True
+p26 | 41 | 26 | 6262 | 265 | 265 | True | 0 0 0 | 0/0, 0/0 | True
+p27 | 42 | 27 | 6527 | 234 | 234 | True | 0 0 0 | 0/0, 0/0 | True
+p28 | 43 | 28 | 6761 | 269 | 269 | True | 0 0 0 | 0/0, 0/0 | True
+p29 | 44 | 29 | 7030 | 277 | 277 | True | 0 0 0 | 0/0, 0/0 | True
+p30 | 45 | 30 | 7307 | 263 | 263 | True | 0 0 0 | 0/0, 0/0 | True
+p31 | 46 | 31 | 7570 | 269 | 269 | True | 0 0 0 | 0/0, 0/0 | True
+p32 | 47 | 32 | 7839 | 121 | 121 | True | 0 0 0 | 0/0, 0/0 | True
+p33 | 48 | 33 | 7960 | 214 | 214 | True | 0 0 0 | 0/0, 0/0 | True
+p34 | 49 | 34 | 8174 | 261 | 261 | True | 0 0 0 | 0/0, 0/0 | True
+p35 | 50 | 35 | 8435 | 271 | 271 | True | 0 0 0 | 0/0, 0/0 | True
+p36 | 51 | 36 | 8706 | 238 | 238 | True | 0 0 0 | 0/0, 0/0 | True
+p37 | 52 | 37 | 8944 | 228 | 228 | True | 0 0 0 | 1/0, 1/0 | True
+p38 | 53 | 38 | 9172 | 228 | 228 | True | 0 0 0 | 0/0, 0/0 | True
+p39 | 54 | 39 | 9400 | 240 | 240 | True | 0 0 0 | 0/0, 0/0 | True
+p40 | 55 | 40 | 9640 | 231 | 231 | True | 0 0 0 | 0/0, 0/0 | True
+p41 | 56 | 41 | 9871 | 273 | 273 | True | 0 0 0 | 0/1, 0/1 | True
+p42 | 57 | 42 | 10144 | 272 | 272 | True | 0 0 0 | 0/0, 0/0 | True
+p43 | 58 | 43 | 10416 | 274 | 274 | True | 0 0 0 | 0/0, 0/0 | True
+p44 | 59 | 44 | 10690 | 273 | 273 | True | 0 0 0 | 0/0, 0/0 | True
+p45 | 60 | 45 | 10963 | 270 | 270 | True | 0 0 0 | 0/0, 0/0 | True
+p46 | 61 | 46 | 11233 | 270 | 270 | True | 0 0 0 | 0/0, 0/0 | True
+p47 | 62 | 47 | 11503 | 274 | 274 | True | 0 0 0 | 0/0, 0/0 | True
+p48 | 63 | 48 | 11777 | 271 | 271 | True | 0 0 0 | 0/0, 0/0 | True
+p49 | 64 | 49 | 12048 | 66 | 66 | True | 0 0 0 | 0/0, 0/0 | True
+p50 | 66 | 51 | 12114 | 92 | 92 | True | 0 0 0 | 0/0, 0/0 | True
+p51 | 67 | 52 | 12206 | 263 | 263 | True | 0 0 0 | 0/0, 0/0 | True
+p52 | 68 | 53 | 12469 | 179 | 179 | True | 0 0 0 | 0/0, 0/0 | True
+p53 | 69 | 54 | 12648 | 232 | 232 | True | 0 0 0 | 0/0, 0/0 | True
+p54 | 70 | 55 | 12880 | 76 | 76 | True | 0 0 0 | 0/0, 0/0 | True
+total: substitutions 0, insertions 0, deletions 0; identical positions 12956 of 12956
+
+word-start disagreements on identical runes (rule, pin page, rune in page, flat index, kind, pin marks, v2 marks):
+   rdp p04+164 (flat 1110): v2 adds a pin word start; pin marks (none), v2 marks '
+   ldr p04+164 (flat 1110): v2 adds a pin word start; pin marks (none), v2 marks '
+   rdp p21+36 (flat 5138): v2 adds a pin word start; pin marks (none), v2 marks '
+   ldr p21+36 (flat 5138): v2 adds a pin word start; pin marks (none), v2 marks '
+   rdp p37+91 (flat 9035): v2 lacks a pin word start; pin marks ./-, v2 marks /
+   ldr p37+91 (flat 9035): v2 lacks a pin word start; pin marks ./-, v2 marks /
+   rdp p41+218 (flat 10089): v2 adds a pin word start; pin marks (none), v2 marks '
+   ldr p41+218 (flat 10089): v2 adds a pin word start; pin marks (none), v2 marks '
+
+v1 -> v2 word-start changes on pin pages 0-54 (RDP rule):
+   p37+91 (flat 9035): v1 word start 1 -> v2 0; v1 marks ./-, v2 marks /
+   1 changes
+
+statistics on the v2 LP2 stream (own runes, own word starts):
+   RDP rule    N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   loader rule N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   pin         N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+######## lane R pipeline (compare.analyse) ########
+
+== V2  [RDP v1.0.0 master-v2 (RDP word rule)]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 3
+      boundary: ref p04+164 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p21+36 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p37+91 pre=./-  family pre=/  ref_wb=1 fam_wb=0
+      boundary: ref p41+218 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== V2K  [RDP v1.0.0 master-v2 (loader word rule: & $ section added)]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 1; family has an extra one 3
+      boundary: ref p04+164 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p21+36 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p37+91 pre=./-  family pre=/  ref_wb=1 fam_wb=0
+      boundary: ref p41+218 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+== RV1  [RDP v1.0.0 historical master v1 (RDP word rule)]
+   placement: offset 15 of 72 non-empty units (12956 runes matched)
+   runes placed = 12956 (reference 12956); identical reference positions 12956 of 12956 covered (100.00%); substitutions 0, insertions 0, deletions 0
+   word boundaries on aligned runes: family lacks a reference word start 0; family has an extra one 3
+      boundary: ref p04+164 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p21+36 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+      boundary: ref p41+218 pre=-none-  family pre='  ref_wb=0 fam_wb=1
+   stat[ref ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[subs] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[bnd ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+   stat[own ] N=12956 | doublets 86 (within 63, cross 23) | lag5 104/2105 = 4.94% z=+3.75
+
+per-page rows from analyse (family, pin page, pin runes, sub, ins, del): none

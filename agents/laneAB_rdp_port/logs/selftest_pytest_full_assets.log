@@ -1,0 +1,19 @@
+...............                                                          [100%]
+=================================== PASSES ====================================
+=========================== short test summary info ===========================
+PASSED tests/scoring/test_avg_ecdf_runtime_separation.py::test_avg_fulltext_mixed_order_ngram_counts
+PASSED tests/scoring/test_lm_raw_data_integrity.py::test_joint_tables_have_expected_shapes_and_zero_counts
+PASSED tests/scoring/test_lm_raw_data_integrity.py::test_ecdf_tables_are_monotone_and_end_at_0_1
+PASSED tests/scoring/test_score_parity_numpy.py::test_numpy_scores_match_golden_vectors[avg20_char4_fulltext]
+PASSED tests/scoring/test_score_parity_numpy.py::test_numpy_scores_match_golden_vectors[pct10_char2]
+PASSED tests/scoring/test_scorer_kaeding_style_avg_logp.py::test_kaeding_style_avglogp_prefers_real_text_over_random
+PASSED tests/scoring/test_scorer_kaeding_style_avg_logp.py::test_kaeding_style_sd_shrinks_with_length
+PASSED tests/scoring/test_scorer_kaeding_style_avg_logp.py::test_direction_symmetry_ltr_vs_rtl_on_reversed_text
+PASSED tests/scoring/test_scorer_smoothing_effect.py::test_smoothing_choice_changes_scores_for_random_text
+PASSED tests/scoring/test_torch_avg_fulltext_stability.py::test_torch_avg_fulltext_matches_numpy_across_lengths[4]
+PASSED tests/scoring/test_torch_avg_fulltext_stability.py::test_torch_avg_fulltext_matches_numpy_across_lengths[40]
+PASSED tests/scoring/test_torch_avg_fulltext_stability.py::test_torch_avg_fulltext_matches_numpy_across_lengths[96]
+PASSED tests/scoring/test_torch_avg_fulltext_stability.py::test_torch_avg_fulltext_matches_numpy_across_lengths[240]
+PASSED tests/scoring/test_torch_avg_fulltext_stability.py::test_torch_avg_fulltext_is_repeatable_and_reports_lookup_diagnostics
+PASSED tests/solved_lp/test_workbook_pages.py::test_run_all_workbook_solves_require_solved_status
+15 passed, 403 deselected in 122.02s (0:02:02)

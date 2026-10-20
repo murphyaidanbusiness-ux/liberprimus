@@ -1,0 +1,2329 @@
+{
+ "claim1": {
+  "sections": [
+   [
+    "LP1 seg1",
+    "affine s=-1 d=28",
+    -4.478,
+    184
+   ],
+   [
+    "LP1 seg2",
+    "stream DIVINITY sign=-1 F-skip",
+    -4.343,
+    515
+   ],
+   [
+    "LP1 seg3",
+    "affine s=+1 d=0",
+    -4.979,
+    157
+   ],
+   [
+    "LP1 seg4",
+    "affine s=-1 d=2",
+    -4.167,
+    778
+   ],
+   [
+    "LP1 seg5",
+    "affine s=+1 d=0",
+    -4.572,
+    755
+   ],
+   [
+    "LP1 seg6",
+    "stream FIRFUMFERENFE sign=-1 F-skip",
+    -4.235,
+    319
+   ],
+   [
+    "LP1 seg7",
+    "affine s=+1 d=0",
+    -4.72,
+    89
+   ],
+   [
+    "LP2 p55 AN END",
+    "stream phi(prime) sign=-1 F-skip",
+    -4.462,
+    85
+   ],
+   [
+    "LP2 p56 PARABLE",
+    "affine s=+1 d=0",
+    -4.421,
+    95
+   ]
+  ],
+  "LP1 (7 segments)": {
+   "n_sent": 88,
+   "n_prime": 39,
+   "rate": 0.4431818181818182,
+   "odd_rate": 0.6477272727272727,
+   "odd_null_mean": 0.5177477272727273,
+   "prime_given_odd": 0.6842105263157895,
+   "shuffle": {
+    "obs": 0.4431818181818182,
+    "mean": 0.14662556818181818,
+    "sd": 0.036790243997050116,
+    "min": 0.022727272727272728,
+    "max": 0.32954545454545453,
+    "z": 8.06073072045345,
+    "p": 4.999750012499375e-05,
+    "margin_over_max": 0.11363636363636365,
+    "margin_under_min": 0.42045454545454547,
+    "n": 20000
+   }
+  },
+  "LP1 + AN END + PARABLE": {
+   "n_sent": 96,
+   "n_prime": 44,
+   "rate": 0.4583333333333333,
+   "odd_rate": 0.65625,
+   "odd_null_mean": 0.511384375,
+   "prime_given_odd": 0.6984126984126984,
+   "shuffle": {
+    "obs": 0.4583333333333333,
+    "mean": 0.146315625,
+    "sd": 0.03522116375317803,
+    "min": 0.03125,
+    "max": 0.2916666666666667,
+    "z": 8.858813142004138,
+    "p": 4.999750012499375e-05,
+    "margin_over_max": 0.16666666666666663,
+    "margin_under_min": 0.4270833333333333,
+    "n": 20000
+   }
+  },
+  "variants": {
+   "F interrupters left out": {
+    "n_sent": 96,
+    "n_prime": 41,
+    "shuffle": {
+     "obs": 0.4270833333333333,
+     "mean": 0.156365625,
+     "sd": 0.03590709013272076,
+     "min": 0.041666666666666664,
+     "max": 0.3125,
+     "z": 7.539394234751387,
+     "p": 9.999000099990002e-05,
+     "margin_over_max": 0.11458333333333331,
+     "margin_under_min": 0.38541666666666663,
+     "n": 10000
+    }
+   },
+   "section titles left out": {
+    "n_sent": 78,
+    "n_prime": 36,
+    "shuffle": {
+     "obs": 0.46153846153846156,
+     "mean": 0.1397551282051282,
+     "sd": 0.0385988694136709,
+     "min": 0.02564102564102564,
+     "max": 0.2948717948717949,
+     "z": 8.336599963193859,
+     "p": 9.999000099990002e-05,
+     "margin_over_max": 0.16666666666666669,
+     "margin_under_min": 0.4358974358974359,
+     "n": 10000
+    }
+   }
+  },
+  "sentence_list": [
+   [
+    "AWARNNG",
+    332,
+    false
+   ],
+   [
+    "BELIEUENOTHNGFROMTHISBOOC",
+    757,
+    true
+   ],
+   [
+    "EXCEPTWHATYOUCNOWTOBETRUE",
+    1009,
+    true
+   ],
+   [
+    "TESTTHECNOWLEDGE",
+    691,
+    true
+   ],
+   [
+    "FINDYOURTRUTH",
+    353,
+    true
+   ],
+   [
+    "EXPERIENCEYOURDEATH",
+    769,
+    true
+   ],
+   [
+    "DONOTEDITORCHANGETHISBOOC",
+    911,
+    true
+   ],
+   [
+    "ORTHEMESSAGECONTAINEDWITHIN",
+    1051,
+    true
+   ],
+   [
+    "EITHERTHEWORDSORTHEIRNUMBERS",
+    859,
+    true
+   ],
+   [
+    "FORALLISSACRED",
+    677,
+    true
+   ],
+   [
+    "WELCOME",
+    317,
+    true
+   ],
+   [
+    "WELCOMEPILGRIMTOTHEGREATJOURNEYTOWARDTHEENDOFALLTHNGS",
+    2113,
+    true
+   ],
+   [
+    "ITISNOTANEASYTRIPBUTFORTHOSEWHOFINDTHEIRWAYHEREITISANECESSARYONE",
+    2647,
+    true
+   ],
+   [
+    "ALONGTHEWAYYOUWILLFINDANENDTOALLSTRUGGLEANDSUFFERNGYOURINNOCENCEYOURILLUSIANSYOURCERTAINTYANDYOURREALITY",
+    4632,
+    false
+   ],
+   [
+    "ULTIMATELYYOUWILLDISCOUERANENDTOSELF",
+    1791,
+    false
+   ],
+   [
+    "ITISTHROUGHTHISPILGRIMAGETHATWESHAPEOURSELUESANDOURREALITIES",
+    2324,
+    false
+   ],
+   [
+    "JOURNEYDEEPWITHINANDYOUWILLARRIUEOUTSIDE",
+    1691,
+    false
+   ],
+   [
+    "LICETHEINSTARITISONLYTHROUGHGONGWITHINTHATWEMAYEMERGE",
+    2024,
+    false
+   ],
+   [
+    "WIDSOM",
+    270,
+    false
+   ],
+   [
+    "YOUAREABENGUNTOYOURSELF",
+    1009,
+    true
+   ],
+   [
+    "YOUAREALAWUNTOYOURSELF",
+    991,
+    true
+   ],
+   [
+    "EACHINTELLIGENCEISHOLY",
+    991,
+    true
+   ],
+   [
+    "FORALLTHATLIUESISHOLY",
+    941,
+    true
+   ],
+   [
+    "ANINSTRUCTIANCOMMANDYOUROWNSELF",
+    1271,
+    false
+   ],
+   [
+    "SOMEWISDOM",
+    468,
+    false
+   ],
+   [
+    "THEPRIMESARESACRED",
+    853,
+    true
+   ],
+   [
+    "THETOTIENTFUNCTIANISSACRED",
+    1039,
+    true
+   ],
+   [
+    "ALLTHNGSSHOULDBEENCRYPTED",
+    1237,
+    true
+   ],
+   [
+    "CNOWTHIS",
+    157,
+    true
+   ],
+   [
+    "SHADOWSAETHEREALBUFFERSUOIDCARNALOBSCURAFORMMOBIUSANALOGUOIDMOURNFULAETHEREALCABAL",
+    3274,
+    false
+   ],
+   [
+    "ACOAN",
+    243,
+    false
+   ],
+   [
+    "AMANDECIDEDTOGOANDSTUDYWITHAMASTER",
+    1861,
+    true
+   ],
+   [
+    "HEWENTTOTHEDOOROFTHEMASTER",
+    955,
+    false
+   ],
+   [
+    "WHOAREYOUWHOWISHESTOSTUDYHEREASCEDTHEMASTER",
+    1922,
+    false
+   ],
+   [
+    "THESTUDENTTOLDTHEMASTERHISNAME",
+    1460,
+    false
+   ],
+   [
+    "THATISNOTWHOYOUARETHATISONLYWHATYOUARECALLED",
+    2032,
+    false
+   ],
+   [
+    "WHOAREYOUWHOWISHESTOSTUDYHEREHEASCEDAGAIN",
+    1853,
+    false
+   ],
+   [
+    "THEMANTHOUGHTFORAMOMENTANDREPLIEDIAMAPROFESSOR",
+    1950,
+    false
+   ],
+   [
+    "THATISWHATYOUDONOTWHOYOUAREREPLIEDTHEMASTER",
+    1895,
+    false
+   ],
+   [
+    "WHOAREYOUWHOWISHESTOSTUDYHERE",
+    1173,
+    false
+   ],
+   [
+    "CONFUSEDTHEMANTHOUGHTSOMEMORE",
+    1000,
+    false
+   ],
+   [
+    "FINALLYHEANSWEREDIAMAHUMANBENG",
+    1656,
+    false
+   ],
+   [
+    "THATISONLYYOURSPECIESNOTWHOYOUARE",
+    1340,
+    false
+   ],
+   [
+    "WHOAREYOUWHOWISHESTOSTUDYHEREASCEDTHEMASTERAGAIN",
+    2193,
+    false
+   ],
+   [
+    "AFTERAMOMENTOFTHOUGHTTHEPROFESSORREPLIEDIAMACONSCIAUSNESSINHABITNGANARBITRARYBODY",
+    3520,
+    false
+   ],
+   [
+    "THATISMERELYWHATYOUARENOTWHOYOUARE",
+    1555,
+    false
+   ],
+   [
+    "WHOAREYOUWHOWISHESTOSTUDYHERE",
+    1173,
+    false
+   ],
+   [
+    "THEMANWASGETTNGIRRITATED",
+    1174,
+    false
+   ],
+   [
+    "IAMHESTARTEDBUTHECOULDNOTTHINCOFANYTHNGELSETOSAYSOHETRAILEDOFF",
+    2784,
+    false
+   ],
+   [
+    "AFTERALONGPAUSETHEMASTERREPLIEDTHENYOUAREWELCOMETOCOMESTUDY",
+    2803,
+    true
+   ],
+   [
+    "ANINSTRUCTIAN",
+    520,
+    false
+   ],
+   [
+    "DOFOURUNREASONABLETHNGSEACHDAY",
+    1229,
+    true
+   ],
+   [
+    "THELOSSOFDIUINITY",
+    643,
+    true
+   ],
+   [
+    "THECIRCUMFERENCEPRACTICESTHREEBEHAUIARSWHICHCAUSETHELOSSOFDIUINITY",
+    2414,
+    false
+   ],
+   [
+    "CONSUMPTIAN",
+    414,
+    false
+   ],
+   [
+    "WECONSUMETOOMUCHBECAUSEWEBELEIUETHEFOLLOWNGTWOERRORSWITHINTHEDECEPTIAN",
+    2566,
+    false
+   ],
+   [
+    "WEDONOTHAUEENOUGHORTHEREISNOTENOUGH",
+    1106,
+    false
+   ],
+   [
+    "WEHAUEWHATWEHAUENOWBYLUCCANDWEWILLNOTBESTRONGENOUGHLATERTOOBTAINWHATWENEED",
+    3339,
+    false
+   ],
+   [
+    "MOSTTHNGSARENOTWORTHCONSUMNG",
+    894,
+    false
+   ],
+   [
+    "PRESERUATIAN",
+    547,
+    true
+   ],
+   [
+    "WEPRESERUETHNGSBECAUSEWEBELIEUEWEAREWEAC",
+    1763,
+    false
+   ],
+   [
+    "IFWELOSETHEMWEWILLNOTBESTRONGENOUGHTOGAINTHEMAGAIN",
+    1976,
+    false
+   ],
+   [
+    "THISISTHEDECEPTIAN",
+    719,
+    true
+   ],
+   [
+    "MOSTTHNGSARENOTWORTHPRESERUNG",
+    973,
+    false
+   ],
+   [
+    "ADHERENCE",
+    463,
+    true
+   ],
+   [
+    "WEFOLLOWDOGMASOTHATWECANBELONGANDBERIGHTORWEFOLLOWREASONSOWECANBELONGANDBERIGHT",
+    3315,
+    false
+   ],
+   [
+    "THEREISNOTHNGTOBERIGHTABOUTTOBELONGISDEATH",
+    1556,
+    false
+   ],
+   [
+    "ITISTHEBEHAUIARSOFCONSUMPTIANPRESERUATIANANDADHERENCETHATHAUEUSLOSEOURPRIMALITYANDTHUSOURDIUINITY",
+    4136,
+    false
+   ],
+   [
+    "SOMEWISDOM",
+    468,
+    false
+   ],
+   [
+    "AMASSGREATWEALTH",
+    773,
+    true
+   ],
+   [
+    "NEUERBECOMEATTACHEDTOWHATYOUOWN",
+    1399,
+    true
+   ],
+   [
+    "BEPREPAREDTODESTROYALLTHATYOUOWN",
+    1583,
+    true
+   ],
+   [
+    "ANINSTRUCTIAN",
+    520,
+    false
+   ],
+   [
+    "PROGRAMYOURMIND",
+    601,
+    true
+   ],
+   [
+    "PROGRAMREALITY",
+    643,
+    true
+   ],
+   [
+    "ACOAN",
+    243,
+    false
+   ],
+   [
+    "DURNGALESSONTHEMASTEREXPLAINEDTHEI",
+    1637,
+    true
+   ],
+   [
+    "THEIISTHEUOICEOFTHECIRCUMFERENCEHESAID",
+    1219,
+    false
+   ],
+   [
+    "WHENASCEDBYASTUDENTTOEXPLAINWHATTHATMEANTTHEMASTERSAIDITISAUOICEINSIDEYOURHEAD",
+    3894,
+    false
+   ],
+   [
+    "IDONTHAUEAUOICEINMYHEADTHOUGHTTHESTUDENTANDHERAISEDHISHANDTOTELLTHEMASTER",
+    3389,
+    true
+   ],
+   [
+    "THEMASTERSTOPPEDTHESTUDENTANDSAIDTHEUOICETHATJUSTSAIDYOUHAUENOUOICEINYOURHEADISTHEI",
+    3535,
+    false
+   ],
+   [
+    "ANDTHESTUDENTSWEREENLIGHTENED",
+    1414,
+    false
+   ],
+   [
+    "ANINSTRUCTIAN",
+    520,
+    false
+   ],
+   [
+    "CWESTIANALLTHNGS",
+    727,
+    true
+   ],
+   [
+    "DISCOUERTRUTHINSIDEYOURSELF",
+    971,
+    true
+   ],
+   [
+    "FOLLOWYOURTRUTH",
+    383,
+    true
+   ],
+   [
+    "IMPOSENOTHNGONOTHERS",
+    571,
+    true
+   ],
+   [
+    "CNOWTHIS",
+    157,
+    true
+   ],
+   [
+    "ANEND",
+    311,
+    true
+   ],
+   [
+    "WITHINTHEDEEPWEB",
+    600,
+    false
+   ],
+   [
+    "THEREEXISTSAPAGETHATHASHESTO",
+    1324,
+    false
+   ],
+   [
+    "ITISTHEDUTYOFEUERYPILGRIMTOSEECOUTTHISPAGE",
+    1685,
+    false
+   ],
+   [
+    "PARABLE",
+    449,
+    true
+   ],
+   [
+    "LICETHEINSTARTUNNELNGTOTHESURFACE",
+    1259,
+    true
+   ],
+   [
+    "WEMUSTSHEDOUROWNCIRCUMFERENCES",
+    1031,
+    true
+   ],
+   [
+    "FINDTHEDIUINITYWITHINANDEMERGE",
+    1229,
+    true
+   ]
+  ],
+  "per_section": [
+   [
+    "LP1 seg1",
+    10,
+    9
+   ],
+   [
+    "LP1 seg2",
+    14,
+    7
+   ],
+   [
+    "LP1 seg3",
+    6,
+    4
+   ],
+   [
+    "LP1 seg4",
+    22,
+    3
+   ],
+   [
+    "LP1 seg5",
+    23,
+    9
+   ],
+   [
+    "LP1 seg6",
+    7,
+    2
+   ],
+   [
+    "LP1 seg7",
+    6,
+    5
+   ],
+   [
+    "LP2 p55 AN END",
+    4,
+    1
+   ],
+   [
+    "LP2 p56 PARABLE",
+    4,
+    4
+   ]
+  ],
+  "halves": {
+   "first half": {
+    "obs": 0.4375,
+    "mean": 0.14317708333333332,
+    "sd": 0.04964811800225949,
+    "min": 0.0,
+    "max": 0.3541666666666667,
+    "z": 5.928178720757794,
+    "p": 9.999000099990002e-05,
+    "margin_over_max": 0.08333333333333331,
+    "margin_under_min": 0.4375,
+    "n": 10000
+   },
+   "second half": {
+    "obs": 0.4791666666666667,
+    "mean": 0.14994583333333333,
+    "sd": 0.04958770892798498,
+    "min": 0.0,
+    "max": 0.3541666666666667,
+    "z": 6.639162011123618,
+    "p": 9.999000099990002e-05,
+    "margin_over_max": 0.125,
+    "margin_under_min": 0.4791666666666667,
+    "n": 10000
+   }
+  },
+  "len_stats": {
+   "min": 5,
+   "median": 26.0,
+   "max": 99
+  },
+  "english": {
+   "melville_moby_dick.txt": {
+    "max_block": {
+     "index": 38,
+     "mean_len": 45.25,
+     "start": [
+      "OCTAUOANDBEGINSBOOCIII",
+      "DUODECIMO",
+      "DUODECIMOES",
+      "THESEINCLUDETHESMALLERWHALES",
+      "I",
+      "THEHUSSAPORPOISE"
+     ]
+    },
+    "n_sent": 14572,
+    "rate_all": 0.13951413670052154,
+    "blocks": {
+     "obs": 0.4583333333333333,
+     "mean": 0.13948675496688742,
+     "sd": 0.0343586558352763,
+     "min": 0.052083333333333336,
+     "max": 0.2604166666666667,
+     "z": 9.279949131161402,
+     "p": 0.006578947368421052,
+     "margin_over_max": 0.19791666666666663,
+     "margin_under_min": 0.40625,
+     "n": 151
+    },
+    "length_matched": {
+     "obs": 0.4583333333333333,
+     "mean": 0.15790104166666666,
+     "sd": 0.034634289146123085,
+     "min": 0.041666666666666664,
+     "max": 0.28125,
+     "z": 8.674417725137477,
+     "p": 0.0004997501249375312,
+     "margin_over_max": 0.17708333333333331,
+     "margin_under_min": 0.41666666666666663,
+     "n": 2000
+    }
+   },
+   "dante_inferno_longfellow.txt": {
+    "max_block": {
+     "index": 30,
+     "mean_len": 68.57291666666667,
+     "start": [
+      "WHENCEOFTENTHEREWEWEEPFORTHEMAFRESHFROMP",
+      "SOSAWITHEREBUTOFABETTERSEMBLANCEINPOINTO",
+      "ISAWTHATONEWHOWASCREATEDNOBLEMORETHANALL",
+      "ISAWBRIAREUSSMITTENBYTHEDARTCELESTIALLYN",
+      "ISAWTHYMBRAEUSPALLASSAWANDMARSSTILLCLADI",
+      "ISAWATFOOTOFHISGREATLABOURNIMRODASIFBEWI"
+     ]
+    },
+    "n_sent": 5958,
+    "rate_all": 0.13108425646189997,
+    "blocks": {
+     "obs": 0.4583333333333333,
+     "mean": 0.1310483870967742,
+     "sd": 0.03387476449345506,
+     "min": 0.0625,
+     "max": 0.19791666666666666,
+     "z": 9.661615398087676,
+     "p": 0.015873015873015872,
+     "margin_over_max": 0.26041666666666663,
+     "margin_under_min": 0.3958333333333333,
+     "n": 62
+    },
+    "length_matched": {
+     "obs": 0.4583333333333333,
+     "mean": 0.12675,
+     "sd": 0.0321562023714439,
+     "min": 0.020833333333333332,
+     "max": 0.2708333333333333,
+     "z": 10.31164468686743,
+     "p": 0.0004997501249375312,
+     "margin_over_max": 0.1875,
+     "margin_under_min": 0.4375,
+     "n": 2000
+    }
+   }
+  },
+  "LP2 cipher sentences": {
+   "obs": 0.16,
+   "mean": 0.12969142857142857,
+   "sd": 0.024812775844024547,
+   "min": 0.05714285714285714,
+   "max": 0.21714285714285714,
+   "z": 1.2214905586982279,
+   "p": 0.13893053473263367,
+   "margin_over_max": -0.057142857142857134,
+   "margin_under_min": 0.10285714285714287,
+   "n": 2000
+  }
+ },
+ "claim2": {
+  "n": 86,
+  "triples": 0,
+  "positions": [
+   121,
+   206,
+   455,
+   652,
+   781,
+   908,
+   931,
+   978,
+   1037,
+   1590,
+   1980,
+   2015,
+   2025,
+   2191,
+   2240,
+   2344,
+   2579,
+   2739,
+   3139,
+   3851,
+   4388,
+   4579,
+   4606,
+   4671,
+   4712,
+   4773,
+   5074,
+   5260,
+   5475,
+   5633,
+   5770,
+   5777,
+   5824,
+   5835,
+   5969,
+   6019,
+   6080,
+   6223,
+   6322,
+   6364,
+   6541,
+   6610,
+   6616,
+   6649,
+   6755,
+   7117,
+   7143,
+   7169,
+   7231,
+   7380,
+   7568,
+   7868,
+   7942,
+   8111,
+   8141,
+   8195,
+   8308,
+   8384,
+   8630,
+   8637,
+   8699,
+   8725,
+   8775,
+   8933,
+   9595,
+   9916,
+   10139,
+   10165,
+   10507,
+   10568,
+   10611,
+   10749,
+   10760,
+   10841,
+   10953,
+   11102,
+   11188,
+   11343,
+   11598,
+   11658,
+   11844,
+   12114,
+   12373,
+   12667,
+   12803,
+   12938
+  ],
+  "D": [
+   2,
+   14,
+   28,
+   11,
+   20,
+   25,
+   15,
+   21,
+   6,
+   25,
+   9,
+   22,
+   11,
+   0,
+   26,
+   6,
+   14,
+   1,
+   25,
+   6,
+   27,
+   3,
+   19,
+   8,
+   7,
+   23,
+   14,
+   11,
+   28,
+   25,
+   6,
+   27,
+   3,
+   15,
+   9,
+   14,
+   1,
+   20,
+   15,
+   18,
+   20,
+   3,
+   18,
+   4,
+   5,
+   0,
+   12,
+   25,
+   19,
+   2,
+   12,
+   0,
+   9,
+   16,
+   23,
+   8,
+   4,
+   24,
+   2,
+   11,
+   16,
+   25,
+   0,
+   14,
+   7,
+   10,
+   22,
+   7,
+   28,
+   9,
+   22,
+   10,
+   25,
+   22,
+   14,
+   18,
+   3,
+   18,
+   13,
+   7,
+   7,
+   7,
+   26,
+   21,
+   6,
+   2
+  ],
+  "full": {
+   "lag1_mean_dist": {
+    "obs": 8.635294117647058,
+    "mean": 7.289649882352942,
+    "sd": 0.44893026307650785,
+    "min": 5.294117647058823,
+    "max": 9.094117647058823,
+    "z": 2.997446031088326,
+    "p": 0.0014999850001499984,
+    "margin_over_max": -0.45882352941176485,
+    "margin_under_min": 3.341176470588235,
+    "n": 100000,
+    "p_lee_lags1_10": 0.012589874101258988
+   },
+   "mean_dist_by_lag": [
+    8.635,
+    7.429,
+    7.542,
+    6.817,
+    7.778,
+    7.588,
+    7.266,
+    7.962,
+    6.766,
+    8.079
+   ],
+   "z_by_lag": [
+    3.0,
+    0.31,
+    0.55,
+    -1.03,
+    1.07,
+    0.65,
+    -0.05,
+    1.43,
+    -1.1,
+    1.67
+   ],
+   "lag1_sep_5_12_14": {
+    "obs": 31.0,
+    "mean": 17.12496,
+    "sd": 3.662187749773507,
+    "min": 4.0,
+    "max": 34.0,
+    "z": 3.788729838020489,
+    "p": 0.0003199968000319997,
+    "margin_over_max": -3.0,
+    "margin_under_min": 27.0,
+    "n": 100000
+   },
+   "lag1_top3_sep": {
+    "obs": 31.0,
+    "mean": 27.27045,
+    "sd": 2.4066043951898592,
+    "min": 19.0,
+    "max": 40.0,
+    "z": 1.5497146134422197,
+    "p": 0.09433905660943391,
+    "margin_over_max": -9.0,
+    "margin_under_min": 12.0,
+    "n": 100000,
+    "top3_values": [
+     14,
+     12,
+     5
+    ],
+    "p_lee_lags1_10": 0.5406545934540654
+   },
+   "lag1_dist_hist": [
+    2,
+    2,
+    1,
+    6,
+    4,
+    10,
+    4,
+    4,
+    5,
+    7,
+    8,
+    3,
+    10,
+    8,
+    11
+   ],
+   "lag3_diff4": {
+    "obs": 10.0,
+    "mean": 3.09225,
+    "sd": 1.7225183912504627,
+    "min": 0.0,
+    "max": 15.0,
+    "z": 4.010261971708364,
+    "p": 0.000949990500094999,
+    "margin_over_max": -5.0,
+    "margin_under_min": 10.0,
+    "n": 100000,
+    "frac": 0.12048192771084337,
+    "p_lee_cells": 0.15667843321566785
+   },
+   "max_cell": {
+    "lag": 3,
+    "diff": 4,
+    "count": 10,
+    "z": 4.010261971708737,
+    "p_lee": 0.15667843321566785
+   }
+  },
+  "first half (runes 0-6477)": {
+   "lag1_mean_dist": {
+    "obs": 8.794871794871796,
+    "mean": 7.38147076923077,
+    "sd": 0.664277267729467,
+    "min": 4.717948717948718,
+    "max": 10.025641025641026,
+    "z": 2.1277275232857225,
+    "p": 0.01771964560708786,
+    "margin_over_max": -1.23076923076923,
+    "margin_under_min": 4.0769230769230775,
+    "n": 50000,
+    "p_lee_lags1_10": 0.1496970060598788
+   },
+   "mean_dist_by_lag": [
+    8.795,
+    7.105,
+    7.703,
+    6.444,
+    7.771,
+    7.882,
+    7.061,
+    7.625,
+    6.742,
+    8.4
+   ],
+   "z_by_lag": [
+    2.13,
+    -0.42,
+    0.47,
+    -1.37,
+    0.55,
+    0.7,
+    -0.45,
+    0.33,
+    -0.85,
+    1.34
+   ],
+   "lag1_sep_5_12_14": {
+    "obs": 12.0,
+    "mean": 8.95682,
+    "sd": 2.5722379003032194,
+    "min": 0.0,
+    "max": 21.0,
+    "z": 1.1830865254109135,
+    "p": 0.1615167696646067,
+    "margin_over_max": -9.0,
+    "margin_under_min": 12.0,
+    "n": 50000
+   },
+   "lag1_top3_sep": {
+    "obs": 17.0,
+    "mean": 14.61626,
+    "sd": 1.6597164533660898,
+    "min": 9.0,
+    "max": 22.0,
+    "z": 1.4362332765729409,
+    "p": 0.12859742805143898,
+    "margin_over_max": -5.0,
+    "margin_under_min": 8.0,
+    "n": 50000,
+    "top3_values": [
+     13,
+     5,
+     10
+    ],
+    "p_lee_lags1_10": 0.5670486590268194
+   },
+   "lag1_dist_hist": [
+    0,
+    1,
+    0,
+    4,
+    0,
+    6,
+    2,
+    0,
+    3,
+    3,
+    5,
+    3,
+    4,
+    6,
+    2
+   ],
+   "lag3_diff4": {
+    "obs": 6.0,
+    "mean": 1.09214,
+    "sd": 1.0142340922173128,
+    "min": 0.0,
+    "max": 7.0,
+    "z": 4.838981491216159,
+    "p": 0.00045999080018399634,
+    "margin_over_max": -1.0,
+    "margin_under_min": 6.0,
+    "n": 50000,
+    "frac": 0.16216216216216217,
+    "p_lee_cells": 0.05625887482250355
+   },
+   "max_cell": {
+    "lag": 3,
+    "diff": 4,
+    "count": 6,
+    "z": 4.838981491216557,
+    "p_lee": 0.05625887482250355
+   }
+  },
+  "second half (runes 6478-12955)": {
+   "lag1_mean_dist": {
+    "obs": 8.644444444444444,
+    "mean": 7.335510666666666,
+    "sd": 0.6118255945744654,
+    "min": 4.977777777777778,
+    "max": 9.911111111111111,
+    "z": 2.139390357946961,
+    "p": 0.016899662006759866,
+    "margin_over_max": -1.2666666666666675,
+    "margin_under_min": 3.666666666666666,
+    "n": 50000,
+    "p_lee_lags1_10": 0.1487970240595188
+   },
+   "mean_dist_by_lag": [
+    8.644,
+    7.614,
+    7.651,
+    6.857,
+    7.902,
+    6.775,
+    7.41,
+    8.184,
+    7.243,
+    7.417
+   ],
+   "z_by_lag": [
+    2.14,
+    0.46,
+    0.51,
+    -0.74,
+    0.88,
+    -0.87,
+    0.12,
+    1.27,
+    -0.13,
+    0.14
+   ],
+   "lag1_sep_5_12_14": {
+    "obs": 19.0,
+    "mean": 9.0542,
+    "sd": 2.649891091810373,
+    "min": 0.0,
+    "max": 21.0,
+    "z": 3.7532863258939266,
+    "p": 0.0004399912001759965,
+    "margin_over_max": -2.0,
+    "margin_under_min": 19.0,
+    "n": 50000
+   },
+   "lag1_top3_sep": {
+    "obs": 19.0,
+    "mean": 16.44652,
+    "sd": 1.80892380539001,
+    "min": 12.0,
+    "max": 26.0,
+    "z": 1.4116017448559486,
+    "p": 0.12749745005099897,
+    "margin_over_max": -7.0,
+    "margin_under_min": 7.0,
+    "n": 50000,
+    "top3_values": [
+     14,
+     12,
+     9
+    ],
+    "p_lee_lags1_10": 0.5799884002319954
+   },
+   "lag1_dist_hist": [
+    2,
+    1,
+    0,
+    2,
+    4,
+    4,
+    2,
+    4,
+    2,
+    4,
+    3,
+    0,
+    6,
+    2,
+    9
+   ],
+   "lag3_diff4": {
+    "obs": 4.0,
+    "mean": 1.65194,
+    "sd": 1.2490418081508603,
+    "min": 0.0,
+    "max": 9.0,
+    "z": 1.8798890354808682,
+    "p": 0.08037839243215136,
+    "margin_over_max": -5.0,
+    "margin_under_min": 4.0,
+    "n": 50000,
+    "frac": 0.09302325581395349,
+    "p_lee_cells": 1.0
+   },
+   "max_cell": {
+    "lag": 9,
+    "diff": 11,
+    "count": 5,
+    "z": 2.9364697575556398,
+    "p_lee": 0.9120217595648087
+   }
+  },
+  "chain_null_lag1": {
+   "obs": 8.635294117647058,
+   "mean": 7.219000000000001,
+   "sd": 0.4341776952799122,
+   "min": 5.91764705882353,
+   "max": 8.31764705882353,
+   "z": 3.262014914732042,
+   "p": 0.004975124378109453,
+   "margin_over_max": 0.3176470588235283,
+   "margin_under_min": 2.7176470588235286,
+   "n": 200
+  }
+ },
+ "claim3": {
+  "LP2": {
+   "words": 2896,
+   "one_rune": 83,
+   "adjacent_any": 0,
+   "adjacent_within_sentence": 0,
+   "nulls": {
+    "global word shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 2.37175,
+      "sd": 1.4955814172718196,
+      "min": 0.0,
+      "max": 11.0,
+      "z": -1.5858381045723693,
+      "p": 0.08624568771561422,
+      "margin_over_max": -11.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.01435,
+      "sd": 0.11935153848814423,
+      "min": 0.0,
+      "max": 2.0,
+      "z": -0.12023305423436545,
+      "p": 0.9857007149642518,
+      "margin_over_max": -2.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.0862
+    },
+    "within-page shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 2.1281,
+      "sd": 1.4013167288049913,
+      "min": 0.0,
+      "max": 9.0,
+      "z": -1.5186431134771308,
+      "p": 0.10739463026848657,
+      "margin_over_max": -9.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.4515,
+      "sd": 0.6621704263131013,
+      "min": 0.0,
+      "max": 4.0,
+      "z": -0.6818486330081318,
+      "p": 0.6328183590820459,
+      "margin_over_max": -4.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.10735
+    },
+    "within-sentence shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 1.7602,
+      "sd": 1.1613627332448326,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.5156332725452828,
+      "p": 0.12669366531673415,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 1.58755,
+      "sd": 1.0980415667287433,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.4458013686399755,
+      "p": 0.1552422378881056,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.12665
+    }
+   }
+  },
+  "LP2 pages 0-27": {
+   "words": 1509,
+   "one_rune": 48,
+   "adjacent_any": 0,
+   "adjacent_within_sentence": 0,
+   "nulls": {
+    "global word shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 1.5012,
+      "sd": 1.1842038649993454,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.2676871308816662,
+      "p": 0.21027897210278973,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.0148,
+      "sd": 0.12158305080817958,
+      "min": 0.0,
+      "max": 2.0,
+      "z": -0.12172749327823514,
+      "p": 0.9853014698530147,
+      "margin_over_max": -2.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.2102
+    },
+    "within-page shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 1.4093,
+      "sd": 1.1505241764465703,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.224919935496416,
+      "p": 0.23227677232276772,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.3175,
+      "sd": 0.5574269660522786,
+      "min": 0.0,
+      "max": 4.0,
+      "z": -0.5695813430924386,
+      "p": 0.726027397260274,
+      "margin_over_max": -4.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.2322
+    },
+    "within-sentence shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 0.9384,
+      "sd": 0.9079030062660209,
+      "min": 0.0,
+      "max": 5.0,
+      "z": -1.0335905856941763,
+      "p": 0.36646335366463356,
+      "margin_over_max": -5.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.8105,
+      "sd": 0.8479750327489698,
+      "min": 0.0,
+      "max": 5.0,
+      "z": -0.9558064432304297,
+      "p": 0.42275772422757724,
+      "margin_over_max": -5.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.3664
+    }
+   }
+  },
+  "LP2 pages 28-54": {
+   "words": 1387,
+   "one_rune": 35,
+   "adjacent_any": 0,
+   "adjacent_within_sentence": 0,
+   "nulls": {
+    "global word shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 0.8613,
+      "sd": 0.9069424262082162,
+      "min": 0.0,
+      "max": 6.0,
+      "z": -0.9496743951002049,
+      "p": 0.413958604139586,
+      "margin_over_max": -6.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.0099,
+      "sd": 0.10001495037758056,
+      "min": 0.0,
+      "max": 2.0,
+      "z": -0.098985201338651,
+      "p": 0.9902009799020098,
+      "margin_over_max": -2.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.4139
+    },
+    "within-page shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 0.7221,
+      "sd": 0.812857714342662,
+      "min": 0.0,
+      "max": 5.0,
+      "z": -0.8883473543508712,
+      "p": 0.46955304469553044,
+      "margin_over_max": -5.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.1316,
+      "sd": 0.3573432655318162,
+      "min": 0.0,
+      "max": 3.0,
+      "z": -0.3682733458097951,
+      "p": 0.8749125087491251,
+      "margin_over_max": -3.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.4695
+    },
+    "within-sentence shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 0.8173,
+      "sd": 0.7326488841448842,
+      "min": 0.0,
+      "max": 4.0,
+      "z": -1.1155411789835958,
+      "p": 0.35706429357064295,
+      "margin_over_max": -4.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.7746,
+      "sd": 0.7074212920802206,
+      "min": 0.0,
+      "max": 4.0,
+      "z": -1.0949628017588158,
+      "p": 0.37546245375462456,
+      "margin_over_max": -4.0,
+      "margin_under_min": 0.0,
+      "n": 10000
+     },
+     "p_zero": 0.357
+    }
+   }
+  },
+  "LP1": {
+   "words": 694,
+   "one_rune": 26,
+   "adjacent_any": 0,
+   "adjacent_within_sentence": 0,
+   "nulls": {
+    "global word shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 0.9298,
+      "sd": 0.9246159774388969,
+      "min": 0.0,
+      "max": 6.0,
+      "z": -1.0056066763798115,
+      "p": 0.37963101844907754,
+      "margin_over_max": -6.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.03245,
+      "sd": 0.1791608283920386,
+      "min": 0.0,
+      "max": 2.0,
+      "z": -0.18112218106623795,
+      "p": 0.967901604919754,
+      "margin_over_max": -2.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.3796
+    },
+    "within-page shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 1.60535,
+      "sd": 1.1696451517400692,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.3725102845181183,
+      "p": 0.17484125793710315,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 0.1451,
+      "sd": 0.37809144086699825,
+      "min": 0.0,
+      "max": 3.0,
+      "z": -0.38376959728914367,
+      "p": 0.863956802159892,
+      "margin_over_max": -3.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.1748
+    },
+    "within-sentence shuffle": {
+     "any": {
+      "obs": 0.0,
+      "mean": 2.07925,
+      "sd": 1.268286192069144,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.6394170440409905,
+      "p": 0.09299535023248838,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "within_sentence": {
+      "obs": 0.0,
+      "mean": 1.77965,
+      "sd": 1.1733135602794067,
+      "min": 0.0,
+      "max": 8.0,
+      "z": -1.5167727197972583,
+      "p": 0.13179341032948352,
+      "margin_over_max": -8.0,
+      "margin_under_min": 0.0,
+      "n": 20000
+     },
+     "p_zero": 0.09295
+    }
+   }
+  },
+  "English": [
+   [
+    "English melville_moby_dick.txt block 1",
+    {
+     "words": 2896,
+     "one_rune": 160,
+     "adjacent_any": 5,
+     "adjacent_within_sentence": 2,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 5.0,
+        "mean": 8.75925,
+        "sd": 2.7870650100675056,
+        "min": 1.0,
+        "max": 19.0,
+        "z": -1.348820349156099,
+        "p": 0.12171957010747313,
+        "margin_over_max": -14.0,
+        "margin_under_min": 4.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 0.0805,
+        "sd": 0.28642670976188,
+        "min": 0.0,
+        "max": 2.0,
+        "z": 6.701539816575663,
+        "p": 1.0,
+        "margin_over_max": 0.0,
+        "margin_under_min": 2.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 5.0,
+        "mean": 12.3165,
+        "sd": 2.7823125391958468,
+        "min": 3.0,
+        "max": 25.0,
+        "z": -2.6296470640622704,
+        "p": 0.0029992501874531365,
+        "margin_over_max": -20.0,
+        "margin_under_min": 2.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 8.95325,
+        "sd": 2.6000489420634527,
+        "min": 1.0,
+        "max": 19.0,
+        "z": -2.67427658284069,
+        "p": 0.002749312671832042,
+        "margin_over_max": -17.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 5.0,
+        "mean": 12.35825,
+        "sd": 2.7702573019269745,
+        "min": 4.0,
+        "max": 23.0,
+        "z": -2.6561612146574416,
+        "p": 0.002749312671832042,
+        "margin_over_max": -18.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 8.97325,
+        "sd": 2.585189594364348,
+        "min": 1.0,
+        "max": 21.0,
+        "z": -2.697384367940177,
+        "p": 0.0029992501874531365,
+        "margin_over_max": -19.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      }
+     }
+    }
+   ],
+   [
+    "English melville_moby_dick.txt block 2",
+    {
+     "words": 2896,
+     "one_rune": 162,
+     "adjacent_any": 2,
+     "adjacent_within_sentence": 2,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 2.0,
+        "mean": 8.97775,
+        "sd": 2.9100467402616794,
+        "min": 0.0,
+        "max": 19.0,
+        "z": -2.397813720123458,
+        "p": 0.005998500374906273,
+        "margin_over_max": -17.0,
+        "margin_under_min": 2.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 0.09175,
+        "sd": 0.3030757351311819,
+        "min": 0.0,
+        "max": 3.0,
+        "z": 6.296281024193645,
+        "p": 0.9997500624843789,
+        "margin_over_max": -1.0,
+        "margin_under_min": 2.0,
+        "n": 4000
+       },
+       "p_zero": 0.00025
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 2.0,
+        "mean": 8.90775,
+        "sd": 2.6780651496437557,
+        "min": 1.0,
+        "max": 19.0,
+        "z": -2.57938086417311,
+        "p": 0.002749312671832042,
+        "margin_over_max": -17.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 8.2505,
+        "sd": 2.590063098983146,
+        "min": 1.0,
+        "max": 19.0,
+        "z": -2.413261670132259,
+        "p": 0.006248437890527368,
+        "margin_over_max": -17.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 2.0,
+        "mean": 8.9755,
+        "sd": 2.7141741718907504,
+        "min": 1.0,
+        "max": 19.0,
+        "z": -2.570026666763512,
+        "p": 0.0032491877030742314,
+        "margin_over_max": -17.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 2.0,
+        "mean": 8.31625,
+        "sd": 2.6158070550285784,
+        "min": 1.0,
+        "max": 18.0,
+        "z": -2.414646748451022,
+        "p": 0.0049987503124218945,
+        "margin_over_max": -16.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      }
+     }
+    }
+   ],
+   [
+    "English melville_moby_dick.txt block 3",
+    {
+     "words": 2896,
+     "one_rune": 247,
+     "adjacent_any": 8,
+     "adjacent_within_sentence": 8,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 8.0,
+        "mean": 21.0405,
+        "sd": 4.185061341797591,
+        "min": 8.0,
+        "max": 38.0,
+        "z": -3.1159638855851925,
+        "p": 0.0017495626093476631,
+        "margin_over_max": -30.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 8.0,
+        "mean": 0.16375,
+        "sd": 0.4018411459478038,
+        "min": 0.0,
+        "max": 3.0,
+        "z": 19.500865152862847,
+        "p": 1.0,
+        "margin_over_max": 5.0,
+        "margin_under_min": 8.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 8.0,
+        "mean": 20.25,
+        "sd": 3.894263899998395,
+        "min": 6.0,
+        "max": 36.0,
+        "z": -3.1456522502250164,
+        "p": 0.0012496875781054736,
+        "margin_over_max": -28.0,
+        "margin_under_min": 2.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 8.0,
+        "mean": 18.848,
+        "sd": 3.7431135067856505,
+        "min": 5.0,
+        "max": 33.0,
+        "z": -2.8981221061916385,
+        "p": 0.001999500124968758,
+        "margin_over_max": -25.0,
+        "margin_under_min": 3.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 8.0,
+        "mean": 20.32875,
+        "sd": 3.9551339052618864,
+        "min": 8.0,
+        "max": 35.0,
+        "z": -3.117151099131664,
+        "p": 0.0007498125468632841,
+        "margin_over_max": -27.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 8.0,
+        "mean": 18.933,
+        "sd": 3.8004107383867223,
+        "min": 7.0,
+        "max": 33.0,
+        "z": -2.8767943131960174,
+        "p": 0.0014996250937265683,
+        "margin_over_max": -25.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "p_zero": 0.0
+      }
+     }
+    }
+   ],
+   [
+    "English dante_inferno_longfellow.txt block 1",
+    {
+     "words": 2896,
+     "one_rune": 130,
+     "adjacent_any": 1,
+     "adjacent_within_sentence": 0,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 5.7885,
+        "sd": 2.356301294178492,
+        "min": 0.0,
+        "max": 16.0,
+        "z": -2.03221040188304,
+        "p": 0.02024493876530867,
+        "margin_over_max": -15.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 0.04275,
+        "sd": 0.2119756375570774,
+        "min": 0.0,
+        "max": 3.0,
+        "z": -0.2016741192180114,
+        "p": 0.9590102474381405,
+        "margin_over_max": -3.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.00275
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 6.5395,
+        "sd": 2.2784287479291176,
+        "min": 0.0,
+        "max": 15.0,
+        "z": -2.4312807697124157,
+        "p": 0.006248437890527368,
+        "margin_over_max": -14.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 5.95275,
+        "sd": 2.1722562260879688,
+        "min": 0.0,
+        "max": 13.0,
+        "z": -2.7403535220706208,
+        "p": 0.0014996250937265683,
+        "margin_over_max": -13.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.00025
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 6.58625,
+        "sd": 2.325814543514316,
+        "min": 0.0,
+        "max": 17.0,
+        "z": -2.4018467059541004,
+        "p": 0.006498375406148463,
+        "margin_over_max": -16.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 5.992,
+        "sd": 2.2340957445796694,
+        "min": 0.0,
+        "max": 16.0,
+        "z": -2.6820694746577907,
+        "p": 0.0007498125468632841,
+        "margin_over_max": -16.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.00025
+      }
+     }
+    }
+   ],
+   [
+    "English dante_inferno_longfellow.txt block 2",
+    {
+     "words": 2896,
+     "one_rune": 90,
+     "adjacent_any": 1,
+     "adjacent_within_sentence": 0,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 2.78625,
+        "sd": 1.5967774929809484,
+        "min": 0.0,
+        "max": 10.0,
+        "z": -1.118659304663253,
+        "p": 0.21719570107473132,
+        "margin_over_max": -9.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 0.02325,
+        "sd": 0.15399794265374261,
+        "min": 0.0,
+        "max": 2.0,
+        "z": -0.15097604292205755,
+        "p": 0.9772556860784803,
+        "margin_over_max": -2.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.053
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 3.3975,
+        "sd": 1.632684955844593,
+        "min": 0.0,
+        "max": 9.0,
+        "z": -1.4684400633554964,
+        "p": 0.11747063234191452,
+        "margin_over_max": -8.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 3.06175,
+        "sd": 1.5350980649513095,
+        "min": 0.0,
+        "max": 9.0,
+        "z": -1.994497986744002,
+        "p": 0.030242439390152462,
+        "margin_over_max": -9.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.0195
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 1.0,
+        "mean": 3.40725,
+        "sd": 1.6675108952107065,
+        "min": 0.0,
+        "max": 10.0,
+        "z": -1.4436187535049478,
+        "p": 0.12446888277930518,
+        "margin_over_max": -9.0,
+        "margin_under_min": 1.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 3.0665,
+        "sd": 1.5796206982651235,
+        "min": 0.0,
+        "max": 10.0,
+        "z": -1.9412888191246773,
+        "p": 0.032491877030742314,
+        "margin_over_max": -10.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.023
+      }
+     }
+    }
+   ],
+   [
+    "English dante_inferno_longfellow.txt block 3",
+    {
+     "words": 2896,
+     "one_rune": 108,
+     "adjacent_any": 0,
+     "adjacent_within_sentence": 0,
+     "nulls": {
+      "global word shuffle": {
+       "any": {
+        "obs": 0.0,
+        "mean": 3.99875,
+        "sd": 1.9225432324450225,
+        "min": 0.0,
+        "max": 12.0,
+        "z": -2.0799272195895075,
+        "p": 0.01374656335916021,
+        "margin_over_max": -12.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 0.0265,
+        "sd": 0.16063686080804296,
+        "min": 0.0,
+        "max": 1.0,
+        "z": -0.16496836321812114,
+        "p": 0.9735066233441639,
+        "margin_over_max": -1.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.0135
+      },
+      "within-page shuffle": {
+       "any": {
+        "obs": 0.0,
+        "mean": 3.41575,
+        "sd": 1.6851147855443305,
+        "min": 0.0,
+        "max": 10.0,
+        "z": -2.027013251145758,
+        "p": 0.023994001499625092,
+        "margin_over_max": -10.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 2.91475,
+        "sd": 1.5665554447546286,
+        "min": 0.0,
+        "max": 9.0,
+        "z": -1.8606108132077896,
+        "p": 0.03924018995251187,
+        "margin_over_max": -9.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.02375
+      },
+      "within-sentence shuffle": {
+       "any": {
+        "obs": 0.0,
+        "mean": 3.365,
+        "sd": 1.6625179672706922,
+        "min": 0.0,
+        "max": 11.0,
+        "z": -2.024038275823403,
+        "p": 0.021994501374656337,
+        "margin_over_max": -11.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "within_sentence": {
+        "obs": 0.0,
+        "mean": 2.8945,
+        "sd": 1.5318147290358004,
+        "min": 0.0,
+        "max": 11.0,
+        "z": -1.889588828945352,
+        "p": 0.03824043989002749,
+        "margin_over_max": -11.0,
+        "margin_under_min": 0.0,
+        "n": 4000
+       },
+       "p_zero": 0.02175
+      }
+     }
+    }
+   ]
+  ],
+  "apostrophes": {
+   "dl/aldegonde_clone/data/page0-58.txt": {
+    "identical_to_pin": true,
+    "n_runes": 13136,
+    "marks": [
+     {
+      "rune_before": 1109,
+      "rune_after": 1110,
+      "page": 4,
+      "word_before": "\u16d7\u16c9\u16c1",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 5137,
+      "rune_after": 5138,
+      "page": 21,
+      "word_before": "\u16ab\u16a9",
+      "our_word_len_after": 3,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 8514,
+      "rune_after": 8515,
+      "page": 35,
+      "word_before": "\u16c8\u16d6",
+      "our_word_len_after": 3,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 10088,
+      "rune_after": 10089,
+      "page": 41,
+      "word_before": "\u16c9\u16da\u16c4",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     }
+    ]
+   },
+   "dl/aldegonde_clone/data/liber-primus__transcription--master.txt": {
+    "identical_to_pin": true,
+    "n_runes": 13136,
+    "marks": [
+     {
+      "rune_before": 1109,
+      "rune_after": 1110,
+      "page": 4,
+      "word_before": "\u16d7\u16c9\u16c1",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 5137,
+      "rune_after": 5138,
+      "page": 21,
+      "word_before": "\u16ab\u16a9",
+      "our_word_len_after": 3,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 8514,
+      "rune_after": 8515,
+      "page": 35,
+      "word_before": "\u16c8\u16d6",
+      "our_word_len_after": 3,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 10088,
+      "rune_after": 10089,
+      "page": 41,
+      "word_before": "\u16c9\u16da\u16c4",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     }
+    ]
+   },
+   "dl/rdp/assets/liber_primus/liber-primus__transcription--master-v2.txt": {
+    "identical_to_pin": true,
+    "n_runes": 13136,
+    "marks": [
+     {
+      "rune_before": 1109,
+      "rune_after": 1110,
+      "page": 4,
+      "word_before": "\u16d7\u16c9\u16c1",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 5137,
+      "rune_after": 5138,
+      "page": 21,
+      "word_before": "\u16ab\u16a9",
+      "our_word_len_after": 3,
+      "runes_after_in_word": 1
+     },
+     {
+      "rune_before": 10088,
+      "rune_after": 10089,
+      "page": 41,
+      "word_before": "\u16c9\u16da\u16c4",
+      "our_word_len_after": 4,
+      "runes_after_in_word": 1
+     }
+    ]
+   }
+  },
+  "solverC_positions": [
+   1110,
+   5138,
+   8515,
+   10089
+  ]
+ },
+ "seed": 1,
+ "perms": 100000
+}

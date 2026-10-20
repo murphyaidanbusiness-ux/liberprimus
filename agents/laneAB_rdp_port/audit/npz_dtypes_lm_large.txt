@@ -1,0 +1,3 @@
+96 .npz files, 384 members; dtypes {'float64': 192, 'object': 192}
+object-dtype members: 192; globals requested {'numpy.core.multiarray._reconstruct': 192, 'numpy.dtype': 192, 'numpy.ndarray': 192}; payload types {'str': 192}
+VERDICT: every object member uses only numpy reconstruction globals

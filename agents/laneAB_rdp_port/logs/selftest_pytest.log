@@ -1,0 +1,13 @@
+..............................................................sss.s.s.s. [ 17%]
+........................................s..s............................ [ 35%]
+........................................................................ [ 53%]
+........................................................................ [ 71%]
+........................................................................ [ 89%]
+...........................................                              [100%]
+=========================== short test summary info ===========================
+SKIPPED [2] tests\scoring\test_backend_selection_and_parity.py:29: CUDA not available
+SKIPPED [1] tests\scoring\test_backend_selection_and_parity.py:37: CUDA not available
+SKIPPED [3] tests\scoring\test_backend_selection_and_parity.py:68: CUDA not available
+SKIPPED [1] tests\scoring\test_pct_win10_stats_and_telemetry.py:69: CUDA not available
+SKIPPED [1] tests\scoring\test_pct_win10_stats_and_telemetry.py:143: CUDA not available
+395 passed, 8 skipped, 15 deselected in 114.14s (0:01:54)

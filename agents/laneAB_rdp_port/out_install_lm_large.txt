@@ -1,0 +1,9 @@
+manifest dl/rdp_port/assets/manifests/assets_manifest_v1.json: 129 installed_assets rows, 129 required for v1_lm_runtime_full; release mortlach/rdp_assets rdp-v1.0.0-lm-large
+archive rdp-v1-lm-large-part001.zip: 526399103 bytes (manifest 526399103), sha256 fbd18104ce2194b85729203ebe4844b42f392669eb9137afb79bd7383bd09543 (manifest fbd18104ce2194b85729203ebe4844b42f392669eb9137afb79bd7383bd09543): OK
+archive rdp-v1-lm-large-part002.zip: 373232816 bytes (manifest 373232816), sha256 ddbecc1d99cc539eb75d3356a1c425ccb75b87e65b6de47cd52e16e3bd6ae434 (manifest ddbecc1d99cc539eb75d3356a1c425ccb75b87e65b6de47cd52e16e3bd6ae434): OK
+rdp-v1-lm-large-part001.zip: 127 members, 526373663 bytes uncompressed
+NOTE language_model/lmp/index.json: archive copy is 647 bytes (manifest 627), identical after CRLF -> LF; the bundled file matches the manifest and is kept
+rdp-v1-lm-large-part002.zip: 2 members, 373232414 bytes uncompressed
+extracted 96, already present and matching 33, problems 0
+installed check: 129 of 129 v1_lm_runtime_full files present with manifest size and sha256
+VERDICT: PASS

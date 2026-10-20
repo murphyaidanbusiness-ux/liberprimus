@@ -1,0 +1,6 @@
+LPTranscript(pages=73, lines=797, words=3902, glyphs=16757)
+LP2 runes from RDP pages 15-64, 66-70: 12956; comma-joined sha 023312066df471005264b9cbe7997cb77d2a9a6a2dc9b3316d22674023af1585; equals pin: True
+per-page rune counts equal the pin: True
+pin   : doublets 86 (within 63, cross 23); lag5 104/2105 z +3.75
+RDP v2: doublets 86 (within 63, cross 23); lag5 104/2105 z +3.75
+word starts: pin 2895, RDP parser 2897; only in pin [9035]; only in RDP [1110, 5138, 10089]
